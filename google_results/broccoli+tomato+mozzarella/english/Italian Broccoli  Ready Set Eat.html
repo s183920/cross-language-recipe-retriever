@@ -1,0 +1,1714 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# " moznomarginboxes="" mozdisallowselectionprint="" class="no-js">
+  <head>
+    <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"31cfe0c7ad",applicationID:"672874389"};;/*! For license information please see nr-loader-rum-1.248.0.min.js.LICENSE.txt */
+(()=>{var e,t,n={234:(e,t,n)=>{"use strict";n.d(t,{P_:()=>h,Mt:()=>m,C5:()=>s,DL:()=>w,OP:()=>j,lF:()=>R,Yu:()=>_,Dg:()=>v,CX:()=>c,GE:()=>A,sU:()=>T});var r=n(8632),i=n(9567);const a={beacon:r.ce.beacon,errorBeacon:r.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},o={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!o[e])throw new Error("Info for ".concat(e," was never set"));return o[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");o[e]=(0,i.D)(t,a);const n=(0,r.ek)(e);n&&(n.info=o[e])}const u=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var d=n(7056),l=n(50);const f=()=>{const e={mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{feature_flags:[],proxy:{assets:void 0,beacon:void 0},privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10,autoStart:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},metrics:{enabled:!0,autoStart:!0},page_action:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1,autoStart:!0},session_trace:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},harvest:{tooManyRequestsDelay:60},session_replay:{autoStart:!0,enabled:!1,harvestTimeSeconds:60,sampling_rate:50,error_sampling_rate:50,collect_fonts:!1,inline_images:!1,inline_stylesheet:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){u(t)?e.mask_selector=t+",[data-nr-mask]":null===t?e.mask_selector=t:(0,l.Z)("An invalid session_replay.mask_selector was provided and will not be used",t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){u(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.Z)("An invalid session_replay.block_selector was provided and will not be used",t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.Z)("An invalid session_replay.mask_input_option was provided and will not be used",t)}},spa:{enabled:!0,harvestTimeSeconds:10,autoStart:!0}}},g={},p="All configuration objects require an agent identifier!";function h(e){if(!e)throw new Error(p);if(!g[e])throw new Error("Configuration for ".concat(e," was never set"));return g[e]}function v(e,t){if(!e)throw new Error(p);g[e]=(0,i.D)(t,f());const n=(0,r.ek)(e);n&&(n.init=g[e])}function m(e,t){if(!e)throw new Error(p);var n=h(e);if(n){for(var r=t.split("."),i=0;i<r.length-1;i++)if("object"!=typeof(n=n[r[i]]))return;n=n[r[r.length-1]]}return n}const b={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},y={};function w(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!y[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return y[e]}function A(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");y[e]=(0,i.D)(t,b);const n=(0,r.ek)(e);n&&(n.loader_config=y[e])}const _=(0,r.mF)().o;var x=n(385),D=n(6818);const k={buildEnv:D.Re,customTransaction:void 0,disabled:!1,distMethod:D.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(x._A?.performance?.timeOrigin||x._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+x._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof x._A.XMLHttpRequest?.prototype?.addEventListener,version:D.q4,denyList:void 0},E={};function j(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!E[e])throw new Error("Runtime for ".concat(e," was never set"));return E[e]}function T(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");E[e]=(0,i.D)(t,k);const n=(0,r.ek)(e);n&&(n.runtime=E[e])}function R(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,n)=>{"use strict";n.d(t,{D:()=>i});var r=n(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,r.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,r.Z)("Setting a Configurable requires a model to set its initial properties");const n=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(n).length?e:n;for(let o in a)if(void 0!==e[o])try{Array.isArray(e[o])&&Array.isArray(t[o])?n[o]=Array.from(new Set([...e[o],...t[o]])):"object"==typeof e[o]&&"object"==typeof t[o]?n[o]=i(e[o],t[o]):n[o]=e[o]}catch(e){(0,r.Z)("An error occurred while setting a property of a Configurable",e)}return n}catch(e){(0,r.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,n)=>{"use strict";n.d(t,{Re:()=>i,gF:()=>a,q4:()=>r});const r="1.248.0",i="PROD",a="CDN"},385:(e,t,n)=>{"use strict";n.d(t,{Nk:()=>d,Tt:()=>s,_A:()=>a,cv:()=>l,iS:()=>o,il:()=>r,ux:()=>c,v6:()=>i,w1:()=>u});const r="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),a=r?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),o=(a?.document?.readyState,Boolean("hidden"===a?.document?.visibilityState)),s=(a?.location,/iPad|iPhone|iPod/.test(a.navigator?.userAgent)),c=s&&"undefined"==typeof SharedWorker,u=((()=>{const e=a.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Boolean(r&&window.document.documentMode)),d=!!a.navigator?.sendBeacon,l=Math.floor(a?.performance?.timeOrigin||a?.performance?.timing?.navigationStart||Date.now())},1117:(e,t,n)=>{"use strict";n.d(t,{w:()=>a});var r=n(50);const i={agentIdentifier:"",ee:void 0};class a{constructor(e){try{if("object"!=typeof e)return(0,r.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,n]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=n)}))}catch(e){(0,r.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,n)=>{"use strict";n.d(t,{L:()=>d,R:()=>c});var r=n(8325),i=n(1284),a=n(4322),o=n(3325);const s={};function c(e,t){const n={staged:!1,priority:o.p[t]||0};u(e),s[e].get(t)||s[e].set(t,n)}function u(e){e&&(s[e]||(s[e]=new Map))}function d(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(u(e),!e||!s[e].get(t))return o(t);s[e].get(t).staged=!0;const n=[...s[e]];function o(t){const n=e?r.ee.get(e):r.ee,o=a.X.handlers;if(n.backlog&&o){var s=n.backlog[t],c=o[t];if(c){for(var u=0;s&&u<s.length;++u)l(s[u],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,n){n[0].on(e,n[1])}))}))}delete o[t],n.backlog[t]=null,n.emit("drain-"+t,[])}}n.every((e=>{let[t,n]=e;return n.staged}))&&(n.sort(((e,t)=>e[1].priority-t[1].priority)),n.forEach((t=>{let[n]=t;s[e].delete(n),o(n)})))}function l(e,t){var n=e[1];(0,i.D)(t[n],(function(t,n){var r=e[0];if(n[0]===r){var i=n[1],a=e[3],o=e[2];i.apply(a,o)}}))}},8325:(e,t,n)=>{"use strict";n.d(t,{A:()=>c,ee:()=>u});var r=n(8632),i=n(2210),a=n(234);class o{constructor(e){this.contextId=e}}var s=n(3117);const c="nr@context:".concat(s.a),u=function e(t,n){var r={},s={},d={},f=!1;try{f=16===n.length&&(0,a.OP)(n).isolatedBacklog}catch(e){}var g={on:h,addEventListener:h,removeEventListener:function(e,t){var n=r[e];if(!n)return;for(var i=0;i<n.length;i++)n[i]===t&&n.splice(i,1)},emit:function(e,n,r,i,a){!1!==a&&(a=!0);if(u.aborted&&!i)return;t&&a&&t.emit(e,n,r);for(var o=p(r),c=v(e),d=c.length,l=0;l<d;l++)c[l].apply(o,n);var f=b()[s[e]];f&&f.push([g,e,n,o]);return o},get:m,listeners:v,context:p,buffer:function(e,t){const n=b();if(t=t||"feature",g.aborted)return;Object.entries(e||{}).forEach((e=>{let[r,i]=e;s[i]=t,t in n||(n[t]=[])}))},abort:l,aborted:!1,isBuffering:function(e){return!!b()[s[e]]},debugId:n,backlog:f?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return g;function p(e){return e&&e instanceof o?e:e?(0,i.X)(e,c,(()=>new o(c))):new o(c)}function h(e,t){r[e]=v(e).concat(t)}function v(e){return r[e]||[]}function m(t){return d[t]=d[t]||e(g,t)}function b(){return g.backlog}}(void 0,"globalEE"),d=(0,r.fP)();function l(){u.aborted=!0,u.backlog={}}d.ee||(d.ee=u)},5546:(e,t,n)=>{"use strict";n.d(t,{E:()=>r,p:()=>i});var r=n(8325).ee.get("handle");function i(e,t,n,i,a){a?(a.buffer([e],i),a.emit(e,t,n)):(r.buffer([e],i),r.emit(e,t,n))}},4322:(e,t,n)=>{"use strict";n.d(t,{X:()=>a});var r=n(5546);a.on=o;var i=a.handlers={};function a(e,t,n,a){o(a||r.E,i,e,t,n)}function o(e,t,n,i,a){a||(a="feature"),e||(e=r.E);var o=t[a]=t[a]||{};(o[n]=o[n]||[]).push([e,i])}},3239:(e,t,n)=>{"use strict";n.d(t,{bP:()=>s,iz:()=>c,m$:()=>o});var r=n(385);let i=!1,a=!1;try{const e={get passive(){return i=!0,!1},get signal(){return a=!0,!1}};r._A.addEventListener("test",null,e),r._A.removeEventListener("test",null,e)}catch(e){}function o(e,t){return i||a?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,o(n,r))}function c(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,o(n,r))}},3117:(e,t,n)=>{"use strict";n.d(t,{a:()=>r});const r=(0,n(4402).Rl)()},4402:(e,t,n)=>{"use strict";n.d(t,{Rl:()=>o,ky:()=>s});var r=n(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function a(e,t){return e?15&e[t]:16*Math.random()|0}function o(){const e=r._A?.crypto||r._A?.msCrypto;let t,n=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(31))),i.split("").map((e=>"x"===e?a(t,++n).toString(16):"y"===e?(3&a()|8).toString(16):e)).join("")}function s(e){const t=r._A?.crypto||r._A?.msCrypto;let n,i=0;t&&t.getRandomValues&&(n=t.getRandomValues(new Uint8Array(31)));const o=[];for(var s=0;s<e;s++)o.push(a(n,++i).toString(16));return o.join("")}},7056:(e,t,n)=>{"use strict";n.d(t,{Bq:()=>r,Hb:()=>a,oD:()=>i});const r="NRBA",i=144e5,a=18e5},7894:(e,t,n)=>{"use strict";function r(){return Math.round(performance.now())}n.d(t,{z:()=>r})},50:(e,t,n)=>{"use strict";function r(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}n.d(t,{Z:()=>r})},2825:(e,t,n)=>{"use strict";n.d(t,{N:()=>d,T:()=>l});var r=n(8325),i=n(5546),a=n(3325),o=n(385);const s="newrelic";const c={stn:[a.D.sessionTrace],err:[a.D.jserrors,a.D.metrics],ins:[a.D.pageAction],spa:[a.D.spa],sr:[a.D.sessionReplay,a.D.sessionTrace]},u=new Set;function d(e,t){const n=r.ee.get(t);e&&"object"==typeof e&&(u.has(t)||(Object.entries(e).forEach((e=>{let[t,r]=e;c[t]?c[t].forEach((e=>{r?(0,i.p)("feat-"+t,[],void 0,e,n):(0,i.p)("block-"+t,[],void 0,e,n),(0,i.p)("rumresp-"+t,[Boolean(r)],void 0,e,n)})):r&&(0,i.p)("feat-"+t,[],void 0,void 0,n),l[t]=Boolean(r)})),Object.keys(c).forEach((e=>{void 0===l[e]&&(c[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,n))),l[e]=!1)})),u.add(t),function(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};try{o._A.dispatchEvent(new CustomEvent(s,{detail:e}))}catch(e){}}({loaded:!0})))}const l={}},2210:(e,t,n)=>{"use strict";n.d(t,{X:()=>i});var r=Object.prototype.hasOwnProperty;function i(e,t,n){if(r.call(e,t))return e[t];var i=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,n)=>{"use strict";n.d(t,{D:()=>r});const r=(e,t)=>Object.entries(e||{}).map((e=>{let[n,r]=e;return t(n,r)}))},4351:(e,t,n)=>{"use strict";n.d(t,{P:()=>a});var r=n(8325);const i=()=>{const e=new WeakSet;return(t,n)=>{if("object"==typeof n&&null!==n){if(e.has(n))return;e.add(n)}return n}};function a(e){try{return JSON.stringify(e,i())}catch(e){try{r.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,n)=>{"use strict";n.d(t,{KB:()=>o,b2:()=>a});var r=n(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function a(e,t){if(i())return e();(0,r.bP)("load",e,t)}function o(e){if(i())return e();(0,r.iz)("DOMContentLoaded",e)}},8632:(e,t,n)=>{"use strict";n.d(t,{EZ:()=>d,ce:()=>a,ek:()=>u,fP:()=>o,gG:()=>l,h5:()=>c,mF:()=>s});var r=n(7894),i=n(385);const a={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function o(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=o();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t){let n=o();n.initializedAgents??={},t.initializedAt={ms:(0,r.z)(),date:new Date},n.initializedAgents[e]=t}function u(e){let t=o();return t.initializedAgents?.[e]}function d(e,t){o()[e]=t}function l(){return function(){let e=o();const t=e.info||{};e.info={beacon:a.beacon,errorBeacon:a.errorBeacon,...t}}(),function(){let e=o();const t=e.init||{};e.init={...t}}(),s(),function(){let e=o();const t=e.loader_config||{};e.loader_config={...t}}(),o()}},7956:(e,t,n)=>{"use strict";n.d(t,{N:()=>i});var r=n(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],n=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;(0,r.iz)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),n,i)}},3081:(e,t,n)=>{"use strict";n.d(t,{gF:()=>a,mY:()=>i,t9:()=>r,vz:()=>s,xS:()=>o});const r=n(3325).D.metrics,i="sm",a="cm",o="storeSupportabilityMetrics",s="storeEventMetrics"},7633:(e,t,n)=>{"use strict";n.d(t,{t:()=>r});const r=n(3325).D.pageViewEvent},9251:(e,t,n)=>{"use strict";n.d(t,{t:()=>r});const r=n(3325).D.pageViewTiming},5938:(e,t,n)=>{"use strict";n.d(t,{W:()=>i});var r=n(8325);class i{constructor(e,t,n){this.agentIdentifier=e,this.aggregator=t,this.ee=r.ee.get(e),this.featureName=n,this.blocked=!1}}},7530:(e,t,n)=>{"use strict";n.d(t,{j:()=>b});var r=n(3325),i=n(234),a=n(5546),o=n(8325),s=n(7894),c=n(8e3),u=n(3960),d=n(385),l=n(50),f=n(3081),g=n(8632);function p(){const e=(0,g.gG)();["setErrorHandler","finished","addToTrace","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId","setApplicationVersion","start","recordReplay","pauseReplay"].forEach((t=>{e[t]=function(){for(var n=arguments.length,r=new Array(n),i=0;i<n;i++)r[i]=arguments[i];return function(t){for(var n=arguments.length,r=new Array(n>1?n-1:0),i=1;i<n;i++)r[i-1]=arguments[i];let a=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&a.push(e.api[t](...r))})),a.length>1?a:a[0]}(t,...r)}}))}var h=n(2825);const v=e=>{const t=e.startsWith("http");e+="/",n.p=t?e:"https://"+e};let m=!1;function b(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},b=arguments.length>2?arguments[2]:void 0,y=arguments.length>3?arguments[3]:void 0,{init:w,info:A,loader_config:_,runtime:x={loaderType:b},exposed:D=!0}=t;const k=(0,g.gG)();A||(w=k.init,A=k.info,_=k.loader_config),(0,i.Dg)(e.agentIdentifier,w||{}),(0,i.GE)(e.agentIdentifier,_||{}),A.jsAttributes??={},d.v6&&(A.jsAttributes.isWorker=!0),(0,i.CX)(e.agentIdentifier,A);const E=(0,i.P_)(e.agentIdentifier),j=[A.beacon,A.errorBeacon];m||(E.proxy.assets&&(v(E.proxy.assets),j.push(E.proxy.assets)),E.proxy.beacon&&j.push(E.proxy.beacon),p(),(0,g.EZ)("activatedFeatures",h.T)),x.denyList=[...E.ajax.deny_list||[],...E.ajax.block_internal?j:[]],(0,i.sU)(e.agentIdentifier,x),void 0===e.api&&(e.api=function(e,t){t||(0,c.R)(e,"api");const g={};var p=o.ee.get(e),h=p.get("tracer"),v="api-",m=v+"ixn-";function b(t,n,r,a){const o=(0,i.C5)(e);return null===n?delete o.jsAttributes[t]:(0,i.CX)(e,{...o,jsAttributes:{...o.jsAttributes,[t]:n}}),A(v,r,!0,a||null===n?"session":void 0)(t,n)}function y(){}["setErrorHandler","finished","addToTrace","addRelease"].forEach((e=>{g[e]=A(v,e,!0,"api")})),g.addPageAction=A(v,"addPageAction",!0,r.D.pageAction),g.setCurrentRouteName=A(v,"routeName",!0,r.D.spa),g.setPageViewName=function(t,n){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(n||"http://custom.transaction")+t,A(v,"setPageViewName",!0)()},g.setCustomAttribute=function(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number","boolean"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",n);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string, number or boolean type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setApplicationVersion=function(e){if("string"==typeof e||null===e)return b("application.version",e,"setApplicationVersion",!1);(0,l.Z)("Failed to execute setApplicationVersion. Expected <String | null>, but got <".concat(typeof e,">."))},g.start=e=>{try{const t=e?"defined":"undefined";(0,a.p)(f.xS,["API/start/".concat(t,"/called")],void 0,r.D.metrics,p);const n=Object.values(r.D);if(void 0===e)e=n;else{if((e=Array.isArray(e)&&e.length?e:[e]).some((e=>!n.includes(e))))return(0,l.Z)("Invalid feature name supplied. Acceptable feature names are: ".concat(n));e.includes(r.D.pageViewEvent)||e.push(r.D.pageViewEvent)}e.forEach((e=>{p.emit("".concat(e,"-opt-in"))}))}catch(e){(0,l.Z)("An unexpected issue occurred",e)}},g.recordReplay=function(){(0,a.p)(f.xS,["API/recordReplay/called"],void 0,r.D.metrics,p),(0,a.p)("recordReplay",[],void 0,r.D.sessionReplay,p)},g.pauseReplay=function(){(0,a.p)(f.xS,["API/pauseReplay/called"],void 0,r.D.metrics,p),(0,a.p)("pauseReplay",[],void 0,r.D.sessionReplay,p)},g.interaction=function(){return(new y).get()};var w=y.prototype={createTracer:function(e,t){var n={},i=this,o="function"==typeof t;return(0,a.p)(f.xS,["API/createTracer/called"],void 0,r.D.metrics,p),(0,a.p)(m+"tracer",[(0,s.z)(),e,n],i,r.D.spa,p),function(){if(h.emit((o?"":"no-")+"fn-start",[(0,s.z)(),i,o],n),o)try{return t.apply(this,arguments)}catch(e){throw h.emit("fn-err",[arguments,this,e],n),e}finally{h.emit("fn-end",[(0,s.z)()],n)}}}};function A(e,t,n,i){return function(){return(0,a.p)(f.xS,["API/"+t+"/called"],void 0,r.D.metrics,p),i&&(0,a.p)(e+t,[(0,s.z)(),...arguments],n?null:this,i,p),n?void 0:this}}function _(){n.e(75).then(n.bind(n,7438)).then((t=>{let{setAPI:n}=t;n(e),(0,c.L)(e,"api")})).catch((()=>(0,l.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{w[e]=A(m,e,void 0,r.D.spa)})),g.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,a.p)(f.xS,["API/noticeError/called"],void 0,r.D.metrics,p),(0,a.p)("err",[e,(0,s.z)(),!1,t],void 0,r.D.jserrors,p)},d.il?(0,u.b2)((()=>_()),!0):_(),g}(e.agentIdentifier,y)),void 0===e.exposed&&(e.exposed=D),m=!0}},1926:(e,t,n)=>{n.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},3325:(e,t,n)=>{"use strict";n.d(t,{D:()=>r,p:()=>i});const r={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[r.pageViewEvent]:1,[r.pageViewTiming]:2,[r.metrics]:3,[r.jserrors]:4,[r.ajax]:5,[r.sessionTrace]:6,[r.pageAction]:7,[r.spa]:8,[r.sessionReplay]:9}}},r={};function i(e){var t=r[e];if(void 0!==t)return t.exports;var a=r[e]={exports:{}};return n[e](a,a.exports,i),a.exports}i.m=n,i.d=(e,t)=>{for(var n in t)i.o(t,n)&&!i.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:t[n]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,n)=>(i.f[n](e,t),t)),[])),i.u=e=>"nr-rum-1.248.0.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.248.0.PROD:",i.l=(n,r,a,o)=>{if(e[n])e[n].push(r);else{var s,c;if(void 0!==a)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var l=u[d];if(l.getAttribute("src")==n||l.getAttribute("data-webpack")==t+a){s=l;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+a),s.src=n,0!==s.src.indexOf(window.location.origin+"/")&&(s.crossOrigin="anonymous"),s.integrity=i.sriHashes[o],s.crossOrigin="anonymous"),e[n]=[r];var f=(t,r)=>{s.onerror=s.onload=null,clearTimeout(g);var i=e[n];if(delete e[n],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(r))),t)return t(r)},g=setTimeout(f.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=f.bind(null,s.onerror),s.onload=f.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",i.sriHashes={75:"sha512-5mWtMwj7hrXT5aUkfvBtjH6FJXsR+zdeMBfc721nzrOx36xa23yTrCB1VVOAQa+zIioAbWPW4m7UsPp7hW1WPw=="},(()=>{var e={50:0,832:0};i.f.j=(t,n)=>{var r=i.o(e,t)?e[t]:void 0;if(0!==r)if(r)n.push(r[2]);else{var a=new Promise(((n,i)=>r=e[t]=[n,i]));n.push(r[2]=a);var o=i.p+i.u(t),s=new Error;i.l(o,(n=>{if(i.o(e,t)&&(0!==(r=e[t])&&(e[t]=void 0),r)){var a=n&&("load"===n.type?"missing":n.type),o=n&&n.target&&n.target.src;s.message="Loading chunk "+t+" failed.\n("+a+": "+o+")",s.name="ChunkLoadError",s.type=a,s.request=o,r[1](s)}}),"chunk-"+t,t)}};var t=(t,n)=>{var r,a,[o,s,c]=n,u=0;if(o.some((t=>0!==e[t]))){for(r in s)i.o(s,r)&&(i.m[r]=s[r]);if(c)c(i)}for(t&&t(n);u<o.length;u++)a=o[u],i.o(e,a)&&e[a]&&e[a][0](),e[a]=0},n=self["webpackChunk:NRBA-1.248.0.PROD"]=self["webpackChunk:NRBA-1.248.0.PROD"]||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})(),(()=>{"use strict";i(1926);var e=i(50);class t{addPageAction(t,n){(0,e.Z)("Call to agent api addPageAction failed. The page action feature is not currently initialized.")}setPageViewName(t,n){(0,e.Z)("Call to agent api setPageViewName failed. The page view feature is not currently initialized.")}setCustomAttribute(t,n,r){(0,e.Z)("Call to agent api setCustomAttribute failed. The js errors feature is not currently initialized.")}noticeError(t,n){(0,e.Z)("Call to agent api noticeError failed. The js errors feature is not currently initialized.")}setUserId(t){(0,e.Z)("Call to agent api setUserId failed. The js errors feature is not currently initialized.")}setApplicationVersion(t){(0,e.Z)("Call to agent api setApplicationVersion failed. The agent is not currently initialized.")}setErrorHandler(t){(0,e.Z)("Call to agent api setErrorHandler failed. The js errors feature is not currently initialized.")}finished(t){(0,e.Z)("Call to agent api finished failed. The page action feature is not currently initialized.")}addRelease(t,n){(0,e.Z)("Call to agent api addRelease failed. The js errors feature is not currently initialized.")}start(t){(0,e.Z)("Call to agent api addRelease failed. The agent is not currently initialized.")}recordReplay(){(0,e.Z)("Call to agent api recordReplay failed. The agent is not currently initialized.")}pauseReplay(){(0,e.Z)("Call to agent api pauseReplay failed. The agent is not currently initialized.")}}var n=i(3325),r=i(234);const a=Object.values(n.D);function o(e){const t={};return a.forEach((n=>{t[n]=function(e,t){return!1!==(0,r.Mt)(t,"".concat(e,".enabled"))}(n,e)})),t}var s=i(7530);var c=i(8e3),u=i(5938),d=i(3960),l=i(385);class f extends u.W{constructor(e,t,n){let i=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,n),this.auto=i,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,!1===(0,r.Mt)(this.agentIdentifier,"".concat(this.featureName,".autoStart"))&&(this.auto=!1),this.auto&&(0,c.R)(e,n)}importAggregator(){let t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate)return;if(!this.auto)return void this.ee.on("".concat(this.featureName,"-opt-in"),(()=>{(0,c.R)(this.agentIdentifier,this.featureName),this.auto=!0,this.importAggregator()}));const n=l.il&&!0===(0,r.Mt)(this.agentIdentifier,"privacy.cookies_enabled");let a;this.onAggregateImported=new Promise((e=>{a=e}));const o=async()=>{let r;try{if(n){const{setupAgentSession:e}=await i.e(75).then(i.bind(i,3228));r=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t)}try{if(!this.shouldImportAgg(this.featureName,r))return(0,c.L)(this.agentIdentifier,this.featureName),void a(!1);const{lazyFeatureLoader:e}=await i.e(75).then(i.bind(i,8582)),{Aggregate:n}=await e(this.featureName,"aggregate");this.featAggregate=new n(this.agentIdentifier,this.aggregator,t),a(!0)}catch(t){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),t),this.abortHandler?.(),(0,c.L)(this.agentIdentifier,this.featureName),a(!1)}};l.il?(0,d.b2)((()=>o()),!0):o()}shouldImportAgg(e,t){return e!==n.D.sessionReplay||!!r.Yu.MO&&(!1!==(0,r.Mt)(this.agentIdentifier,"session_trace.enabled")&&(!!t?.isNew||!!t?.state.sessionReplayMode))}}var g=i(7633);class p extends f{static featureName=g.t;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,g.t,n),this.importAggregator()}}var h=i(1117),v=i(1284);class m extends h.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,n,r,i){var a=this.getBucket(e,t,n,i);return a.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,v.D)(e,(function(e,n){t[e]=b(n,t[e])})),t}(r,a.metrics),a}merge(e,t,n,r,i){var a=this.getBucket(e,t,r,i);if(a.metrics){var o=a.metrics;o.count+=n.count,(0,v.D)(n,(function(e,t){if("count"!==e){var r=o[e],i=n[e];i&&!i.c?o[e]=b(i.t,r):o[e]=function(e,t){if(!t)return e;t.c||(t=y(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,o[e])}}))}else a.metrics=n}storeMetric(e,t,n,r){var i=this.getBucket(e,t,n);return i.stats=b(r,i.stats),i}getBucket(e,t,n,r){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:n||{}},r&&(i.custom=r)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},n="",r=!1,i=0;i<e.length;i++)t[n=e[i]]=w(this.aggregatedData[n]),t[n].length&&(r=!0),delete this.aggregatedData[n];return r?t:null}}function b(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=y(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function y(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function w(e){return"object"!=typeof e?[]:(0,v.D)(e,A)}function A(e,t){return t}var _=i(8632),x=i(4402),D=i(4351);var k=i(5546),E=i(7956),j=i(3239),T=i(7894),R=i(9251);class S extends f{static featureName=R.t;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,R.t,n),l.il&&((0,E.N)((()=>(0,k.p)("docHidden",[(0,T.z)()],void 0,R.t,this.ee)),!0),(0,j.bP)("pagehide",(()=>(0,k.p)("winPagehide",[(0,T.z)()],void 0,R.t,this.ee))),this.importAggregator())}}var I=i(3081);class C extends f{static featureName=I.t9;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,I.t9,n),this.importAggregator()}}new class extends t{constructor(t){let n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,x.ky)(16);super(),l._A?(this.agentIdentifier=n,this.sharedAggregator=new m({agentIdentifier:this.agentIdentifier}),this.features={},(0,_.h5)(n,this),this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(p),(0,s.j)(this,t,t.loaderType||"agent"),this.run()):(0,e.Z)("Failed to initial the agent. Could not determine the runtime environment.")}get config(){return{info:(0,r.C5)(this.agentIdentifier),init:(0,r.P_)(this.agentIdentifier),loader_config:(0,r.DL)(this.agentIdentifier),runtime:(0,r.OP)(this.agentIdentifier)}}run(){try{const t=o(this.agentIdentifier),r=[...this.desiredFeatures];r.sort(((e,t)=>n.p[e.featureName]-n.p[t.featureName])),r.forEach((r=>{if(t[r.featureName]||r.featureName===n.D.pageViewEvent){const i=function(e){switch(e){case n.D.ajax:return[n.D.jserrors];case n.D.sessionTrace:return[n.D.ajax,n.D.pageViewEvent];case n.D.sessionReplay:return[n.D.sessionTrace];case n.D.pageViewTiming:return[n.D.pageViewEvent];default:return[]}}(r.featureName);i.every((e=>t[e]))||(0,e.Z)("".concat(r.featureName," is enabled but one or more dependent features has been disabled (").concat((0,D.P)(i),"). This may cause unintended consequences or missing data...")),this.features[r.featureName]=new r(this.agentIdentifier,this.sharedAggregator)}}))}catch(t){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",t);for(const e in this.features)this.features[e].abortHandler?.();const n=(0,_.fP)();return delete n.initializedAgents[this.agentIdentifier]?.api,delete n.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator,n.ee?.abort(),delete n.ee?.get(this.agentIdentifier),!1}}addToTrace(t){(0,e.Z)("Call to agent api addToTrace failed. The session trace feature is not currently initialized.")}setCurrentRouteName(t){(0,e.Z)("Call to agent api setCurrentRouteName failed. The spa feature is not currently initialized.")}interaction(){(0,e.Z)("Call to agent api interaction failed. The spa feature is not currently initialized.")}}({features:[p,S,C],loaderType:"lite"})})()})();</script>
+<script type="text/javascript" src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" charset="UTF-8" data-domain-script="9e934a9b-2a2e-4aec-af1a-37de070e695f"></script>
+<script type="text/javascript">function OptanonWrapper() { }</script>
+<script>var dataLayer = [];</script>
+<script type="text/plain" class="optanon-category-C0002">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PWSHBD7');</script>
+<meta name="description" content="Broccoli and tomato recipe combining frozen broccoli with Italian flavored tomatoes and finished with Italian blend cheese" />
+<meta name="abstract" content="Broccoli and tomato recipe combining frozen broccoli with Italian flavored tomatoes and finished with Italian blend cheese" />
+<link rel="image_src" href="/sites/g/files/qyyrlu501/files/uploadedImages/img_6044_3646.jpg" />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+<meta property="og:site_name" content="Ready Set Eat" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.readyseteat.com/recipes-Italian-Broccoli-6044" />
+<meta property="og:title" content="Italian Broccoli" />
+<meta property="og:description" content="Broccoli and tomato recipe combining frozen broccoli with Italian flavored tomatoes and finished with Italian blend cheese" />
+<meta property="og:image" content="https://www.readyseteat.com/sites/g/files/qyyrlu501/files/uploadedImages/img_6044_3646.jpg" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script async type="text/javascript" src="https://apps.bazaarvoice.com/deployments/readyseteat/main_site/production/en_US/bv.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Recipe","@id":"https://www.readyseteat.com/recipes-Italian-Broccoli-6044","name":"Italian Broccoli","image":"https://www.readyseteat.com/sites/g/files/qyyrlu501/files/uploadedImages/img_6044_3646.jpg","datePublished":"2012-05-21","description":"Broccoli and tomato recipe combining frozen broccoli with Italian flavored tomatoes and finished with Italian blend cheese","prepTime":"PT10M","totalTime":"PT15M","recipeYield":"6","recipeIngredient":["1 bag (14.4 oz each) Birds Eye\u00ae Tender Broccoli Cuts","3 tablespoons water","1 can (14.5 oz each) Hunt's\u00ae Diced Tomatoes with Basil, Garlic and Oregano, drained","1/2 cup finely shredded Italian blend or mozzarella cheese"],"recipeInstructions":[{"@type":"HowToStep","text":"Place broccoli and water in medium skillet; cover.  Cook over high heat 5 minutes or until broccoli is tender and water is almost evaporated. "},{"@type":"HowToStep","text":"Add drained tomatoes; cook 2 to 3 minutes more or until hot.  Sprinkle with cheese."}],"nutrition":{"@type":"NutritionInformation","@id":"https://www.readyseteat.com/complete-nutrition-info","Calories":"62 calories"},"author":{"@type":"Organization","name":"ReadySetEat"},"recipeCategory":"Side Dish","keywords":"Stove Top"}</script>
+<script>dataLayer = [{"page":{"site":"readyseteat.com","section":"Recipe","subsection":"Italian Broccoli","region":"us","keywords":[""]},"recipe":{"name":"Italian Broccoli","id":"6044","totalTimeMinutes":"15","prepTimeMinutes":"10","isSeason":"False","isPublished":"True","publishedDate":"2012-05-21","creationDate":"2012-03-23","lastModifiedDate":"2021-05-13","rating":"5","traits":{"recipe_traits":"Retail,Birds Eye,Hunt's,Ready Set Eat,Stove Top,American,Vegetable,Side Dish,Gluten Free,Low Calorie,Low Fat,Vegetarian,ReadySetEat,Back to School,Spring,Summer,Easy,Modern Health Meals,Plant Based Meat Swaps,Real/Transparent,Sides That Live Up To The Main Dish","brand_traits":"Birds Eye,Hunt's,Ready Set Eat","cooking_method":"Stove Top","meal_type":"Side Dish","seasonality":"Spring,Summer","main_ingredient":"Vegetable","holidays":"Back to School","healthier_recipes":"Gluten Free,Low Calorie,Low Fat,Vegetarian","cuisine_type":"American","demand_space":"Modern Health Meals","demand_pocket":"Plant Based Meat Swaps,Real/Transparent,Sides That Live Up To The Main Dish","adventurous_level":"","difficulty_level":"Easy"}}}]</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"SiteNavigationElement","position":1,"name":"Recipes","description":"Recipes and meal ideas","url":"https://www.readyseteat.com/recipe-ideas"},{"@type":"SiteNavigationElement","position":2,"name":"Tips &amp; Ideas","description":"Cooking articles, tips and how tos","url":"https://www.readyseteat.com/inspiration-and-tips"},{"@type":"SiteNavigationElement","position":3,"name":"Our Chefs","description":"Ready Set Eat Conagra Brands chefs","url":"https://www.readyseteat.com/our-culinary-chefs"},{"@type":"SiteNavigationElement","position":4,"name":"Shop","description":"Shop Conagra products","url":"https://www.readyseteat.com/shop"}]}</script>
+<link rel="alternate" hreflang="en" href="https://www.readyseteat.com/recipes-Italian-Broccoli-6044" />
+<link rel="alternate" hreflang="es" href="https://www.readyseteat.com/es/recetas-Brcoli-a-la-Italiana-6693" />
+<link rel="icon" href="/sites/g/files/qyyrlu501/files/favicon_18.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="https://www.readyseteat.com/recipes-Italian-Broccoli-6044" />
+<link rel="shortlink" href="https://www.readyseteat.com/node/4441" />
+
+    <title>Italian Broccoli | Ready Set Eat</title>
+    <link rel="stylesheet" media="all" href="/sites/g/files/qyyrlu501/files/css/css_55EiHHOT-aWM0aNmJlOcVZdZbKjh0hQgSKcVMxMNYFE.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/qyyrlu501/files/css/css_j5VEQfUJ-0d1PYD7lriz2_2IutNYArwBjajklpGIJSA.css" />
+<link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.css" />
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/4441","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"captcha\/base,conagra_gtm\/interaction-studio,core\/internal.jquery.form,flag\/flag.link_ajax,paragraphs\/drupal.paragraphs.unpublished,readyseteat\/fancybox,readyseteat\/favorites,readyseteat\/global,readyseteat\/handlebars,readyseteat\/recipe-detail,readyseteat\/review,readyseteat\/shariff,readyseteat_bazaarvoice\/widgets,readyseteat_boomtrain\/readyseteat_boomtrain,readyseteat_customized_content\/recently_visited_recipes,readyseteat_recipes\/data-layer-lift-manipulator,recaptcha\/google.recaptcha_en,recaptcha\/recaptcha,system\/base,views\/views.module","theme":"readyseteat","theme_token":null},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true,"\/recipes-Italian-Broccoli-6044?_szp=379713\u0026ajax_form=1":true,"\/recipes-Italian-Broccoli-6044?ajax_form=1":true},"interactionStudio":{"enable":true,"sync":true,"account":"conagrabrands","dataset":"engage"},"readyseteat_migrate_socialposts":{"facebook_app_access_token":"3304185559704413|a299507c1336c8051110ac1ec48dd599"},"ajax":{"edit-submit--4":{"callback":[{},"validateFormAjax"],"progress":{"type":"throbber"},"event":"mousedown","keypress":true,"prevent":"click","url":"\/recipes-Italian-Broccoli-6044?_szp=379713\u0026ajax_form=1","dialogType":"ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Subscribe Now"}},"edit-submit":{"callback":[{},"validateFormAjax"],"progress":{"type":"throbber"},"event":"mousedown","keypress":true,"prevent":"click","url":"\/recipes-Italian-Broccoli-6044?_szp=379713\u0026ajax_form=1","dialogType":"ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Subscribe Now"}}},"readyseteatBazaarvoice":{"type":"Product","productId":"6044","productName":"Italian Broccoli","productImageURL":"https:\/\/www.readyseteat.com\/sites\/g\/files\/qyyrlu501\/files\/uploadedImages\/img_6044_3646.jpg","productPageURL":"https:\/\/www.readyseteat.com\/recipes-Italian-Broccoli-6044","brandName":"Ready Set Eat","upcs":["6044"],"inactive":false,"family":""},"recently_visited_recipes":{"data":{"nid":"4441","lang_code":"en"}},"recipe":{"image_url":"https:\/\/www.readyseteat.com\/sites\/g\/files\/qyyrlu501\/files\/uploadedImages\/img_6044_3646.jpg","image_alt":"Italian Broccoli"},"user":{"uid":0,"permissionsHash":"4ab36415cb54b4446dfa15335dbfbac2d162aada7a6f3e360690c75762014b5a"}}</script>
+<script src="/sites/g/files/qyyrlu501/files/js/js_F7sFQbrikMx3EKHI4ZHcCN96FVagVZWPeAEcGdTOT7s.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?hl=en&amp;render=explicit&amp;onload=drupalRecaptchaOnload" async defer></script>
+
+    <script src="" async defer></script>
+  </head>
+  <body class="user-not-logged-in path-node page-node-type-rse-recipe lang-en">
+    <div class="layout">
+            <a href="#main-content" class="visually-hidden focusable">
+        Skip to main content
+      </a>
+      
+        <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+<header class="c-sticky-header hide-for-print" role="banner">
+	<div class="c-page-header" data-min-height="107">
+		<div class="l-container">
+			<div class="l-container__content">
+				<div class="c-main-header">
+					<div class="c-main-header__left" aria-label="Ready Set Eat logo">
+						  <div>
+    <div id="block-readyseteat-branding">
+  
+    
+  
+  
+      <a href="/" title="Home" rel="home">
+    	<img src="/sites/g/files/qyyrlu501/files/RSE-logo.png" alt="Home" class="c-brand-logo c-brand-logo--top">
+    </a>
+    </div>
+
+  </div>
+
+					</div>
+					<nav class="c-main-header__right" aria-label="Membership favorites">
+						<ul class="c-secondary-navigation dropdown menu" data-dropdown-menu data-alignment="right">
+							<li class="hide-for-large">								
+								<a href="#" aria-expanded="true" aria-label="Search" data-toggle="panel-search" aria-controls="panel-search">
+									<i class="fa fa-search" aria-hidden="true"></i>
+									<span class="show-for-sr">Search</span>
+								</a>
+							</li>
+
+							
+								<li class="">
+									<!--a data-toggle="c-notifications-dropdown" class="">
+                    <div class=""></div>
+										<i class="fa fa-bell" aria-hidden="true"></i>
+										<span class="show-for-sr">Notifications</span>
+										<span class="badge hide">!</span>
+									</a//-->
+
+									<a href="#" aria-expanded="false" aria-label="Notifications" data-toggle="c-notifications-dropdown" class="" aria-controls="c-notifications-dropdown">
+										<div class=""></div>
+										<i class="fa fa-bell" aria-hidden="true"></i>
+										<span class="show-for-sr">Notifications</span>
+										<span class="badge hide" data-la-initdispnone="true">!</span>
+									</a>
+
+								</li>
+
+							
+              <li class="">
+                <a id="cart-list" data-basketful-site-basket role="button">
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                  <span class="show-for-sr">My Cart</span>
+                  <span class="badge" id="basket-count" data-basketful-site-basket-count></span>
+                </a>
+                <div></div>
+              </li>
+
+						<li class="hide-for-large" data-toggle="main-navigation-container">
+							<button class="menu-icon" aria-label="Toggle navigation" aria-expanded="false"></button>
+						</li>
+					</ul>
+
+							</nav>
+			<div id="panel-search" class="c-main-header__middle show-for-large" data-toggler="show-for-large">
+				  <div>
+    
+<div class="c-header-search">
+    <form method="get" action="/advanced-search" class="c-header-search__form">
+            <label class="sr-only" for="site_search"> Search </label>
+        <input type="text" class="c-header-search__input" name="keywords" placeholder="Search by Ingredient or Recipe">
+        <button class="button c-header-search__trigger" aria-label="Search">
+      <span class="show-for-sr"></span>
+      <i class="fa fa-search"></i>
+    </button>
+  </form>
+</div>
+
+  </div>
+
+			</div>
+
+			<div class="c-notifications-dropdown" id="c-notifications-dropdown" data-toggler="show">
+				<div class="c-notifications-dropdown__helper">
+					<h4 class="c-notifications-dropdown__title">What's new</h4>
+					<div class="j-notifications-list">
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+</div>
+<div id="main-navigation-container" class="c-main-navigation-container show-for-large" data-toggler="show-for-large">
+<div class="l-container">
+	<div class="l-container__content">
+				
+		<nav class="c-subscribe-lang-menu" aria-label="User subscribe">
+			<ul class="menu">
+					<li>  
+  <a href="/newsletter/signup/modal" class="use-ajax" >
+    <i class="fa fa-envelope hide-for-xmedium" aria-hidden="true"></i>
+    Subscribe to Our Newsletter    <i class="fa fa-envelope show-for-xmedium" aria-hidden="true"></i>
+  </a>
+</li>
+			</ul>
+		</nav>
+		<nav class="c-login-menu" aria-label="User login">
+						<ul class="menu">
+				<li><a href="/my/register">Sign Up</a></li>
+				<li><a href="/my/login" onclick="return false;" data-open="login-modal" aria-controls="login-modal" aria-haspopup="true" tabindex="0">Log In</a></li>
+			</ul>
+			</nav>
+
+	  <div>
+    <nav role="navigation" aria-labelledby="block-readyseteat-main-menu-menu" id="block-readyseteat-main-menu">
+            
+  <h2 class="visually-hidden" id="block-readyseteat-main-menu-menu"> Navegación Principal</h2>
+  
+
+        
+
+              <ul block="block-readyseteat-main-menu" class="c-main-navigation__menu c-main-navigation__menu--level-0 large-horizontal dropdown" data-responsive-menu="accordion large-dropdown" data-closing-time="100" data-allow-all-closed="true">
+              			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-0"  has-submenu >
+				                                            <a href="/recipe-ideas" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-0" title="Recipes and meal ideas" data-drupal-link-system-path="node/27836">Recipes</a>
+                                        <ul class="c-main-navigation__menu c-main-navigation__menu--level-1 submenu " >
+              			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-1" >
+				                                            <a href="/our-culinary-chefs" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-1" data-drupal-link-system-path="node/39976"><div class="c-main-navigation__menu-link--article-link"><div style="background-image: url('/sites/g/files/qyyrlu501/themes/site/theme-readyseteat/images/chefs-page/chef-menu-callout.jpg');"></div><span>SHARING OUR PASSION WITH THE NEXT GENERATION</span></div></a>
+                       </li>
+          			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-1"  has-submenu >
+				                                            <a href="/recipe-ideas/dinner" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-1" data-drupal-link-system-path="node/42941">Meal Type</a>
+                                        <ul class="c-main-navigation__menu c-main-navigation__menu--level-2 submenu " >
+              			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-2" >
+				                                            <a href="/recipe-ideas/breakfast" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-2" data-drupal-link-system-path="node/10681">Breakfast Recipes</a>
+                       </li>
+          			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-2" >
+				                                            <a href="/recipe-ideas/dinner" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-2" data-drupal-link-system-path="node/42941">Dinner Recipes</a>
+                       </li>
+          			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-2" >
+				                                            <a href="/recipes/side-dish-recipes" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-2" data-drupal-link-system-path="node/11016">Side Dish Recipes</a>
+                       </li>
+          			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-2" >
+				                                            <a href="/recipes/appetizer-collections" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-2" data-drupal-link-system-path="node/10676">Appetizer &amp; Snack Recipes</a>
+                       </li>
+          			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-2" >
+				                                            <a href="/recipe-ideas/dessert-collections" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-2" data-drupal-link-system-path="node/10556">Dessert Recipes</a>
+                       </li>
+        </ul>
+  
+               </li>
+          			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-1"  has-submenu >
+				                                            <a href="/recipe-ideas/nutrition-and-diet" class="mega-menu nutrition-diet-menu c-main-navigation__menu-link c-main-navigation__menu-link--level-1" target="" data-drupal-link-system-path="node/10696">Nutrition &amp; Diet</a>
+                                        <ul class="c-main-navigation__menu c-main-navigation__menu--level-2 submenu " >
+              			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-2" >
+				                                            <a href="/recipes/vegetarian-recipes" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-2" data-drupal-link-system-path="node/11001">Vegetarian</a>
+                       </li>
+          			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-2" >
+				                                            <a href="/recipes/vegan-recipes" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-2" data-drupal-link-system-path="node/34151">Vegan</a>
+                       </li>
+          			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-2" >
+				                                            <a href="/recipes/low-carb-recipes" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-2" target="" data-drupal-link-system-path="node/10881">Low Carb</a>
+                       </li>
+          			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-2" >
+				                                            <a href="/recipes/gluten-free-recipes" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-2" data-drupal-link-system-path="node/34156">Gluten-Free</a>
+                       </li>
+        </ul>
+  
+               </li>
+          			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-1"  has-submenu >
+				                                            <a href="/recipes/main-ingredient" class="mega-menu main-ingredient-menu c-main-navigation__menu-link c-main-navigation__menu-link--level-1" target="" data-drupal-link-system-path="node/10691">Main Ingredient</a>
+                                        <ul class="c-main-navigation__menu c-main-navigation__menu--level-2 submenu " >
+              			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-2" >
+				                                            <a href="/recipes/easy-chicken-recipes" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-2" target="" data-drupal-link-system-path="node/10601">Chicken</a>
+                       </li>
+          			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-2" >
+				                                            <a href="/recipes/ground-beef-recipes" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-2" target="" data-drupal-link-system-path="node/10731">Ground Beef</a>
+                       </li>
+          			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-2" >
+				                                            <a href="/recipes/vegetarian-recipes" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-2" target="" data-drupal-link-system-path="node/11001">Vegetarian</a>
+                       </li>
+          			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-2" >
+				                                            <a href="/recipes/seafood-and-fish-recipes" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-2" target="" data-drupal-link-system-path="node/11006">Seafood</a>
+                       </li>
+          			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-2" >
+				                                            <a href="/recipes/pasta-recipes" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-2" data-drupal-link-system-path="node/10931">Pasta</a>
+                       </li>
+        </ul>
+  
+               </li>
+          			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-1"  has-submenu >
+				                                            <a href="/recipe-ideas/cooking-method" class="mega-menu cooking-method-menu c-main-navigation__menu-link c-main-navigation__menu-link--level-1" target="" data-drupal-link-system-path="node/10701">Cooking Method</a>
+                                        <ul class="c-main-navigation__menu c-main-navigation__menu--level-2 submenu " >
+              			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-2" >
+				                                            <a href="/recipes/slow-cooker-recipes" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-2" data-drupal-link-system-path="node/11036">Slow Cooker Recipes</a>
+                       </li>
+          			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-2" >
+				                                            <a href="/recipes/baking-recipes" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-2" data-drupal-link-system-path="node/37121">Baking Recipes</a>
+                       </li>
+          			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-2" >
+				                                            <a href="/recipes/air-fryer-recipes" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-2" data-drupal-link-system-path="node/39906">Air Fryer Recipes</a>
+                       </li>
+          			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-2" >
+				                                            <a href="/recipes/pressure-cooker-recipes" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-2" data-drupal-link-system-path="node/38936">Pressure Cooker</a>
+                       </li>
+          			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-2" >
+				                                            <a href="/recipes/sheet-pan-recipes" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-2" data-drupal-link-system-path="node/41636">Sheet Pan Recipes</a>
+                       </li>
+        </ul>
+  
+               </li>
+          			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-1"  has-submenu >
+				                                            <a href="/recipe-ideas/holiday-and-seasonal" class="mega-menu holiday-seasonal-menu c-main-navigation__menu-link c-main-navigation__menu-link--level-1" target="" data-drupal-link-system-path="node/10686">Holiday &amp; Seasonal</a>
+                                        <ul class="c-main-navigation__menu c-main-navigation__menu--level-2 submenu " >
+              			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-2" >
+				                                            <a href="/recipes/winter-meals" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-2" data-drupal-link-system-path="node/11056">Winter Recipes</a>
+                       </li>
+          			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-2" >
+				                                            <a href="/recipes/comfort-food-recipes" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-2" data-drupal-link-system-path="node/35841">Comfort Food Recipes</a>
+                       </li>
+          			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-2" >
+				                                            <a href="/recipes/easy-soup-recipes" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-2" data-drupal-link-system-path="node/11046">Easy Soup Recipes</a>
+                       </li>
+          			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-2" >
+				                                            <a href="/recipes/hot-chocolate-recipes" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-2" data-drupal-link-system-path="node/10781">Hot Chocolate Recipes</a>
+                       </li>
+        </ul>
+  
+               </li>
+          			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-1"  has-submenu >
+				                                            <a href="/recipe-ideas/regional" class="mega-menu regional-cuisines c-main-navigation__menu-link c-main-navigation__menu-link--level-1" target="" data-drupal-link-system-path="node/10706">Regional Cuisines</a>
+                                        <ul class="c-main-navigation__menu c-main-navigation__menu--level-2 submenu " >
+              			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-2" >
+				                                            <a href="/recipes/asian-recipes" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-2" target="" data-drupal-link-system-path="node/10526">Asian</a>
+                       </li>
+          			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-2" >
+				                                            <a href="/recipes/italian-recipes" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-2" target="" data-drupal-link-system-path="node/10786">Italian</a>
+                       </li>
+          			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-2" >
+				                                            <a href="/recipes/mexican-recipes" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-2" target="" data-drupal-link-system-path="node/10671">Mexican</a>
+                       </li>
+        </ul>
+  
+               </li>
+          			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-1" >
+				                                            <a href="/recipe-ideas" class="mega-menu all-recipe-collections-menu c-main-navigation__menu-link c-main-navigation__menu-link--level-1" target="" data-drupal-link-system-path="node/27836">All Recipe Collections</a>
+                       </li>
+        </ul>
+  
+               </li>
+          			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-0" >
+				                                            <a href="/inspiration-and-tips" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-0" title="Cooking articles, tips and how tos" data-drupal-link-system-path="node/10576">Tips &amp; Ideas</a>
+                       </li>
+          			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-0" >
+				                                            <a href="/our-culinary-chefs" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-0" title="Ready Set Eat Conagra Brands chefs" data-drupal-link-system-path="node/39976">Our Chefs</a>
+                       </li>
+          			<li class="c-main-navigation__menu-item c-main-navigation__menu-item--level-0" >
+				                                            <a href="/shop" class="c-main-navigation__menu-link c-main-navigation__menu-link--level-0" title="Shop Conagra products" data-drupal-link-system-path="node/31241">Shop</a>
+                       </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+</div>
+</div>
+</div>
+</header>
+<main role="main" class="l-page-container">
+<a id="main-content" tabindex="-1"></a>
+
+
+  <div>
+    <div data-drupal-messages-fallback class="hidden"></div><div id="block-readyseteat-content">
+  
+    
+  
+      
+
+
+
+
+
+
+
+
+<!-- The Modal -->
+<div id="share-modal" class="social-share-modal" tabindex="-1" role="dialog" aria-labelled-by="social-share" aria-hidden="true">
+
+  <!-- Modal content -->
+  <div class="share-modal-content">
+    <button class="share-close-btn" aria-hidden="true">&times;</button>
+    <div class="share-title">
+      <h2>Your Friends are going to love this.</h2>
+    </div>
+
+    <div class="share-description">
+      <p>
+        Copy the link and pass it on&#8212;or share recipes on social to show off what's cookin'.
+      </p>
+    </div>
+
+    <div class="shariff-social-links">
+      <ul class="share-social-icons">
+        <li class="share-social-icons__icon">
+          <a href="https://twitter.com/share?url=https://www.readyseteat.com/recipes-Italian-Broccoli-6044&text=Italian%20Broccoli"
+            class="share-social-icons__link share-social-icons__link--twitter"
+            data-social-site="Twitter"
+            target="_blank"
+            aria-label="Twitter Share">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+          <span>Twitter</span>
+        </li>
+        <li class="share-social-icons__icon">
+          <a href="https://www.facebook.com/sharer.php?u=https://www.readyseteat.com/recipes-Italian-Broccoli-6044"
+            class="share-social-icons__link share-social-icons__link--facebook"
+            data-social-site="Facebook"
+            target="_blank"
+            aria-label="Facebook Share">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+          <span>Facebook</span>
+        </li>
+        <li class="share-social-icons__icon">
+          <a href="https://www.pinterest.com/pin/create/link/?url=https://www.readyseteat.com/recipes-Italian-Broccoli-6044&media=https://www.readyseteat.com//sites/g/files/qyyrlu501/files/uploadedImages/img_6044_3646.jpg&description=Italian%20Broccoli"
+            class="share-social-icons__link share-social-icons__link--pinterest"
+            data-social-site="Pinterest"
+            target="_blank"
+            aria-label="Pinterest Share">
+            <i class="fa fa-pinterest" aria-hidden="true"></i>
+          </a>
+          <span>Pinterest</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="share-copy-link">
+      <div id="link-copy-id" class="link-copy">
+        https://www.readyseteat.com/recipes-Italian-Broccoli-6044
+      </div>
+      <button id="btn-copy-clipboard">Copy Link</button>
+    </div>
+
+    <!-- Modal footer icons -->
+    <div class="share-footer-icons">
+      <ul class="share-social-icons">
+        <li class="share-social-icons__icon">
+          <a href="mailto:?subject=Italian%20Broccoli&body=https://www.readyseteat.com/recipes-Italian-Broccoli-6044"
+            data-social-site="Email"
+            aria-label="E-mail Share"
+            class="share-social-icons__link share-social-icons__link--envelope">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+          </a>
+          <span>Email</span>
+        </li>
+        <li class="share-social-icons__icon">
+          <a class="share-social-icons__link share-social-icons__link--print" href="#">
+            <i class="fa fa-print" aria-hidden="true"></i>
+          </a>
+          <span>Print</span>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+<div class="c-sticky-header__push-up h-line-separator h-line-separator--desktop h-line-separator--bottom" data-recipe-id="6044">
+	<div role="article" about="/recipes-Italian-Broccoli-6044" class="c-hero c-hero--recipe-details paragraph paragraph--type-- paragraph--view-mode--full">
+		<div class="l-container l-container__align-left-xmedium recipe-video-parent">
+
+			<div class="c-hero__background c-hero__background--mobile c-hero__background--recipe-details">
+								<img src="/sites/g/files/qyyrlu501/files/uploadedImages/img_6044_3646.jpg" alt="Italian Broccoli">
+			</div>
+
+			<div class="c-print-date print-layout--12 show-for-print">
+				November 17, 2023
+			</div>
+							<div class="c-hero__background c-hero__background--desktop c-hero__background--square print-layout--left print-layout--4">
+					<img src="/sites/g/files/qyyrlu501/files/uploadedImages/img_6044_3646.jpg" alt="Italian Broccoli">
+				</div>
+			
+						<div class="c-hero__content c-hero__content--recipe c-hero__content--transparent c-hero__content--flexible-height print-layout--right print-layout--8">
+				<div class="c-recipe-basicinfo">
+					<div class="c-brand-logo c-brand-logo--left">
+						
+					</div>
+          
+					
+					<h1 class="c-recipe-basicinfo__title"><span>Italian Broccoli</span>
+</h1>
+					<div  class="c-recipe-basicinfo__body">
+            <div>Broccoli and tomato recipe combining frozen broccoli with Italian flavored tomatoes and finished with Italian blend cheese</div>
+      </div>
+	        <div class="c-recipe-basicinfo__data show-for-print">
+	          <p><span>Minutes Prep Time: </span>10</p>
+	          <p><span>Minutes Total Time: </span>15</p>
+	          <p><span>Servings: </span>6</p>
+	          <p>
+	            <span>Difficulty: </span>
+	            easy
+	            	            </p>
+	        </div>
+					<ul class="c-recipe-datagrid hide-for-print">
+						<li class="c-recipe-datagrid__item">
+							<div class="c-recipe-datagrid__value c-hexabox c-hexabox--orange c-hexabox--centered">
+								<strong class="c-hexabox__content">
+								10
+								</strong>
+							</div>
+							<div class="c-recipe-datagrid__label">
+								Minutes<br>Prep Time
+							</div>
+						</li>
+						<li class="c-recipe-datagrid__item">
+							<div class="c-recipe-datagrid__value c-hexabox c-hexabox--orange c-hexabox--centered">
+								<strong class="c-hexabox__content">
+								15
+								</strong>
+							</div>
+							<span class="c-recipe-datagrid__label">
+								Minutes<br>Total Time
+							</span>
+						</li>
+						<li class="c-recipe-datagrid__item">
+							<div class="c-recipe-datagrid__value c-hexabox c-hexabox--orange c-hexabox--centered">
+								<strong class="c-hexabox__content">
+								6
+								</strong>
+							</div>
+							<span class="c-recipe-datagrid__label">
+								Servings
+							</span>
+						</li>
+					</ul>
+          <div class="c-recipe-basicinfo__shop show-for-xmedium hide-for-print">
+            <button data-basketful-button-type="RDP" data-basketful-site-recipe-url="https://www.readyseteat.com/recipes-Italian-Broccoli-6044" class="c-button" id="basketfulDefaultButton_DT">
+              <svg focusable="false" viewBox="0 0 24 24" aria-hidden="true" style="vertical-align: middle;">
+                <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" style="fill: white;"></path>
+              </svg>
+              <span style="padding-left: 5px; line-height: 15px">ADD ITEMS TO SHOPPING LIST</span>
+              <span class="added-to-cart" style="padding-left: 5px; line-height: 15px">REMOVE FROM SHOPPING LIST</span>
+            </button>
+            <div class"c-recipe-basicinfo__shop--right-content">
+              <div class="c-recipe-basicinfo__shop--powered-by">
+                Powered by Basketful
+              </div>
+              <div class="c-recipe-basicinfo__shop--terms">
+                  <span>
+                    <a href="https://www.basketful.co/privacy-policy/" target="_newWin2"><span class="visually-hidden">Basketful</span>Privacy Policy</a>
+                  </span>
+                <span class="separator">|</span>
+                <span>
+                  <a target="_newWin1" href="https://www.basketful.co/terms-of-use/">Terms of Use</a>
+                  </span>
+              </div>
+            </div>
+          </div>
+				</div>
+			</div>
+
+						
+      
+
+		</div>
+</div>
+
+</div>
+  <div id="shop-container" class="hide-for-print shop-mobile">
+    <div class="c-ingredients__shop hide-for-xmedium">
+      <h4>Ready to get cooking?</h4>
+      <button data-basketful-button-type="RDP" data-basketful-site-recipe-url="https://www.readyseteat.com/recipes-Italian-Broccoli-6044" class="c-button" id="basketfulDefaultButton_MO">
+        <span>
+          <svg focusable="false" viewBox="0 0 24 24" aria-hidden="true" style="vertical-align: middle;">
+            <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" style="fill: white;"></path>
+          </svg>
+        </span>
+        <span style="padding-left: 5px; line-height: 15px">ADD ITEMS TO SHOPPING LIST</span>
+        <span class="added-to-cart" style="padding-left: 5px; line-height: 15px">REMOVE FROM SHOPPING LIST</span>
+      </button>
+      <div class="c-ingredients__shop--powered-by">
+        Powered by Basketful
+      </div>
+      <div class="c-ingredients__shop--terms">
+        <span style="padding-right: 4px;">
+          <a href="https://www.basketful.co/privacy-policy/" target="_newWin2">Privacy Policy</a>
+        </span>|
+        <span style="padding-left: 4px;">
+          <a target="_newWin1" href="https://www.basketful.co/terms-of-use/">Terms of Use</a>
+        </span>
+      </div>
+    </div>
+</div>
+<div class="l-container__solid-background l-container__push-up">
+
+
+
+	<div class="c-recipe-heading hide-for-print">
+
+
+<div class="l-container">
+  <div class="l-container__content">
+    <div class="c-signup-form__message">
+      
+    </div>
+  </div>
+  <div class="l-container__content l-container__content--card-padding">
+    <div class="c-recipe-heading__inner">
+      <div class="c-recipe-heading__left">
+        
+
+                  <div class="c-save-bookmark" data-recipe-id="">
+            <div class="c-save-bookmark__content">
+              <a href="/my/register?p=https://www.readyseteat.com/recipes-Italian-Broccoli-6044" class="use-ajax c-recipe--bookmark-link" data-dialog-type="modal" data-dialog-options="{&quot;dialogClass&quot;:&quot;c-signup-form-modal&quot;,&quot;width&quot;:700,&quot;height&quot;:&quot;auto&quot;}">
+                <i class="fa fa-bookmark-o"></i>
+              </a>
+              <span>Save Recipe</span>
+            </div>
+          </div>
+        
+        <div class="c-social-icons c-social-icons--recipe-details">
+                    <ul class="c-social-icons">
+            <li class="c-social-icons__icon">
+              <a class="c-social-icons__link c-social-icons__link--print" href="#">
+                <i class="fa fa-print" aria-hidden="true"></i>
+              </a>
+              <span>Print</span>
+            </li>
+            <li class="c-social-icons__icon">
+              <a id="social-rate" class="c-social-icons__link c-social-icons__link--star" href="#">
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </a>
+              <span>Rate</span>
+            </li>
+            <li class="c-social-icons__icon">
+              <a id="social-share" class="c-social-icons__link c-social-icons__link--share" href="#">
+                <i class="fa fa-share-alt fa-rotate-270" aria-hidden="true"></i>
+              </a>
+              <span>Share</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+          </div>
+    <div class="c-recipe-rates">
+              <div data-bv-show="rating_summary" data-bv-product-id="6044"></div>
+          </div>
+  </div>
+</div>
+</div>
+
+<div class="l-container">
+<div class="l-container__content l-container__content--card-padding">
+
+	
+  <div class="row">
+    <div class="c-headers">
+      <span>
+        Ingredients      </span>
+      <i class="fa fa-angle-down fa-2x iconFixer"></i>
+    </div>
+        <div id="tabbed-ingredients" class="tabbed-content show-for-xmediumxx column small-12 custom-breakpoint__px740--3 print-layout--5">
+      
+<div class="c-ingredients">
+	<h3 class="hide-for-mobile show-for-xmediumxx c-heading c-heading--page-section">
+		Ingredients
+	</h3>
+  <div id="widget-basketful" class="c-ingredients__item odd hide-for-print" style="background-color: transparent;"></div>
+
+	
+	<ul class="c-ingredients__list">
+		 					 	<li class="c-ingredients__item odd">
+			 	<p>1 bag (14.4 oz each) Birds Eye® Tender Broccoli Cuts</p>
+
+		 	</li>
+							 	<li class="c-ingredients__item even">
+			 	<p>3 tablespoons water</p>
+
+		 	</li>
+							 	<li class="c-ingredients__item odd">
+			 	<p>1 can (14.5 oz each) Hunt&#039;s® Diced Tomatoes with Basil, Garlic and Oregano, drained</p>
+
+		 	</li>
+							 	<li class="c-ingredients__item even">
+			 	<p>1/2 cup finely shredded Italian blend or mozzarella cheese</p>
+
+		 	</li>
+		
+	</ul>
+</div>
+
+
+      
+      <div class="hide-for-mobile">
+        <div class="c-nutrition-information">
+      <h3 class="c-heading c-heading--page-section">
+      Nutrition Information    </h3>
+    <div class="c-nutrition-information__content">
+                                                                                                                                                                                                                                                                                                    <p><b>62</b> calories, 6g
+        Carbs</p>
+        <a class="c-link-with-icon hide-for-print" data-open="nutrition-modal">
+      <span class="c-link-with-icon__icon c-link-with-icon__icon--triangle-down">
+        <i class="fa fa-plus"></i>
+      </span>
+    <span class="c-link-with-icon__label">View complete nutrition information</span>
+    </a>
+  </div>
+</div>
+      </div>
+      <div class="reveal c-nutrition-information__modal" id="nutrition-modal" data-reveal>
+        <button class="close-button" data-close aria-label="Close modal" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h3 class="c-nutrition-information__modal-title">
+          <span>Italian Broccoli</span>
+
+        </h3>
+        <p class="c-nutrition-information__modal-subtitle">
+          Nutrition Information        </p>
+        
+
+<table class="c-nutrition-information__table">
+	<tr>
+		<th>Nutrient</th>
+		<th>Amount</th>
+		<th>% Daily Value</th>
+	</tr>
+	 		 	<tr>
+	<th>Calcium</th>
+	<td>
+					99
+			mg
+			</td>
+	<td>
+		10%	</td>
+</tr>
+
+			 	<tr>
+	<th>Carbohydrate</th>
+	<td>
+					6
+			g
+			</td>
+	<td>
+		2%	</td>
+</tr>
+
+			 	<tr>
+	<th>Cholesterol</th>
+	<td>
+					7
+			mg
+			</td>
+	<td>
+		2%	</td>
+</tr>
+
+			 	<tr>
+	<th>Total Fat</th>
+	<td>
+					2
+			g
+			</td>
+	<td>
+		3%	</td>
+</tr>
+
+			 	<tr>
+	<th>Iron</th>
+	<td>
+			</td>
+	<td>
+		2%	</td>
+</tr>
+
+			 	<tr>
+	<th>Calories</th>
+	<td>
+					62
+			kcal
+			</td>
+	<td>
+		3%	</td>
+</tr>
+
+			 	<tr>
+	<th>Sodium</th>
+	<td>
+					202
+			mg
+			</td>
+	<td>
+		8%	</td>
+</tr>
+
+			 	<tr>
+	<th>Protein</th>
+	<td>
+					4
+			g
+			</td>
+	<td>
+		9%	</td>
+</tr>
+
+			 	<tr>
+	<th>Saturated Fat</th>
+	<td>
+					1
+			g
+			</td>
+	<td>
+		6%	</td>
+</tr>
+
+			 	<tr>
+	<th>Sugars</th>
+	<td>
+					2
+			g
+			</td>
+	<td>
+		0	</td>
+</tr>
+
+			 	<tr>
+	<th>Vitamin C</th>
+	<td>
+					28
+			mg
+			</td>
+	<td>
+		47%	</td>
+</tr>
+
+	
+</table>
+
+      </div>
+          </div>
+
+    <div class="c-headers">
+      <span>
+        Directions      </span>
+      <i class="fa fa-angle-up fa-2x iconFixer"></i>
+    </div>
+    <div id="tabbed-directions" class="tabbed-content show-for-xmediumxx column small-12 custom-breakpoint__px740--6 print-layout--7">
+        
+    <div class="c-directions">
+      <h3 class="c-heading c-heading--page-section c-heading-hide-for-mobile">
+        Directions
+      </h3>
+
+      
+            <ul class="c-directions__list">
+                  <li class="c-directions__item">
+
+            
+            <h4 class="c-directions__step">Step one</h4>
+            <p>Place broccoli and water in medium skillet; cover.  Cook over high heat 5 minutes or until broccoli is tender and water is almost evaporated.</p>
+
+          </li>
+                  <li class="c-directions__item">
+
+            
+            <h4 class="c-directions__step">Step two</h4>
+            <p>Add drained tomatoes; cook 2 to 3 minutes more or until hot.  Sprinkle with cheese.</p>
+
+          </li>
+              </ul>
+    </div>
+
+    
+<div class="c-cooks-tip">
+	<h3 class="c-cooks-tip__title">
+		Tips	
+	</h3>
+	<ul class="c-cooks-tip__list">
+				  <li class="c-cooks-tip__item"><p>For gluten free preparation, confirm all recipe ingredients are gluten free by reading product labels each time you make this recipe.</p>
+</li>
+			</ul>
+
+</div>
+
+
+									
+								
+
+        <div class="c-tags-rse-recipe hide-for-mobile">
+      
+<div class="c-tags">
+		<span class="c-tags__label">
+			Explore Related Recipes
+		</span>
+	<ul class="c-tags__list">
+				 	<li class="c-tags__item">
+				<a href='/advanced-search?f%5B0%5D=brand%3A2301'>Birds Eye</a>
+		 	</li>
+				 	<li class="c-tags__item">
+				<a href='/advanced-search?f%5B0%5D=brand%3A81'>Hunt's</a>
+		 	</li>
+				 	<li class="c-tags__item">
+				<a href='/advanced-search?f%5B0%5D=cooking-method%3A236'>Stove Top</a>
+		 	</li>
+				 	<li class="c-tags__item">
+				<a href='/advanced-search?f%5B0%5D=regional-flavors%3A246'>American</a>
+		 	</li>
+				 	<li class="c-tags__item">
+				<a href='/advanced-search?f%5B0%5D=main-ingredient%3A411'>Vegetable</a>
+		 	</li>
+				 	<li class="c-tags__item">
+				<a href='/advanced-search?f%5B0%5D=category%3A541'>Side Dish</a>
+		 	</li>
+				 	<li class="c-tags__item">
+				<a href='/advanced-search?f%5B0%5D=nutrition%3A676'>Gluten Free</a>
+		 	</li>
+				 	<li class="c-tags__item">
+				<a href='/advanced-search?f%5B0%5D=nutrition%3A696'>Low Calorie</a>
+		 	</li>
+				 	<li class="c-tags__item">
+				<a href='/advanced-search?f%5B0%5D=nutrition%3A701'>Low Fat</a>
+		 	</li>
+				 	<li class="c-tags__item">
+				<a href='/advanced-search?f%5B0%5D=nutrition%3A331'>Vegetarian</a>
+		 	</li>
+				 	<li class="c-tags__item">
+				<a href='/advanced-search?f%5B0%5D=holiday%3A916'>Back to School</a>
+		 	</li>
+				 	<li class="c-tags__item">
+				<a href='/advanced-search?f%5B0%5D=difficulty%3A971'>Easy</a>
+		 	</li>
+		
+	</ul>
+</div>
+
+    </div>
+
+      <div class="reveal large c-stepbystep-images__modal" id="stepbystep-images-modal" data-reveal>
+        <button class="close-button" data-close aria-label="Close modal" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
+
+        <h3 class="c-nutrition-information__modal-title">
+          Preparation images        </h3>
+        <p class="c-nutrition-information__modal-subtitle">
+          <span>Italian Broccoli</span>
+
+        </p>
+              </div>
+
+          </div>
+        <div class="c-headers">
+      <span>Nutrition Information</span>
+      <i class="fa fa-angle-up fa-2x iconFixer"></i>
+    </div>
+    <div id="tabbed-nutrition-information" class="hide-for-desktop">
+      <div class="c-nutrition-information">
+    <div class="c-nutrition-information__content">
+                                                                                                                                                                                                                                                                                                    <p><b>62</b> calories, 6g
+        Carbs</p>
+        <a class="c-link-with-icon hide-for-print" data-open="nutrition-modal">
+      <span class="c-link-with-icon__icon c-link-with-icon__icon--triangle-down">
+        <i class="fa fa-plus"></i>
+      </span>
+    <span class="c-link-with-icon__label">View complete nutrition information</span>
+    </a>
+  </div>
+</div>
+    </div>
+
+    <div class="column small-12 custom-breakpoint__px740--3 hide-for-print c-recipe-details__brand-banner">
+    </div>
+  </div>
+</div>
+    <div class="c-tags-rse-recipe hide-for-desktop">
+    
+<div class="c-tags">
+		<span class="c-tags__label">
+			Explore Related Recipes
+		</span>
+	<ul class="c-tags__list">
+				 	<li class="c-tags__item">
+				<a href='/advanced-search?f%5B0%5D=brand%3A2301'>Birds Eye</a>
+		 	</li>
+				 	<li class="c-tags__item">
+				<a href='/advanced-search?f%5B0%5D=brand%3A81'>Hunt's</a>
+		 	</li>
+				 	<li class="c-tags__item">
+				<a href='/advanced-search?f%5B0%5D=cooking-method%3A236'>Stove Top</a>
+		 	</li>
+				 	<li class="c-tags__item">
+				<a href='/advanced-search?f%5B0%5D=regional-flavors%3A246'>American</a>
+		 	</li>
+				 	<li class="c-tags__item">
+				<a href='/advanced-search?f%5B0%5D=main-ingredient%3A411'>Vegetable</a>
+		 	</li>
+				 	<li class="c-tags__item">
+				<a href='/advanced-search?f%5B0%5D=category%3A541'>Side Dish</a>
+		 	</li>
+				 	<li class="c-tags__item">
+				<a href='/advanced-search?f%5B0%5D=nutrition%3A676'>Gluten Free</a>
+		 	</li>
+				 	<li class="c-tags__item">
+				<a href='/advanced-search?f%5B0%5D=nutrition%3A696'>Low Calorie</a>
+		 	</li>
+				 	<li class="c-tags__item">
+				<a href='/advanced-search?f%5B0%5D=nutrition%3A701'>Low Fat</a>
+		 	</li>
+				 	<li class="c-tags__item">
+				<a href='/advanced-search?f%5B0%5D=nutrition%3A331'>Vegetarian</a>
+		 	</li>
+				 	<li class="c-tags__item">
+				<a href='/advanced-search?f%5B0%5D=holiday%3A916'>Back to School</a>
+		 	</li>
+				 	<li class="c-tags__item">
+				<a href='/advanced-search?f%5B0%5D=difficulty%3A971'>Easy</a>
+		 	</li>
+		
+	</ul>
+</div>
+
+  </div>
+</div>
+</div>
+
+  </div>
+
+
+<div class="newsletter-subscribe newsletter-subscribe__recipes-italian-broccoli-6044">
+  <div id="block-newsletterformblock-rdp">
+    
+          <h3 class="newsletter-subscribe__title">A MORE CUSTOMIZED EXPERIENCE IS ALL YOURS</h3>
+        
+          <div>
+  <p class="newsletter-subscribe__description">
+    See more of what you like, save what you love, and receive a customized newsletter.
+  </p>
+</div>
+<form class="readyseteat-membership-newsletter-form newsletter-subscribe__form" data-drupal-selector="readyseteat-membership-newsletter-form" action="/recipes-Italian-Broccoli-6044" method="post" id="readyseteat-membership-newsletter-form" accept-charset="UTF-8">
+  <div class="container-footer-subscribe container-footer-subscribe--firstname"><div class="form-group"><div class="js-form-item form-item js-form-type-textfield form-item-firstname js-form-item-firstname form-no-label">
+        <input placeholder="Enter First Name" aria-describedby="footer_firstname_err" data-drupal-selector="edit-firstname" type="text" id="edit-firstname" name="firstname" value="" size="60" maxlength="40" class="form-text required" required="required" aria-required="true" />
+
+        </div>
+<span id="footer_firstname_err" class="validation-message-firstname validation-message"></span></div></div><div class="container-footer-subscribe container-footer-subscribe--email"><div class="form-group"><div class="js-form-item form-item js-form-type-textfield form-item-email js-form-item-email form-no-label">
+        <input placeholder="Enter Email Address" aria-describedby="footer_email_err" data-drupal-selector="edit-email" type="text" id="edit-email" name="email" value="" size="60" maxlength="128" class="form-text required" required="required" aria-required="true" />
+
+        </div>
+<span id="footer_email_err" class="validation-message-email validation-message"></span></div></div>
+
+                    <fieldset  data-drupal-selector="edit-captcha" class="captcha captcha-type-challenge--recaptcha">
+          <legend class="captcha__title js-form-required form-required">
+            CAPTCHA
+          </legend>
+                  <div class="captcha__element">
+            <input data-drupal-selector="edit-captcha-sid" type="hidden" name="captcha_sid" value="103023956" />
+<input data-drupal-selector="edit-captcha-token" type="hidden" name="captcha_token" value="b1NA0Fgjpv5Nt8MA6wxcRD6wpO1FHVpGOUs3Xc_cwOg" />
+<input data-drupal-selector="edit-captcha-response" type="hidden" name="captcha_response" value="Google no captcha" />
+<div class="g-recaptcha" data-sitekey="6LewuyoUAAAAAKfzaaagyIheO-r7sm1GPyYURCMd" data-theme="dark" data-type="image"></div><input data-drupal-selector="edit-captcha-cacheable" type="hidden" name="captcha_cacheable" value="1" />
+
+          </div>
+                      <div class="captcha__description description">This question is for testing whether or not you are a human visitor and to prevent automated spam submissions.</div>
+                          </fieldset>
+            <span id="validation-message-captcha" class="validation-message"></span><div class="container-footer-subscribe container-footer-subscribe--submit"><div class="form-item"><a tabindex="0" id="newsletter-submit-link" class="c-button c-button--arrow-large">Subscribe</a></div></div><input onkeydown="javascript: if (event.keyCode === 13) {jQuery(&#039;#readyseteat-membership-newsletter-form .button&#039;).mousedown();};" tabindex="0" data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="Subscribe Now" class="button js-form-submit form-submit c-button c-button--arrow" />
+<div class="newsletter-global-validation validation-message"></div><input autocomplete="off" data-drupal-selector="form-bbrk7lhjjbl4ejmu3otlr4rkeapzqox-on9tql-t5fe" type="hidden" name="form_build_id" value="form-bbrK7lHjjBL4eJMu3Otlr4rkeaPzqox-ON9tql_T5fE" />
+<input data-drupal-selector="edit-readyseteat-membership-newsletter-form" type="hidden" name="form_id" value="readyseteat_membership_newsletter_form" />
+
+</form>
+
+<div class="newsletter-thank-you success-message"></div>
+      </div>
+</div>
+<div class="views-element-container l-container__solid-background" id="block-views-block-you-may-also-like-recipes-you-may-also-like-recipes">
+  
+  
+  <div class="l-container">
+  <div class="l-container__content">
+  	<div class="c-content-slider__header">
+  		<h2 class="c-content-slider__title c-content-slider__title--semibold title-line title-line__margin-top title-line__padding">You may also like</h2>
+  	</div>
+  </div>
+  </div>
+
+    
+  
+      <div block="block-views-block-you-may-also-like-recipes-you-may-also-like-recipes"><div class="js-view-dom-id-cf131499b41fd5581c6475de8ed689e8c9da0887cb9b5bff44089d216f52fcdb">
+  
+  
+  
+
+  
+  
+  
+
+  
+<div class="l-container">
+	<div class="l-container__content">
+		<div class="c-content-slider__helper">
+			<div class="c-content-slider swiper-container j-swiper--cards">
+
+											<div id="you_may_also_like_recipes_mount no-personalization" class="c-content-slider__container swiper-wrapper">
+																					<div class="c-content-slider__slide swiper-slide ymal-recipes__slot-1">
+									<article role="article" about="/recipes-Spicy-Korean-Glazed-Crispy-Chickn-Sandwiches-9920" class="c-card">
+	<div class="c-card__inner">
+    <a href="/recipes-Spicy-Korean-Glazed-Crispy-Chickn-Sandwiches-9920" data-click-url="" rel="bookmark">
+  		<div class="c-card__section c-card__section--nopadding">
+  			<div class="c-card__image-holder c-card__image-holder--square">
+  				<div class="c-card__image c-card__image--fill recipe-url">
+            <img width="1000" height="1000" data-src="/sites/g/files/qyyrlu501/files/uploadedImages/img_9920_62434.jpg" alt="Spicy Korean Glazed Crispy Chick’n Sandwiches" class="lazyload" typeof="foaf:Image" data-expand="-10" data-sizes="auto" />
+  				</div>
+  			</div>
+  		</div>
+  		<header class="c-card__section">
+  			<span class="c-card__type">Recipe</span>
+				<h3 class="c-card__heading c-card__heading--long">
+					<span class="mobile-shortened">
+															    Spicy Korean Glazed Crispy Chick’n Sandwiches
+										</span>
+					<span class="desktop-long">Spicy Korean Glazed Crispy Chick’n Sandwiches</span>
+				</h3>
+  		</header>
+    </a>
+          <span class="c-card__attribute c-card__attribute--favorite-flag">
+        
+      </span>
+    
+		<div class="c-card__flag">
+			Intermediate
+		</div>
+		
+
+			</div>
+</article>
+
+							</div>
+																					<div class="c-content-slider__slide swiper-slide ymal-recipes__slot-2">
+									<article role="article" about="/recipes-Salmon-with-Creamy-Lime-Sauce-5287" class="c-card">
+	<div class="c-card__inner">
+    <a href="/recipes-Salmon-with-Creamy-Lime-Sauce-5287" data-click-url="" rel="bookmark">
+  		<div class="c-card__section c-card__section--nopadding">
+  			<div class="c-card__image-holder c-card__image-holder--square">
+  				<div class="c-card__image c-card__image--fill recipe-url">
+            <img width="251" height="250" data-src="/sites/g/files/qyyrlu501/files/uploadedImages/img_5287_2180.jpg" alt="Salmon with Creamy Lime Sauce " class="lazyload" typeof="foaf:Image" data-expand="-10" data-sizes="auto" />
+  				</div>
+  			</div>
+  		</div>
+  		<header class="c-card__section">
+  			<span class="c-card__type">Recipe</span>
+				<h3 class="c-card__heading c-card__heading--long">
+					<span class="mobile-shortened">
+															    Salmon with Creamy Lime Sauce 
+										</span>
+					<span class="desktop-long">Salmon with Creamy Lime Sauce </span>
+				</h3>
+  		</header>
+    </a>
+          <span class="c-card__attribute c-card__attribute--favorite-flag">
+        
+      </span>
+    
+		<div class="c-card__flag">
+			Intermediate
+		</div>
+		
+
+			</div>
+</article>
+
+							</div>
+																					<div class="c-content-slider__slide swiper-slide ymal-recipes__slot-3">
+									<article role="article" about="/recipes-Buffalo-Style-Hot-Popcorn-Snack-4040" class="c-card">
+	<div class="c-card__inner">
+    <a href="/recipes-Buffalo-Style-Hot-Popcorn-Snack-4040" data-click-url="" rel="bookmark">
+  		<div class="c-card__section c-card__section--nopadding">
+  			<div class="c-card__image-holder c-card__image-holder--square">
+  				<div class="c-card__image c-card__image--fill recipe-url">
+            <img width="500" height="500" data-src="/sites/g/files/qyyrlu501/files/uploadedImages/img_4040_5551.jpg" alt="Buffalo-Style Hot Popcorn Snack" class="lazyload" typeof="foaf:Image" data-expand="-10" data-sizes="auto" />
+  				</div>
+  			</div>
+  		</div>
+  		<header class="c-card__section">
+  			<span class="c-card__type">Recipe</span>
+				<h3 class="c-card__heading c-card__heading--long">
+					<span class="mobile-shortened">
+															    Buffalo-Style Hot Popcorn Snack
+										</span>
+					<span class="desktop-long">Buffalo-Style Hot Popcorn Snack</span>
+				</h3>
+  		</header>
+    </a>
+          <span class="c-card__attribute c-card__attribute--favorite-flag">
+        
+      </span>
+    
+		<div class="c-card__flag">
+			Intermediate
+		</div>
+		
+
+			</div>
+</article>
+
+							</div>
+																					<div class="c-content-slider__slide swiper-slide ymal-recipes__slot-4">
+									<article role="article" about="/recipes-Quick-and-Easy-Tomato-Coq-au-Vin-5131" class="c-card">
+	<div class="c-card__inner">
+    <a href="/recipes-Quick-and-Easy-Tomato-Coq-au-Vin-5131" data-click-url="" rel="bookmark">
+  		<div class="c-card__section c-card__section--nopadding">
+  			<div class="c-card__image-holder c-card__image-holder--square">
+  				<div class="c-card__image c-card__image--fill recipe-url">
+            <img width="359" height="359" data-src="/sites/g/files/qyyrlu501/files/uploadedImages/img_5131_2118.JPG" alt="Quick and Easy Tomato Coq au Vin" class="lazyload" typeof="foaf:Image" data-expand="-10" data-sizes="auto" />
+  				</div>
+  			</div>
+  		</div>
+  		<header class="c-card__section">
+  			<span class="c-card__type">Recipe</span>
+				<h3 class="c-card__heading c-card__heading--long">
+					<span class="mobile-shortened">
+															    Quick and Easy Tomato Coq au Vin
+										</span>
+					<span class="desktop-long">Quick and Easy Tomato Coq au Vin</span>
+				</h3>
+  		</header>
+    </a>
+          <span class="c-card__attribute c-card__attribute--favorite-flag">
+        
+      </span>
+    
+		<div class="c-card__flag">
+			Intermediate
+		</div>
+		
+
+			</div>
+</article>
+
+							</div>
+													</div>
+					
+			</div>
+			<div class="c-content-slider__arrow c-content-slider__arrow--left show-for-medium">Previous</div>
+			<div class="c-content-slider__arrow c-content-slider__arrow--right show-for-medium">Next</div>
+		</div>
+	</div>
+</div>
+
+  
+  
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+
+
+<div class="views-element-container l-container__solid-background" id="block-views-block-tips-and-ideas-block-1">
+  
+  
+    <div class="l-container">
+      <div class="l-container__content">
+        <div class="c-content-slider__header">
+          <h2 class="c-content-slider__title c-content-slider__title--semibold title-line title-line__margin-top title-line__padding">Tips &amp; Ideas</h2>
+        </div>
+      </div>
+    </div>
+
+  
+  
+      <div block="block-views-block-tips-and-ideas-block-1"><div class="js-view-dom-id-d8a1a9006d465dc55ecf33633d24b37fc4b6798a4cc0baceeabda570bee32de7">
+  
+  
+  
+
+  
+  
+  
+
+  
+<div class="l-container">
+    <div class="l-container__content">
+        <div class="c-content-slider__helper">
+            <div class="c-content-slider swiper-container j-swiper--cards">
+                <div id="tips_and_ideas_mount" class="c-content-slider__container swiper-wrapper">
+
+                                                                                                    <div class="c-content-slider__slide swiper-slide">
+                                
+<article role="article" about="/inspiration-and-tips/back-to-school-meal-planning-recipes" class="c-card c-card__article">
+  <div class="c-card__inner">
+    <a href="/inspiration-and-tips/back-to-school-meal-planning-recipes" data-click-url="" rel="bookmark">
+      <div class="c-card__section c-card__section--nopadding">
+        <div class="c-card__image-holder c-card__image-holder--square">
+          <div class="c-card__image c-card__image--fill article-url">
+            <img width="1200" height="1200" data-src="/sites/g/files/qyyrlu501/files/images/articles/FY17%20ReadySetEat%20Chili%20Group%20Shot%20Feature.jpg" alt="" class="lazyload" typeof="foaf:Image" data-sizes="auto" />
+          </div>
+        </div>
+      </div>
+      <header class="c-card__section">
+        <span class="c-card__type">Article</span>
+        <h3 class="c-card__heading c-card__heading--long">
+					<span class="mobile-shortened">
+					                          Twisted Chili: Fall favorite, with a twist!
+            					</span>
+          <span class="desktop-long">Twisted Chili: Fall favorite, with a twist!</span>
+        </h3>
+      </header>
+    </a>
+
+    
+  </div>
+</article>
+
+                            </div>
+                                                                                <div class="c-content-slider__slide swiper-slide">
+                                
+<article role="article" about="/inspiration-and-tips/school-night-meal-planning-tips" class="c-card c-card__article">
+  <div class="c-card__inner">
+    <a href="/inspiration-and-tips/school-night-meal-planning-tips" data-click-url="" rel="bookmark">
+      <div class="c-card__section c-card__section--nopadding">
+        <div class="c-card__image-holder c-card__image-holder--square">
+          <div class="c-card__image c-card__image--fill article-url">
+            <img width="3780" height="3780" data-src="/sites/g/files/qyyrlu501/files/images/article/hero/img_7831_23255.jpeg" alt="Caterpillar chicken tortilla wrap" class="lazyload" typeof="foaf:Image" data-sizes="auto" />
+          </div>
+        </div>
+      </div>
+      <header class="c-card__section">
+        <span class="c-card__type">Article</span>
+        <h3 class="c-card__heading c-card__heading--long">
+					<span class="mobile-shortened">
+					                           7 family meal planning tips to make school&hellip;
+            					</span>
+          <span class="desktop-long">7 family meal planning tips to make school nights less hectic</span>
+        </h3>
+      </header>
+    </a>
+
+    
+  </div>
+</article>
+
+                            </div>
+                                                                                <div class="c-content-slider__slide swiper-slide">
+                                  
+<article role="article" about="/inspiration-and-tips/pickle-recipes-everyone-will-love" class="c-card c-card__article">
+  <div class="c-card__inner">
+    <a href="/inspiration-and-tips/pickle-recipes-everyone-will-love" data-click-url="" rel="bookmark">
+      <div class="c-card__section c-card__section--nopadding">
+        <div class="c-card__image-holder c-card__image-holder--square">
+          <div class="c-card__image c-card__image--fill article-url">
+            <img width="1000" height="1000" data-src="/sites/g/files/qyyrlu501/files/images/article/thumbnail/img_9684_49652.jpg" alt="" class="lazyload" typeof="foaf:Image" data-sizes="auto" />
+          </div>
+        </div>
+      </div>
+      <header class="c-card__section">
+        <span class="c-card__type">Article</span>
+        <h3 class="c-card__heading c-card__heading--long">
+					<span class="mobile-shortened">
+					                          Pickle Recipes Everyone Will Love
+            					</span>
+          <span class="desktop-long">Pickle Recipes Everyone Will Love</span>
+        </h3>
+      </header>
+    </a>
+
+    
+  </div>
+</article>
+
+                            </div>
+                                                                                <div class="c-content-slider__slide swiper-slide">
+                                  
+<article role="article" about="/inspiration-and-tips/how-to-use-google-calendar-for-meal-planning" class="c-card c-card__article">
+  <div class="c-card__inner">
+    <a href="/inspiration-and-tips/how-to-use-google-calendar-for-meal-planning" data-click-url="" rel="bookmark">
+      <div class="c-card__section c-card__section--nopadding">
+        <div class="c-card__image-holder c-card__image-holder--square">
+          <div class="c-card__image c-card__image--fill article-url">
+            <img width="261" height="261" data-src="/sites/g/files/qyyrlu501/files/images/article/thumbnail/Article%20Thumbnail%20Image%20261%20x%20314_GoogleCalendarMealPlan.jpg" alt="" class="lazyload" typeof="foaf:Image" data-sizes="auto" />
+          </div>
+        </div>
+      </div>
+      <header class="c-card__section">
+        <span class="c-card__type">Article</span>
+        <h3 class="c-card__heading c-card__heading--long">
+					<span class="mobile-shortened">
+					                          How to Use Google Calendar for Meal Planning
+            					</span>
+          <span class="desktop-long">How to Use Google Calendar for Meal Planning</span>
+        </h3>
+      </header>
+    </a>
+
+    
+  </div>
+</article>
+
+                            </div>
+                                            
+                </div>
+            </div>
+            <div class="c-content-slider__arrow c-content-slider__arrow--left show-for-medium">Previous</div>
+            <div class="c-content-slider__arrow c-content-slider__arrow--right show-for-medium">Next</div>
+        </div>
+    </div>
+</div>
+
+  
+  
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+
+
+<div class="reveal c-user-login" id="login-modal" aria-labelledby="Login_title" data-reveal>
+  <div id="block-userlogin" role="form" >
+    <h2 class="c-h2" id="Login_title">Login to your Ready Set Eat Account</h2>
+					<a href="/user/simple-fb-connect" class="c-button c-button--facebook">
+				Log in with Facebook			</a>
+		
+					<a href="/google-login" class="c-button c-button--google">
+				Log in with Google			</a>
+		
+    <h3 class="c-text-separator"><span>OR</span></h3>
+		<form class="user-login-form" data-drupal-selector="user-login-form" action="/my/login?destination=/recipes-Italian-Broccoli-6044" method="post" id="user-login-form" accept-charset="UTF-8">
+      <input autocomplete="off" data-drupal-selector="form-8pl3bmvwpu7fupx5rmohhwva6xskjrkpsz2dvdxoios" type="hidden" name="form_build_id" value="form-8pl3bMvWpU7FuPX5rMOHhwva6XSkjRkPSz2DVDXoIOs" />
+
+      
+      <input data-drupal-selector="edit-user-login-form" type="hidden" name="form_id" value="user_login_form" />
+
+      <div class="c-form__item">
+        <div class="js-form-item form-item js-form-type-textfield form-item-name js-form-item-name form-no-label">
+        <input autocorrect="none" autocapitalize="none" spellcheck="false" placeholder="Email address." data-drupal-selector="edit-name" type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" required="required" aria-required="true" />
+
+        </div>
+
+      </div>
+      <div class="c-form__item">
+        <div class="js-form-item form-item js-form-type-password form-item-pass js-form-item-pass form-no-label">
+        <input placeholder="Password." data-drupal-selector="edit-pass" type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" required="required" aria-required="true" />
+
+        </div>
+
+      </div>
+      <div class="c-login-buttons clearfix">
+        <button class="c-button c-button--arrow" type="submit">Log in</button>
+        <a data-open="password-modal" aria-controls="password-modal" aria-haspopup="true"  href="#" class="c-double-arrow-light" role="button">Forgot password<i class="fa fa-angle-double-right"></i></a>
+      </div>
+		</form>
+
+    <div class="c-user-login__donthave">
+        <h2 class="c-h2">Don't have an account?</h2>
+        <h3 class="c-text-light">Create one for a personalized experience!</h3>
+
+      <p>By creating a profile and answering a few questions, we can transform your experience on Ready Set Eat into one that’s tailored to your cooking style and tastes.</p>
+
+      <a href="/my/register" class="c-button c-button--arrow">Personalize My Experience</a>
+
+    </div>
+    <button class="close-button" data-close aria-label="Close" type="button">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+</div>
+<div class="reveal" id="password-modal" data-reveal>
+          <div class="c-user-password">
+  <div class="user-pass" data-drupal-selector="user-pass" action="/recipes-Italian-Broccoli-6044" method="post" id="user-pass" accept-charset="UTF-8">
+
+      <h2 class="c-h2 c-h2--centered">Reset Password</h2>
+      <p>
+        Please enter your email address and click submit.<br/>You will be sent an email with a re-set password link within a few minutes.      </p>
+              <form class="user-pass" data-drupal-selector="user-pass" action="/my/password" method="post" id="user-pass" accept-charset="UTF-8">
+
+          <input autocomplete="off" data-drupal-selector="form-vaposiqor5zbqz1yi2ij9gnmxbxixyioggtudd0hau" type="hidden" name="form_build_id" value="form-_VaPoSiqor5zBQZ1yi2ij9GnMXBXixyiOgGtUdD0hAU" />
+
+          
+          <input data-drupal-selector="edit-user-pass" type="hidden" name="form_id" value="user_pass" />
+
+
+          <div class="js-form-item form-item js-form-type-textfield form-item-name js-form-item-name form-no-label">
+        <input autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Email address." data-drupal-selector="edit-name" type="text" id="edit-name" name="name" value="" size="60" maxlength="254" class="form-text required" required="required" aria-required="true" />
+
+        </div>
+
+          
+          <div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="Submit" class="button js-form-submit form-submit c-button c-button--arrow" />
+</div>
+
+          <div class="user-pass-validation"></div>
+         
+        </form>
+      
+  </div>
+</div>
+
+      
+    <button class="close-button" data-close aria-label="Close" type="button">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div><div id="block-bazaarvoicereviewwidgets">
+  
+    
+  
+      <div class="l-container l-container__solid-background">
+  <div class="l-container__content">
+    <div class="bazaarvoice-container">
+      <div data-bv-show="reviews" data-bv-product-id="6044"></div>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+  </div>
+
+
+
+</main>
+<footer role="contentinfo" class="hide-for-print">
+<div class="c-footer-top">
+<div class="l-container">
+<div class="l-container__content">
+	<div class="c-footer-top__content">
+				<div class="c-footer-top__left">
+			  <div>
+    
+
+<div class="newsletter-subscribe newsletter-subscribe__recipes-italian-broccoli-6044">
+  <div id="block-newsletterformblock">
+    
+          <h3 class="newsletter-subscribe__title">Subscribe To Our Newsletter</h3>
+        
+          <div>
+  <p class="newsletter-subscribe__description">
+    Step up your kitchen skills and get exciting new recipes delivered to your inbox!
+  </p>
+</div>
+<form class="readyseteat-membership-newsletter-form newsletter-subscribe__form" data-drupal-selector="readyseteat-membership-newsletter-form-2" action="/recipes-Italian-Broccoli-6044" method="post" id="readyseteat-membership-newsletter-form--2" accept-charset="UTF-8">
+  <div class="container-footer-subscribe container-footer-subscribe--firstname"><div class="form-group"><div class="js-form-item form-item js-form-type-textfield form-item-firstname js-form-item-firstname form-no-label">
+        <input placeholder="Enter First Name" aria-describedby="footer_firstname_err" data-drupal-selector="edit-firstname" type="text" id="edit-firstname--2" name="firstname" value="" size="60" maxlength="40" class="form-text required" required="required" aria-required="true" />
+
+        </div>
+<span id="footer_firstname_err" class="validation-message-firstname validation-message"></span></div></div><div class="container-footer-subscribe container-footer-subscribe--email"><div class="form-group"><div class="js-form-item form-item js-form-type-textfield form-item-email js-form-item-email form-no-label">
+        <input placeholder="Enter Email Address" aria-describedby="footer_email_err" data-drupal-selector="edit-email" type="text" id="edit-email--2" name="email" value="" size="60" maxlength="128" class="form-text required" required="required" aria-required="true" />
+
+        </div>
+<span id="footer_email_err" class="validation-message-email validation-message"></span></div></div>
+
+                    <fieldset  data-drupal-selector="edit-captcha" class="captcha captcha-type-challenge--recaptcha">
+          <legend class="captcha__title js-form-required form-required">
+            CAPTCHA
+          </legend>
+                  <div class="captcha__element">
+            <input data-drupal-selector="edit-captcha-sid" type="hidden" name="captcha_sid" value="103023961" />
+<input data-drupal-selector="edit-captcha-token" type="hidden" name="captcha_token" value="cpRpXVEtfXlpmFUNikqnM3LpfBcKboW50nsZ4BWB0KU" />
+<input data-drupal-selector="edit-captcha-response" type="hidden" name="captcha_response" value="Google no captcha" />
+<div class="g-recaptcha" data-sitekey="6LewuyoUAAAAAKfzaaagyIheO-r7sm1GPyYURCMd" data-theme="dark" data-type="image"></div><input data-drupal-selector="edit-captcha-cacheable" type="hidden" name="captcha_cacheable" value="1" />
+
+          </div>
+                      <div class="captcha__description description">This question is for testing whether or not you are a human visitor and to prevent automated spam submissions.</div>
+                          </fieldset>
+            <span id="validation-message-captcha" class="validation-message"></span><div class="container-footer-subscribe container-footer-subscribe--submit"><div class="form-item"><a tabindex="0" id="newsletter-submit-link" class="c-button c-button--arrow-large">Subscribe</a></div></div><input onkeydown="javascript: if (event.keyCode === 13) {jQuery(&#039;#readyseteat-membership-newsletter-form .button&#039;).mousedown();};" tabindex="0" data-drupal-selector="edit-submit" type="submit" id="edit-submit--4" name="op" value="Subscribe Now" class="button js-form-submit form-submit c-button c-button--arrow" />
+<div class="newsletter-global-validation validation-message"></div><input autocomplete="off" data-drupal-selector="form-mt6eme1ytf2vbatwhc7efdx4i7qmadl-rgnga-bwrvu" type="hidden" name="form_build_id" value="form-mt6eMe1Ytf2vBAtWhC7efDX4i7qMaDl-rgNgA-bWRvU" />
+<input data-drupal-selector="edit-readyseteat-membership-newsletter-form-2" type="hidden" name="form_id" value="readyseteat_membership_newsletter_form" />
+
+</form>
+
+<div class="newsletter-thank-you success-message"></div>
+      </div>
+</div>
+
+  </div>
+
+		</div>
+				<div class="c-footer-top__right">
+			
+  <div class="footer-icon-links">
+    <div id="block-readyseteat-footer-logo">
+  
+    
+  
+  
+      <a href="/" title="Home" rel="home">
+    	<img src="/sites/g/files/qyyrlu501/files/RSE-logo.png" alt="Home" class="c-brand-logo c-brand-logo--bottom">
+    </a>
+    </div>
+<div id="block-readyseteatfootersocialicons">
+  
+    
+  
+      <div class="readyseteat-footer-social-icons">
+  <ul class="c-social-icons">
+    <li class="c-social-icons__icon">
+      <a class="c-social-icons__link c-social-icons__link--facebook" href="https://www.facebook.com/ReadySetEat/" target="_blank" aria-label="Ready Set Eat on Facebook">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="c-social-icons__icon">
+      <a class="c-social-icons__link c-social-icons__link--twitter" href="https://twitter.com/readyseteat?lang=en" target="_blank" aria-label="Ready Set Eat on Twitter">
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="c-social-icons__icon">
+      <a class="c-social-icons__link c-social-icons__link--instagram" href="https://www.instagram.com/readyseteat/" target="_blank" aria-label="Ready Set Eat on Instagram">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="c-social-icons__icon">
+      <a class="c-social-icons__link c-social-icons__link--pinterest" href="https://www.pinterest.com/readyseteat/" target="_blank" aria-label="Ready Set Eat on Pinterest">
+        <i class="fa fa-pinterest" aria-hidden="true"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+  </div>
+
+  </div>
+
+		</div>
+	</div>
+</div>
+</div>
+</div>
+	<div class="c-footer-bottom">
+		<div class="l-container">
+			<div class="l-container__content">
+				<div class="c-footer-bottom__content">
+					<div id="block-readyseteat-footer-navigation" class="c-footer-navigation">
+      
+
+              <ul block="block-readyseteat-footer-navigation" class="menu" data-dropdown-menu>
+        
+                  <li>
+                          <a href="/about-us" target="" data-drupal-link-system-path="node/27801">About Us</a>
+                          </li>
+    
+                  <li>
+                          <a href="https://www.conagrabrands.com/privacy-policy" target="_blank">Privacy Policy</a>
+                          </li>
+    
+                  <li>
+                          <a href="https://www.conagrabrands.com/legal-policy" target="_blank">Legal Policy</a>
+                          </li>
+    
+                  <li>
+                          <a href="https://www.conagrabrands.com/contact-us" target="_blank">Contact Us</a>
+                          </li>
+    
+                  <li>
+                          <a href="https://careers.conagrabrands.com/" title="Conagra Brands Career Site" target="_blank">Careers</a>
+                          </li>
+    
+                  <li>
+                          <a href="/sitemap" data-drupal-link-system-path="sitemap">Sitemap</a>
+                          </li>
+    
+                  <li>
+                          <a href="/where-to-buy" data-drupal-link-system-path="node/41946">Buy our brands</a>
+                          </li>
+    
+                  <li>
+                          <a href="https://www.conagrabrands.com/state-specific-privacy-notice" target="_blank">State Privacy Notice</a>
+                          </li>
+        </ul>
+  
+
+
+  </div>
+<div id="block-readyseteatfootercopyright" class="c-footer-copyright">
+      <div class="c-footer-copyright__text">
+  &copy; <span>Conagra Brands, Inc. All Rights Reserved.</span>
+</div>
+
+  </div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+</footer>
+<div class="c-print-footer show-for-print">
+<div class="c-print-footer__text">
+<div class="c-print-footer__link">https://www.readyseteat.com/recipes-Italian-Broccoli-6044 </div>
+<div class="c-print-footer__rights">© Conagra Brands, Inc. All Rights Reserved. </div>
+</div>
+<div class="c-print-footer__logo">
+<img src="/sites/g/files/qyyrlu501/themes/site/theme-readyseteat/images/RSE-logo_black.svg" alt="Ready Set Eat"/>
+</div>
+</div>
+<div class="reveal-overlay j-reveal-overlay"></div>
+
+<script id="notifications-template" type="text/x-handlebars-template">
+  <ul class="media-list">
+    {{#each this}}
+        <li class="media-list-item">
+          {{#if translation_path}}
+            <a href="{{translation_path}}" class="media-list-item__inner">
+          {{else}}
+            <a href="{{path}}" class="media-list-item__inner">
+          {{/if}}
+                <div class="media-list-item__imageholder">
+                    <img alt="" src="{{image}}" class="media-list-item__image">
+                </div>
+                <div class="media-list-item__content">
+                  <h4 class="media-list-item__title">
+                  {{ title }}
+                  </h4>
+                  <footer class="media-list-item__footer">
+                    {{#if cook_min}}
+                        
+                          <p class="media-list-item__cooking-time-min">Recipe                          : {{cook_min}} minutes</p>
+                        
+                    {{/if}}
+                        
+                          <p class="media-list-item__date">{{daysAgo field_modified_date 'Today'
+                          '1 day ago' ' days ago'}}</p>
+                        
+                  </footer>
+                </div>
+            </a>
+        </li>
+    {{/each}}
+  </ul>
+</script>
+
+
+  </div>
+
+      
+    </div>
+    <script src="/sites/g/files/qyyrlu501/files/js/js_MyAP3NySzjj9KbfLWms-L46iV27QkTtbCm6YZbdhwss.js"></script>
+<script src="https://bonsai.basketful.co/basketful.js"></script>
+<script src="/sites/g/files/qyyrlu501/files/js/js_J83JShF1EMQl34D1o-mcfyL8W0BSTBT8jDFv6CQ9I8o.js"></script>
+<script src="/modules/custom/readyseteat_bazaarvoice/js/bazaarvoice-widgets.js?v=9.5.10" async></script>
+<script src="/sites/g/files/qyyrlu501/files/js/js_gfSGCgqj1oonG1wyyAoe71mq3bqnjijZVapWKZm4TWE.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.js"></script>
+<script src="/sites/g/files/qyyrlu501/files/js/js_eYs7osyRgrDrBljO0oVgQ3tCnXkjAezED3CUnH9QOrk.js"></script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"31cfe0c7ad","applicationID":"672874389","transactionName":"ZQZaYBFZW0cDURFYVlxMeVcXUVpaTXYXRElTD2RaDFxQaCFdC0VLXQ9UURFke1sGVzNYXEUgV1oXSlpYDlcXHAdECl1D","queueTime":7,"applicationTime":1369,"atts":"SUFZFllDSEk=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
