@@ -1,0 +1,39 @@
+{
+    "danish": {
+        "banana": "banan",
+        "bread": "br\u00f8d",
+        "recipe": "opskrift"
+    },
+    "english": {
+        "banana": "banana",
+        "bread": "bread",
+        "chicken": "chicken",
+        "egg": "egg",
+        "potato": "potato",
+        "recipe": "recipe",
+        "tomato": "tomato",
+        "pork": "pork",
+        "garlic": "garlic",
+        "butter": "butter",
+        "chocolate": "chocolate",
+        "sugar": "sugar",
+        "carrots": "carrots",
+        "rice" : "rice",
+        "cheese" : "cheese",
+        "cabbage" : "cabbage",
+        "chili" : "chili",
+        "beef" : "beef",
+        "mushrooms" : "mushrooms",
+        "pasta" : "pasta",
+        "milk" : "milk",
+        "flour" : "flour",
+        "vanilla" : "vanilla",
+        "broccoli" : "broccoli",
+        "mozzarella" : "mozzarella",
+        "eggplant" : "eggplant",
+        "onion" : "onion",
+        "soy-sauce" : "soy sauce",
+        "spinach" : "spinach",
+        "seaweed" : "seaweed"
+    }
+}
