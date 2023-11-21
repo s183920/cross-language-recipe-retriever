@@ -48,9 +48,9 @@ class RecipeFetcher:
     
     def request(self, url):
         if self.num_requests % 5 == 0:
-            time.sleep(5)
+            time.sleep(10)
         else:
-            time.sleep(1)
+            time.sleep(5)
             
         response = requests.get(url)
         self.num_requests += 1
@@ -129,7 +129,7 @@ class RecipeFetcher:
         return metadata
     
 if __name__ == "__main__":
-    rf = RecipeFetcher(language = "czech")
+    rf = RecipeFetcher(language = "chinese")
     
     # get test ingredients
     for query in open("test_queries.txt", 'r').readlines():
