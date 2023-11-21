@@ -28,6 +28,9 @@ class RecipeFetcher:
                 print(f"Language {self.language} added. Please add ingredient translations to translations.json")
             else:
                 raise ValueError(f"Language {self.language} not supported")
+        else:
+            # dump to apply encoding to file if translations have been added manually
+            json.dump(self.translations, open("translations.json", 'w', encoding='utf-8'), indent=4, sort_keys=True)
             
         # create dir for html files
         self.recipe_dir = f"{self.search_engine + '_results'}"
@@ -56,7 +59,7 @@ class RecipeFetcher:
         
     def translate(self, word):
         word = word.lower()
-        if (not word in self.translations[self.language]) or (self.translations[self.language][word] == "")]:
+        if (not word in self.translations[self.language]) or (self.translations[self.language][word] == ""):
             add_word = input(f"{self.language.capitalize()} translation for {word} not found. Do you want to add it? (y/n) ")
             if add_word.lower() in ["y", "yes"]:
                 self.translations[self.language][word] = input(f"Please enter {self.language} translation for '{word}': ").lower()
@@ -126,7 +129,7 @@ class RecipeFetcher:
         return metadata
     
 if __name__ == "__main__":
-    rf = RecipeFetcher(language = "english")
+    rf = RecipeFetcher(language = "danish")
     
     # get test ingredients
     for query in open("test_queries.txt", 'r').readlines():
