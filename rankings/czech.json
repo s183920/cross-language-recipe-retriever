@@ -64,5 +64,246 @@
                 "title": "\u0160pagety s hov\u011bz\u00edmi nudli\u010dkami na houb\u00e1ch - Recepty.cz",
                 "ranking_manual": 3
             }
-        }
+        },
+        
+    "broccoli+tomato+mozzarella":
+        {
+            "Brokolice zape\u010den\u00e1 s raj\u010detem a mozzarellou | Femina.cz": {
+                "downloaded": true,
+                "link": "https://www.femina.cz/brokolice-zapecena-rajcetem-mozzarellou/",
+                "rank_search_engine": 6,
+                "title": "Brokolice zape\u010den\u00e1 s raj\u010detem a mozzarellou | Femina.cz"
+            },
+            "Brokolickov\u00fd kol\u00e1\u010d - neobsahuje \u017e\u00e1dnou mouku a p\u0159itom je tak ...": {
+                "downloaded": true,
+                "link": "https://www.youtube.com/watch%3Fv%3D3gIVYphJR90",
+                "rank_search_engine": 4,
+                "title": "Brokolickov\u00fd kol\u00e1\u010d - neobsahuje \u017e\u00e1dnou mouku a p\u0159itom je tak ..."
+            },
+            "Kr\u016ft\u00ed pl\u00e1tky s brokolic\u00ed, raj\u010daty a mozzarellou - TopRecepty.cz": {
+                "downloaded": true,
+                "link": "https://www.toprecepty.cz/recept/61181-kruti-platky-s-brokolici-rajcaty-a-mozzarellou/",
+                "rank_search_engine": 8,
+                "title": "Kr\u016ft\u00ed pl\u00e1tky s brokolic\u00ed, raj\u010daty a mozzarellou - TopRecepty.cz"
+            },
+            "Prost\u0159eno: Brokolicov\u00fd sal\u00e1t s mozzarellou - Prima Fresh": {
+                "downloaded": true,
+                "link": "https://fresh.iprima.cz/brokolicovy-salat-s-mozzarellou",
+                "rank_search_engine": 3,
+                "title": "Prost\u0159eno: Brokolicov\u00fd sal\u00e1t s mozzarellou - Prima Fresh"
+            },
+            "RECEPT DNE: Penne s ku\u0159ec\u00edm masem, brokolic\u00ed a s\u00fdrem - iDNES.cz": {
+                "downloaded": true,
+                "link": "https://www.idnes.cz/jenprozeny/recepty/penne-kureci-syr-brokolice.A201106_114439_jpz-recepty_job",
+                "rank_search_engine": 9,
+                "title": "RECEPT DNE: Penne s ku\u0159ec\u00edm masem, brokolic\u00ed a s\u00fdrem - iDNES.cz"
+            },
+            "Recept: Brokolice zape\u010den\u00e1 s raj\u010daty a mozzarellou | iGurmet.cz": {
+                "downloaded": true,
+                "link": "https://www.igurmet.cz/recepty/slane/bezmase/brokolice-zapecena-s-rajcaty-mozzarellou-1845/",
+                "rank_search_engine": 2,
+                "title": "Recept: Brokolice zape\u010den\u00e1 s raj\u010daty a mozzarellou | iGurmet.cz"
+            },
+            "Recepty na nejlep\u0161\u00ed brokolice s raj\u010detem - Femina.cz": {
+                "downloaded": true,
+                "link": "https://www.femina.cz/recepty-kombinace/brokolice-s-rajcetem/",
+                "rank_search_engine": 7,
+                "title": "Recepty na nejlep\u0161\u00ed brokolice s raj\u010detem - Femina.cz"
+            },
+            "Recept\u00edky pro syna - Brokolicov\u00e9 pala\u010dinky s raj\u010d\u00e1tky a mozzarellou ...": {
+                "downloaded": true,
+                "link": "https://m.facebook.com/photo.php%3Ffbid%3D124019234113409%26set%3Da.124011570780842%26type%3D3%26eid%3DARDnSfjHhBs0Z9SthDS4VpHnhfEt-rBR1rcrCibP1OZjYrgsoIbBqROzgEEYbHc-fhJFJMFWWaBX_3q3",
+                "rank_search_engine": 5,
+                "title": "Recept\u00edky pro syna - Brokolicov\u00e9 pala\u010dinky s raj\u010d\u00e1tky a mozzarellou ..."
+            },
+            "Zape\u010den\u00e1 brokolice s raj\u010daty a mozarellou recept - Va\u0159en\u00ed.cz": {
+                "downloaded": true,
+                "link": "https://www.vareni.cz/recepty/zapecena-brokolice-s-rajcaty-a-mozarellou/",
+                "rank_search_engine": 1,
+                "title": "Zape\u010den\u00e1 brokolice s raj\u010daty a mozarellou recept - Va\u0159en\u00ed.cz"
+            }
+        },
+
+    "carrots+chicken+rice":
+        {
+            "Detail receptu - R\u00fd\u017ee s ku\u0159ec\u00edm masem a mrkv\u00ed - F\u00c9R potravina": {
+                "downloaded": true,
+                "link": "https://www.ferpotravina.cz/jidla-z-ryze/ryze-s-kurecim-masem-a-mrkvi",
+                "rank_search_engine": 1,
+                "title": "Detail receptu - R\u00fd\u017ee s ku\u0159ec\u00edm masem a mrkv\u00ed - F\u00c9R potravina"
+            },
+            "Dietni kure s mrkvi a ryze recept - Jidlo.cz": {
+                "downloaded": true,
+                "link": "https://www.jidlo.cz/dietni%2Bkure%2Bs%2Bmrkvi%2Ba%2Bryze%2Brecept",
+                "rank_search_engine": 9,
+                "title": "Dietni kure s mrkvi a ryze recept - Jidlo.cz"
+            },
+            "Du\u0161en\u00e1 mrkev na m\u00e1sle s ku\u0159ec\u00edm pl\u00e1tkem a bramborem": {
+                "downloaded": true,
+                "link": "https://fresh.iprima.cz/recepty/dusena-mrkev-na-masle-s-kurecim-platkem-a-bramborem",
+                "rank_search_engine": 8,
+                "title": "Du\u0161en\u00e1 mrkev na m\u00e1sle s ku\u0159ec\u00edm pl\u00e1tkem a bramborem"
+            },
+            "Du\u0161en\u00e1 mrkev s ku\u0159ec\u00edm mas\u00ed\u010dkem - Ajiny recepty": {
+                "downloaded": true,
+                "link": "https://ajinyrecepty.cz/recipe/dusena-mrkev-s-kurecim-masickem/",
+                "rank_search_engine": 10,
+                "title": "Du\u0161en\u00e1 mrkev s ku\u0159ec\u00edm mas\u00ed\u010dkem - Ajiny recepty"
+            },
+            "Ku\u0159e s r\u00fd\u017ei, cuketou a mrkv\u00ed - Hlavn\u00ed j\u00eddla - maso - Sv\u011bt recept\u016f": {
+                "downloaded": true,
+                "link": "https://www.svetreceptu.cz/hlavni-jidla-maso-recepty/kure-s-ryzi-cuketou-a-mrkvi/nsheigyd-28051-796042-a8af9-vheuym76",
+                "rank_search_engine": 7,
+                "title": "Ku\u0159e s r\u00fd\u017ei, cuketou a mrkv\u00ed - Hlavn\u00ed j\u00eddla - maso - Sv\u011bt recept\u016f"
+            },
+            "Ku\u0159ec\u00ed kari s mrkv\u00ed recept - Va\u0159en\u00ed.cz": {
+                "downloaded": true,
+                "link": "https://www.vareni.cz/recepty/kureci-kari-s-mrkvi/",
+                "rank_search_engine": 5,
+                "title": "Ku\u0159ec\u00ed kari s mrkv\u00ed recept - Va\u0159en\u00ed.cz"
+            },
+            "Ku\u0159ec\u00ed maso v mrkvi a r\u00fd\u017e\u00ed / od 6 m\u011bs\u00edce / - TopRecepty.cz": {
+                "downloaded": false,
+                "link": "https://www.toprecepty.cz/recept/30719-kureci-maso-v-mrkvi-a-ryzi-od-6-mesice/",
+                "rank_search_engine": 3,
+                "title": "Ku\u0159ec\u00ed maso v mrkvi a r\u00fd\u017e\u00ed / od 6 m\u011bs\u00edce / - TopRecepty.cz"
+            },
+            "Ku\u0159ec\u00ed nudli\u010dky s mrkv\u00ed - Recepty.cz - On-line kucha\u0159ka": {
+                "downloaded": true,
+                "link": "https://www.recepty.cz/recept/kureci-nudlicky-s-mrkvi-148465",
+                "rank_search_engine": 2,
+                "title": "Ku\u0159ec\u00ed nudli\u010dky s mrkv\u00ed - Recepty.cz - On-line kucha\u0159ka"
+            },
+            "Ku\u0159ec\u00ed stehna s du\u0161enou r\u00fd\u017e\u00ed a mrkv\u00ed - varimedobroty.cz": {
+                "downloaded": true,
+                "link": "https://varimedobroty.cz/recept/kureci-stehna-s-dusenou-ryzi-a-mrkvi/",
+                "rank_search_engine": 6,
+                "title": "Ku\u0159ec\u00ed stehna s du\u0161enou r\u00fd\u017e\u00ed a mrkv\u00ed - varimedobroty.cz"
+            },
+            "Recept na ku\u0159ec\u00ed maso v mrkvov\u00e9 om\u00e1\u010dce s r\u00fd\u017e\u00ed - Prima Inspirace": {
+                "downloaded": true,
+                "link": "https://primainspirace.cz/2023/04/16/kureci-maso-mrkvove-omacce/",
+                "rank_search_engine": 4,
+                "title": "Recept na ku\u0159ec\u00ed maso v mrkvov\u00e9 om\u00e1\u010dce s r\u00fd\u017e\u00ed - Prima Inspirace"
+            }
+        },
+
+        "cheese+cabbage+chili":
+            {
+                "Chili zel\u00ed recept - Jidlo.cz": {
+                    "downloaded": true,
+                    "link": "https://www.jidlo.cz/chili%2Bzel%25C3%25AD%2Brecept",
+                    "rank_search_engine": 2,
+                    "title": "Chili zel\u00ed recept - Jidlo.cz"
+                },
+                "Chilli pln\u011bn\u00e9 s\u00fdrem,zel\u00edm a bylinkami v oleji.... - Chilli f\u00f3rum": {
+                    "downloaded": true,
+                    "link": "https://www.chilli-forum.cz/ostatni-chilli-recepty/chilli-plnene-syrem-zelim-a-bylinkami-v-oleji-t9093.html",
+                    "rank_search_engine": 1,
+                    "title": "Chilli pln\u011bn\u00e9 s\u00fdrem,zel\u00edm a bylinkami v oleji.... - Chilli f\u00f3rum"
+                },
+                "Gratinovan\u00e9 bat\u00e1ty s kysan\u00fdm zel\u00edm a chilli - Prima Fresh": {
+                    "downloaded": true,
+                    "link": "https://fresh.iprima.cz/recepty/gratinovane-bataty-s-kysanym-zelim-a-chilli",
+                    "rank_search_engine": 8,
+                    "title": "Gratinovan\u00e9 bat\u00e1ty s kysan\u00fdm zel\u00edm a chilli - Prima Fresh"
+                },
+                "Nalo\u017een\u00fd s\u00fdr Romadur s kysan\u00fdm zel\u00edm a pe\u010den\u00fdm \u010desnekem": {
+                    "downloaded": true,
+                    "link": "https://rebarboraskitchen.com/2018/04/05/nalozeny-syr-romadur-s-kysanym-zelim-a-pecenym-cesnekem/",
+                    "rank_search_engine": 7,
+                    "title": "Nalo\u017een\u00fd s\u00fdr Romadur s kysan\u00fdm zel\u00edm a pe\u010den\u00fdm \u010desnekem"
+                },
+                "Pikantn\u00ed zeln\u00fd sal\u00e1t s chilli recept - Va\u0159en\u00ed.cz": {
+                    "downloaded": true,
+                    "link": "https://www.vareni.cz/recepty/pikantni-zelny-salat-s-chilli/",
+                    "rank_search_engine": 3,
+                    "title": "Pikantn\u00ed zeln\u00fd sal\u00e1t s chilli recept - Va\u0159en\u00ed.cz"
+                },
+                "Recept: Nakl\u00e1dan\u00fd hermel\u00edn | iGurmet.cz": {
+                    "downloaded": true,
+                    "link": "https://www.igurmet.cz/recepty/chutovky-predkrmy/ze-syra/nakladany-hermelin-566/",
+                    "rank_search_engine": 5,
+                    "title": "Recept: Nakl\u00e1dan\u00fd hermel\u00edn | iGurmet.cz"
+                },
+                "Vy\u0161lehal jsem vejce a nalil je do zel\u00ed, jednoduch\u00e9 a chutn\u00e9.| Chutn\u00fd TV": {
+                    "downloaded": true,
+                    "link": "https://www.youtube.com/watch%3Fv%3Dk7k_EdTIGFA",
+                    "rank_search_engine": 9,
+                    "title": "Vy\u0161lehal jsem vejce a nalil je do zel\u00ed, jednoduch\u00e9 a chutn\u00e9.| Chutn\u00fd TV"
+                },
+                "Zape\u010den\u00e9 zel\u00ed se s\u00fdrem - Blanka Mako\u0148ov\u00e1": {
+                    "downloaded": true,
+                    "link": "https://blankamakonova.cz/recepty/zapecene-zeli-se-syrem/",
+                    "rank_search_engine": 6,
+                    "title": "Zape\u010den\u00e9 zel\u00ed se s\u00fdrem - Blanka Mako\u0148ov\u00e1"
+                },
+                "Zel\u0148\u00e1ky z kysan\u00e9ho zel\u00ed se s\u00fdrem - Recepty.cz - On-line kucha\u0159ka": {
+                    "downloaded": true,
+                    "link": "https://www.recepty.cz/recept/zelnaky-z-kysaneho-zeli-se-syrem-164336",
+                    "rank_search_engine": 4,
+                    "title": "Zel\u0148\u00e1ky z kysan\u00e9ho zel\u00ed se s\u00fdrem - Recepty.cz - On-line kucha\u0159ka"
+                }
+            },
+
+        "chocolate+butter+sugar":
+            {
+                "7 nejlep\u0161\u00edch druh\u016f \u010dokol\u00e1dov\u00e9ho cukrov\u00ed 2022 (s recepty)": {
+                    "downloaded": true,
+                    "link": "https://www.lechocolat.cz/blog/cokoladove-cukrovi/",
+                    "rank_search_engine": 7,
+                    "title": "7 nejlep\u0161\u00edch druh\u016f \u010dokol\u00e1dov\u00e9ho cukrov\u00ed 2022 (s recepty)"
+                },
+                "Brownies: recept na \u010dokol\u00e1dov\u00fd mou\u010dn\u00edk pro h\u0159\u00ed\u0161n\u00e9 du\u0161e": {
+                    "downloaded": true,
+                    "link": "https://www.kucharkaprodceru.cz/brownies-recept/",
+                    "rank_search_engine": 9,
+                    "title": "Brownies: recept na \u010dokol\u00e1dov\u00fd mou\u010dn\u00edk pro h\u0159\u00ed\u0161n\u00e9 du\u0161e"
+                },
+                "Dom\u00e1c\u00ed \u010dokol\u00e1da \u2014 Sama doma - \u010cesk\u00e1 televize": {
+                    "downloaded": true,
+                    "link": "https://www.ceskatelevize.cz/porady/1148499747-sama-doma/804-recepty/1064-domaci-cokolada/",
+                    "rank_search_engine": 5,
+                    "title": "Dom\u00e1c\u00ed \u010dokol\u00e1da \u2014 Sama doma - \u010cesk\u00e1 televize"
+                },
+                "Jak si vyrobit dom\u00e1c\u00ed \u010dokol\u00e1du a dal\u0161\u00ed zdrav\u00e9 \u010dokol\u00e1dov\u00e9 pochoutky": {
+                    "downloaded": true,
+                    "link": "https://budejovice.rozhlas.cz/jak-si-vyrobit-domaci-cokoladu-a-dalsi-zdrave-cokoladove-pochoutky-7035293",
+                    "rank_search_engine": 4,
+                    "title": "Jak si vyrobit dom\u00e1c\u00ed \u010dokol\u00e1du a dal\u0161\u00ed zdrav\u00e9 \u010dokol\u00e1dov\u00e9 pochoutky"
+                },
+                "Jste \u010dokoholici? M\u00e1me pro v\u00e1s ty nejlep\u0161\u00ed recepty - iDNES.cz": {
+                    "downloaded": true,
+                    "link": "https://www.idnes.cz/recepty/jste-cokoholici-mame-pro-vas-ty-nejlepsi-recepty.A081031_154931_recepty_ves",
+                    "rank_search_engine": 8,
+                    "title": "Jste \u010dokoholici? M\u00e1me pro v\u00e1s ty nejlep\u0161\u00ed recepty - iDNES.cz"
+                },
+                "Nejlep\u0161\u00ed \u010dokol\u00e1dov\u00fd dort - Apetit Online": {
+                    "downloaded": true,
+                    "link": "https://www.apetitonline.cz/recept/nejlepsi-cokoladovy-dort%3Fpage%3D3",
+                    "rank_search_engine": 6,
+                    "title": "Nejlep\u0161\u00ed \u010dokol\u00e1dov\u00fd dort - Apetit Online"
+                },
+                "Polevy \u017e \u010dokol\u00e1dy - Miluji\u010dokol\u00e1du.cz - Milujicokoladu.cz": {
+                    "downloaded": true,
+                    "link": "http://www.milujicokoladu.cz/cs/temata/show/domaci-vyroba-cokolady/37-nejlepsi-cokoladove-polevy/",
+                    "rank_search_engine": 1,
+                    "title": "Polevy \u017e \u010dokol\u00e1dy - Miluji\u010dokol\u00e1du.cz - Milujicokoladu.cz"
+                },
+                "Va\u0159en\u00e1 \u010dokol\u00e1dov\u00e1 poleva - Recepty.cz - On-line kucha\u0159ka": {
+                    "downloaded": true,
+                    "link": "https://www.recepty.cz/recept/varena-cokoladova-poleva-140845",
+                    "rank_search_engine": 2,
+                    "title": "Va\u0159en\u00e1 \u010dokol\u00e1dov\u00e1 poleva - Recepty.cz - On-line kucha\u0159ka"
+                },
+                "Vynikaj\u00edc\u00ed dom\u00e1c\u00ed \u010dokol\u00e1da jen ze dvou ingredienc\u00ed - Milujicokoladu.cz": {
+                    "downloaded": true,
+                    "link": "http://www.milujicokoladu.cz/cs/temata/show/domaci-vyroba-cokolady/34-vynikajici-domaci-cokolada-jen-ze-dvou-ingredienci/",
+                    "rank_search_engine": 3,
+                    "title": "Vynikaj\u00edc\u00ed dom\u00e1c\u00ed \u010dokol\u00e1da jen ze dvou ingredienc\u00ed - Milujicokoladu.cz"
+                }
+            },
+
+        "egg+chicken+potato/czech":
+            {} 
 }
