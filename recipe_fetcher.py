@@ -129,9 +129,11 @@ class RecipeFetcher:
         return metadata
     
 if __name__ == "__main__":
-    rf = RecipeFetcher(language = "danish")
+    rf = RecipeFetcher(language = "czech")
     
     # get test ingredients
     for query in open("test_queries.txt", 'r').readlines():
         ingredients = query.strip().split()
         rf.fetch_recipe_links(*ingredients)
+    
+    # rf.fetch_recipe_links("chicken", "potato", "carrot")
