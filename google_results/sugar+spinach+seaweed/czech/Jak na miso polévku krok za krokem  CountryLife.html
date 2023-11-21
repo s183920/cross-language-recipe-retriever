@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html class="no-js disable-transition" lang="cs">
+<head id="snippet--head">
+<script type="text/javascript" id="snippet-google-dataLayer-init">
+	var dataLayer = dataLayer || [{"userIp":"155.33.137.15"},{"visitorLoginState":"guest","visitorID":null}];
+</script><script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){ dataLayer.push(arguments);}
+
+gtag("consent", "default", {
+	ad_storage: "denied",
+	analytics_storage: "denied",
+	functionality_storage: "denied",
+	personalization_storage: "denied",
+	security_storage: "denied",
+	wait_for_update: 1500
+});
+
+gtag("set", "ads_data_redaction", true);
+dataLayer.push({ "event": "defaultConsentsSet" });
+</script><script type="text/javascript" charset="UTF-8" src="//cdn.cookie-script.com/s/4b31f8d790e97a8bf8e1e1857ddf04cc.js"></script><script>
+	// Matches polyfill, https://developer.mozilla.org/en-US/docs/Web/API/Element/matches
+	if (! Element.prototype.matches) {
+		Element.prototype.matches = Element.prototype.msMatchesSelector;
+	}
+
+	// Closest polyfill, https://developer.mozilla.org/en-US/docs/Web/API/Element/closest
+	if (! Element.prototype.closest) {
+		Element.prototype.closest = function (s) {
+			var el = this;
+			if (! document.documentElement.contains(el)) return null;
+			do {
+				if (el.matches(s)) return el;
+				el = el.parentElement || el.parentNode;
+			} while (el !== null && el.nodeType === 1);
+			return null;
+		};
+	}
+
+	// Událost navěšená na document (tj. i pro AJAXem donačtené prvky)
+	document.addEventListener('click', function(ev) {
+		var clicked = ev.target || ev.srcElement;
+		var el = clicked.closest('[data-datalayer-click]');
+
+		if (el && 'dataLayer' in window && 'callable' in window.dataLayer) {
+			var callables = el.getAttribute('data-datalayer-click').split(';');
+
+			callables.forEach(function (callable) {
+				callable = callable.trim();
+
+				if (callable in window.dataLayer.callable) {
+					var push = window.dataLayer.callable[callable];
+
+
+						if (! (ev.button || ev.ctrlKey || ev.shiftKey || ev.altKey || ev.metaKey || el.getAttribute('target') === '_blank')) {
+							var href = el.href;
+
+							if (href && (' ' + el.className + ' ').indexOf(' ajax ') === -1) {
+								ev.preventDefault();
+								var t = null;
+
+								push['eventCallback'] = function () {
+									clearTimeout(t);
+									document.location = href;
+								};
+								t = setTimeout(function () {
+									push['eventCallback'].call();
+								}, 666);
+
+							} else {
+								push['eventCallback'] = function () {
+									dataLayer.push({'event': 'pageViewFired'});
+								};
+							}
+						}
+
+					window.dataLayer.push(push);
+				}
+			});
+		}
+	});
+</script>
+<!-- Google Tag Manager -->
+<script>
+	(function (w, d, s, l, i) {
+		w[l] = w[l] || [];
+		w[l].push({
+			'gtm.start': new Date().getTime(), event: 'gtm.js'
+		});
+		var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+		j.async = true;
+		j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+		f.parentNode.insertBefore(j, f);
+	})(window, document, 'script', 'dataLayer', "GTM-KR5PDM");
+</script>
+<!-- End Google Tag Manager -->
+
+<script async importance="high" src="https://download.databreakers.com/clients/countrylife_cz/default.js"></script>
+
+
+<meta charset="utf-8">
+<meta name="author" content="_meta_author">
+<meta name="designer" content="_meta_designer">
+<meta name="description" content="V mnoha kulturách a kuchyních je běžné, že se ke snídani podává polévka. V Japonsku takto konzumují miso polévku. I kdyby takový typ snídaně nebyl váš šálek čaje, stojí tato aromatická a lehká polévka určitě za vyzkoušení.">
+<meta property="og:description" content="V mnoha kulturách a kuchyních je běžné, že se ke snídani podává polévka. V Japonsku takto konzumují miso polévku. I kdyby takový typ snídaně nebyl váš šálek čaje, stojí tato aromatická a lehká polévka určitě za vyzkoušení.">
+
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="format-detection" content="telephone=no">
+
+<title>Jak na miso polévku krok za krokem | CountryLife</title>
+
+<meta property="og:title" content="Jak na miso polévku krok za krokem | CountryLife">
+
+	<meta property="og:image" content="https://www.countrylife.cz/data/images/img-large/6/10166.jpg">
+<div id="snippet-head-canonical"><link rel="canonical" href="https://www.countrylife.cz/jak-na-miso-polevku-krok-za-krokem">
+<meta property="og:url" content="https://www.countrylife.cz/jak-na-miso-polevku-krok-za-krokem">
+</div>
+<meta property="fb:admins" content="100005721999498">
+<meta property="fb:page_id" content="XXXXX">
+<meta property="fb:app_id" content="XXXX">
+<meta property="og:site_name" content="CountryLife">
+<meta property="og:type" content="article">
+
+<script type="text/javascript">document.documentElement.className = document.documentElement.className.replace('no-js','js');</script>
+
+<link rel="stylesheet" type="text/css" href="/styles/styles.css?v=b6df014" media="screen">
+<link rel="stylesheet" type="text/css" href="/styles/print.css?v=cba74ff" media="print">
+
+<link rel="preload" href="/webfonts/countrylife.woff2?v=26012022" as="font" type="font/woff2" crossorigin="anonymous"> 
+
+<!--[if (lt IE 9)]>
+<script src="/js/respond.min.js"></script>
+<![endif]-->
+
+<!-- http://realfavicongenerator.net/faq#why_so_many_files -->
+<meta name="apple-mobile-web-app-title" content="CountryLife">
+<meta name="application-name" content="CountryLife">
+<!-- Níže jsou favicon pro jednotlivá zařízení, záleží na pořadí! -->
+<link rel="apple-touch-icon" href="/img/icon/apple-touch-icon.png?v=35160e6"> <!-- iOS -->
+<link rel="icon" type="image/png" sizes="32x32" href="/img/icon/favicon-32x32.png?v=0a009c9"> <!-- IE -->
+<link rel="icon" type="image/png" sizes="192x192" href="/img/icon/favicon-192x192.png?v=7ad472d"> <!-- Android -->
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=4b01bc2"> <!-- Chrome, FF -->
+<meta name="msapplication-TileColor" content="#000000"> <!-- Windows Metro -->
+<meta name="msapplication-TileImage" content="/img/icon/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="image_src" type="image/jpg" href="/img/logo.png">
+
+<script type="text/javascript">
+var a="wdnidOD1r8PKr%2bUo2yj0Rwr%2fWwVI3kUt8Jhv%2bonGFz4VCVL3dDzUGw%3d%3d",spSrc=("https:"==document.location.protocol?"https":"http")+"://tracker.mail-komplet.cz/tracker.js?instance="+encodeURI(a);
+document.write(unescape("%3Cscript src='"+spSrc+"' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</head>
+
+<body class="version-cs">
+<!-- Google Tag Manager Noscript -->
+<noscript>
+	<iframe src="//www.googletagmanager.com/ns.html?id=GTM-KR5PDM" height="0" width="0"
+			style="display:none;visibility:hidden">
+	</iframe>
+</noscript>
+<!-- End Google Tag Manager Noscript -->
+
+	<div id="outer-wrap">
+<div id="header">
+	<p id="nav-skip">
+		<a href="#main" accesskey="2" title="Přejít k obsahu (Klávesová zkratka: Alt + 2)">Přejít k obsahu</a>
+		<span class="hidden">|</span>
+		<a href="#main-menu">Přejít k hlavnímu menu</a>
+		<span class="hidden">|</span>
+		<a href="#search-box">Přejít k vyhledávání</a>
+		<span class="hidden">|</span>
+        <a href="#user-box">Menu uživatel</a>
+	</p>
+		<p id="logo">
+		<a href="/">
+			<img src="/img/logo.png?v=84f1ffd" srcset="/img/logo.png?v=84f1ffd, /img/logo2x.png?v=da32417 2x" width="268" height="60" alt="CountryLife">
+		</a>
+	</p>
+	<img src="/img/logo-print.png" class="print-only" alt="">
+</div>
+
+<div id="main" class="mag-page">
+	<div class="page-head page-head-img" style="background-image:url('/data/images/img-title-background/5/9875.jpg')">
+		<div class="inner">
+<p id="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+		<span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+			<a href="/jak-na-miso-polevku-krok-za-krokem" itemprop="item">
+				<span itemprop="name">Biopotraviny Country Life</span>
+				<meta itemprop="position" content="1">
+			</a>
+		</span>
+		<span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+			<a href="/magazin-a-recepty" itemprop="item">
+				<span itemprop="name">Blog a recepty</span>
+				<meta itemprop="position" content="2">
+			</a>
+		</span>
+		<span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+			<a href="/blog" itemprop="item">
+				<span itemprop="name">Blog</span>
+				<meta itemprop="position" content="3">
+			</a>
+		</span>
+</p>
+			<p class="h1">Blog a recepty</p>
+		</div>
+<div class="head-menu">
+	<ul class="reset">
+		<li>
+			<a href="/recepty"><span class="name">Recepty</span></a>
+		</li>
+		<li>
+			<a href="/dobroty"><span class="name">Časopis Dobroty</span></a>
+		</li>
+		<li>
+			<a href="/bioserial"><span class="name">Bioseriál</span></a>
+		</li>
+		<li>
+			<a href="/blog"><span class="name">Blog</span></a>
+		</li>
+		<li>
+			<a href="/kosmeticky-blog"><span class="name">Kosmetický blog</span></a>
+		</li>
+	</ul>
+</div>	</div>
+	<div class="in-box in-box-v-padding">
+		<div class="cols-mag">
+			<div class="col-content">
+				<div class="mag-head">
+					<p class="img">
+						<span class="img-box img-box--cover img-box--lazy img-box--fixed-ratio img-box--no-before">
+							<span class="img-box__ratio" style="padding-top: 40.8163265306122%"></span>
+							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-original="/data/images/img-article-detail/6/10166.jpg" alt="Jak na miso polévku krok za krokem" class="img-box__img lazy" width="980" height="350"><span class="lazy-spinner"></span><noscript><img src="/data/images/img-article-detail/6/10166.jpg" alt="Jak na miso polévku krok za krokem" class="img-box__img" width="980" height="350"></noscript>
+						</span>
+					</p>
+					<h1>Jak na miso polévku krok za krokem</h1>
+					<p class="info">
+						<strong class="date">09.01. 2019</strong>
+							<span class="sep">|</span>
+							<a href="/blog" class="sub">Blog</a>
+					</p>
+				</div>
+
+<div class="page-share page-share--article">
+	<h2 class="vhide">Sdílejte</h2>
+	<p class="page-share__icons center">
+		<a onclick="return ! window.open(this.href,'_blank','width=600,height=350');" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.countrylife.cz%2Fjak-na-miso-polevku-krok-za-krokem" class="page-share__link page-share__link--centered icon-facebook" target="_blank" title="Sdílet na&nbsp;Facebook">Sdílet na&nbsp;Facebook</a>
+		<a onclick="return ! window.open(this.href,'_blank','width=600,height=480');" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.countrylife.cz%2Fjak-na-miso-polevku-krok-za-krokem&via=countrylife_BIO" class="page-share__link page-share__link--centered icon-twitter" target="_blank" title="Sdílet na&nbsp;Twitter">Sdílet na&nbsp;Twitter</a>
+		<a onclick="return ! window.open(this.href,'_blank','width=600,height=350');" href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.countrylife.cz%2Fjak-na-miso-polevku-krok-za-krokem&media=https://www.countrylife.cz/data/images/$imageSize/6/10166.jpg&description=Jak+na+miso+pol%C3%A9vku+krok+za+krokem" class="page-share__link  page-share__link--centered icon-pinterest" target="_blank" title="Sdílet na&nbsp;Pinterest">Sdílet na&nbsp;Pinterest</a>
+	</p>
+</div>
+
+				<p class="annot content-padding">
+					V mnoha kulturách a kuchyních je běžné, že se ke snídani podává polévka. V Japonsku takto konzumují miso polévku. I kdyby takový typ snídaně nebyl váš šálek čaje, stojí tato aromatická a lehká polévka určitě za vyzkoušení.
+				</p>
+				<div id="content" class="content-padding">
+					<h3>1. Vývar&nbsp;dashi</h3>
+
+<p>Základem miso polévky je vývar dashi. Nejběžněji se připravuje z mořských řas a uzených sušených ryb, ve vegetariánské verzi jen z mořských řas. Na 1 l vody je potřeba 30 g mořské řasy kombu. Dashi se dá připravit dvěma způsoby – jako běžný vývar nebo zastudena jako výluh.</p>
+
+<p>Dashi jako vývar – na rozdíl od našich zeleninových nebo masových vývarů je velmi rychle hotový. Řasu namočte do studené vody a na středním ohni přiveďte k varu. Jakmile se voda začne vařit, řasu odstraňte. Tímto je dashi hotové. Pro silnější chuť vývaru řasu nejprve namočte na 20 minut do studené vody.</p>
+
+<p>Dashi připravené za studena – řasu namočte do studené vody a nechte nejméně 2 hodiny, ale ještě lépe 6 hodin luhovat. Poté řasu vyjměte (můžete ji použít v jiném jídle, ale přímo v miso polévce ji v Japonsku nepoužívají). &nbsp;</p>
+
+<h3>2. Pevné suroviny</h3>
+
+<p>Vývar dashi přiveďte k varu (pokud jste ho připravovali za studena) a přidejte další suroviny – těmi mohou být houby (šitake, hlíva ústřičná), kořenová zelenina pokrájená na kostky nebo proužky, brambory nebo dýně také pokrájené na kostky (pevné suroviny, které se nemají vařit – tedy např. listová zelenina jako špenát či mangold – se přidávají až úplně na konci). &nbsp;Uvařte do změknutí.</p>
+
+<h3>3. Miso</h3>
+
+<p>Když jsou všechny suroviny měkké, rozmíchejte v polévce <a href="https://www.countrylife.cz/jak-se-vyrabeji-miso-pasty">miso</a>, na 1 litr polévky budete potřebovat 75–100 g (miso dejte do naběračky, do ní naberte trochu tekutiny z hrnce, miso v ní vidličkou nebo metličkou rozmíchejte a vraťte zpět do polévky). Rozeznává se několik druhů této slané pasty, obecně platí, že čím je miso tmavší, tím je jeho chuť intenzivnější. Po přidání misa by se polévka už neměla vařit.&nbsp;</p>
+
+<p>Nakonec přidávejte ty suroviny, které stačí jen prohřát – bílé tofu nebo hedvábné tofu pokrájené na kostky, zelenou cibulku nebo listovou zeleninu.&nbsp;</p>
+
+<h3>Hotová miso polévka</h3>
+
+<p>Nemáte čas nebo možnost vývar připravovat? Pak zkuste hotovou miso polévku, kterou stačí zalít vroucí vodou (a případně přidat tofu nebo jiné suroviny podle libosti). Nemusíte se bát, že by v těchto polévkách byly nějaké nežádoucí složky jako glutamát, obsahují jen miso a extrakt z mořských řas.</p>
+
+<p>Vyzkoušejte naši&nbsp;dýňovou miso polévku:</p>
+
+<div class="video"><iframe allow="autoplay; encrypted-media" allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/j3W5RYEwGoo" width="100%"></iframe></div>
+
+				</div>
+
+				<div class="mag-author">
+				</div>
+
+				<div class="product-sec js-product-list">
+					<div class="product-list product-list-max-4 center" id="product-list-recommend">
+						<ul class="reset">
+
+<li class="item  ">
+	<div class="spc">
+		<a href="/miso-genmai-hneda-ryze-400g-muso" class="top">
+			<h2 class="title">
+				<span class="img">
+					<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-original="/data/images/img-small/3/5053.jpg" alt="Miso genmai hnědá rýže 400 g   MUSO" width="200" height="200" class="lazy"><span class="lazy-spinner"></span><noscript><img src="/data/images/img-small/3/5053.jpg" alt="Miso genmai hnědá rýže 400 g   MUSO" width="200" height="200"></noscript>
+				</span>
+				<span class="name">Miso genmai hnědá rýže 400 g   MUSO</span>
+			</h2>
+
+			<span class="status-wrap">
+			</span>
+
+			<p class="availability">
+				<span class="green">
+						Skladem
+				</span>
+			</p>
+			<p class="price">
+				<strong>86,00 Kč</strong>
+			</p>
+		</a>
+		<div class="bottom">
+<form action="/jak-na-miso-polevku-krok-za-krokem" method="post" id="frm-productBox-18660-buyBox-buyBoxForm">
+	<p class="input">
+		<label class="inp-number inp-number--s" for="frm-productBox-18660-buyBox-buyBoxForm-quantity">
+			<input class="inp-number__input inp-text inp-text-s" type="number" name="quantity" min="1" max="99" step="1" id="frm-productBox-18660-buyBox-buyBoxForm-quantity" data-nette-rules='[{"op":":filled","rules":[{"op":":float","msg":"forms.form.FLOAT"}],"control":"quantity"}]' value="1">
+			<span class="inp-number__pieces">ks</span>
+		</label>
+	</p>
+	<p class="button">
+		<button class="btn btn-s icon-kosik thickbox ajax" data-no-spinner data-ajax-off="history" type="submit" name="addToBasket" value="_button_addToBasket">
+			<span>Do košíku</span>
+		</button>
+	</p>
+<input type="hidden" name="do" value="productBox-18660-buyBox-buyBoxForm-submit"><!--[if IE]><input type=IEbug disabled style="display:none"><![endif]-->
+</form>
+
+		</div>
+<a href="/nakupni-seznam-pridani?product=18660" data-no-spinner data-ajax-off="history" title="Do nákupního seznamu" class="ajax thickbox fav icon-srdicko2">Do nákupního seznamu</a>
+	</div>
+</li>
+
+<li class="item  item-not-in-store">
+	<div class="spc">
+		<a href="/morske-rasy-kombu-50-g-muso" class="top">
+			<h2 class="title">
+				<span class="img">
+					<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-original="/data/images/img-small/1/11721.jpg" alt="Mořské řasy Kombu 50 g   MUSO" width="200" height="200" class="lazy"><span class="lazy-spinner"></span><noscript><img src="/data/images/img-small/1/11721.jpg" alt="Mořské řasy Kombu 50 g   MUSO" width="200" height="200"></noscript>
+				</span>
+				<span class="name">Mořské řasy Kombu 50 g   MUSO</span>
+			</h2>
+
+			<span class="status-wrap">
+			</span>
+
+			<p class="availability">
+				<span class="">
+						Nedostupné
+				</span>
+			</p>
+			<p class="price">
+				<strong>164,00 Kč</strong>
+				<span class="unit-price">
+					328,00 Kč za&nbsp;100&nbsp;g
+				</span>
+			</p>
+		</a>
+		<div class="bottom">
+
+			<p class="button">
+				<a class="btn btn-s icon-dog thickbox ajax" data-thickbox-width="560" href="/hlidaci-pes-pridani-produktu?product=17727" data-no-spinner data-ajax-off="history">
+					<span>Hlídací pes</span>
+				</a>
+			</p>
+		</div>
+<a href="/nakupni-seznam-pridani?product=17727" data-no-spinner data-ajax-off="history" title="Do nákupního seznamu" class="ajax thickbox fav icon-srdicko2">Do nákupního seznamu</a>
+	</div>
+</li>
+
+<li class="item  ">
+	<div class="spc">
+		<a href="/polevka-miso-6x10g-60-g-bio-muso" class="top">
+			<h2 class="title">
+				<span class="img">
+					<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-original="/data/images/img-small/6/10706.jpg" alt="Polévka Miso (6x10g) 60 g BIO   MUSO" width="200" height="200" class="lazy"><span class="lazy-spinner"></span><noscript><img src="/data/images/img-small/6/10706.jpg" alt="Polévka Miso (6x10g) 60 g BIO   MUSO" width="200" height="200"></noscript>
+				</span>
+				<span class="name">Polévka Miso (6x10g) 60 g BIO   MUSO</span>
+			</h2>
+
+			<span class="status-wrap">
+			</span>
+
+			<p class="availability">
+				<span class="green">
+						Skladem
+				</span>
+			</p>
+			<p class="price">
+				<strong>149,00 Kč</strong>
+				<span class="unit-price">
+					248,33 Kč za&nbsp;100&nbsp;g
+				</span>
+			</p>
+		</a>
+		<div class="bottom">
+<form action="/jak-na-miso-polevku-krok-za-krokem" method="post" id="frm-productBox-18692-buyBox-buyBoxForm">
+	<p class="input">
+		<label class="inp-number inp-number--s" for="frm-productBox-18692-buyBox-buyBoxForm-quantity">
+			<input class="inp-number__input inp-text inp-text-s" type="number" name="quantity" min="1" max="99" step="1" id="frm-productBox-18692-buyBox-buyBoxForm-quantity" data-nette-rules='[{"op":":filled","rules":[{"op":":float","msg":"forms.form.FLOAT"}],"control":"quantity"}]' value="1">
+			<span class="inp-number__pieces">ks</span>
+		</label>
+	</p>
+	<p class="button">
+		<button class="btn btn-s icon-kosik thickbox ajax" data-no-spinner data-ajax-off="history" type="submit" name="addToBasket" value="_button_addToBasket">
+			<span>Do košíku</span>
+		</button>
+	</p>
+<input type="hidden" name="do" value="productBox-18692-buyBox-buyBoxForm-submit"><!--[if IE]><input type=IEbug disabled style="display:none"><![endif]-->
+</form>
+
+		</div>
+<a href="/nakupni-seznam-pridani?product=18692" data-no-spinner data-ajax-off="history" title="Do nákupního seznamu" class="ajax thickbox fav icon-srdicko2">Do nákupního seznamu</a>
+	</div>
+</li>
+
+<li class="item  ">
+	<div class="spc">
+		<a href="/miso-hatcho-soja-400-g-muso" class="top">
+			<h2 class="title">
+				<span class="img">
+					<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-original="/data/images/img-small/9/11719.jpg" alt="Miso hatcho sója 400 g   MUSO" width="200" height="200" class="lazy"><span class="lazy-spinner"></span><noscript><img src="/data/images/img-small/9/11719.jpg" alt="Miso hatcho sója 400 g   MUSO" width="200" height="200"></noscript>
+				</span>
+				<span class="name">Miso hatcho sója 400 g   MUSO</span>
+			</h2>
+
+			<span class="status-wrap">
+			</span>
+
+			<p class="availability">
+				<span class="green">
+						Skladem
+				</span>
+			</p>
+			<p class="price">
+				<strong>161,00 Kč</strong>
+				<span class="unit-price">
+					40,25 Kč za&nbsp;100&nbsp;g
+				</span>
+			</p>
+		</a>
+		<div class="bottom">
+<form action="/jak-na-miso-polevku-krok-za-krokem" method="post" id="frm-productBox-16016-buyBox-buyBoxForm">
+	<p class="input">
+		<label class="inp-number inp-number--s" for="frm-productBox-16016-buyBox-buyBoxForm-quantity">
+			<input class="inp-number__input inp-text inp-text-s" type="number" name="quantity" min="1" max="99" step="1" id="frm-productBox-16016-buyBox-buyBoxForm-quantity" data-nette-rules='[{"op":":filled","rules":[{"op":":float","msg":"forms.form.FLOAT"}],"control":"quantity"}]' value="1">
+			<span class="inp-number__pieces">ks</span>
+		</label>
+	</p>
+	<p class="button">
+		<button class="btn btn-s icon-kosik thickbox ajax" data-no-spinner data-ajax-off="history" type="submit" name="addToBasket" value="_button_addToBasket">
+			<span>Do košíku</span>
+		</button>
+	</p>
+<input type="hidden" name="do" value="productBox-16016-buyBox-buyBoxForm-submit"><!--[if IE]><input type=IEbug disabled style="display:none"><![endif]-->
+</form>
+
+		</div>
+<a href="/nakupni-seznam-pridani?product=16016" data-no-spinner data-ajax-off="history" title="Do nákupního seznamu" class="ajax thickbox fav icon-srdicko2">Do nákupního seznamu</a>
+	</div>
+</li>
+
+<li class="item js-hide ">
+	<div class="spc">
+		<a href="/miso-genmai-soja-250-g-bio-muso" class="top">
+			<h2 class="title">
+				<span class="img">
+					<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-original="/data/images/img-small/3/11733.jpg" alt="Miso genmai sója 250 g BIO   MUSO" width="200" height="200" class="lazy"><span class="lazy-spinner"></span><noscript><img src="/data/images/img-small/3/11733.jpg" alt="Miso genmai sója 250 g BIO   MUSO" width="200" height="200"></noscript>
+				</span>
+				<span class="name">Miso genmai sója 250 g BIO   MUSO</span>
+			</h2>
+
+			<span class="status-wrap">
+			</span>
+
+			<p class="availability">
+				<span class="green">
+						Skladem
+				</span>
+			</p>
+			<p class="price">
+				<strong>175,00 Kč</strong>
+				<span class="unit-price">
+					70,00 Kč za&nbsp;100&nbsp;g
+				</span>
+			</p>
+		</a>
+		<div class="bottom">
+<form action="/jak-na-miso-polevku-krok-za-krokem" method="post" id="frm-productBox-21107-buyBox-buyBoxForm">
+	<p class="input">
+		<label class="inp-number inp-number--s" for="frm-productBox-21107-buyBox-buyBoxForm-quantity">
+			<input class="inp-number__input inp-text inp-text-s" type="number" name="quantity" min="1" max="99" step="1" id="frm-productBox-21107-buyBox-buyBoxForm-quantity" data-nette-rules='[{"op":":filled","rules":[{"op":":float","msg":"forms.form.FLOAT"}],"control":"quantity"}]' value="1">
+			<span class="inp-number__pieces">ks</span>
+		</label>
+	</p>
+	<p class="button">
+		<button class="btn btn-s icon-kosik thickbox ajax" data-no-spinner data-ajax-off="history" type="submit" name="addToBasket" value="_button_addToBasket">
+			<span>Do košíku</span>
+		</button>
+	</p>
+<input type="hidden" name="do" value="productBox-21107-buyBox-buyBoxForm-submit"><!--[if IE]><input type=IEbug disabled style="display:none"><![endif]-->
+</form>
+
+		</div>
+<a href="/nakupni-seznam-pridani?product=21107" data-no-spinner data-ajax-off="history" title="Do nákupního seznamu" class="ajax thickbox fav icon-srdicko2">Do nákupního seznamu</a>
+	</div>
+</li>
+						</ul>
+					</div>
+					<p class="button js-product-control">
+						<a href="#product-list-recommend" class="btn js-scroll">
+							<span class="product-list__button--more">Všechny produkty <span class="extend">z článku</span><i class="icon-sipka-dolu u-fz-15 u-va-t u-ml-10" aria-hidden="true"></i></span>
+							<span class="product-list__button--less">Sbalit produkty<i class="icon-sipka-nahoru u-fz-15 u-va-t u-ml-10" aria-hidden="true"></i></span>
+						</a>
+					</p>
+				</div>
+
+				<h2 class="center">Další články k tématu</h2>
+				<div class="article-receipt-list">
+					<ul class="reset">
+						<li class="item-article">
+							<div class="spc">
+								<a href="/jak-se-vyrabeji-miso-pasty" class="link">
+									<p class="img">
+										<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-original="/data/images/img-article-smaller/8/6978.jpg" alt="Miso pasty: jak se vyrábějí a jak je použít" width="250" height="250" class="lazy"><span class="lazy-spinner"></span><noscript><img src="/data/images/img-article-smaller/8/6978.jpg" alt="Miso pasty: jak se vyrábějí a jak je použít" width="250" height="250"></noscript>
+									</p>
+									<h3 class="title">Miso pasty: jak se vyrábějí a jak je použít</h3>
+								</a>
+								<p class="content">
+									Miso pasty sice pocházejí z Japonska, ale fungují jako výborné univerzální ochucovadlo, které se uplatní v jakékoli kuchyni. Je používat? Podívejte se na video!
+									<a href="/jak-se-vyrabeji-miso-pasty">Více</a>
+								</p>
+								<p class="info">
+									<strong class="date">20.03. 2017</strong>
+										<span class="sep">|</span>
+										<a href="/blog" class="sub">Blog</a>
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-side">
+
+<h2>
+	Aktuální číslo našich Dobrot
+</h2>
+<p class="img">
+	<a href="/dobroty">
+		<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-original="/data/images/img-dobroty-footer/9/17599.jpg" alt="Dobroty 31 jaro-léto 2022" width="275" height="341" class="lazy"><span class="lazy-spinner"></span><noscript><img src="/data/images/img-dobroty-footer/9/17599.jpg" alt="Dobroty 31 jaro-léto 2022" width="275" height="341"></noscript>
+	</a>
+</p>
+
+<form class="box-nl-form ajax ajax-wrap" action="/jak-na-miso-polevku-krok-za-krokem" method="post" novalidate="novalidate" id="frm-subscribeNewsletterArticle-subscribeNewsletterForm">
+<div id="snippet-subscribeNewsletterArticle-flashMessage-flashMessage"></div>	<div class="wrap">
+		<div class="text">
+			<h2 class="title"><label for="nl-email2">Sklízejte čerstvé novinky</label></h2>
+			<div class="desc">
+				<p>
+					Okuste dobroty, zdravé recepty a slevy přímo na vašem <span class="nobr">e-mailu</span>.
+				</p>
+			</div>
+		</div>
+		<p class="inputs inputs-text-btn">
+			<input class="inp-text inp-text-transparent inp-text-gold" type="email" name="nlEmail" id="frm-subscribeNewsletterArticle-subscribeNewsletterForm-nlEmail" required data-nette-rules='[{"op":":filled","msg":"Prosím vyplňte email"},{"op":":filled","rules":[{"op":":email","msg":"Nebyla zadána platná emailová adresa"}],"control":"nlEmail"}]' data-nette-empty-value="&#64;" value="&#64;">
+			<button class="btn btn-gold" type="submit"><span>Přihlásit</span></button>
+		</p>
+	</div>
+<input type="hidden" name="do" value="subscribeNewsletterArticle-subscribeNewsletterForm-submit"></form>
+			</div>
+			<div class="break"></div>
+		</div>
+
+	</div>
+</div>
+
+<script type="application/ld+json" id="snippet-richSnippet-richSnippet">
+	{"@context":"http:\/\/schema.org","@type":"Article","mainEntityOfPage":"https:\/\/www.countrylife.cz\/jak-na-miso-polevku-krok-za-krokem","datePublished":"2019-01-09","dateModified":"2019-01-09","inLanguage":"cs-CZ","name":"Jak na miso polévku krok za krokem","headline":"Jak na miso polévku krok za krokem","description":"V mnoha kulturách a kuchyních je běžné, že se ke snídani podává polévka. V Japonsku takto konzumují miso polévku. I kdyby takový typ snídaně nebyl váš šálek čaje, stojí tato aromatická a lehká polévka určitě za vyzkoušení.","thumbnailUrl":"https:\/\/www.countrylife.cz\/data\/images\/img-large\/6\/10166.jpg","articleBody":"<h3>1. Vývar&nbsp;dashi<\/h3>\n\n<p>Základem miso polévky je vývar dashi. Nejběžněji se připravuje z mořských řas a uzených sušených ryb, ve vegetariánské verzi jen z mořských řas. Na 1 l vody je potřeba 30 g mořské řasy kombu. Dashi se dá připravit dvěma způsoby – jako běžný vývar nebo zastudena jako výluh.<\/p>\n\n<p>Dashi jako vývar – na rozdíl od našich zeleninových nebo masových vývarů je velmi rychle hotový. Řasu namočte do studené vody a na středním ohni přiveďte k varu. Jakmile se voda začne vařit, řasu odstraňte. Tímto je dashi hotové. Pro silnější chuť vývaru řasu nejprve namočte na 20 minut do studené vody.<\/p>\n\n<p>Dashi připravené za studena – řasu namočte do studené vody a nechte nejméně 2 hodiny, ale ještě lépe 6 hodin luhovat. Poté řasu vyjměte (můžete ji použít v jiném jídle, ale přímo v miso polévce ji v Japonsku nepoužívají). &nbsp;<\/p>\n\n<h3>2. Pevné suroviny<\/h3>\n\n<p>Vývar dashi přiveďte k varu (pokud jste ho připravovali za studena) a přidejte další suroviny – těmi mohou být houby (šitake, hlíva ústřičná), kořenová zelenina pokrájená na kostky nebo proužky, brambory nebo dýně také pokrájené na kostky (pevné suroviny, které se nemají vařit – tedy např. listová zelenina jako špenát či mangold – se přidávají až úplně na konci). &nbsp;Uvařte do změknutí.<\/p>\n\n<h3>3. Miso<\/h3>\n\n<p>Když jsou všechny suroviny měkké, rozmíchejte v polévce <a href=\"https:\/\/www.countrylife.cz\/jak-se-vyrabeji-miso-pasty\">miso<\/a>, na 1 litr polévky budete potřebovat 75–100 g (miso dejte do naběračky, do ní naberte trochu tekutiny z hrnce, miso v ní vidličkou nebo metličkou rozmíchejte a vraťte zpět do polévky). Rozeznává se několik druhů této slané pasty, obecně platí, že čím je miso tmavší, tím je jeho chuť intenzivnější. Po přidání misa by se polévka už neměla vařit.&nbsp;<\/p>\n\n<p>Nakonec přidávejte ty suroviny, které stačí jen prohřát – bílé tofu nebo hedvábné tofu pokrájené na kostky, zelenou cibulku nebo listovou zeleninu.&nbsp;<\/p>\n\n<h3>Hotová miso polévka<\/h3>\n\n<p>Nemáte čas nebo možnost vývar připravovat? Pak zkuste hotovou miso polévku, kterou stačí zalít vroucí vodou (a případně přidat tofu nebo jiné suroviny podle libosti). Nemusíte se bát, že by v těchto polévkách byly nějaké nežádoucí složky jako glutamát, obsahují jen miso a extrakt z mořských řas.<\/p>\n\n<p>Vyzkoušejte naši&nbsp;dýňovou miso polévku:<\/p>\n\n<div class=\"video\"><iframe allow=\"autoplay; encrypted-media\" allowfullscreen=\"\" frameborder=\"0\" src=\"https:\/\/www.youtube.com\/embed\/j3W5RYEwGoo\" width=\"100%\"><\/iframe><\/div>","publisher":{"@context":"https:\/\/schema.org","@type":"Organization","name":"CountryLife","url":"https:\/\/www.countrylife.cz","logo":"https:\/\/www.countrylife.cz\/img\/logo.png","slogan":"_richsnippet_organization_slogan"},"author":{"@type":"Person","name":"CountryLife"},"image":{"@type":"ImageObject","name":"Jak na miso polévku krok za krokem","url":"https:\/\/www.countrylife.cz\/data\/images\/img-large\/6\/10166.jpg","encodingFormat":"image\/jpeg","width":null,"height":null}}
+</script>
+
+
+		<div id="header-tools">
+<div id="main-menu" class="header-box">
+	<h2 class="ca-control"><a href="#main-menu">Menu</a></h2>
+	<div class="menu ca-box">
+		<ul class="level-1 reset">
+
+				<li class="item">
+					<a href="/akcni-produkty"><span class="inner">Akční produkty</span></a>
+
+				</li>
+				<li class="item has-sub">
+					<a href="/biopotraviny"><span class="inner">Biopotraviny</span></a>
+
+					<div class="sub">
+						<div class="in">
+							<p class="title-sub"><a href="/biopotraviny">Biopotraviny</a></p>
+
+<div class="icons-list icons-list--main-menu">
+	<ul class="reset icons-list__list">
+		<li class="icons-list__item">
+			<a href="/biopotraviny?p6=1" class="icons-list__link">
+				
+				<i
+				   aria-hidden="true" class="icons-list__icon icon icon-x-bio"></i><br>
+				<span class="icons-list__name">Bio</span>
+			</a>
+		</li>
+		<li class="icons-list__item">
+			<a href="/biopotraviny?p3=1" class="icons-list__link">
+				
+				<i
+				   aria-hidden="true" class="icons-list__icon icon icon-x-rostlinny"></i><br>
+				<span class="icons-list__name">Veganské</span>
+			</a>
+		</li>
+		<li class="icons-list__item">
+			<a href="/biopotraviny?p8=1" class="icons-list__link">
+				
+				<i
+				   aria-hidden="true" class="icons-list__icon icon icon-x-lepbezlep"></i><br>
+				<span class="icons-list__name">Bez lepku</span>
+			</a>
+		</li>
+		<li class="icons-list__item">
+			<a href="/biopotraviny?p7=1" class="icons-list__link">
+				
+				<i
+				   aria-hidden="true" class="icons-list__icon icon icon-x-prirbezlep"></i><br>
+				<span class="icons-list__name">Ze surovin bez lepku</span>
+			</a>
+		</li>
+		<li class="icons-list__item">
+			<a href="/biopotraviny?p5=1" class="icons-list__link">
+				
+				<i
+				   aria-hidden="true" class="icons-list__icon icon icon-x-pridanycukr"></i><br>
+				<span class="icons-list__name">Bez přidaného cukru</span>
+			</a>
+		</li>
+		<li class="icons-list__item">
+			<a href="/biopotraviny?p9=1" class="icons-list__link">
+				
+				<i
+				   aria-hidden="true" class="icons-list__icon icon icon-x-fairtrade"></i><br>
+				<span class="icons-list__name">Fair trade</span>
+			</a>
+		</li>
+	</ul>
+</div>
+
+							<ul class="level-2 reset">
+								<li class="title">
+									<a href="#">
+										zpět Biopotraviny
+									</a>
+								</li>
+								<li class="direct-link">
+									<a href="/biopotraviny">
+										jdi na: Biopotraviny
+									</a>
+								</li>
+
+									<li>
+										<a href="/ovoce-a-zelenina">Ovoce a zelenina</a>
+									</li>
+									<li>
+										<a href="/obiloviny">Obiloviny</a>
+									</li>
+									<li>
+										<a href="/lusteniny">Luštěniny</a>
+									</li>
+									<li>
+										<a href="/orechy-susene-plody">Ořechy, sušené plody</a>
+									</li>
+									<li>
+										<a href="/bezlepkove-pecivo">Bezlepkové pečivo</a>
+									</li>
+									<li>
+										<a href="/polotovary-a-smesi">Polotovary a směsi</a>
+									</li>
+									<li>
+										<a href="/nahrazky-masa-a-vajec">Náhražky masa a vajec</a>
+									</li>
+									<li>
+										<a href="/pomazanky-pastiky-dzemy">Pomázanky, paštiky, džemy</a>
+									</li>
+									<li>
+										<a href="/detska-vyziva">Dětská výživa</a>
+									</li>
+									<li>
+										<a href="/ochucovadla-a-sladidla">Ochucovadla a sladidla</a>
+									</li>
+									<li>
+										<a href="/napoje-a-caje">Nápoje a čaje</a>
+									</li>
+									<li>
+										<a href="/oleje">Oleje</a>
+									</li>
+									<li>
+										<a href="/morske-rasy">Mořské řasy</a>
+									</li>
+									<li>
+										<a href="/rostlinne-napoje-a-dezerty">Rostlinné nápoje a dezerty</a>
+									</li>
+									<li>
+										<a href="/pochutiny">Pochutiny</a>
+									</li>
+									<li>
+										<a href="/cerstve-pecivo">Pečivo</a>
+									</li>
+									<li>
+										<a href="/gastro-a-velka-baleni">Gastro a velká balení</a>
+									</li>
+									<li>
+										<a href="/doplnky-stravy">Doplňky stravy</a>
+									</li>
+									<li>
+										<a href="/vyrobky-pro-domacnost">Domácí přístroje a doplňky</a>
+									</li>
+									<li>
+										<a href="/ostatni-1475222548">Kuchařky a literatura</a>
+									</li>
+									<li>
+										<a href="/dzemy-marmelady-pyre">Džemy, marmelády, pyré</a>
+									</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="item has-sub">
+					<a href="/prirodni-kosmetika"><span class="inner">Přírodní kosmetika</span></a>
+
+					<div class="sub">
+						<div class="in">
+							<p class="title-sub"><a href="/prirodni-kosmetika">Přírodní kosmetika</a></p>
+
+
+							<ul class="level-2 reset">
+								<li class="title">
+									<a href="#">
+										zpět Přírodní kosmetika
+									</a>
+								</li>
+								<li class="direct-link">
+									<a href="/prirodni-kosmetika">
+										jdi na: Přírodní kosmetika
+									</a>
+								</li>
+
+									<li>
+										<a href="/telo">Tělo</a>
+									</li>
+									<li>
+										<a href="/plet">Pleť</a>
+									</li>
+									<li>
+										<a href="/vlasy">Vlasy</a>
+									</li>
+									<li>
+										<a href="/deti">Děti</a>
+									</li>
+									<li>
+										<a href="/ustni-hygiena">Ústní hygiena</a>
+									</li>
+									<li>
+										<a href="/aromaterapie">Aromaterapie</a>
+									</li>
+									<li>
+										<a href="/liceni">Líčení</a>
+									</li>
+									<li>
+										<a href="/opalovani">Opalování</a>
+									</li>
+									<li>
+										<a href="/intimni-pece">Intimní péče</a>
+									</li>
+									<li>
+										<a href="/muzi">Muži</a>
+									</li>
+									<li>
+										<a href="/vune-a-parfemy">Vůně a parfémy</a>
+									</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="item has-sub">
+					<a href="/ekologicka-drogerie"><span class="inner">Ekologická drogerie</span></a>
+
+					<div class="sub">
+						<div class="in">
+							<p class="title-sub"><a href="/ekologicka-drogerie">Ekologická drogerie</a></p>
+
+
+							<ul class="level-2 reset">
+								<li class="title">
+									<a href="#">
+										zpět Ekologická drogerie
+									</a>
+								</li>
+								<li class="direct-link">
+									<a href="/ekologicka-drogerie">
+										jdi na: Ekologická drogerie
+									</a>
+								</li>
+
+									<li>
+										<a href="/cistici-prostredky">Čisticí prostředky</a>
+									</li>
+									<li>
+										<a href="/praci-prostredky">Prací prostředky</a>
+									</li>
+									<li>
+										<a href="/pripravky-na-myti-nadobi">Přípravky na mytí nádobí</a>
+									</li>
+									<li>
+										<a href="/hygienicke-potreby">Hygienické potřeby</a>
+									</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="item has-sub">
+					<a href="/obchody?nn=2"><span class="inner">Prodejny</span></a>
+
+					<div class="sub">
+						<div class="in">
+							<p class="title-sub"><a href="/obchody?nn=2">Prodejny</a></p>
+
+
+							<ul class="level-2 reset">
+								<li class="title">
+									<a href="#">
+										zpět Prodejny
+									</a>
+								</li>
+								<li class="direct-link">
+									<a href="/obchody?nn=2">
+										jdi na: Prodejny
+									</a>
+								</li>
+
+									<li>
+										<a href="/prodejna-country-life-melantrichova">Prodejna Melantrichova</a>
+									</li>
+									<li>
+										<a href="/prodejna-prirodni-kosmetiky">Prodejna bio a přírodní kosmetiky</a>
+									</li>
+									<li>
+										<a href="/prodejna-country-life-francouzska">Prodejna Francouzská</a>
+									</li>
+									<li>
+										<a href="/prodejna-country-life-dejvice-praha">Prodejna Čs. armády</a>
+									</li>
+									<li>
+										<a href="/nove-prodejna-country-life-letna">Prodejna Korunovační</a>
+									</li>
+									<li>
+										<a href="/vzorkova-prodejna-strong-archa-strong">Prodejna Archa</a>
+									</li>
+									<li>
+										<a href="/nove-prodejna-rudna">Vzorková prodejna Rudná</a>
+									</li>
+									<li>
+										<a href="/kontakty-a-oteviraci-doba-1476966573">Kontakty a otevírací doba</a>
+									</li>
+									<li>
+										<a href="/nase-sluzby?nn=2">Naše služby</a>
+									</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="item has-sub">
+					<a href="/restaurace?nn=2"><span class="inner">Restaurace</span></a>
+
+					<div class="sub">
+						<div class="in">
+							<p class="title-sub"><a href="/restaurace?nn=2">Restaurace</a></p>
+
+
+							<ul class="level-2 reset">
+								<li class="title">
+									<a href="#">
+										zpět Restaurace
+									</a>
+								</li>
+								<li class="direct-link">
+									<a href="/restaurace?nn=2">
+										jdi na: Restaurace
+									</a>
+								</li>
+
+									<li>
+										<a href="/restaurace-country-life-melantrichova-praha">Restaurace Melantrichova</a>
+									</li>
+									<li>
+										<a href="/dejvice-restaurant">Restaurace Dejvice</a>
+									</li>
+									<li>
+										<a href="/kontakty-a-oteviraci-doba">Kontakty a otevírací doba</a>
+									</li>
+									<li>
+										<a href="/nase-sluzby">Naše služby</a>
+									</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="item has-sub">
+					<a href="/magazin-a-recepty"><span class="inner">Blog a recepty</span></a>
+
+					<div class="sub">
+						<div class="in">
+							<p class="title-sub"><a href="/magazin-a-recepty">Blog a recepty</a></p>
+
+
+							<ul class="level-2 reset">
+								<li class="title">
+									<a href="#">
+										zpět Blog a recepty
+									</a>
+								</li>
+								<li class="direct-link">
+									<a href="/magazin-a-recepty">
+										jdi na: Blog a recepty
+									</a>
+								</li>
+
+									<li>
+										<a href="/recepty">Recepty</a>
+									</li>
+									<li>
+										<a href="/dobroty">Časopis Dobroty</a>
+									</li>
+									<li>
+										<a href="/bioserial">Bioseriál</a>
+									</li>
+									<li>
+										<a href="/blog">Blog</a>
+									</li>
+									<li>
+										<a href="/kosmeticky-blog">Kosmetický blog</a>
+									</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="item has-sub">
+					<a href="/o-nas"><span class="inner">O nás</span></a>
+
+					<div class="sub">
+						<div class="in">
+							<p class="title-sub"><a href="/o-nas">O nás</a></p>
+
+
+							<ul class="level-2 reset">
+								<li class="title">
+									<a href="#">
+										zpět O nás
+									</a>
+								</li>
+								<li class="direct-link">
+									<a href="/o-nas">
+										jdi na: O nás
+									</a>
+								</li>
+
+									<li>
+										<a href="/o-country-life">O Country Life</a>
+									</li>
+									<li>
+										<a href="/nase-historie?nn=2">Naše historie</a>
+									</li>
+									<li>
+										<a href="/lide-z-country-life">Lidé z Country Life</a>
+									</li>
+									<li>
+										<a href="/kariera">Kariéra</a>
+									</li>
+									<li>
+										<a href="/kontakty">Kontakty</a>
+									</li>
+									<li>
+										<a href="/media">Média</a>
+									</li>
+									<li>
+										<a href="/tiskove-zpravy">Tiskové zprávy</a>
+									</li>
+								<li>
+									<a href="https://vo.countrylife.cz"><span class="inner">Velkoobchod</span></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+		</ul>
+	</div>
+</div>
+
+<form id="search-box" class="header-box" action="/vyhledavani">
+	<fieldset>
+		<h2 class="ca-control">
+			<a href="/vyhledavani"><span class="title">Hledejte</span></a>
+		</h2>
+		<div class="ca-box">
+			<p class="reset">
+				<label for="q" class="vhide">Hledáte:</label>
+				<input type="search" id="q" name="q" class="inp-text inp-text-transparent inp-text-green suggest js-input-placeholder-typewriter" data-placeholders-to-rotate='[&quot;bio rýže&quot;, &quot;ekologická drogerie&quot;, &quot;kuskus&quot;]' value="" data-suggest="/vyhledavani?do=suggest" autocomplete="off">
+				<button type="submit" class="btn"><span>Hledejte</span></button>
+			</p>
+			<div class="suggest-box"></div>
+		</div>
+	</fieldset>
+</form>
+
+<div id="user-box" class="header-box">
+	<h2 class="ca-control">
+		<a href="/prihlasit-se"><span class="title">Přihlášení</span></a>
+	</h2>
+
+
+	<div class="ca-box ca-pass">
+<div id="snippet-userBox-login-loginFormSnippet">		<form class="ajax ajax-wrap ca-login-box" data-ajax-pd="user-box-collapsable" action="/jak-na-miso-polevku-krok-za-krokem" method="post" novalidate="novalidate" id="frm-userBox-login-loginForm">
+			<fieldset>
+<div id="snippet-userBox-login-flashMessage-flashMessage"></div>				<p class="login-btns u-d-f">
+					<a href="/jak-na-miso-polevku-krok-za-krokem?do=fbLogin-open" class="btn btn-fb btn-full-width btn-s"><span>Přes Facebook</span></a>
+					<a href="/jak-na-miso-polevku-krok-za-krokem?do=googleLogin-open" class="btn btn-google btn-full-width btn-s"><span>Přes Google</span></a>
+				</p>
+				<p class="thin center">nebo přes e-mail</p>
+
+
+
+<p>
+	<span class="inp-combined filled">
+		<label for="frm-userBox-login-loginForm-email">E-mail, nebo uživatelské jméno</label>
+
+			<input type="email" name="email" id="frm-userBox-login-loginForm-email" required data-nette-rules='[{"op":":filled","msg":"Zadejte e-mail, nebo uživatelské jméno"},{"op":":filled","rules":[{"op":":email","msg":"Nebyla zadána platná emailová adresa"}],"control":"email"}]' data-nette-empty-value="&#64;" value="&#64;" class="inp-text">
+	</span>
+</p>
+
+
+
+<p>
+	<span class="inp-combined">
+		<label for="frm-userBox-login-loginForm-password">Heslo</label>
+
+			<input type="password" name="password" id="frm-userBox-login-loginForm-password" required data-nette-rules='[{"op":":filled","msg":"Zadejte heslo"}]' class="inp-text">
+	</span>
+</p>
+				<div class="jsHide hidden"><p class="col-h-l mt-reset"><label for="frm-userBox-login-loginForm-hash">Prosím nevyplňujte!</label><span class="inp-fix"><input type="text" name="hash" id="frm-userBox-login-loginForm-hash" data-nette-rules='[{"op":"~:filled","msg":"Jste spamovací robot?!"}]'><script type="text/javascript">
+				// Clear input value
+				var input = document.getElementById('frm-userBox-login-loginForm-hash');
+				input.value = '';
+
+				// Hide input and label
+				if (input.parentNode.parentNode.nodeName == 'P') {
+					// DefaultFormRenderer
+					input.parentNode.parentNode.style.display = 'none';
+				} else {
+					// Manual render
+					input.style.display = 'none';
+					var labels = input.parentNode.getElementsByTagName('label');
+					for (var i = 0; i < labels.length; i++) {  // find and hide label
+						if (labels[i].getAttribute('for') == 'frm-userBox-login-loginForm-hash') {
+							labels[i].style.display = 'none';
+						}
+					}
+				}
+			</script></span></p></div>
+				<p class="cfx">
+					<button class="btn l btn-s" type="submit" name="send" value="Přihlásit"><span>Přihlásit</span></button>
+					<a href="/zapomenute-heslo" class="r ca-pass-control">Zapomněli jste své heslo?</a>
+				</p>
+				<p class="center bg">
+					Nemáte účet? <a href="/registrace">Zaregistrujte se</a>
+				</p>
+			</fieldset>
+		<input type="hidden" name="redirect" value="0"><input type="hidden" name="do" value="userBox-login-loginForm-submit"></form>
+</div>
+	<div class="ca-pass-box">
+<div id="snippet-userBox-lostPassword-lostPass"><div id="snippet-userBox-lostPassword-flashMessage-flashMessage"></div>			<form class="ajax ajax-wrap " action="/jak-na-miso-polevku-krok-za-krokem" method="post" novalidate="novalidate" id="frm-userBox-lostPassword-lostPasswordForm">
+
+
+
+<p>
+	<span class="inp-combined filled">
+		<label for="frm-userBox-lostPassword-lostPasswordForm-email">E-mail</label>
+
+			<input type="email" name="email" id="frm-userBox-lostPassword-lostPasswordForm-email" required data-nette-rules='[{"op":":filled","msg":"Toto pole je vyžadováno."},{"op":":filled","rules":[{"op":":email","msg":"Nebyla zadána platná emailová adresa"}],"control":"email"}]' data-nette-empty-value="&#64;" value="&#64;" class="inp-text">
+	</span>
+</p>
+				<p>
+					<span><button class="btn btn-full-width g-recaptcha" id="frm-userBox-lostPassword-lostPasswordForm-send" name="send" data-sitekey="6Ld0xNEUAAAAAL4n0lywq41pH6BDSY8aeyxzw2La" data-callback="onRecaptchaFormSubmit" type="submit"><span>Chci nové heslo</span></button><script type="text/javascript" src="https://www.google.com/recaptcha/api.js"></script></span>
+				</p>
+				<p>
+					Tyto stránky jsou chráněny pomocí reCAPTCHA a platí <a href="https://policies.google.com/privacy">zásady ochrany osobních údajů</a> a <a href="https://policies.google.com/terms">smluvní podmínky</a> společnosti Google.
+				</p>
+				<p>
+					Žádný strach, na e-mail vám pošleme obratem nové heslo.<br> Pokud vám nepřišlo, zkontrolujte si spamovou schránku.
+				</p>
+			<input type="hidden" name="do" value="userBox-lostPassword-lostPasswordForm-submit"></form>
+</div>		<p class="center bg">
+			<a href="#" class="ca-pass-control">Chci se přihlásit</a>
+		</p>
+	</div>
+	</div>
+</div>
+
+<div id="basket-box" class="header-box">
+	<h2 class="ca-control">
+		<a href="/kosik" id="snippet-basketBox-basketBoxName"><span class="title">Košík</span></a>
+	</h2>
+
+	<div class="ca-box">
+		<div id="snippet-basketBox-basketBox">
+			<div class="empty-basket">
+				<p class="reset">
+					Nákupní košík je prázdný.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="lang-box" class="header-box">
+	<h2 class="ca-control">
+		<a href="#"><span class="flag flag-alone flag-cs"></span><span class="title"><span class="name"><strong class="big">CZ</strong><span class="big">/</span>Kč</span></span></a>
+	</h2>
+
+	<div class="ca-box">
+		<ul class="reset">
+			<li>
+				<a href="https://www.countrylife.cz/" class="flag flag-cs flag-active"><span class="name"><strong class="big">CZ</strong><span class="big">/</span>Kč</span></a>
+			</li>
+			<li>
+				<a href="https://www.countrylife.sk/" class="flag flag-sk "><span class="name"><strong class="big">SK</strong><span class="big">/</span>€</span></a>
+			</li>
+			<li>
+				<a href="https://www.countrylife.bio/" class="flag flag-en "><span class="name"><strong class="big">EN</strong><span class="big">/</span>€</span></a>
+			</li>
+		</ul>
+	</div>
+</div>
+		</div>
+
+<div id="snippet-compareBox-compareBox"></div>
+<div id="footer">
+	<div class="in-box">
+		<div class="footer-cols">
+			<div class="col-item col-first">
+<div class="item collapsable">
+	<h2 class="ca-control"><a href="/o-nas">O nás</a></h2>
+	<ul class="reset ca-box">
+		<li>
+			<a href="/kontakty?nn=1007">Kontakty</a>
+		</li>
+		<li>
+			<a href="/kariera?nn=1007">Kariéra</a>
+		</li>
+		<li>
+			<a href="/zpracovani-a-ochrana-osobnich-udaju-ve-spolecnosti-country-life">Zpracování a ochrana osobních údajů ve společnosti Country Life (GDPR)</a>
+		</li>
+		<li>
+			<a href="https://vo.countrylife.cz"><span class="inner">Velkoobchod</span></a>
+		</li>
+	</ul>
+</div>
+<div class="item collapsable">
+	<h2 class="ca-control"><a href="/mohlo-by-vas-zajimat">Mohlo by vás zajímat</a></h2>
+	<ul class="reset ca-box">
+		<li>
+			<a href="/vse-o-nakupu">Vše o nákupu v e-shopu</a>
+		</li>
+		<li>
+			<a href="/vsechny-znacky-ktere-prodavame">Všechny značky, které prodáváme</a>
+		</li>
+		<li>
+			<a href="/certifikaty-prirodni-a-bio-kosmetiky">Certifikáty přírodní a bio kosmetiky</a>
+		</li>
+	</ul>
+</div>
+			</div>
+			<div class="col-item col-center">
+<div class="item issue">
+	<div class="inner">
+		<h2>
+			 Časopis Dobroty
+		</h2>
+		<p class="img">
+			<a href="//www.countrylife.cz/dobroty">
+				<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-original="/data/images/img-dobroty-footer/9/17599.jpg" alt="Dobroty 31 jaro-léto 2022" width="275" height="341" class="lazy"><span class="lazy-spinner"></span><noscript><img src="/data/images/img-dobroty-footer/9/17599.jpg" alt="Dobroty 31 jaro-léto 2022" width="275" height="341"></noscript>
+			</a>
+		</p>
+	</div>
+</div>
+			</div>
+			<div class="col-item col-last">
+
+<div class="item nl collapsable">
+	<h2 class="ca-control"><a href="#">Přihlášení k odběru novinek</a></h2>
+	<div class="ca-box newsletter-box" id="snippet-footer-subscribeNewsletter-newsletterSubscriberSnippet">
+				<form id="newsletterSubscribeForm" class="ajax ajax-wrap" action="/jak-na-miso-polevku-krok-za-krokem#newsletterSubscribeForm" method="post" novalidate="novalidate">
+<div id="snippet-footer-subscribeNewsletter-flashMessage-flashMessage"></div>			<p class="inputs">
+				<input type="email" name="nlEmail" id="nl-email" required data-nette-rules='[{"op":":filled","msg":"Prosím vyplňte email"},{"op":":filled","rules":[{"op":":email","msg":"Nebyla zadána platná emailová adresa"}],"control":"nlEmail"}]' data-nette-empty-value="&#64;" value="&#64;" class="inp-text inp-text-transparent inp-text-gold">
+				<span><button data-ajax-pd="subscribeNewsletterFooter" class="btn btn-gold ajax g-recaptcha" id="frm-footer-subscribeNewsletter-subscribeNewsletterForm-nlSend" name="nlSend" data-sitekey="6Ld0xNEUAAAAAL4n0lywq41pH6BDSY8aeyxzw2La" data-callback="onRecaptchaFormSubmit" type="submit"><span>Přihlásit</span></button><script type="text/javascript" src="https://www.google.com/recaptcha/api.js"></script></span>
+			</p>
+            Tyto stránky jsou chráněny pomocí reCAPTCHA a platí <a href="https://policies.google.com/privacy">zásady ochrany osobních údajů</a> a <a href="https://policies.google.com/terms">smluvní podmínky</a> společnosti Google.
+		<input type="hidden" name="do" value="footer-subscribeNewsletter-subscribeNewsletterForm-submit"></form>
+	</div>
+</div>
+
+				<div class="item">
+<h2>Spojte se s námi</h2>
+<p class="icons">
+    <a href="//www.facebook.com/countrylife.cz/" class="icon-facebook" target="_blank">Sledujte nás na facebooku</a>
+    <a href="//www.instagram.com/countrylifebio/" class="icon-instagram" target="_blank">Sledujte nás na instgramu</a>
+    <a href="//www.youtube.com/channel/UCu1_mkyXJAR3FKf2lPmix3w" class="icon-youtube" target="_blank">Sledujte nás na youtube</a>
+    <a href="//www.linkedin.com/company/countrylife/" class="icon-linked-in" target="_blank">_label_social_linkedin</a>
+</p>
+
+					<p class="app-download">
+						<a href="https://itunes.apple.com/cz/app/id1386785016"
+						   target="itunes_store"
+						   class="app-download__link app-download__link--appstore">
+							<img class="app-download__img" width="135" height="40" loading="lazy" src="https://cdn2.asymbo.com/assets/img/app-bage/cz_bage_appstore.svg" alt="_label_app_download_app_store">
+						</a>
+
+						<a href="https://play.google.com/store/apps/details?id=com.asymbo.cz.countrylife"
+						   target="google_play"
+						   class="app-download__link app-download__link--google-play">
+							<img class="app-download__img" width="135" height="40" loading="lazy" src="https://cdn2.asymbo.com/assets/img/app-bage/cz_bage_googleplay.svg" alt="_label_app_download_google_play">
+						</a>
+					</p>
+
+				</div>
+			</div>
+		</div>
+		<p class="copy">
+			Autor grafického stylu <a href="http://www.najbrt.cz" target="_blank">Studio Najbrt</a>. Vytvořila společnost <a href="http://www.peckadesign.cz" target="_blank">PeckaDesign</a>. Přebírání materiálů je možné pouze s naším souhlasem.
+		</p>
+	</div>
+</div>
+		<div id="menu-overlay"></div>
+	</div>
+<script src="/js/combined.js?v=f874c6f"></script>
+
+	
+
+<div id="snippet--dataLayer"><div id="snippet-google-dataLayer-push"><script type="text/javascript">var dataLayer = dataLayer || [];var push = {"ecomm_prodid":null,"ecomm_pagetype":"other","ecomm_totalvalue":null};dataLayer.push(push);var dataLayer = dataLayer || [];var push = [];dataLayer.callable = dataLayer.callable || [];dataLayer.callable["onProductItem12837Add"] = push;var dataLayer = dataLayer || [];var push = {"ecommerce":{"impressions":[{"name":"Miso genmai hn\u011bd\u00e1 r\u00fd\u017ee 400\u00a0g   MUSO","id":18660,"category":"Shoyu, miso, tamari, umeboshi","price":74.78260869565219,"list":"Jak na miso pol\u00e9vku krok za krokem","position":1},{"name":"Mo\u0159sk\u00e9 \u0159asy Kombu 50\u00a0g   MUSO","id":17727,"category":"Mo\u0159sk\u00e9 \u0159asy","price":142.60869565217394,"list":"Jak na miso pol\u00e9vku krok za krokem","position":2},{"name":"Pol\u00e9vka Miso (6x10g) 60\u00a0g BIO   MUSO","id":18692,"category":"Pol\u00e9vky","price":129.56521739130434,"list":"Jak na miso pol\u00e9vku krok za krokem","position":3},{"name":"Miso hatcho s\u00f3ja 400\u00a0g   MUSO","id":16016,"category":"Shoyu, miso, tamari, umeboshi","price":140,"list":"Jak na miso pol\u00e9vku krok za krokem","position":4},{"name":"Miso genmai s\u00f3ja 250\u00a0g BIO   MUSO","id":21107,"category":"Shoyu, miso, tamari, umeboshi","price":152.17391304347828,"list":"Jak na miso pol\u00e9vku krok za krokem","position":5}]}};dataLayer.push(push);var dataLayer = dataLayer || [];var push = {"event":"productClick","ecommerce":{"click":{"actionField":{"list":"Jak na miso pol\u00e9vku krok za krokem"},"products":[{"name":"Miso genmai hn\u011bd\u00e1 r\u00fd\u017ee 400\u00a0g   MUSO","id":18660,"category":"Shoyu, miso, tamari, umeboshi","price":74.78260869565219,"list":"Jak na miso pol\u00e9vku krok za krokem","position":1}]}}};dataLayer.callable = dataLayer.callable || [];dataLayer.callable["onProductItem12837Jak na miso polévku krok za krokemClick"] = push;var dataLayer = dataLayer || [];var push = [];dataLayer.callable = dataLayer.callable || [];dataLayer.callable["onProductItem11927Add"] = push;var dataLayer = dataLayer || [];var push = {"event":"productClick","ecommerce":{"click":{"actionField":{"list":"Jak na miso pol\u00e9vku krok za krokem"},"products":[{"name":"Mo\u0159sk\u00e9 \u0159asy Kombu 50\u00a0g   MUSO","id":17727,"category":"Mo\u0159sk\u00e9 \u0159asy","price":142.60869565217394,"list":"Jak na miso pol\u00e9vku krok za krokem","position":2}]}}};dataLayer.callable = dataLayer.callable || [];dataLayer.callable["onProductItem11927Jak na miso polévku krok za krokemClick"] = push;var dataLayer = dataLayer || [];var push = [];dataLayer.callable = dataLayer.callable || [];dataLayer.callable["onProductItem12868Add"] = push;var dataLayer = dataLayer || [];var push = {"event":"productClick","ecommerce":{"click":{"actionField":{"list":"Jak na miso pol\u00e9vku krok za krokem"},"products":[{"name":"Pol\u00e9vka Miso (6x10g) 60\u00a0g BIO   MUSO","id":18692,"category":"Pol\u00e9vky","price":129.56521739130434,"list":"Jak na miso pol\u00e9vku krok za krokem","position":3}]}}};dataLayer.callable = dataLayer.callable || [];dataLayer.callable["onProductItem12868Jak na miso polévku krok za krokemClick"] = push;var dataLayer = dataLayer || [];var push = [];dataLayer.callable = dataLayer.callable || [];dataLayer.callable["onProductItem10217Add"] = push;var dataLayer = dataLayer || [];var push = {"event":"productClick","ecommerce":{"click":{"actionField":{"list":"Jak na miso pol\u00e9vku krok za krokem"},"products":[{"name":"Miso hatcho s\u00f3ja 400\u00a0g   MUSO","id":16016,"category":"Shoyu, miso, tamari, umeboshi","price":140,"list":"Jak na miso pol\u00e9vku krok za krokem","position":4}]}}};dataLayer.callable = dataLayer.callable || [];dataLayer.callable["onProductItem10217Jak na miso polévku krok za krokemClick"] = push;var dataLayer = dataLayer || [];var push = [];dataLayer.callable = dataLayer.callable || [];dataLayer.callable["onProductItem14551Add"] = push;var dataLayer = dataLayer || [];var push = {"event":"productClick","ecommerce":{"click":{"actionField":{"list":"Jak na miso pol\u00e9vku krok za krokem"},"products":[{"name":"Miso genmai s\u00f3ja 250\u00a0g BIO   MUSO","id":21107,"category":"Shoyu, miso, tamari, umeboshi","price":152.17391304347828,"list":"Jak na miso pol\u00e9vku krok za krokem","position":5}]}}};dataLayer.callable = dataLayer.callable || [];dataLayer.callable["onProductItem14551Jak na miso polévku krok za krokemClick"] = push;</script></div></div>
+<script type="application/ld+json">
+    {"@context":"https:\/\/schema.org","@type":"Organization","name":"CountryLife","url":"https:\/\/www.countrylife.cz","logo":"https:\/\/www.countrylife.cz\/img\/logo.png","slogan":"_richsnippet_organization_slogan"}
+</script>
+<script type="application/ld+json">
+    {"@context":"https:\/\/schema.org","@type":"Product","name":"CountryLife","aggregateRating":{"@type":"AggregateRating","ratingValue":"4.8","reviewCount":"2913"}}
+</script>
+</body>
+</html>
