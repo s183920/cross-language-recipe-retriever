@@ -1,61 +1,68 @@
 {
     "beef+mushrooms+pasta":
-        
         {
             "Hov\u011bz\u00ed maso na houb\u00e1ch - Recepty.cz - On-line kucha\u0159ka": {
                 "downloaded": true,
                 "link": "https://www.recepty.cz/recept/hovezi-maso-na-houbach-2-151472",
                 "rank_search_engine": 8,
                 "title": "Hov\u011bz\u00ed maso na houb\u00e1ch - Recepty.cz - On-line kucha\u0159ka",
-                "ranking_manual": 1
+                "ranking_manual": 0
             },
             "Hov\u011bz\u00ed maso na houb\u00e1ch recept - Va\u0159en\u00ed.cz": {
                 "downloaded": true,
                 "link": "https://www.vareni.cz/recepty/hovezi-maso-na-houbach/",
                 "rank_search_engine": 6,
-                "title": "Hov\u011bz\u00ed maso na houb\u00e1ch recept - Va\u0159en\u00ed.cz"
+                "title": "Hov\u011bz\u00ed maso na houb\u00e1ch recept - Va\u0159en\u00ed.cz",
+                "ranking_manual": 3
             },
             "Hov\u011bz\u00ed na houb\u00e1ch s t\u011bstovinami - Femina.cz": {
                 "downloaded": true,
                 "link": "https://www.femina.cz/hovezi-na-houbach-s-testovinami/",
                 "rank_search_engine": 1,
-                "title": "Hov\u011bz\u00ed na houb\u00e1ch s t\u011bstovinami - Femina.cz"
+                "title": "Hov\u011bz\u00ed na houb\u00e1ch s t\u011bstovinami - Femina.cz",
+                "ranking_manual": 3
             },
             "Hov\u011bz\u00ed na houb\u00e1ch s t\u011bstovinami - Recepty - CZ-MILKA.net": {
                 "downloaded": true,
                 "link": "https://www.cz-milka.net/recepty/hovezi-na-houbach-s-testovinami/",
                 "rank_search_engine": 7,
-                "title": "Hov\u011bz\u00ed na houb\u00e1ch s t\u011bstovinami - Recepty - CZ-MILKA.net"
+                "title": "Hov\u011bz\u00ed na houb\u00e1ch s t\u011bstovinami - Recepty - CZ-MILKA.net",
+                "ranking_manual": 2
             },
             "Hov\u011bz\u00ed na houb\u00e1ch s t\u011bstovinami Recept - Milujiva\u0159en\u00ed.cz": {
                 "downloaded": true,
                 "link": "http://www.milujivareni.cz/recepty/63171-hovezi-na-houbach-s-testovinami/",
                 "rank_search_engine": 2,
-                "title": "Hov\u011bz\u00ed na houb\u00e1ch s t\u011bstovinami Recept - Milujiva\u0159en\u00ed.cz"
+                "title": "Hov\u011bz\u00ed na houb\u00e1ch s t\u011bstovinami Recept - Milujiva\u0159en\u00ed.cz",
+                "ranking_manual": 2
             },
             "Hov\u011bz\u00ed pl\u00e1tky na houb\u00e1ch - TopRecepty.cz": {
                 "downloaded": true,
                 "link": "https://www.toprecepty.cz/recept/11009-hovezi-platky-na-houbach/",
                 "rank_search_engine": 4,
-                "title": "Hov\u011bz\u00ed pl\u00e1tky na houb\u00e1ch - TopRecepty.cz"
+                "title": "Hov\u011bz\u00ed pl\u00e1tky na houb\u00e1ch - TopRecepty.cz",
+                "ranking_manual": 0
             },
             "Recept: Hov\u011bz\u00ed na houb\u00e1ch s proteinov\u00fdmi t\u011bstovinami - Ketofit.cz": {
                 "downloaded": true,
                 "link": "https://www.ketofit.cz/hovezi-na-houbach-s-proteinovymi-testovinami",
                 "rank_search_engine": 9,
-                "title": "Recept: Hov\u011bz\u00ed na houb\u00e1ch s proteinov\u00fdmi t\u011bstovinami - Ketofit.cz"
+                "title": "Recept: Hov\u011bz\u00ed na houb\u00e1ch s proteinov\u00fdmi t\u011bstovinami - Ketofit.cz",
+                "ranking_manual": 3
             },
             "T\u011bstoviny s hov\u011bz\u00edm masem na h\u0159\u00edbk\u00e1ch recept - Jidlo.cz": {
                 "downloaded": true,
                 "link": "https://www.jidlo.cz/t%25C4%259Bstoviny%2Bs%2Bhov%25C4%259Bz%25C3%25ADm%2Bmasem%2Bna%2Bh%25C5%2599%25C3%25ADbk%25C3%25A1ch%2Brecept",
                 "rank_search_engine": 3,
-                "title": "T\u011bstoviny s hov\u011bz\u00edm masem na h\u0159\u00edbk\u00e1ch recept - Jidlo.cz"
+                "title": "T\u011bstoviny s hov\u011bz\u00edm masem na h\u0159\u00edbk\u00e1ch recept - Jidlo.cz",
+                "ranking_manual": 0
             },
             "\u0160pagety s hov\u011bz\u00edmi nudli\u010dkami na houb\u00e1ch - Recepty.cz": {
                 "downloaded": true,
                 "link": "https://www.recepty.cz/recept/spagety-s-hovezimi-nudlickami-na-houbach-18018",
                 "rank_search_engine": 5,
-                "title": "\u0160pagety s hov\u011bz\u00edmi nudli\u010dkami na houb\u00e1ch - Recepty.cz"
+                "title": "\u0160pagety s hov\u011bz\u00edmi nudli\u010dkami na houb\u00e1ch - Recepty.cz",
+                "ranking_manual": 3
             }
         }
 }
