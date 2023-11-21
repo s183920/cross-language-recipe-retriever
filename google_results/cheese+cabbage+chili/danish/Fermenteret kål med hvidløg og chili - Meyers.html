@@ -1,0 +1,1895 @@
+
+<!DOCTYPE html>
+<html lang="da" class="theme-kurser">
+<head>
+    
+
+
+<!-- Google Consent Mode default tag -->
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { window.dataLayer.push(arguments); }
+    gtag('consent', 'default', {
+        ad_storage: 'denied',
+        analytics_storage: 'denied',
+        wait_for_update: 500
+    });
+</script>
+<!-- End Google Consent Mode default tag -->
+<!-- Cookieinformation pop-up banner -->
+<script id="CookieConsent" src="https://policy.app.cookieinformation.com/uc.js" data-culture="DA" type="text/javascript"></script>
+<!-- End Cookieinformation pop-up banner -->
+<!-- Google Tag Manager -->
+<script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5CV7CKB');
+</script>
+<!-- End Google Tag Manager -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="/graphics/meyersfood/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/graphics/meyersfood/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/graphics/meyersfood/favicon-16x16.png">
+
+<link rel="mask-icon" href="/graphics/meyersfood/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/graphics/meyersfood/favicon.ico">
+<meta name="apple-mobile-web-app-title" content="Meyers">
+<meta name="application-name" content="Meyers">
+<meta name="msapplication-TileColor" content="#ffc40d">
+<meta name="msapplication-config" content="/graphics/meyersfood/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+
+<script>
+    window.addEventListener('CookieInformationConsentGiven', function (event) {
+        if (CookieInformation.getConsentGivenFor('cookie_cat_marketing')) {
+            !function (e, n, t, i, o, r) { function c(e) { if ("number" != typeof e) return e; var n = new Date; return new Date(n.getTime() + 1e3 * e) } var a = 4e3, s = "xnpe_async_hide"; function p(e) { return e.reduce((function (e, n) { return e[n] = function () { e._.push([n.toString(), arguments]) }, e }), { _: [] }) } function m(e, n, t) { var i = t.createElement(n); i.src = e; var o = t.getElementsByTagName(n)[0]; return o.parentNode.insertBefore(i, o), i } function u(e) { return "[object Date]" === Object.prototype.toString.call(e) } r.target = r.target || "https://api.exponea.com", r.file_path = r.file_path || r.target + "/js/exponea.min.js", o[n] = p(["anonymize", "initialize", "identify", "update", "track", "trackLink", "trackEnhancedEcommerce", "getHtml", "showHtml", "showBanner", "showWebLayer", "ping", "getAbTest", "loadDependency", "getRecommendation", "reloadWebLayers"]), o[n].notifications = p(["isAvailable", "isSubscribed", "subscribe", "unsubscribe"]), o[n]["snippetVersion"] = "v2.3.0", function (e, n, t) { e[n]["_" + t]
+ = {}, e[n]["_" + t].nowFn = Date.now, e[n]["_" + t].snippetStartTime = e[n]["_" + t].nowFn() }(o, n, "performance"), function (e, n, t, i, o, r) { e[o] = { sdk: e[i], sdkObjectName: i, skipExperiments: !!t.new_experiments, sign: t.token + "/" + (r.exec(n.cookie) || ["", "new"])[1], path: t.target } }(o, e, r, n, i, RegExp("__exponea_etc__" + "=([\\w-]+)")), function (e, n, t) { m(e.file_path, n, t) }(r, t, e), function (e, n, t, i, o, r, p) { if (e.new_experiments) { !0 === e.new_experiments && (e.new_experiments = {}); var f, l = e.new_experiments.hide_class || s, _ = e.new_experiments.timeout || a, d = encodeURIComponent(r.location.href.split("#")[0]); e.cookies && e.cookies.expires && ("number" == typeof e.cookies.expires || u(e.cookies.expires) ? f = c(e.cookies.expires) : e.cookies.expires.tracking && ("number" == typeof e.cookies.expires.tracking || u(e.cookies.expires.tracking)) && (f = c(e.cookies.expires.tracking))), f && f < new Date && (f = void 0); var x = e.target + "/webxp/" + n + "/" + r[t].sign + "/modifications.min.js?http-referer=" + d + "&timeout=" + _ + "ms" + (f ? "&cookie-expires=" + Math.floor(f.getTime() / 1e3) : ""); "sync" === e.new_experiments.mode && r.localStorage.getItem("__exponea__sync_modifications__") ? function (e, n, t, i, o) { t[o][n] = "<" + n + ' src="' + e + '"></' + n + ">", i.writeln(t[o][n]), i.writeln("<" + n + ">!" + o + ".init && document.writeln(" + o + "." + n + '.replace("/' + n + '/", "/' + n + '-async/").replace("><", " async><"))</' + n + ">") }(x, n, r, p, t) : function (e, n, t, i, o, r, c, a) { r.documentElement.classList.add(e); var s = m(t, i, r); function p() { o[a].init || m(t.replace("/" + i + "/", "/" + i + "-async/"), i, r) } function u() { r.documentElement.classList.remove(e) } s.onload = p, s.onerror = p, o.setTimeout(u, n), o[c]._revealPage = u }(l, _, x, n, r, p, o, t) } }(r, t, i, 0, n, o, e), function (e, n, t) { e[n].start = function (i) { i && Object.keys(i).forEach((function (e) { return t[e] = i[e] })), e[n].initialize(t) } }(o, n, r) }(document, "exponea", "script", "webxpClient", window, {
+                target: "https://api.eu1.exponea.com",
+                token: "d55ef54a-a288-11eb-bdc0-1a3b687de8ea",
+                track: {
+                    visits: true,
+                    google_analytics: false,
+                },
+            });
+            exponea.start();
+        }
+    }, false);
+</script>
+<script>
+    (function (w, d, s) {
+        if (w._dixa_) return;
+        w._dixa_ = {
+            invoke: function (m, a) {
+                w._dixa_.pendingCalls = w._dixa_.pendingCalls || [];
+                w._dixa_.pendingCalls.push([m, a]);
+            },
+            addListener: function (event, listener) {
+                w._dixa_.pendingAddListenerCalls = w._dixa_.pendingAddListenerCalls || []; w._dixa_.pendingAddListenerCalls.push([event, listener]);
+            },
+        };
+        s = d.createElement('script');
+        s.type = 'text/javascript';
+        s.setAttribute('charset', 'utf-8');
+        s.async = true;
+        s.src = 'https://messenger.dixa.io/bootstrap.js';
+        var before = d.getElementsByTagName('script')[0];
+        before.parentNode.insertBefore(s, before);
+    })(window, document);
+    _dixa_.invoke('init', { messengerToken: '04481ef90397477da8c9417faf21ddb2' });
+</script>
+
+    <meta charset="utf-8">
+    <title>Fermenteret k&#229;l | Vegansk opskrift med k&#229;l, hvidl&#248;g og chili </title>
+    <meta name="description" content="Fermenteret k&#229;l har f.eks. v&#230;ret brugt i generationer herhjemme. Brug denne veganske ret som tilbeh&#248;r til gr&#248;nsagsretter eller k&#248;dretter, som syrligt modspil." />
+    <meta name="keywords" />
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+                        
+    <style type="text/css">
+        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+            display: none !important;
+        }
+        #boost-accept {
+            display: none !important;
+        }
+    </style>
+    <link rel="stylesheet" href="https://use.typekit.net/ckf0bad.css">
+
+    <link rel="stylesheet" type="text/css" href="/css/bundle/meyersfoodmain-50A18E6FF7A154667B8F5E39F6B193C4A39DD428.css" />
+
+    <script type="text/javascript">
+        var isIE10 = 'behavior' in document.documentElement.style && '-ms-user-select' in document.documentElement.style, isIE11 = '-ms-scroll-limit' in document.documentElement.style && '-ms-ime-align' in document.documentElement.style;
+        if (isIE10 || isIE11) {
+            if (!document.getElementById('ie-styles')) {
+                var link = document.createElement('link');
+                link.id = 'ie-styles';
+                link.rel = 'stylesheet';
+                link.href = '/css/meyersfood/styles-ie.css';
+                document.head.appendChild(link);
+            }
+        }
+        var executeOnReady = function (fn) {
+            if (document.readyState !== 'loading') {
+                fn(null);
+            }
+            else if (document.addEventListener) {
+                document.addEventListener('DOMContentLoaded', fn);
+            }
+            else {
+                document.attachEvent('onreadystatechange', function () {
+                    if (document.readyState !== 'loading')
+                        fn(null);
+                });
+            }
+        };
+    </script>
+
+    <script type="text/javascript" src="/scripts/bundle/meyersfoodhead-82D324E1F1849E85A3E437EBDC5B9B4C3441EEBA.js" defer></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js" defer></script>
+    
+    
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', () => {
+                MeyersFood.Shared.Exponea.TryTrack('view_content', {"recipe_id":"71616","title":"Fermenteret kål med hvidløg og chili","category_level_1":"Opskrifter","category_level_2":"Dip, tilbehør, sauce og marmelade","location":"https://meyers.dk/opskrifter/fermenteret-kaal-med-hvidlog-og-chili/p/71616/","domain":"meyers.dk","tags_type":["fermentering"],"tags_green_food":["veganer","vegetar"],"tags_kitchen":["dansk"],"tags_occasion":["catering"]});
+            });
+    </script>
+    
+</head>
+<body>
+    
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5CV7CKB"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <div class="page-wrapper" ng-app="meyersFoodApp">
+
+<!-- Header -->
+<header class="header js--header">
+    <div class="header-top">
+
+        <div class="header-top__menu d-lg-none">
+            <div>
+                <button class="burger js--mobile-navigation-trigger" role="button" aria-controls="mobileNavigation" aria-label="Menu"><span></span><span></span><span></span></button>
+            </div>
+        </div>
+
+        <div class="header-top__links d-none d-lg-flex">
+            <div>
+                    <a href="/" title="Privat" class="is-active" >Privat</a>
+                    <a href="/erhverv/" title="Erhverv" class="" >Erhverv</a>
+            </div>
+        </div>
+
+        <div class="header-top__logo">
+            <div>
+                <a class="icon-button icon-button--logo" href="/" alt="Forside">
+                    <svg class="svg-icon svg-icon--logo">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/graphics/svg/svg-sprite.svg#logo"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="header-top__tools">
+            <div>
+
+                <form ng-controller="QuickSearchController" class="search d-none d-lg-flex" autocomplete="off" method="get" action="/soeg/" ng-class="{'has-suggestions': autoCompleteModel}">
+                    <input type="text" placeholder="S&#248;g..." name="q" ng-model="query" ng-model-options="options" />
+                    <button aria-label="S&#248;g" type="submit">
+                        <svg class="svg-icon svg-icon--header-search">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/graphics/svg/svg-sprite.svg#header-search"></use>
+                        </svg>
+                    </button>
+
+                    <div class="search-suggest" ng-class="{'is-attached': autoCompleteModel, 'is-active': isActiveTimeoutValue}">
+
+                        <a class="search-suggest__button" ng-if="autoCompleteModel.Suggestions.length > 0" ng-repeat="suggestion in autoCompleteModel.Suggestions" ng-href="/soeg/?q={{suggestion.UrlEncodedSuggestion}}">
+                            <span class="title"><mark>{{suggestion.EmphasizedTitle}}</mark>{{suggestion.Title}}</span>
+                            <span class="category" ng-if="suggestion.Category">|&ensp;{{suggestion.Category}}</span>
+                        </a>
+
+                        <a class="search-suggest__button search-suggest__button--centered" ng-if="autoCompleteModel.Suggestions.length > 0 && autoCompleteModel.TrumpetText" ng-href="/soeg/?q={{autoCompleteModel.TrumpetUrlEncodedTerm}}">
+                            <span class="trumpet">{{autoCompleteModel.TrumpetText}}</span>
+                        </a>
+
+                        <p class="search-suggest__message" ng-if="autoCompleteModel.Suggestions.length == 0 && autoCompleteModel.NoResultMessage">
+                            {{autoCompleteModel.NoResultMessage}}
+                        </p>
+
+                        <h4 class="search-suggest__headline" ng-if="autoCompleteModel.Suggestions.length == 0 && autoCompleteModel.NoResultHeadline">
+                            {{autoCompleteModel.NoResultHeadline}}
+                        </h4>
+
+                        <a class="search-suggest__button" ng-if="autoCompleteModel.Suggestions.length == 0" ng-repeat="suggestion in autoCompleteModel.OtherSearchedForSuggestions" ng-href="/soeg/?q={{suggestion.UrlEncodedSuggestion}}">
+                            <span class="title"><mark>{{suggestion.EmphasizedTitle}}</mark>{{suggestion.Title}}</span>
+                            <span class="category" ng-if="suggestion.Category">|&ensp;{{suggestion.Category}}</span>
+                        </a>
+                    </div>
+                </form>
+
+                <a href="/mit-meyers/" class="icon-button icon-button--user d-none d-lg-flex">
+                    <svg class="svg-icon svg-icon--header-user">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/graphics/svg/svg-sprite.svg#header-user"></use>
+                    </svg>
+                </a>
+
+                <a href="/kurv/" class="icon-button icon-button--basket">
+                    <svg class="svg-icon svg-icon--header-basket">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/graphics/svg/svg-sprite.svg#header-basket"></use>
+                    </svg>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+    <form class="search d-lg-none" ng-controller="QuickSearchController" autocomplete="off" method="get" action="/soeg/" ng-class="{'has-suggestions': autoCompleteModel}">
+        <input type="text" placeholder="S&#248;g..." name="q" ng-model="query" ng-model-options="options" />
+        <button aria-label="S&#248;g">
+            <svg class="svg-icon svg-icon--header-search">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/graphics/svg/svg-sprite.svg#header-search"></use>
+            </svg>
+        </button>
+
+        <div class="search-suggest" ng-class="{'is-attached': autoCompleteModel, 'is-active': isActiveTimeoutValue}">
+
+            <a class="search-suggest__button" ng-if="autoCompleteModel.Suggestions.length > 0" ng-repeat="suggestion in autoCompleteModel.Suggestions" ng-href="/soeg/?q={{suggestion.UrlEncodedSuggestion}}">
+                <span class="title"><mark>{{suggestion.EmphasizedTitle}}</mark>{{suggestion.Title}}</span>
+                <span class="category" ng-if="suggestion.Category">|&ensp;{{suggestion.Category}}</span>
+            </a>
+
+            <a class="search-suggest__button search-suggest__button--centered" ng-if="autoCompleteModel.Suggestions.length > 0 && autoCompleteModel.TrumpetText" ng-href="/soeg/?q={{autoCompleteModel.TrumpetUrlEncodedTerm}}">
+                <span class="trumpet">{{autoCompleteModel.TrumpetText}}</span>
+            </a>
+
+            <p class="search-suggest__message" ng-if="autoCompleteModel.Suggestions.length == 0 && autoCompleteModel.NoResultMessage">
+                {{autoCompleteModel.NoResultMessage}}
+            </p>
+
+            <h4 class="search-suggest__headline" ng-if="autoCompleteModel.Suggestions.length == 0 && autoCompleteModel.NoResultHeadline">
+                {{autoCompleteModel.NoResultHeadline}}
+            </h4>
+
+            <a class="search-suggest__button" ng-if="autoCompleteModel.Suggestions.length == 0" ng-repeat="suggestion in autoCompleteModel.OtherSearchedForSuggestions" ng-href="/soeg/?q={{suggestion.UrlEncodedSuggestion}}">
+                <span class="title"><mark>{{suggestion.EmphasizedTitle}}</mark>{{suggestion.Title}}</span>
+                <span class="category" ng-if="suggestion.Category">|&ensp;{{suggestion.Category}}</span>
+            </a>
+        </div>
+    </form>
+
+    <div class="header-bottom d-none d-lg-flex">
+        
+        <nav class="main-navigation js--main-navigation">
+    <ul>
+            <li class="main-navigation-item  js--main-navigation-item">
+                <a href="/catering/" title="Catering l Mad ud af huset i Stork&#248;benhavn og omegn" >Catering</a>
+                    <ul>
+                            <li class="main-navigation-item">
+                                <a href="/catering/julefrokost/" title="Julefrokost" >Julefrokost</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/catering/juleaften/" title="Juleaften" >Juleaften</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/catering/nytaar-3-retters/" title="Nyt&#229;r - 3-retters" >Nyt&#229;r - 3-retters</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/catering/nytaar-4-retters/" title="Nyt&#229;r - 4-retters" >Nyt&#229;r - 4-retters</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/catering/konfirmationsbuffet/" title="Konfirmationsbuffet" >Konfirmationsbuffet</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/catering/tapas/" title="Tapas" >Tapas</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/catering/reception/" title="Reception" >Reception</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/catering/buffet/" title="Buffet" >Buffet</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/catering/kold-buffet/" title="Kold buffet" >Kold buffet</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/catering/3-retters-menu/" title="3-Retters Menu" >3-Retters Menu</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/catering/brunch/" title="Brunch" >Brunch</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/catering/vejledninger/" title="Vejledninger" >Vejledninger</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/catering/anledninger/" title="Mad til enhver anledning | Bestil mad til fest" >Anledninger</a>
+                            </li>
+                    </ul>
+            </li>
+            <li class="main-navigation-item  js--main-navigation-item">
+                <a href="/restauranter/" title="F&#229; et overblik over alle vores restauranter" >Restauranter</a>
+                    <ul>
+                            <li class="main-navigation-item">
+                                <a href="/restauranter/post/" title="Post" >Post</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/restauranter/meyers-i-taarnet/" title="Meyers i T&#229;rnet | Restaurant T&#229;rnet Christiansborg slot" >Meyers i T&#229;rnet</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/restauranter/blox-eats/" title="BLOX EATS | Spis hos Meyers restaurant i BLOX " >BLOX EATS</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/restauranter/fasangaarden/" title="Fasang&#229;rden i Frederiksberg have | Delikat spiseri" >Fasang&#229;rden</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/restauranter/restaurant-sult/" title="SULT i Cinemateket | Det Danske Filminstitut" >Restaurant SULT</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/restauranter/gavekort-til-restaurant/" title="Giv et gavekort til en af vores restauranter I Meyers Restauranter " >Gavekort til restaurant</a>
+                            </li>
+                    </ul>
+            </li>
+            <li class="main-navigation-item  js--main-navigation-item">
+                <a href="/madkurser/" title="Madkursus hos Meyers | L&#230;r at lave mad p&#229; madlavningskursus " >Madkurser</a>
+                    <ul>
+                            <li class="main-navigation-item">
+                                <a href="/madkurser/kursuskalender/" title="Madkursus | Oversigt over madkurser i Meyers Madhus" >Kursuskalender</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/madkurser/kursusoversigt/" title="Madlavningskursus hos Meyers | Tag p&#229; madkursus i K&#248;benhavn" >Kursusoversigt</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/madkurser/madkurser-for-boern/" title="Madkurser til b&#248;rn | Tag b&#248;rn med p&#229; madkursus i K&#248;benhavn" >Madkurser for b&#248;rn</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/madkurser/bagekurser/" title="Bagekurser hos Meyers | Tag p&#229; bagekursus i K&#248;benhavn" >Bagekurser</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/madkurser/verdenskoekkener/" title="Verdensk&#248;kkener madkurser | L&#230;r at lave mad fra hele verden" >Verdensk&#248;kkener</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/madkurser/madhaandvaerk/" title="Madh&#229;ndv&#230;rk | L&#230;r grundteknikker i k&#248;kkenet hos Meyers" >Madh&#229;ndv&#230;rk</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/madkurser/jul-i-madhuset/" title="Jul i Madhuset" >Jul i Madhuset</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/madkurser/gavekort/" title="Gavekort til madkurser | Gavekort til oplevelser hos Meyers" >Gavekort</a>
+                            </li>
+                    </ul>
+            </li>
+            <li class="main-navigation-item  js--main-navigation-item">
+                <a href="/opskrifter/" title="Opskrifter | Madopskrifter fra Meyers til hverdag og fest" >Opskrifter</a>
+                    <ul>
+                            <li class="main-navigation-item">
+                                <a href="/opskrifter/maaltider/" title="Opskrifter til m&#229;ltider | Inspiration til mad hele ugen " >M&#229;ltider</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/opskrifter/saeson/" title="Opskrifter til s&#230;sonen | Brug &#229;rstidens bedste r&#229;varer" >S&#230;son</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/opskrifter/groen-mad/" title="Gr&#248;nne opskrifter | Velsmagende retter med gr&#248;ntsager" >Gr&#248;n mad</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/opskrifter/koekken/" title="Opskrifter fra hele verden | Udforsk verden gennem mad " >K&#248;kken</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/opskrifter/anledning/" title="Opskrifter til enhver anledning | Inspiration til h&#248;jtiderne" >Anledning</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/opskrifter/baelgfrugter/" title="B&#230;lgfrugter | Her f&#229;r du en masse l&#230;kre opskrifter med b&#230;lgfrugter" >B&#230;lgfrugter</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/opskrifter/meyers-kogeboeger/" title="Meyers kogebog | Find alle Meyers fantastiske kogeb&#248;ger her" >Meyers kogeb&#248;ger</a>
+                            </li>
+                    </ul>
+            </li>
+            <li class="main-navigation-item  js--main-navigation-item">
+                <a href="/bageri/" title="Meyers Bageri | Find vores 4 bagerier i forskellige bydele af K&#248;benhavn" >Bageri</a>
+                    <ul>
+                            <li class="main-navigation-item">
+                                <a href="/bageri/meyers-bagerier/" title="Meyers bagerier og konditori i K&#248;benhavn | Bager i K&#248;benhavn" >Meyers Bagerier</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/bageri/bageskolen/" title="Meyers Bageskole | H&#230;v dit bageniveau hos Meyers" >Bageskolen</a>
+                            </li>
+                    </ul>
+            </li>
+            <li class="main-navigation-item  js--main-navigation-item">
+                <a href="/produkter/" title="Meyers produkter | dagligdags- og specialvarer" >Produkter</a>
+                    <ul>
+                            <li class="main-navigation-item">
+                                <a href="/produkter/dagligvarer/" title="Meyers dagligvarer | Se alle dagligvarer fra Meyers her" >Dagligvarer</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/produkter/foodservice/" title="Meyers Foodservice| Se alle produkter fra Meyers her" >Foodservice</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/produkter/q8/" title="Q8" >Q8</a>
+                            </li>
+                    </ul>
+            </li>
+            <li class="main-navigation-item  js--main-navigation-item">
+                <a href="/baeredygtighed/" title="B&#230;redygtighed i Meyers" >B&#230;redygtighed</a>
+            </li>
+            <li class="main-navigation-item  js--main-navigation-item">
+                <a href="/nyheder/" title="Nyheder hos Meyers | L&#230;s om hvad der r&#248;r sig hos Meyers " >Nyheder</a>
+            </li>
+            <li class="main-navigation-item  js--main-navigation-item">
+                <a href="/jobs/" title="Jobs" >Jobs</a>
+            </li>
+            </ul>
+</nav>
+    </div>
+
+    
+    <nav class="mobile-navigation" id="mobileNavigation">
+    <div class="mobile-navigation__inner">
+
+        <div class="mobile-navigation__tabs">
+                <button class="js--tab-button is-active" data-paneid="1">Privat</button>
+                <button class="js--tab-button " data-paneid="2">Erhverv</button>
+            
+        </div>
+
+        <div class="mobile-navigation__content">
+                <div class="mobile-navigation__content__pane js--tab-pane is-active" style="" data-paneid="1" id="tabPane1Accordions">
+                    <ul>
+                        <li class="mobile-navigation-item">
+                            <a href="/">Forside</a>
+                        </li>
+                            <li class="mobile-navigation-item ">
+                                <a href="/catering/" title="Catering l Mad ud af huset i Stork&#248;benhavn og omegn" >
+                                    Catering
+                                </a>
+                                    <button type="button" class="collapsed" data-toggle="collapse" href="#tabPane1Accordions0" role="button" aria-expanded="false" aria-controls="tabPane1Accordion2">
+                                        <span class="toggle  toggle--angle "></span>
+
+                                    </button>
+                                    <div class="collapse" id="tabPane1Accordions0" data-parent="#tabPane1Accordions">
+                                        <ul>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/catering/julefrokost/" title="Julefrokost" >
+                                                        <span>Julefrokost</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/catering/juleaften/" title="Juleaften" >
+                                                        <span>Juleaften</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/catering/nytaar-3-retters/" title="Nyt&#229;r - 3-retters" >
+                                                        <span>Nyt&#229;r - 3-retters</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/catering/nytaar-4-retters/" title="Nyt&#229;r - 4-retters" >
+                                                        <span>Nyt&#229;r - 4-retters</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/catering/konfirmationsbuffet/" title="Konfirmationsbuffet" >
+                                                        <span>Konfirmationsbuffet</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/catering/tapas/" title="Tapas" >
+                                                        <span>Tapas</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/catering/reception/" title="Reception" >
+                                                        <span>Reception</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/catering/buffet/" title="Buffet" >
+                                                        <span>Buffet</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/catering/kold-buffet/" title="Kold buffet" >
+                                                        <span>Kold buffet</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/catering/3-retters-menu/" title="3-Retters Menu" >
+                                                        <span>3-Retters Menu</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/catering/brunch/" title="Brunch" >
+                                                        <span>Brunch</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/catering/vejledninger/" title="Vejledninger" >
+                                                        <span>Vejledninger</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/catering/anledninger/" title="Mad til enhver anledning | Bestil mad til fest" >
+                                                        <span>Anledninger</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                        </ul>
+                                    </div>
+                            </li>
+                            <li class="mobile-navigation-item ">
+                                <a href="/restauranter/" title="F&#229; et overblik over alle vores restauranter" >
+                                    Restauranter
+                                </a>
+                                    <button type="button" class="collapsed" data-toggle="collapse" href="#tabPane1Accordions1" role="button" aria-expanded="false" aria-controls="tabPane1Accordion2">
+                                        <span class="toggle  toggle--angle "></span>
+
+                                    </button>
+                                    <div class="collapse" id="tabPane1Accordions1" data-parent="#tabPane1Accordions">
+                                        <ul>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/restauranter/post/" title="Post" >
+                                                        <span>Post</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/restauranter/meyers-i-taarnet/" title="Meyers i T&#229;rnet | Restaurant T&#229;rnet Christiansborg slot" >
+                                                        <span>Meyers i T&#229;rnet</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/restauranter/blox-eats/" title="BLOX EATS | Spis hos Meyers restaurant i BLOX " >
+                                                        <span>BLOX EATS</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/restauranter/fasangaarden/" title="Fasang&#229;rden i Frederiksberg have | Delikat spiseri" >
+                                                        <span>Fasang&#229;rden</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/restauranter/restaurant-sult/" title="SULT i Cinemateket | Det Danske Filminstitut" >
+                                                        <span>Restaurant SULT</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/restauranter/gavekort-til-restaurant/" title="Giv et gavekort til en af vores restauranter I Meyers Restauranter " >
+                                                        <span>Gavekort til restaurant</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                        </ul>
+                                    </div>
+                            </li>
+                            <li class="mobile-navigation-item ">
+                                <a href="/madkurser/" title="Madkursus hos Meyers | L&#230;r at lave mad p&#229; madlavningskursus " >
+                                    Madkurser
+                                </a>
+                                    <button type="button" class="collapsed" data-toggle="collapse" href="#tabPane1Accordions2" role="button" aria-expanded="false" aria-controls="tabPane1Accordion2">
+                                        <span class="toggle  toggle--angle "></span>
+
+                                    </button>
+                                    <div class="collapse" id="tabPane1Accordions2" data-parent="#tabPane1Accordions">
+                                        <ul>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/madkurser/kursuskalender/" title="Madkursus | Oversigt over madkurser i Meyers Madhus" >
+                                                        <span>Kursuskalender</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/madkurser/kursusoversigt/" title="Madlavningskursus hos Meyers | Tag p&#229; madkursus i K&#248;benhavn" >
+                                                        <span>Kursusoversigt</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/madkurser/madkurser-for-boern/" title="Madkurser til b&#248;rn | Tag b&#248;rn med p&#229; madkursus i K&#248;benhavn" >
+                                                        <span>Madkurser for b&#248;rn</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/madkurser/bagekurser/" title="Bagekurser hos Meyers | Tag p&#229; bagekursus i K&#248;benhavn" >
+                                                        <span>Bagekurser</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/madkurser/verdenskoekkener/" title="Verdensk&#248;kkener madkurser | L&#230;r at lave mad fra hele verden" >
+                                                        <span>Verdensk&#248;kkener</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/madkurser/madhaandvaerk/" title="Madh&#229;ndv&#230;rk | L&#230;r grundteknikker i k&#248;kkenet hos Meyers" >
+                                                        <span>Madh&#229;ndv&#230;rk</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/madkurser/jul-i-madhuset/" title="Jul i Madhuset" >
+                                                        <span>Jul i Madhuset</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/madkurser/gavekort/" title="Gavekort til madkurser | Gavekort til oplevelser hos Meyers" >
+                                                        <span>Gavekort</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                        </ul>
+                                    </div>
+                            </li>
+                            <li class="mobile-navigation-item ">
+                                <a href="/opskrifter/" title="Opskrifter | Madopskrifter fra Meyers til hverdag og fest" >
+                                    Opskrifter
+                                </a>
+                                    <button type="button" class="collapsed" data-toggle="collapse" href="#tabPane1Accordions3" role="button" aria-expanded="false" aria-controls="tabPane1Accordion2">
+                                        <span class="toggle  toggle--angle "></span>
+
+                                    </button>
+                                    <div class="collapse" id="tabPane1Accordions3" data-parent="#tabPane1Accordions">
+                                        <ul>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/opskrifter/maaltider/" title="Opskrifter til m&#229;ltider | Inspiration til mad hele ugen " >
+                                                        <span>M&#229;ltider</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/opskrifter/saeson/" title="Opskrifter til s&#230;sonen | Brug &#229;rstidens bedste r&#229;varer" >
+                                                        <span>S&#230;son</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/opskrifter/groen-mad/" title="Gr&#248;nne opskrifter | Velsmagende retter med gr&#248;ntsager" >
+                                                        <span>Gr&#248;n mad</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/opskrifter/koekken/" title="Opskrifter fra hele verden | Udforsk verden gennem mad " >
+                                                        <span>K&#248;kken</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/opskrifter/anledning/" title="Opskrifter til enhver anledning | Inspiration til h&#248;jtiderne" >
+                                                        <span>Anledning</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/opskrifter/baelgfrugter/" title="B&#230;lgfrugter | Her f&#229;r du en masse l&#230;kre opskrifter med b&#230;lgfrugter" >
+                                                        <span>B&#230;lgfrugter</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/opskrifter/meyers-kogeboeger/" title="Meyers kogebog | Find alle Meyers fantastiske kogeb&#248;ger her" >
+                                                        <span>Meyers kogeb&#248;ger</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                        </ul>
+                                    </div>
+                            </li>
+                            <li class="mobile-navigation-item ">
+                                <a href="/bageri/" title="Meyers Bageri | Find vores 4 bagerier i forskellige bydele af K&#248;benhavn" >
+                                    Bageri
+                                </a>
+                                    <button type="button" class="collapsed" data-toggle="collapse" href="#tabPane1Accordions4" role="button" aria-expanded="false" aria-controls="tabPane1Accordion2">
+                                        <span class="toggle  toggle--angle "></span>
+
+                                    </button>
+                                    <div class="collapse" id="tabPane1Accordions4" data-parent="#tabPane1Accordions">
+                                        <ul>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/bageri/meyers-bagerier/" title="Meyers bagerier og konditori i K&#248;benhavn | Bager i K&#248;benhavn" >
+                                                        <span>Meyers Bagerier</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/bageri/bageskolen/" title="Meyers Bageskole | H&#230;v dit bageniveau hos Meyers" >
+                                                        <span>Bageskolen</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                        </ul>
+                                    </div>
+                            </li>
+                            <li class="mobile-navigation-item ">
+                                <a href="/produkter/" title="Meyers produkter | dagligdags- og specialvarer" >
+                                    Produkter
+                                </a>
+                                    <button type="button" class="collapsed" data-toggle="collapse" href="#tabPane1Accordions5" role="button" aria-expanded="false" aria-controls="tabPane1Accordion2">
+                                        <span class="toggle  toggle--angle "></span>
+
+                                    </button>
+                                    <div class="collapse" id="tabPane1Accordions5" data-parent="#tabPane1Accordions">
+                                        <ul>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/produkter/dagligvarer/" title="Meyers dagligvarer | Se alle dagligvarer fra Meyers her" >
+                                                        <span>Dagligvarer</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/produkter/foodservice/" title="Meyers Foodservice| Se alle produkter fra Meyers her" >
+                                                        <span>Foodservice</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/produkter/q8/" title="Q8" >
+                                                        <span>Q8</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                        </ul>
+                                    </div>
+                            </li>
+                            <li class="mobile-navigation-item ">
+                                <a href="/baeredygtighed/" title="B&#230;redygtighed i Meyers" >
+                                    B&#230;redygtighed
+                                </a>
+                            </li>
+                            <li class="mobile-navigation-item ">
+                                <a href="/nyheder/" title="Nyheder hos Meyers | L&#230;s om hvad der r&#248;r sig hos Meyers " >
+                                    Nyheder
+                                </a>
+                            </li>
+                            <li class="mobile-navigation-item ">
+                                <a href="/jobs/" title="Jobs" >
+                                    Jobs
+                                </a>
+                            </li>
+                                            </ul>
+                </div>
+                <div class="mobile-navigation__content__pane js--tab-pane " style="display:none;" data-paneid="2" id="tabPane2Accordions">
+                    <ul>
+                        <li class="mobile-navigation-item">
+                            <a href="/">Forside</a>
+                        </li>
+                            <li class="mobile-navigation-item ">
+                                <a href="/erhverv/vi-tilbyder/" title="Vi tilbyder" >
+                                    Vi tilbyder
+                                </a>
+                                    <button type="button" class="collapsed" data-toggle="collapse" href="#tabPane2Accordions0" role="button" aria-expanded="false" aria-controls="tabPane1Accordion2">
+                                        <span class="toggle  toggle--angle "></span>
+
+                                    </button>
+                                    <div class="collapse" id="tabPane2Accordions0" data-parent="#tabPane2Accordions">
+                                        <ul>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/erhverv/vi-tilbyder/kantiner/" title="Kantiner" >
+                                                        <span>Kantiner</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/erhverv/vi-tilbyder/frokostordning/" title="Frokostordning" >
+                                                        <span>Frokostordning</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/erhverv/vi-tilbyder/firmaarrangementer/" title="Firmaarrangementer" >
+                                                        <span>Firmaarrangementer</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/erhverv/vi-tilbyder/madraadgivning-og-projekter/" title="Madr&#229;dgivning og projekter" >
+                                                        <span>Madr&#229;dgivning og projekter</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/erhverv/vi-tilbyder/foodservice/" title="Foodservice" >
+                                                        <span>Foodservice</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                        </ul>
+                                    </div>
+                            </li>
+                            <li class="mobile-navigation-item ">
+                                <a href="/erhverv/fundament/" title="Fundament" >
+                                    Fundament
+                                </a>
+                                    <button type="button" class="collapsed" data-toggle="collapse" href="#tabPane2Accordions1" role="button" aria-expanded="false" aria-controls="tabPane1Accordion2">
+                                        <span class="toggle  toggle--angle "></span>
+
+                                    </button>
+                                    <div class="collapse" id="tabPane2Accordions1" data-parent="#tabPane2Accordions">
+                                        <ul>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/erhverv/fundament/formaal/" title="Form&#229;l" >
+                                                        <span>Form&#229;l</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/erhverv/fundament/velsmag/" title="Velsmag" >
+                                                        <span>Velsmag</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/erhverv/fundament/vaertskab/" title="V&#230;rtskab" >
+                                                        <span>V&#230;rtskab</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-navigation-item">
+                                                    <a href="/erhverv/fundament/baeredygtighed/" title="B&#230;redygtighed" >
+                                                        <span>B&#230;redygtighed</span> <span><span class="toggle  toggle--angle "></span>
+</span>
+                                                    </a>
+                                                </li>
+                                        </ul>
+                                    </div>
+                            </li>
+                            <li class="mobile-navigation-item ">
+                                <a href="/erhverv/partnerskaber/" title="Partnerskaber" >
+                                    Partnerskaber
+                                </a>
+                            </li>
+                            <li class="mobile-navigation-item ">
+                                <a href="/erhverv/kontakt/" title="Kontakt" >
+                                    Kontakt
+                                </a>
+                            </li>
+                            <li class="mobile-navigation-item ">
+                                <a href="/erhverv/nyheder/" title="Nyheder" >
+                                    Nyheder
+                                </a>
+                            </li>
+                                            </ul>
+                </div>
+
+        </div>
+
+        <div class="mobile-navigation__footer">
+            <ul>
+                <li>
+                    <button class="btn-link-mobile" onClick="CookieConsent.renew()">Renew Consent</button>
+                </li>
+                    <li>
+                        <a href="/" title="Privat" >
+                            Privat
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/erhverv/" title="Erhverv" >
+                            Erhverv
+                        </a>
+                    </li>
+                <li>
+                    <a href="#">
+                        <svg class="svg-icon svg-icon--header-user">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/graphics/svg/svg-sprite.svg#header-user"></use>
+                        </svg> 
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+</header>
+
+
+
+<div class="sticky-navigation js--sticky-navigation">
+
+    <div class="sticky-navigation__inner sticky-navigation__inner--mobile">
+        <div class="sticky-navigation__section">
+            <button class="burger js--mobile-navigation-trigger" role="button" aria-controls="mobileNavigation" aria-label="Menu"><span></span><span></span><span></span></button>
+        </div>
+
+        <div class="sticky-navigation__section justify-content-center">
+            <a class="icon-button icon-button--logo" href="/" alt="Forside">
+                <svg class="svg-icon svg-icon--logo">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/graphics/svg/svg-sprite.svg#logo"></use>
+                </svg>
+            </a>
+        </div>
+
+        <div class="sticky-navigation__section">
+            <a href="#" class="icon-button icon-button--basket">
+                <svg class="svg-icon svg-icon--header-basket">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/graphics/svg/svg-sprite.svg#header-basket"></use>
+                </svg>
+            </a>
+        </div>
+    </div>
+
+
+    <div class="sticky-navigation__inner sticky-navigation__inner--desktop">
+        <div class="sticky-navigation__section">
+            <a class="icon-button icon-button--logo-small" href="/" alt="Forside">
+                <svg class="svg-icon svg-icon--logo-M">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/graphics/svg/svg-sprite.svg#logo-M"></use>
+                </svg>
+            </a>
+        </div>
+
+        <div class="sticky-navigation__section justify-content-between">
+            <nav class="main-navigation js--main-navigation">
+    <ul>
+            <li class="main-navigation-item  js--main-navigation-item">
+                <a href="/catering/" title="Catering l Mad ud af huset i Stork&#248;benhavn og omegn" >Catering</a>
+                    <ul>
+                            <li class="main-navigation-item">
+                                <a href="/catering/julefrokost/" title="Julefrokost" >Julefrokost</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/catering/juleaften/" title="Juleaften" >Juleaften</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/catering/nytaar-3-retters/" title="Nyt&#229;r - 3-retters" >Nyt&#229;r - 3-retters</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/catering/nytaar-4-retters/" title="Nyt&#229;r - 4-retters" >Nyt&#229;r - 4-retters</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/catering/konfirmationsbuffet/" title="Konfirmationsbuffet" >Konfirmationsbuffet</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/catering/tapas/" title="Tapas" >Tapas</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/catering/reception/" title="Reception" >Reception</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/catering/buffet/" title="Buffet" >Buffet</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/catering/kold-buffet/" title="Kold buffet" >Kold buffet</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/catering/3-retters-menu/" title="3-Retters Menu" >3-Retters Menu</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/catering/brunch/" title="Brunch" >Brunch</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/catering/vejledninger/" title="Vejledninger" >Vejledninger</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/catering/anledninger/" title="Mad til enhver anledning | Bestil mad til fest" >Anledninger</a>
+                            </li>
+                    </ul>
+            </li>
+            <li class="main-navigation-item  js--main-navigation-item">
+                <a href="/restauranter/" title="F&#229; et overblik over alle vores restauranter" >Restauranter</a>
+                    <ul>
+                            <li class="main-navigation-item">
+                                <a href="/restauranter/post/" title="Post" >Post</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/restauranter/meyers-i-taarnet/" title="Meyers i T&#229;rnet | Restaurant T&#229;rnet Christiansborg slot" >Meyers i T&#229;rnet</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/restauranter/blox-eats/" title="BLOX EATS | Spis hos Meyers restaurant i BLOX " >BLOX EATS</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/restauranter/fasangaarden/" title="Fasang&#229;rden i Frederiksberg have | Delikat spiseri" >Fasang&#229;rden</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/restauranter/restaurant-sult/" title="SULT i Cinemateket | Det Danske Filminstitut" >Restaurant SULT</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/restauranter/gavekort-til-restaurant/" title="Giv et gavekort til en af vores restauranter I Meyers Restauranter " >Gavekort til restaurant</a>
+                            </li>
+                    </ul>
+            </li>
+            <li class="main-navigation-item  js--main-navigation-item">
+                <a href="/madkurser/" title="Madkursus hos Meyers | L&#230;r at lave mad p&#229; madlavningskursus " >Madkurser</a>
+                    <ul>
+                            <li class="main-navigation-item">
+                                <a href="/madkurser/kursuskalender/" title="Madkursus | Oversigt over madkurser i Meyers Madhus" >Kursuskalender</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/madkurser/kursusoversigt/" title="Madlavningskursus hos Meyers | Tag p&#229; madkursus i K&#248;benhavn" >Kursusoversigt</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/madkurser/madkurser-for-boern/" title="Madkurser til b&#248;rn | Tag b&#248;rn med p&#229; madkursus i K&#248;benhavn" >Madkurser for b&#248;rn</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/madkurser/bagekurser/" title="Bagekurser hos Meyers | Tag p&#229; bagekursus i K&#248;benhavn" >Bagekurser</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/madkurser/verdenskoekkener/" title="Verdensk&#248;kkener madkurser | L&#230;r at lave mad fra hele verden" >Verdensk&#248;kkener</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/madkurser/madhaandvaerk/" title="Madh&#229;ndv&#230;rk | L&#230;r grundteknikker i k&#248;kkenet hos Meyers" >Madh&#229;ndv&#230;rk</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/madkurser/jul-i-madhuset/" title="Jul i Madhuset" >Jul i Madhuset</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/madkurser/gavekort/" title="Gavekort til madkurser | Gavekort til oplevelser hos Meyers" >Gavekort</a>
+                            </li>
+                    </ul>
+            </li>
+            <li class="main-navigation-item  js--main-navigation-item">
+                <a href="/opskrifter/" title="Opskrifter | Madopskrifter fra Meyers til hverdag og fest" >Opskrifter</a>
+                    <ul>
+                            <li class="main-navigation-item">
+                                <a href="/opskrifter/maaltider/" title="Opskrifter til m&#229;ltider | Inspiration til mad hele ugen " >M&#229;ltider</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/opskrifter/saeson/" title="Opskrifter til s&#230;sonen | Brug &#229;rstidens bedste r&#229;varer" >S&#230;son</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/opskrifter/groen-mad/" title="Gr&#248;nne opskrifter | Velsmagende retter med gr&#248;ntsager" >Gr&#248;n mad</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/opskrifter/koekken/" title="Opskrifter fra hele verden | Udforsk verden gennem mad " >K&#248;kken</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/opskrifter/anledning/" title="Opskrifter til enhver anledning | Inspiration til h&#248;jtiderne" >Anledning</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/opskrifter/baelgfrugter/" title="B&#230;lgfrugter | Her f&#229;r du en masse l&#230;kre opskrifter med b&#230;lgfrugter" >B&#230;lgfrugter</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/opskrifter/meyers-kogeboeger/" title="Meyers kogebog | Find alle Meyers fantastiske kogeb&#248;ger her" >Meyers kogeb&#248;ger</a>
+                            </li>
+                    </ul>
+            </li>
+            <li class="main-navigation-item  js--main-navigation-item">
+                <a href="/bageri/" title="Meyers Bageri | Find vores 4 bagerier i forskellige bydele af K&#248;benhavn" >Bageri</a>
+                    <ul>
+                            <li class="main-navigation-item">
+                                <a href="/bageri/meyers-bagerier/" title="Meyers bagerier og konditori i K&#248;benhavn | Bager i K&#248;benhavn" >Meyers Bagerier</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/bageri/bageskolen/" title="Meyers Bageskole | H&#230;v dit bageniveau hos Meyers" >Bageskolen</a>
+                            </li>
+                    </ul>
+            </li>
+            <li class="main-navigation-item  js--main-navigation-item">
+                <a href="/produkter/" title="Meyers produkter | dagligdags- og specialvarer" >Produkter</a>
+                    <ul>
+                            <li class="main-navigation-item">
+                                <a href="/produkter/dagligvarer/" title="Meyers dagligvarer | Se alle dagligvarer fra Meyers her" >Dagligvarer</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/produkter/foodservice/" title="Meyers Foodservice| Se alle produkter fra Meyers her" >Foodservice</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="/produkter/q8/" title="Q8" >Q8</a>
+                            </li>
+                    </ul>
+            </li>
+            <li class="main-navigation-item  js--main-navigation-item">
+                <a href="/baeredygtighed/" title="B&#230;redygtighed i Meyers" >B&#230;redygtighed</a>
+            </li>
+            <li class="main-navigation-item  js--main-navigation-item">
+                <a href="/nyheder/" title="Nyheder hos Meyers | L&#230;s om hvad der r&#248;r sig hos Meyers " >Nyheder</a>
+            </li>
+            <li class="main-navigation-item  js--main-navigation-item">
+                <a href="/jobs/" title="Jobs" >Jobs</a>
+            </li>
+            </ul>
+</nav>
+        </div>
+
+        <div class="sticky-navigation__section">
+            <div>
+                <form class="search"  ng-controller="QuickSearchController" autocomplete="off" method="get" action="/soeg/" ng-class="{'has-suggestions': autoCompleteModel}">
+                    <input type="text" placeholder="S&#248;g..." name="q" ng-model="query" ng-model-options="options" />
+                    <button aria-label="S&#248;g">
+                        <svg class="svg-icon svg-icon--header-search">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/graphics/svg/svg-sprite.svg#header-search"></use>
+                        </svg>
+                    </button>
+
+                    <div class="search-suggest" ng-class="{'is-attached': autoCompleteModel, 'is-active': isActiveTimeoutValue}">
+
+                        <a class="search-suggest__button" ng-if="autoCompleteModel.Suggestions.length > 0" ng-repeat="suggestion in autoCompleteModel.Suggestions" ng-href="/soeg/?q={{suggestion.UrlEncodedSuggestion}}">
+                            <span class="title"><mark>{{suggestion.EmphasizedTitle}}</mark>{{suggestion.Title}}</span>
+                            <span class="category" ng-if="suggestion.Category">|&ensp;{{suggestion.Category}}</span>
+                        </a>
+
+                        <a class="search-suggest__button search-suggest__button--centered" ng-if="autoCompleteModel.Suggestions.length > 0 && autoCompleteModel.TrumpetText" ng-href="/soeg/?q={{autoCompleteModel.TrumpetUrlEncodedTerm}}">
+                            <span class="trumpet">{{autoCompleteModel.TrumpetText}}</span>
+                        </a>
+
+                        <p class="search-suggest__message" ng-if="autoCompleteModel.Suggestions.length == 0 && autoCompleteModel.NoResultMessage">
+                            {{autoCompleteModel.NoResultMessage}}
+                        </p>
+
+                        <h4 class="search-suggest__headline" ng-if="autoCompleteModel.Suggestions.length == 0 && autoCompleteModel.NoResultHeadline">
+                            {{autoCompleteModel.NoResultHeadline}}
+                        </h4>
+
+                        <a class="search-suggest__button" ng-if="autoCompleteModel.Suggestions.length == 0" ng-repeat="suggestion in autoCompleteModel.OtherSearchedForSuggestions" ng-href="/soeg/?q={{suggestion.UrlEncodedSuggestion}}">
+                            <span class="title"><mark>{{suggestion.EmphasizedTitle}}</mark>{{suggestion.Title}}</span>
+                            <span class="category" ng-if="suggestion.Category">|&ensp;{{suggestion.Category}}</span>
+                        </a>
+                    </div>
+                </form>
+
+                <a href="#" class="icon-button icon-button--basket">
+                    <svg class="svg-icon svg-icon--header-basket">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/graphics/svg/svg-sprite.svg#header-basket"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+        <main>
+            
+
+
+            
+
+
+
+<section class="deck">
+    <div class="container text-center">
+        <div class="row mb-3">
+            <div class="col-12 col-lg-6 offset-lg-3">
+    <a class="button button--back" href="/opskrifter/" title="Tilbage til opskrifter"   >
+            <span class="icon">
+                <svg class="svg-icon svg-icon--arrow-right-small">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/graphics/svg/svg-sprite.svg#arrow-right-small">
+                    </use>
+                </svg>
+            </span>
+
+
+        <span class="button__text">Tilbage til opskrifter</span>
+    </a>
+                <h1 class="headline-1">Fermenteret k&#229;l med hvidl&#248;g og chili</h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="deck">
+        <div class="image-slider">
+            <div class="container">
+                <div class="image-slider__inner ">
+                    <ul class="js--slider-container">
+                            <li class="image-slider__inner__item">
+                                <img alt="" src="/media/9624/fermenteret_kaal.jpg?anchor=center&amp;mode=crop&amp;width=1260&amp;format=jpeg&amp;quality=80&amp;rnd=132064694600000000">
+                            </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<section class="deck">
+    <div class="container">
+        <article class="rich-text mb-4">
+            <div class="row">
+                <div class="col-12 col-md-10 col-lg-7">
+                    <h4>Fermentering betyder simpelthen gæring, og det er en helt naturlig proces, der har været brugt i årtusinder til at forarbejde og bevare fødevarer. Yoghurt, kaffe, te, vin, ost og mange pølser er fermenterede uden at vi tænker over det. Fermenteret kål har f.eks. været brugt i generationer herhjemme. Brug det som tilbehør til grønsagsretter eller kødretter, som et syrligt modspil.</h4>
+                </div>
+            </div>
+        </article>
+
+<div class="article-footer ">
+
+    <div class="article-footer__inner">
+
+            <a href="#" onclick="window.print()">Udskriv opskrift</a>
+
+
+
+            <ul>
+                <li>
+                    <span class="trumpet trumpet--small">
+                        Del
+                    </span>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmeyers.dk%2fopskrifter%2ffermenteret-kaal-med-hvidlog-og-chili%2fp%2f71616%2f" target="_blank">
+                        <svg class="svg-icon svg-icon--facebook">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/graphics/svg/svg-sprite.svg#Facebook">
+                            </use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+                    <a data-pin-do="buttonBookmark" data-pin-round="true" href="https://www.pinterest.com/pin/create/button/"></a>
+                </li>
+            </ul>
+
+    </div>
+        <hr>
+</div>
+    </div>
+</section>
+
+
+<section class="deck">
+    <div class="container">
+        <article class="rich-text">
+            <div class="row justify-content-md-center">
+                <div class="col-12 col-md-7 col-lg-8 order-2 order-md-1">
+                    <h2>S&#229;dan g&#248;r du</h2>
+
+                            <p>Snit hvidk&#229;l fint og kom i en sk&#229;l. Tilf&#248;j salt. &#198;lt k&#229;len grundigt med h&#230;nderne, og pres saften ud. Cellev&#230;ggene i k&#229;len skal brydes, s&#229; det skal have en ordentlig tur. Hak derefter hvidl&#248;g og chili fint og vend med k&#229;len.
+Pres det hele godt sammen i en glas- eller plasticbeholder, hvor k&#229;len kan ligge d&#230;kket i egen v&#230;ske. Den skal v&#230;re d&#230;kket af v&#230;ske. S&#229; kan den anaerobe fermentering (en g&#230;ring uden ilt) g&#229; i gang. S&#230;t l&#229;g p&#229; beholderen, og stil surk&#229;len til g&#230;ring ved stuetemperatur.
+Smag l&#248;bende p&#229; k&#229;len. Skal den have mere salt? Hvordan udvikler smagen sig? Husk, smagen &#230;ndrer sig l&#248;bende i takt med dannelsen af m&#230;lkesyren. Efter 2 til 3 dage er processen godt i gang, og m&#230;lkesyren kan duftes og smages. Det vil ligeledes boble i overfladen.
+K&#229;len kan spises fra starten af processen, eller efter et par dage, n&#229;r den har f&#229;et noget syrlighed, eller du kan lade den g&#230;re videre i en uge eller mere. Smag p&#229; den l&#248;bende. N&#229;r k&#229;len har g&#230;ret i et par uger, vil den som regel v&#230;re f&#230;rdigg&#230;ret. Den smager og dufter syrligt og er blevet bleg i farven. S&#230;t den i k&#248;leskabet med l&#229;g p&#229;, og den kan holde sig i 6 m&#229;neder.</p>
+
+
+                </div>
+                <div class="col-12 col-md-5 col-lg-4 mb-3 mb-md-0 order-1 order-md-2">
+                    <h2>Ingredienser</h2>
+
+                        <div class="form__field form__field--select">
+                            <div class="form__container">
+                                <select id="settings" data-recipe-id="71616" class="form__item w-75" aria-label="V&#230;lg antal" placeholder="V&#230;lg antal">
+                                        <option value="1" >1 glas</option>
+                                        <option value="2"   selected="selected"  >2 glas</option>
+                                        <option value="4" >4 glas</option>
+                                        <option value="6" >6 glas</option>
+                                        <option value="8" >8 glas</option>
+                                        <option value="10" >10 glas</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div id="ingredients-section">
+                                <p>
+&frac12; kg hvidk&#229;l                <br />
+1 &frac12; tsk salt                <br />
+1 fed hvidl&#248;g                <br />
+1 r&#248;d chili    </p>
+
+                        </div>
+
+                </div>
+            </div>
+        </article>
+    </div>
+</section>
+
+
+
+    <section class="deck deck--no-overflow">
+        <div class="container">
+            <div class="article-footer ">
+        <hr>
+
+    <div class="article-footer__inner">
+
+
+                <div class="article-footer__themes">
+                    <span class="trumpet trumpet--small">Temaer</span>
+                    <div>
+                            <a href="/opskrifter/maaltid/tilbehoer/" title="Tilbeh&#248;r" >Tilbeh&#248;r</a>
+                            <a href="/opskrifter/groen/veganer/" title="Vegansk mad" >Vegansk mad</a>
+                            <a href="/opskrifter/groen/vegetar/" title="Vegetarisk mad" >Vegetarisk mad</a>
+                            <a href="/opskrifter/koekken/dansk/" title="Dansk mad" >Dansk mad</a>
+                            <a href="/opskrifter/type/fermentering/" title="Fermentering" >Fermentering</a>
+                            <a href="/opskrifter/anledning/catering/" title="Catering" >Catering</a>
+                    </div>
+                </div>
+
+            <div class="article-footer__author">
+                <div>
+                    <span class="trumpet trumpet--small">Forfatter</span>
+                    <div>
+                        <span></span>
+                    </div>
+                </div>
+
+                <div>
+                    <span class="trumpet trumpet--small">Udgivet</span>
+                    <div>
+                        <span>01.07.19</span>
+                    </div>
+                </div>
+            </div>
+
+
+    </div>
+</div>
+
+        </div>
+    </section>
+
+<section class="deck">
+    <div class="container">
+        <hr>
+    </div>
+</section>
+
+<section class="deck deck--no-overflow  theme-local theme-kurser">
+    <div class="container">
+        
+
+<div class="card-slider">
+    <div class="card-slider__inner js--card-slider">
+        <div class="card-slider__header">
+            <h2 class="card-slider__header__title">Mad ud af huset</h2>
+            <div class="js--card-slider-controls tns-controls"><button></button><button></button></div>
+        </div>
+        <ul class="js--card-slider-container">
+                <li class="card-slider__inner__item">
+                                <a href="/catering/tapas/p/80130/" class="card ">
+
+        <div class="card__image" style="background-image:url(/media/43903/meyers_15222_q3_tapas_klassisk_oversigt.jpg?anchor=center&amp;mode=crop&amp;width=393&amp;height=245&amp;rnd=133301132160000000);">
+            <img alt="" src="/media/43903/meyers_15222_q3_tapas_klassisk_oversigt.jpg?anchor=center&amp;mode=crop&amp;width=393&amp;height=245&amp;rnd=133301132160000000">
+
+        </div>
+    <div class="card__content">
+        <div class="card__content__info">
+                            <h2 class="card__headline">
+                    Tapas
+                </h2>
+                            <p>fra 335,- pr. kuvert</p>
+
+        </div>
+    </div>
+
+    
+        </a>
+
+
+                </li>
+                <li class="card-slider__inner__item">
+                                <a href="/catering/buffet/p/70293/" class="card ">
+
+        <div class="card__image" style="background-image:url(/media/43893/meyers_15078_q3_buffet_konventionel.jpg?anchor=center&amp;mode=crop&amp;width=393&amp;height=245&amp;rnd=133301130820000000);">
+            <img alt="" src="/media/43893/meyers_15078_q3_buffet_konventionel.jpg?anchor=center&amp;mode=crop&amp;width=393&amp;height=245&amp;rnd=133301130820000000">
+
+        </div>
+    <div class="card__content">
+        <div class="card__content__info">
+                            <h2 class="card__headline">
+                    Buffet
+                </h2>
+                            <p>fra 295,- pr. kuvert</p>
+
+        </div>
+    </div>
+
+    
+        </a>
+
+
+                </li>
+                <li class="card-slider__inner__item">
+                                <a href="/catering/3-retters-menu/p/70366/" class="card ">
+
+        <div class="card__image" style="background-image:url(/media/43874/meyers_15120_q3_buffet_klassisk.jpg?anchor=center&amp;mode=crop&amp;width=393&amp;height=245&amp;rnd=133301129550000000);">
+            <img alt="" src="/media/43874/meyers_15120_q3_buffet_klassisk.jpg?anchor=center&amp;mode=crop&amp;width=393&amp;height=245&amp;rnd=133301129550000000">
+
+        </div>
+    <div class="card__content">
+        <div class="card__content__info">
+                            <h2 class="card__headline">
+                    3-retters menu
+                </h2>
+                            <p>fra 355,- pr. kuvert</p>
+
+        </div>
+    </div>
+
+    
+        </a>
+
+
+                </li>
+                <li class="card-slider__inner__item">
+                                <a href="/catering/receptionsmenu/p/80168/" class="card ">
+
+        <div class="card__image" style="background-image:url(/media/43919/meyers_15268_q3_reception_klassisk.jpg?anchor=center&amp;mode=crop&amp;width=393&amp;height=245&amp;rnd=133301133510000000);">
+            <img alt="" src="/media/43919/meyers_15268_q3_reception_klassisk.jpg?anchor=center&amp;mode=crop&amp;width=393&amp;height=245&amp;rnd=133301133510000000">
+
+        </div>
+    <div class="card__content">
+        <div class="card__content__info">
+                            <h2 class="card__headline">
+                    Receptionsmenu
+                </h2>
+                            <p>fra 175,- pr. kuvert</p>
+
+        </div>
+    </div>
+
+    
+        </a>
+
+
+                </li>
+        </ul>
+    </div>
+</div>
+
+    </div>
+</section>
+
+
+
+        </main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+
+            <div class="d-sm-none">
+                
+
+                <span class="footer__logo">
+                    <a href="#" class="footer__logo__link">
+                        <svg class="svg-icon svg-icon--logo">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/graphics/svg/svg-sprite.svg#logo">
+                            </use>
+                        </svg>
+                    </a>
+                </span>
+                <div class="footer__sitemap">
+<div class="accordion accordion--slim">
+    <button type="button" class="accordion__trigger collapsed" data-toggle="collapse" href="#footerAccordion0" role="button" aria-expanded="false" aria-controls="footerAccordion0">
+
+        <h5 class="accordion__title trumpet">Catering</h5>
+
+            <span class="accordion__indicator">
+                <span class="toggle  toggle--angle "></span>
+
+            </span>
+    </button>
+
+    <div class="collapse" id="footerAccordion0">
+        <div class="accordion__content">
+            <ul>
+        <li>
+            <a href="https://meyers.dk/catering/buffet/p/70293/" title="Buffet" >Buffet</a>
+        </li>
+        <li>
+            <a href="https://meyers.dk/catering/tapas/p/80130/" title="Tapas" >Tapas</a>
+        </li>
+        <li>
+            <a href="https://meyers.dk/catering/3-retters-menu/p/70366/" title="3-retters menu" >3-retters menu</a>
+        </li>
+        <li>
+            <a href="https://meyers.dk/catering/receptionsmenu/p/80168/" title="Receptionsmenu" >Receptionsmenu</a>
+        </li>
+</ul>
+        </div>
+    </div>
+</div>
+<div class="accordion accordion--slim">
+    <button type="button" class="accordion__trigger collapsed" data-toggle="collapse" href="#footerAccordion1" role="button" aria-expanded="false" aria-controls="footerAccordion1">
+
+        <h5 class="accordion__title trumpet">Madkurser</h5>
+
+            <span class="accordion__indicator">
+                <span class="toggle  toggle--angle "></span>
+
+            </span>
+    </button>
+
+    <div class="collapse" id="footerAccordion1">
+        <div class="accordion__content">
+            <ul>
+        <li>
+            <a href="/madkurser/kursuskalender/" title="Kursuskalender" >Kursuskalender</a>
+        </li>
+        <li>
+            <a href="/madkurser/kursusoversigt/" title="Kurser" >Kurser</a>
+        </li>
+        <li>
+            <a href="/madkurser/bagekurser/" title="Bagekursus" >Bagekursus</a>
+        </li>
+</ul>
+        </div>
+    </div>
+</div>
+<div class="accordion accordion--slim">
+    <button type="button" class="accordion__trigger collapsed" data-toggle="collapse" href="#footerAccordion2" role="button" aria-expanded="false" aria-controls="footerAccordion2">
+
+        <h5 class="accordion__title trumpet">Spis ude</h5>
+
+            <span class="accordion__indicator">
+                <span class="toggle  toggle--angle "></span>
+
+            </span>
+    </button>
+
+    <div class="collapse" id="footerAccordion2">
+        <div class="accordion__content">
+            <ul>
+        <li>
+            <a href="" title="Restauranter" >Restauranter</a>
+        </li>
+        <li>
+            <a href="/bageri/meyers-bagerier/" title="Bagerier" >Bagerier</a>
+        </li>
+</ul>
+        </div>
+    </div>
+</div>
+<div class="accordion accordion--slim">
+    <button type="button" class="accordion__trigger collapsed" data-toggle="collapse" href="#footerAccordion3" role="button" aria-expanded="false" aria-controls="footerAccordion3">
+
+        <h5 class="accordion__title trumpet">Opskrifter</h5>
+
+            <span class="accordion__indicator">
+                <span class="toggle  toggle--angle "></span>
+
+            </span>
+    </button>
+
+    <div class="collapse" id="footerAccordion3">
+        <div class="accordion__content">
+            <ul>
+        <li>
+            <a href="/opskrifter/" title="Opskrifter" >Opskrifter</a>
+        </li>
+        <li>
+            <a href="/opskrifter/meyers-kogeboeger/" title="Meyers kogeb&#248;ger" >Meyers kogeb&#248;ger</a>
+        </li>
+</ul>
+        </div>
+    </div>
+</div>
+<div class="accordion accordion--slim">
+    <button type="button" class="accordion__trigger collapsed" data-toggle="collapse" href="#footerAccordion4" role="button" aria-expanded="false" aria-controls="footerAccordion4">
+
+        <h5 class="accordion__title trumpet">Om Meyers</h5>
+
+            <span class="accordion__indicator">
+                <span class="toggle  toggle--angle "></span>
+
+            </span>
+    </button>
+
+    <div class="collapse" id="footerAccordion4">
+        <div class="accordion__content">
+            <ul>
+        <li>
+            <a href="/om-meyers/" title="Om Meyers" >Om Meyers</a>
+        </li>
+        <li>
+            <a href="https://meyers.dk/vores-formaal/" title="Vores form&#229;l" >Vores form&#229;l</a>
+        </li>
+        <li>
+            <a href="/om-meyers/smiley-rapporter-fra-foedevarestyrelsen/" title="Smiley-rapporter" >Smiley-rapporter</a>
+        </li>
+        <li>
+            <a href="/om-meyers/job-hos-meyers/" title="Jobs" >Jobs</a>
+        </li>
+</ul>
+        </div>
+    </div>
+</div>
+<div class="accordion accordion--slim">
+    <button type="button" class="accordion__trigger collapsed" data-toggle="collapse" href="#footerAccordion5" role="button" aria-expanded="false" aria-controls="footerAccordion5">
+
+        <h5 class="accordion__title trumpet">Nyheder</h5>
+
+            <span class="accordion__indicator">
+                <span class="toggle  toggle--angle "></span>
+
+            </span>
+    </button>
+
+    <div class="collapse" id="footerAccordion5">
+        <div class="accordion__content">
+            <ul>
+        <li>
+            <a href="/nyheder/" title="Seneste" >Seneste</a>
+        </li>
+        <li>
+            <a href="/nyheder/arkiv/" title="Arkiv" >Arkiv</a>
+        </li>
+</ul>
+        </div>
+    </div>
+</div>
+                </div>
+
+                <nav class="footer__nav">
+                    <ul class="footer__nav__list">
+                            <li class="footer__nav__list__item">
+                                <a href="/erhverv/" title="For virksomheder" >For virksomheder</a>
+                            </li>
+                            <li class="footer__nav__list__item">
+                                <a href="/kundeservice/" title="Kundeservice" >Kundeservice</a>
+                            </li>
+                            <li class="footer__nav__list__item">
+                                <a href="/vilkaar/" title="Vilk&#229;r" >Vilk&#229;r</a>
+                            </li>
+                            <li class="footer__nav__list__item">
+                                <a href="/en/" title="English" >English</a>
+                            </li>
+                    </ul>
+                    <div class="footer__nav__b-corp-logo">
+                        <a href="https://meyers.dk/baeredygtighed/b-corp/">
+                            <img src="/static/meyersfood/svg/bcorplogo.svg" alt="BCorp Logo" />
+                        </a>
+                    </div>
+                </nav>
+
+
+                <ul class="footer__social-list">
+                        <li class="footer__social-list__item">
+                            <a href="https://www.instagram.com/meyers/?hl=en" title="Instagram" >
+                                <span class="social-icon">
+    <span class="sr-only">Instagram</span>
+    <svg class="svg-icon svg-icon--social-instagram">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/graphics/svg/svg-sprite.svg#social-instagram">
+        </use>
+    </svg>
+</span>
+
+                            </a>
+                        </li>
+                        <li class="footer__social-list__item">
+                            <a href="https://www.facebook.com/meyersmad/" title="Facebook" >
+                                <span class="social-icon">
+    <span class="sr-only">Facebook</span>
+    <svg class="svg-icon svg-icon--social-facebook">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/graphics/svg/svg-sprite.svg#social-facebook">
+        </use>
+    </svg>
+</span>
+
+                            </a>
+                        </li>
+                        <li class="footer__social-list__item">
+                            <a href="https://www.youtube.com/user/Meyersmad" title="Youtube" >
+                                <span class="social-icon">
+    <span class="sr-only">Youtube</span>
+    <svg class="svg-icon svg-icon--social-youtube">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/graphics/svg/svg-sprite.svg#social-youtube">
+        </use>
+    </svg>
+</span>
+
+                            </a>
+                        </li>
+                </ul>
+
+            </div>
+
+            <div class="d-none d-sm-block">
+                
+                <div class="footer__outerwrapper">
+                    <div class="row footer__sitemap">
+                            <div class="col-12 col-sm-4 col-lg-2">
+                                <h5 class="trumpet">Catering</h5>
+                                <ul>
+        <li>
+            <a href="https://meyers.dk/catering/buffet/p/70293/" title="Buffet" >Buffet</a>
+        </li>
+        <li>
+            <a href="https://meyers.dk/catering/tapas/p/80130/" title="Tapas" >Tapas</a>
+        </li>
+        <li>
+            <a href="https://meyers.dk/catering/3-retters-menu/p/70366/" title="3-retters menu" >3-retters menu</a>
+        </li>
+        <li>
+            <a href="https://meyers.dk/catering/receptionsmenu/p/80168/" title="Receptionsmenu" >Receptionsmenu</a>
+        </li>
+</ul>
+                            </div>
+                            <div class="col-12 col-sm-4 col-lg-2">
+                                <h5 class="trumpet">Madkurser</h5>
+                                <ul>
+        <li>
+            <a href="/madkurser/kursuskalender/" title="Kursuskalender" >Kursuskalender</a>
+        </li>
+        <li>
+            <a href="/madkurser/kursusoversigt/" title="Kurser" >Kurser</a>
+        </li>
+        <li>
+            <a href="/madkurser/bagekurser/" title="Bagekursus" >Bagekursus</a>
+        </li>
+</ul>
+                            </div>
+                            <div class="col-12 col-sm-4 col-lg-2">
+                                <h5 class="trumpet">Spis ude</h5>
+                                <ul>
+        <li>
+            <a href="" title="Restauranter" >Restauranter</a>
+        </li>
+        <li>
+            <a href="/bageri/meyers-bagerier/" title="Bagerier" >Bagerier</a>
+        </li>
+</ul>
+                            </div>
+                            <div class="col-12 col-sm-4 col-lg-2">
+                                <h5 class="trumpet">Opskrifter</h5>
+                                <ul>
+        <li>
+            <a href="/opskrifter/" title="Opskrifter" >Opskrifter</a>
+        </li>
+        <li>
+            <a href="/opskrifter/meyers-kogeboeger/" title="Meyers kogeb&#248;ger" >Meyers kogeb&#248;ger</a>
+        </li>
+</ul>
+                            </div>
+                            <div class="col-12 col-sm-4 col-lg-2">
+                                <h5 class="trumpet">Om Meyers</h5>
+                                <ul>
+        <li>
+            <a href="/om-meyers/" title="Om Meyers" >Om Meyers</a>
+        </li>
+        <li>
+            <a href="https://meyers.dk/vores-formaal/" title="Vores form&#229;l" >Vores form&#229;l</a>
+        </li>
+        <li>
+            <a href="/om-meyers/smiley-rapporter-fra-foedevarestyrelsen/" title="Smiley-rapporter" >Smiley-rapporter</a>
+        </li>
+        <li>
+            <a href="/om-meyers/job-hos-meyers/" title="Jobs" >Jobs</a>
+        </li>
+</ul>
+                            </div>
+                            <div class="col-12 col-sm-4 col-lg-2">
+                                <h5 class="trumpet">Nyheder</h5>
+                                <ul>
+        <li>
+            <a href="/nyheder/" title="Seneste" >Seneste</a>
+        </li>
+        <li>
+            <a href="/nyheder/arkiv/" title="Arkiv" >Arkiv</a>
+        </li>
+</ul>
+                            </div>
+                    </div>
+                    <div class="footer__nav__b-corp-logo">
+                        <a href="https://meyers.dk/baeredygtighed/b-corp/">
+                            <img src="/static/meyersfood/svg/bcorplogo.svg" alt="BCorp Logo" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__inner__wrapper">
+
+                    <span class="footer__logo">
+                        <a href="#" class="footer__logo__link">
+                            <svg class="svg-icon svg-icon--logo">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/graphics/svg/svg-sprite.svg#logo">
+                                </use>
+                            </svg>
+                        </a>
+                    </span>
+
+
+
+                    <nav class="footer__nav">
+                        <ul class="footer__nav__list">
+                                <li class="footer__nav__list__item">
+                                    <a href="/erhverv/" title="For virksomheder" >For virksomheder</a>
+                                </li>
+                                <li class="footer__nav__list__item">
+                                    <a href="/kundeservice/" title="Kundeservice" >Kundeservice</a>
+                                </li>
+                                <li class="footer__nav__list__item">
+                                    <a href="/vilkaar/" title="Vilk&#229;r" >Vilk&#229;r</a>
+                                </li>
+                                <li class="footer__nav__list__item">
+                                    <a href="/en/" title="English" >English</a>
+                                </li>
+                            <li class="footer__nav__list__item">
+                                <button class="btn-link-footer" onClick="CookieConsent.renew()">Renew Consent</button>
+                            </li>
+                            <li class="footer__nav__list__item">
+                                    <a href="/mit-login/" title="Log ind">Log ind</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <ul class="footer__social-list">
+                            <li class="footer__social-list__item">
+                                <a href="https://www.instagram.com/meyers/?hl=en" title="Instagram" >
+                                    <span class="social-icon">
+    <span class="sr-only">Instagram</span>
+    <svg class="svg-icon svg-icon--social-instagram">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/graphics/svg/svg-sprite.svg#social-instagram">
+        </use>
+    </svg>
+</span>
+
+                                </a>
+                            </li>
+                            <li class="footer__social-list__item">
+                                <a href="https://www.facebook.com/meyersmad/" title="Facebook" >
+                                    <span class="social-icon">
+    <span class="sr-only">Facebook</span>
+    <svg class="svg-icon svg-icon--social-facebook">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/graphics/svg/svg-sprite.svg#social-facebook">
+        </use>
+    </svg>
+</span>
+
+                                </a>
+                            </li>
+                            <li class="footer__social-list__item">
+                                <a href="https://www.youtube.com/user/Meyersmad" title="Youtube" >
+                                    <span class="social-icon">
+    <span class="sr-only">Youtube</span>
+    <svg class="svg-icon svg-icon--social-youtube">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/graphics/svg/svg-sprite.svg#social-youtube">
+        </use>
+    </svg>
+</span>
+
+                                </a>
+                            </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+    </div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDe_OZfKtT_m2b1wRfF0mn-MDQy8FDNTvk"></script>
+    <script src="https://cdn.dataforsyningen.dk/dawa/assets/dawa-autocomplete2/1.0.2/unfilled/dawa-autocomplete2.min.js" defer></script>
+    <script type="text/javascript" src="/scripts/bundle/meyersfoodlib-83D25C923CE62305A9FCD321EE718305C3ED5F32.js" defer></script>
+    
+    
+    <input name="__RequestVerificationToken" type="hidden" value="p9CJJegmqWYE4aUSGGhpULDAHqbQzjO9mVvfa9NPbp-fsHUMwMtaFMs1_kcvduhiKe1ErvHtWCP-a6rISSC-tgDSbrBz8jLtGBDePZuLZ3M1" />
+    
+    <script type="application/ld+json">
+        {"@context":"http://schema.org","@type":"Recipe","name":"Fermenteret kål med hvidløg og chili","description":"Fermentering betyder simpelthen gæring, og det er en helt naturlig proces, der har været brugt i årtusinder til at forarbejde og bevare fødevarer. Yoghurt, kaffe, te, vin, ost og mange pølser er fermenterede uden at vi tænker over det. Fermenteret kål har f.eks. været brugt i generationer herhjemme. Brug det som tilbehør til grønsagsretter eller kødretter, som et syrligt modspil.","image":"https://meyers.dk/media/9624/fermenteret_kaal.jpg?anchor=center\u0026mode=crop\u0026width=500\u0026height=500\u0026upscale=false\u0026rnd=132064694600000000","datePublished":"2019-07-01","keywords":"Fermentering, Catering","recipeCategory":"Tilbehør","recipeCuisine":"Dansk mad","recipeIngredient":["\u0026frac12; kg hvidk\u0026#229;l","1 \u0026frac12; tsk salt","1 fed hvidl\u0026#248;g","1 r\u0026#248;d chili"],"recipeInstructions":{"@type":"HowToSection","itemListElement":{"@type":"HowToStep","text":"Snit hvidkål fint og kom i en skål. Tilføj salt. Ælt kålen grundigt med hænderne, og pres saften ud. Cellevæggene i kålen skal brydes, så det skal have en ordentlig tur. Hak derefter hvidløg og chili fint og vend med kålen.\nPres det hele godt sammen i en glas- eller plasticbeholder, hvor kålen kan ligge dækket i egen væske. Den skal være dækket af væske. Så kan den anaerobe fermentering (en gæring uden ilt) gå i gang. Sæt låg på beholderen, og stil surkålen til gæring ved stuetemperatur.\nSmag løbende på kålen. Skal den have mere salt? Hvordan udvikler smagen sig? Husk, smagen ændrer sig løbende i takt med dannelsen af mælkesyren. Efter 2 til 3 dage er processen godt i gang, og mælkesyren kan duftes og smages. Det vil ligeledes boble i overfladen.\nKålen kan spises fra starten af processen, eller efter et par dage, når den har fået noget syrlighed, eller du kan lade den gære videre i en uge eller mere. Smag på den løbende. Når kålen har gæret i et par uger, vil den som regel være færdiggæret. Den smager og dufter syrligt og er blevet bleg i farven. Sæt den i køleskabet med låg på, og den kan holde sig i 6 måneder."}},"recipeYield":"2 glas"}
+    </script>
+
+    <script>
+        !function (e, l, v, i, o, n) { e[i] || (e[i] = {}), e[i].account_id = n; var g, h; g = l.createElement(v), g.type = "text/javascript", g.async = 1, g.src = o + n, h = l.getElementsByTagName(v)[0], h.parentNode.insertBefore(g, h); e[i].q = []; e[i].on = function (z, y) { e[i].q.push([z, y]) } }(window, document, "script", "_elev", "https://cdn.elev.io/sdk/bootloader/v4/elevio-bootloader.js?cid=", "624b02f002831");
+    </script>
+</body>
+</html>

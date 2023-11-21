@@ -1,0 +1,1279 @@
+
+<!DOCTYPE html>
+<html lang="da" data-culture="da">
+<head>
+    <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"59225400df","applicationID":"42453160","transactionName":"ZF0DZEMHWRZVURFcV10XLGZySWUAV1sVUHdFXRNGWANANVVVAHZXXUwTX10KUhcbYABWUUNd","queueTime":0,"applicationTime":1330,"ttGuid":"EA28F0ED44F50771","agent":""}</script><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"59225400df",applicationID:"42453160"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(9),c=t(10),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(11);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(8),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],7:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],8:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],9:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],10:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],11:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(9),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!M++){var t=T.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(x,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+T.offset],null,"api"),c("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===m.readyState&&o()}function o(){c("mark",["domContent",a()+T.offset],null,"api")}var a=t(5),c=t("handle"),f=t(9),u=t("ee"),s=t(7),d=t(2),p=t(3),l=d.getConfiguration("ssl")===!1?"http":"https",v=window,m=v.document,g="addEventListener",y="attachEvent",h=v.XMLHttpRequest,w=h&&h.prototype,b=!1;NREUM.o={ST:setTimeout,SI:v.setImmediate,CT:clearTimeout,XHR:h,REQ:v.Request,EV:v.Event,PR:v.Promise,MO:v.MutationObserver};var E=""+location,x={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1216.min.js"},O=h&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),T=e.exports={offset:a.getLastTimestamp(),now:a,origin:E,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(6),m[g]?(m[g]("DOMContentLoaded",o,p(!1)),v[g]("load",r,p(!1))):(m[y]("onreadystatechange",i),v[y]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var M=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(10),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+
+    <script id="CookieConsent" src="https://policy.app.cookieinformation.com/uc.js"
+            data-culture="da" type="text/javascript">
+    </script>
+        <script>
+      function getParameterByName(name, url) {
+        if (!url) url = window.location.href;
+        name = name.replace(/[\[\]]/g, '\\$&');
+        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+          results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        }
+
+        (function(window, document) {
+
+            window.addEventListener('CookieInformationConsentGiven', function () {
+                var disableGeoRedirect = false;
+
+                if (disableGeoRedirect || !CookieInformation.getConsentGivenFor('cookie_cat_functional')){
+                    return;
+                }
+
+                var isSalesTool = getParameterByName('stRedirect');
+                if (isSalesTool != null || document.cookie.indexOf('royalgreenland-visited=1') != -1) {
+                    return;
+                }
+
+                var request = new XMLHttpRequest();
+                request.open('GET', '/api/redirect?id=' + 1111, true);
+                request.onload = function() {
+                    if (request.status >= 200 && request.status < 400) {
+                        if (request.responseText) {
+                            window.location.href = request.responseText;
+                        }
+                    }
+                }
+                request.send();
+
+            }, false);
+      }(window, document));
+
+        </script>
+    <script>
+  dataLayer = [{
+    'pageType': 'RecipeOverviewPage',
+    'contentType': 'Foodservice - recipes',
+    'visitorType': 'Browsing',
+    'language': 'da'
+  }];
+</script><!-- Google Tag Manager -->
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PVHX5P');</script>
+<!-- End Google Tag Manager -->
+<script type="application/ld+json">
+    [ {"@context":"https://schema.org","@type":"Organization","name":"Royal Greenland","url":"https://www.royalgreenland.com/da/","logo":"https://www.royalgreenland.com/static/img/logo.jpg"}, {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","name":"Royal Greenland DA","item":"https://www.royalgreenland.com/da/","position":1},{"@type":"ListItem","name":"Foodservice","item":"https://www.royalgreenland.com/da/foodservice/","position":2},{"@type":"ListItem","name":"Opskrifter","item":"https://www.royalgreenland.com/da/foodservice/opskrifter/","position":3}]}, {"@context":"https://schema.org","@type":"Recipe","name":"Rejesalat med wakame tang,  syltede blommer, kikærter og chipotle chili","image":"https://www.royalgreenland.com/globalassets/recipes/prawns/prawn-salad-with-wakame-seaweed-and-pickled-plums--christmas-2022-1-crop.jpeg?transform=downfill&quality=80&h=ca04674ea8366273c8b06664e60804a17385a378","datePublished":"2022-08-30","totalTime":"PT15M","nutrition":{"@type":"NutritionInformation"},"recipeYield":{"@type":"QuantitativeValue","value":10.0}} ]
+</script>
+
+    
+    <link rel="alternate" href="https://www.royalgreenland.com/da/foodservice/opskrifter/rejesalat-med-wakame-tang--syltede-blommer-kikarter-og-chipotle-chili/" hreflang="da" />
+    <link rel="alternate" href="https://www.royalgreenland.com/se/foodservice/recept/raksallad-med-wakametang-syltade-plommon-kikartor-och-chipotlechili/" hreflang="sv" />
+<title>Rejesalat med wakame tang,  syltede blommer, kik&#230;rter og chipotle chili - Royal Greenland</title>
+    <meta name="description" content="Halver blommerne, fjern stenene, og sk&amp;aelig;r dem i kvarte. Kog vandet op med sukker, citronsaft, ingef&amp;aelig;r i skiver og rosmarin. Tils&amp;aelig;t blommerne og lad....." />
+
+<!--OpenGraph-->
+<meta property="og:type" content="recipe" />
+<meta property="og:title" content="Rejesalat med wakame tang,  syltede blommer, kik&#230;rter og chipotle chili" />
+    <meta property="og:description" content="Halver blommerne, fjern stenene, og sk&amp;aelig;r dem i kvarte. Kog vandet op med sukker, citronsaft, ingef&amp;aelig;r i skiver og rosmarin. Tils&amp;aelig;t blommerne og lad....." />
+    <meta property="og:image" content="https://www.royalgreenland.comhttps://www.royalgreenland.com/globalassets/recipes/prawns/prawn-salad-with-wakame-seaweed-and-pickled-plums--christmas-2022-1-crop.jpeg?transform=downfill&amp;quality=80&amp;width=1200&amp;height=630&amp;h=fe24fde191144812631953bb62a6e4c8c857965c" />
+<meta property="og:url" content="https://www.royalgreenland.com/da/foodservice/opskrifter/rejesalat-med-wakame-tang--syltede-blommer-kikarter-og-chipotle-chili/" />
+<meta property="og:site_name" content="Royal Greenland" />
+<meta property="og:locale" content="da_DK" />
+
+
+<!--Twitter-->
+<meta name="twitter:card" content="summary_large_image" />    <link rel="icon" href="/favicon.ico">
+    <script>
+        (function () {
+            function loadFont(a, b, c, d) { function e() { if (!window.FontFace) return !1; var a = new FontFace("t", 'url("data:application/font-woff2,") format("woff2")', {}), b = a.load(); try { b.then(null, function () { }) } catch (c) { } return "loading" === a.status } var f = navigator.userAgent, g = !window.addEventListener || f.match(/(Android (2|3|4.0|4.1|4.2|4.3))|(Opera (Mini|Mobi))/) && !f.match(/Chrome/); if (!g) { var h = {}; try { h = localStorage || {} } catch (i) { } var j = "x-font-" + a, k = j + "url", l = j + "css", m = h[k], n = h[l], o = document.createElement("style"); if (o.rel = "stylesheet", document.head.appendChild(o), !n || m !== b && m !== c) { var p = c && e() ? c : b, q = new XMLHttpRequest; q.open("GET", p), q.onload = function () { q.status >= 200 && q.status < 400 && (h[k] = p, h[l] = q.responseText, d || (o.textContent = q.responseText)) }, q.send() } else o.textContent = n } }
+
+
+
+            var supportsWoff2 = (function (win) {
+                if (!("FontFace" in win)) {
+                    return false;
+                }
+
+                var f = new FontFace('t', 'url( "data:application/font-woff2;base64,d09GMgABAAAAAAIkAAoAAAAABVwAAAHcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABlYAgloKLEoBNgIkAxgLDgAEIAWDcgc1G7IEyB6SJAFID5YA3nAHC6h4+H7s27nP1kTyOoQkGuJWtNGIJKYznRI3VEL7IaHq985ZUuKryZKcAtJsi5eULwUybm9KzajBBhywZ5ZwoJNuwDX5C/xBjvz5DbsoNsvG1NGQiqp0NMLZ7JlnW+5MaM3HwcHheUQeiVokekHkn/FRdefvJaTp2PczN+I1Sc3k9VuX51Tb0Tqqf1deVXGdJsDOhz0/EffMOPOzHNH06pYkDDjs+P8fb/z/8n9Iq8ITzWywkP6PBMMN9L/O7vY2FNoTAkp5PpD6g1nV9WmyQnM5uPpAMHR2fe06jbfvzPriekVTQxC6lpKr43oDtRZfCATl5OVAUKykqwm9o8R/kg37cxa6eZikS7cjK4aIwoyh6jOFplhFrz2b833G3Jii9AjDUiAZ9AxZtxdEYV6imvRF0+0Nej3wu6nPZrTLh81AVcV3kmMVdQj6Qbe9qetzbuDZ7vXOlRrqooFSxCv6SfrDICA6rnHZXQPVcUHJYGcoqa3jVH7ATrjWBNYYkEqF3RFpVIl0q2JvMOJd7/TyjXHw2NyAuJpNaEbz8RTEVtCbSH7JrwQQOqwGl7sTUOtdBZIY2DKqKlvOmPvUxJaURAZZcviTT0SKHCXqzwc=" ) format( "woff2" )', {});
+                f.load()['catch'](function () { });
+
+                return f.status == 'loading' || f.status == 'loaded';
+            })(window);
+
+            // load font (woff)
+            var ua = navigator.userAgent,
+                fontFileUrl = "/static/local-resources/font-woff.css";
+
+            if (supportsWoff2) {
+                fontFileUrl = "/static/local-resources/font-woff2.css";
+            }
+            loadFont('custom_fonts', fontFileUrl);
+
+        })()
+
+    </script>
+
+    <script>
+        // Storing SVG Sprite in localStorage
+        ; (function (window, document) {
+            'use strict';
+
+          var file = '/static/local-resources/svg.svg',
+            revision = '77781ada8612c09db5c4c69776f8f65f';
+
+            if (!document.createElementNS || !document.createElementNS('http://www.w3.org/2000/svg', 'svg').createSVGRect)
+                return true;
+
+            var isLocalStorage = 'localStorage' in window && window['localStorage'] !== null,
+                request,
+                data,
+                insertIT = function () {
+                    document.body.insertAdjacentHTML('afterbegin', data);
+                },
+                insert = function () {
+                    if (document.body) insertIT();
+                    else document.addEventListener('DOMContentLoaded', insertIT);
+                };
+
+            if (isLocalStorage && localStorage.getItem('inlineSVGrev') == revision) {
+                data = localStorage.getItem('inlineSVGdata');
+                if (data) {
+                    insert();
+                    return true;
+                }
+            }
+
+            try {
+                request = new XMLHttpRequest();
+                request.open('GET', file + '?v' + Date.now(), true);
+                request.onload = function () {
+                    if (request.status >= 200 && request.status < 400) {
+                        data = request.responseText;
+                        insert();
+                        if (isLocalStorage) {
+                            localStorage.setItem('inlineSVGdata', data);
+                            localStorage.setItem('inlineSVGrev', revision);
+                        }
+                    }
+                }
+                request.send();
+            }
+            catch (e) { }
+
+        }(window, document));
+    </script>
+
+        <link rel="stylesheet" href="/static/app-a9d7e3bcfb.css" media="screen,projection"/>
+        <link rel="stylesheet" href="/static/print-5343944e38.css" media="print"/>
+
+
+    <script src="/static/head-c9d0b270d8.js"></script>
+        <script type='text/javascript'>
+            window.addEventListener('CookieInformationConsentGiven', function () {
+
+                var alreadyHasAppInsights = !!window.appInsights;
+
+                var appInsights = window.appInsights || function (config) {
+                    function r(config) { t[config] = function () { var i = arguments; t.queue.push(function () { t[config].apply(t, i) }) } }
+                    var t = { config: config }, u = document, e = window, o = 'script', s = u.createElement(o), i, f; for (s.src = config.url || '//az416426.vo.msecnd.net/scripts/a/ai.0.js', u.getElementsByTagName(o)[0].parentNode.appendChild(s), t.cookie = u.cookie, t.queue = [], i = ['Event', 'Exception', 'Metric', 'PageView', 'Trace', 'Ajax']; i.length;)r('track' + i.pop()); return r('setAuthenticatedUserContext'), r('clearAuthenticatedUserContext'), config.disableExceptionTracking || (i = 'onerror', r('_' + i), f = e[i], e[i] = function (config, r, u, e, o) { var s = f && f(config, r, u, e, o); return s !== !0 && t['_' + i](config, r, u, e, o), s }), t
+                }({
+                    instrumentationKey: 'bf88c80f-2717-4e36-a544-f875f5909c64',
+                    isCookieUseDisabled: !CookieInformation.getConsentGivenFor('cookie_cat_statistic')
+                });
+
+                window.appInsights = appInsights;
+
+                if (!alreadyHasAppInsights)
+                    appInsights.trackPageView();
+            });
+        </script>
+
+
+        <script type="text/javascript"
+                async defer
+                src="//assets.pinterest.com/js/pinit.js"></script>
+
+</head>
+
+<body class="uppercase-titles">
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PVHX5P"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="not-supported-browsers">
+    <svg class="not-supported-browsers__logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 658.7 190"><path d="M30 85.6L12.3 50.4h-.2v35.2H0V14.4C4 11.8 10.2 10 17.4 10c16.2 0 23.2 9 23.2 23.2 0 9.7-7.3 17.7-15.3 19v.2l18.2 33.2H30zM17.4 18.4c-2.4 0-4 .3-5.4 1v28.2c.6.1 1.2.2 2.1.2 7.5 0 14.6-4.1 14.6-14.3 0-9.6-2.9-15.1-11.3-15.1M69 86.7c-14.2 0-20.6-13.2-20.6-30.2 0-17.2 6.5-30.3 20.5-30.3 14.2 0 20.5 13.1 20.5 30.3-.1 17-6.4 30.2-20.4 30.2m0-52.1c-7.5 0-9 10.5-9 21.7 0 11.1 1.6 21.1 9 21.1s8.8-10 8.8-21.1c0-11.2-1.5-21.7-8.8-21.7M114 108.9h-11.7l8.4-23.3-15.8-58.4h11.9l9 43h.3l10.3-43h10.7M161.3 86.7c-13.4 0-19.9-6.9-19.9-18 0-15.2 11.8-19.8 26.7-21.7v-2.5c0-6.8-3.7-9.7-9.2-9.7-4.8 0-9.2 1.6-12 3.4l-2.5-7.7c3-1.9 8.7-4.3 16.5-4.3 10.1 0 18.3 5.1 18.3 20.3v35.9c-4 2.7-9.6 4.3-17.9 4.3m6.9-32.6c-10.4 1.6-15.9 4.7-15.9 14.3 0 6.8 3.5 10.4 9.7 10.4 2.5 0 4.9-.5 6.2-1.3V54.1zM192.2.6h11.5v85h-11.5zM260.5 86.7c-16.7 0-27.3-14.4-27.3-38.8 0-23.2 11.3-37.9 27.7-37.9 7.2 0 12.6 1.5 16.1 4.3l-3.5 8.4c-2.1-1.5-5.6-2.9-11.3-2.9-10 0-16.8 9.5-16.7 28.4 0 15.5 4.5 28.6 14.2 28.6 3.7 0 5.2-.4 6.4-1.1V51.6h-8.8v-8.9H278v39.6c-3.8 2.7-9.2 4.4-17.5 4.4M312.5 36c-3.6-1.6-7.6-1.4-10.3.2v49.4h-11.6V30.5c5.3-3.1 11.4-4.7 24.4-4.2l-2.5 9.7zM329.9 61.4c.8 10.5 5.2 16 12.9 16 6 0 10.1-1.7 12.2-3.4l2.7 8.3c-3.4 2.5-9 4.3-16.2 4.3-14.2 0-23-10.5-23-30.4 0-18.4 8.2-30.1 21.1-30.1 13.5 0 20.6 11.4 19.9 31.6l-29.6 3.7zm9.4-26.7c-5.8 0-10.1 7.4-10 19.1l18.7-2.4c0-10.9-2.8-16.7-8.7-16.7M380.1 61.4c.8 10.5 5.2 16 12.9 16 6 0 10.1-1.7 12.2-3.4l2.7 8.3c-3.3 2.5-9 4.3-16.2 4.3-14.2 0-23-10.5-23-30.4 0-18.4 8.2-30.1 21.1-30.1 13.5 0 20.6 11.4 19.9 31.6l-29.6 3.7zm9.5-26.7c-5.8 0-10.1 7.4-10 19.1l18.7-2.4c-.1-10.9-2.9-16.7-8.7-16.7M447.7 85.6V43.9c0-6.1-2.8-9.2-8.3-9.2-3.7 0-5.4.5-7.3 1.3v49.6h-11.6V30.5c4.6-2.7 10.9-4.3 19.4-4.3 12.6 0 19.3 5.3 19.3 17.8v41.7h-11.5zM472.2.6h11.5v85h-11.5zM514.4 86.7c-13.4 0-19.9-6.9-19.9-18 0-15.2 11.8-19.8 26.7-21.7v-2.5c0-6.8-3.7-9.7-9.2-9.7-4.8 0-9.2 1.6-12 3.4l-2.5-7.7c3-1.9 8.7-4.3 16.5-4.3 10.1 0 18.3 5.1 18.3 20.3v35.9c-4 2.7-9.6 4.3-17.9 4.3m6.8-32.6c-10.4 1.6-15.9 4.7-15.9 14.3 0 6.8 3.5 10.4 9.7 10.4 2.5 0 4.9-.5 6.2-1.3V54.1zM571.9 85.6V43.9c0-6.1-2.8-9.2-8.3-9.2-3.7 0-5.4.5-7.3 1.3v49.6h-11.6V30.5c4.5-2.7 10.9-4.3 19.4-4.3 12.6 0 19.3 5.3 19.3 17.8v41.7h-11.5zM617.1 86.7c-14.7 0-22.7-11.1-22.7-29.8 0-19.1 8.9-30.4 21.3-30.4 3.2 0 5.4.6 6.9 1.1V.6h11.5v81.8c-3.7 2.6-9.2 4.3-17 4.3m5.5-51.7c-1.2-.2-2.6-.6-4.5-.6-9.4 0-12.2 10.4-12.2 21.9 0 13.1 3.3 21.7 11.6 21.7 1.8 0 3.8-.1 5.1-1V35zM650.6 16.2c-4.5 0-8.1-3.6-8.1-8.1s3.6-8.1 8.1-8.1 8.1 3.6 8.1 8.1-3.7 8.1-8.1 8.1m0-14.8c-3.7 0-6.7 3-6.7 6.7s3 6.7 6.7 6.7 6.7-3 6.7-6.7-3-6.7-6.7-6.7m2 11.1l-2.9-3.8h-.4v3.8h-1.7V3.7c.7-.3 1.6-.5 2.6-.5 2.8 0 3.6 1.6 3.6 2.7 0 1.2-.9 2.3-2.2 2.6l3.2 4h-2.2zm-2.6-8c-.3 0-.6.1-.8.1v2.8h.3c1.5 0 2.3-.3 2.3-1.5.1-1.4-1.3-1.4-1.8-1.4M634.9 145.3c-372-43.9-468 96.5-630 7v8.9c6 6.6 22.6 12 35.2 16.3C65.2 185.9 89 190 116.3 190c38.6 0 77-8 122.4-17.3 9.5-2 19-4 29.2-6 25.1-5 58.7-11.2 97.4-15.8 40.7-4.8 81.2-7.2 123.2-7.2 46.6 0 98.4 3 146.4 8.8v-7.2z"/></svg>
+    <div class="not-supported-browsers__inner">
+        <div class="not-supported-browsers__inner-wrap">
+            <div>
+                <strong class="not-supported-browsers__title">Du har en for&#230;ldet browser</strong>
+                <p>Opdater venligst din browser</p>
+                    <a href="https://browser-update.org/da/update-outdated.html">Opdater browser</a>
+            </div>
+        </div>
+    </div>
+</div>    
+
+    <div class="site-wrapper">
+            <header class="site-header">
+                <div class="site-header__inner">
+                    <a href="/da/" class="site-logo">
+                        <svg class="site-logo__svg">
+                            <use xlink:href="#logo"></use>
+                        </svg>
+                        <svg class="site-logo__svg-small">
+                            <use xlink:href="#logo-mobile"></use>
+                        </svg>
+                    </a>
+
+                        <div class="c-search-dropdown js-search-dropdown">
+        <button class="c-search-dropdown__icon js-search-dropdown-trigger">
+            <svg class="c-search-dropdown_icon-search">
+                <use xlink:href="#search-flat"></use>
+            </svg>
+
+            <span class="c-search-dropdown_icon-close"></span>
+        </button>
+
+        <form class="c-search-dropdown__bar js-search-dropdown-bar" action="/da/sog/" method="get">
+            <label for="search-term" class="sr-only">S&#248;g</label>
+            <input id="search-term" name="SearchTerm" placeholder="S&#248;g efter nyheder og artikler her" type="text" />
+            <button type="submit" class="c-search-dropdown__submit">
+                <svg>
+                    <use xlink:href="#search-flat"></use>
+                </svg>
+            </button>
+        </form>
+    </div>
+
+
+                    <button class="nav-toggle-button js-nav-toggler">
+                        <svg class="nav-toggle-button__svg">
+                            <use xlink:href="#navigation"></use>
+                        </svg>
+                        <span class="nav-toggle-button__close-icon"></span>
+                    </button>
+                </div>
+
+                <div class="nav-wrapper">
+                    <nav class="top-navigation">
+                        <ul class="top-navigation__list">
+                            
+
+<li class="change-language">
+    <a class="js-change-lang" href="#" data-heading="Vælg marked">
+        <svg class="change-language__icon-top flag-da">
+            <use xlink:href="#flag-da"></use>
+        </svg>
+        <span class="change-language__title-lang">Danmark</span>
+        <span class="change-language__title">Vælg marked</span>
+    </a>
+    <div class="change-language__dropdown-wrap js-change-lang-list">
+        <ul class="change-language__dropdown">
+                <li >
+                    <a href="/foodservice/recipes/">
+                        Global
+                    </a>
+                    <div class="change-language__icon-wrap flag-en">
+                        <svg class="change-language__icon">
+                            <use xlink:href="#flag-en"></use>
+                        </svg>
+                    </div>
+                </li>
+                <li class=&quot;selected&quot;>
+                    <a href="https://www.royalgreenland.com/da/foodservice/opskrifter/">
+                        Danmark
+                    </a>
+                    <div class="change-language__icon-wrap flag-da">
+                        <svg class="change-language__icon">
+                            <use xlink:href="#flag-da"></use>
+                        </svg>
+                    </div>
+                </li>
+                <li >
+                    <a href="https://www.royalgreenland.de/foodservice/rezepte/">
+                        Deutschland
+                    </a>
+                    <div class="change-language__icon-wrap flag-de">
+                        <svg class="change-language__icon">
+                            <use xlink:href="#flag-de"></use>
+                        </svg>
+                    </div>
+                </li>
+                <li >
+                    <a href="https://www.royalgreenland.fr/foodservice/recettes/">
+                        France
+                    </a>
+                    <div class="change-language__icon-wrap flag-fr">
+                        <svg class="change-language__icon">
+                            <use xlink:href="#flag-fr"></use>
+                        </svg>
+                    </div>
+                </li>
+                <li >
+                    <a href="https://www.royalgreenland.it/foodservice/ricette/">
+                        Italia
+                    </a>
+                    <div class="change-language__icon-wrap flag-it">
+                        <svg class="change-language__icon">
+                            <use xlink:href="#flag-it"></use>
+                        </svg>
+                    </div>
+                </li>
+                <li >
+                    <a href="https://www.royalgreenland.gl/">
+                        Kalaallit Nunaat
+                    </a>
+                    <div class="change-language__icon-wrap flag-kl-GL">
+                        <svg class="change-language__icon">
+                            <use xlink:href="#flag-kl-GL"></use>
+                        </svg>
+                    </div>
+                </li>
+                <li >
+                    <a href="https://www.royalgreenland.com/no/">
+                        Norge
+                    </a>
+                    <div class="change-language__icon-wrap flag-no">
+                        <svg class="change-language__icon">
+                            <use xlink:href="#flag-no"></use>
+                        </svg>
+                    </div>
+                </li>
+                <li >
+                    <a href="https://www.royalgreenland.com/se/foodservice/recept/">
+                        Sverige
+                    </a>
+                    <div class="change-language__icon-wrap flag-sv">
+                        <svg class="change-language__icon">
+                            <use xlink:href="#flag-sv"></use>
+                        </svg>
+                    </div>
+                </li>
+                <li >
+                    <a href="https://www.royalgreenland.co.uk/foodservice/recipes/">
+                        United Kingdom
+                    </a>
+                    <div class="change-language__icon-wrap flag-en-GB">
+                        <svg class="change-language__icon">
+                            <use xlink:href="#flag-en-GB"></use>
+                        </svg>
+                    </div>
+                </li>
+                <li >
+                    <a href="https://www.royalgreenland.com/en-us/foodservice/recipes/">
+                        North America
+                    </a>
+                    <div class="change-language__icon-wrap flag-en-US">
+                        <svg class="change-language__icon">
+                            <use xlink:href="#flag-en-US"></use>
+                        </svg>
+                    </div>
+                </li>
+                <li >
+                    <a href="https://www.royalgreenland.es/foodservice/recetas/">
+                        Espa&#241;a
+                    </a>
+                    <div class="change-language__icon-wrap flag-es">
+                        <svg class="change-language__icon">
+                            <use xlink:href="#flag-es"></use>
+                        </svg>
+                    </div>
+                </li>
+                <li >
+                    <a href="https://www.royalgreenland.co.jp/">
+                        日本
+                    </a>
+                    <div class="change-language__icon-wrap flag-ja">
+                        <svg class="change-language__icon">
+                            <use xlink:href="#flag-ja"></use>
+                        </svg>
+                    </div>
+                </li>
+                <li >
+                    <a href="https://www.royalgreenland.com/zh-cn/">
+                        中國
+                    </a>
+                    <div class="change-language__icon-wrap flag-zh-CN">
+                        <svg class="change-language__icon">
+                            <use xlink:href="#flag-zh-CN"></use>
+                        </svg>
+                    </div>
+                </li>
+                <li >
+                    <a href="https://www.royalgreenland.com/en-ca/">
+                        Canada
+                    </a>
+                    <div class="change-language__icon-wrap flag-en-CA">
+                        <svg class="change-language__icon">
+                            <use xlink:href="#flag-en-CA"></use>
+                        </svg>
+                    </div>
+                </li>
+        </ul>
+    </div>
+</li>
+
+                            
+                              <li class="consumer">
+      <a href="http://royalgreenland.dk">For forbrugere</a>
+  </li>
+
+                        </ul>
+                        <ul class="top-navigation__list top-navigation__links">
+                              <li class="contact"><a href="/da/kontakt-os/">Vores lokationer</a></li>
+
+  <li class="contact"><a href="https://salestool.royalgreenland.com/">Internal (PC only)</a></li>
+
+                        </ul>
+                    </nav>
+                    <nav class="main-nav">
+                        
+
+
+<div class="main-nav__primary-wrap">
+    <ul class="main-nav__primary js-menu">
+            <li class="js-primary-item">
+                <a href="/da/royal-greenland/">Royal Greenland</a>
+                    <div class="main-nav__subsubmenu-wrap js-submenu">
+                        <div class="main-nav__subsubmenu-inner">
+<ul class="main-nav__submenu">
+        <li>
+            <a href="/da/royal-greenland/om-royal-greenland/">Om Royal Greenland</a>
+                <ul class="main-nav__subsubmenu">
+                        <li>
+                            <a href="/da/royal-greenland/om-royal-greenland/the-north-atlantic-champion/">The North Atlantic Champion</a>
+                        </li>
+                        <li>
+                            <a href="/da/royal-greenland/om-royal-greenland/mission--vision/">Mission &amp; Vision</a>
+                        </li>
+                        <li>
+                            <a href="/da/royal-greenland/om-royal-greenland/vores-historie/">Vores historie</a>
+                        </li>
+                        <li>
+                            <a href="/da/royal-greenland/om-royal-greenland/leverandor-til-det-kongelige-danske-hof/">Leverand&#248;r til Det Kongelige Danske Hof</a>
+                        </li>
+                        <li>
+                            <a href="/da/royal-greenland/om-royal-greenland/koncernstruktur-og-ledelse/">Koncernstruktur og ledelse</a>
+                        </li>
+                        <li>
+                            <a href="/da/royal-greenland/om-royal-greenland/fakta-og-nogletal/">Fakta og n&#248;gletal</a>
+                        </li>
+                </ul>
+        </li>
+        <li>
+            <a href="/da/royal-greenland/nyheder--seafood-insight/">Nyheder &amp; Seafood Insight</a>
+        </li>
+        <li>
+            <a href="/da/royal-greenland/presse/">Presse</a>
+                <ul class="main-nav__subsubmenu">
+                        <li>
+                            <a href="/da/royal-greenland/presse/pressekontakter/">Pressekontakter</a>
+                        </li>
+                        <li>
+                            <a href="/da/royal-greenland/presse/filmbank/">Filmbank</a>
+                        </li>
+                        <li>
+                            <a href="/da/royal-greenland/presse/nyhedsbrev-tilmelding/">Nyhedsbrev tilmelding</a>
+                        </li>
+                </ul>
+        </li>
+</ul>
+
+                            <ul class="main-nav__submenu">
+        <li>
+            <a href="/da/royal-greenland/moed-royal-greenland2/">M&#248;d Royal Greenland</a>
+        </li>
+        <li>
+            <a href="/da/royal-greenland/lokationer/">Lokationer</a>
+                <ul class="main-nav__subsubmenu">
+                        <li>
+                            <a href="/da/royal-greenland/lokationer/produktionsfaciliteter/">Produktionsfaciliteter</a>
+                        </li>
+                        <li>
+                            <a href="/da/royal-greenland/lokationer/salg-administration/">Salg &amp; administration</a>
+                        </li>
+                        <li>
+                            <a href="/da/royal-greenland/lokationer/fiskefartojer/">Fiskefart&#248;jer</a>
+                        </li>
+                </ul>
+        </li>
+        <li>
+            <a href="/da/royal-greenland/jobs/">Jobs</a>
+                <ul class="main-nav__subsubmenu">
+                        <li>
+                            <a href="/da/royal-greenland/jobs/at-arbejde-for-royal-greenland/">At arbejde for Royal Greenland</a>
+                        </li>
+                        <li>
+                            <a href="/da/royal-greenland/jobs/at-arbejde-og-bo-i-gronland/">At arbejde og bo i Gr&#248;nland</a>
+                        </li>
+                        <li>
+                            <a href="/da/royal-greenland/jobs/jobmuligheder/">Jobmuligheder</a>
+                        </li>
+                </ul>
+        </li>
+</ul>
+
+                        </div>
+                    </div>
+            </li>
+            <li class="js-primary-item">
+                <a href="/da/baredygtighed/">B&#230;redygtighed</a>
+                    <div class="main-nav__subsubmenu-wrap js-submenu">
+                        <div class="main-nav__subsubmenu-inner">
+<ul class="main-nav__submenu">
+        <li>
+            <a href="/da/baredygtighed/baredygtighed---det-naturlige-valg/">B&#230;redygtighed - Det naturlige valg</a>
+        </li>
+        <li>
+            <a href="/da/baredygtighed/Indblik-i-vores-hverdag/">Indblik i vores hverdag</a>
+        </li>
+        <li>
+            <a href="/da/baredygtighed/baredygtigt-fiskeri/">B&#230;redygtigt fiskeri</a>
+                <ul class="main-nav__subsubmenu">
+                        <li>
+                            <a href="/da/baredygtighed/baredygtigt-fiskeri/baredygtigt-ravaregrundlag/">B&#230;redygtigt r&#229;varegrundlag</a>
+                        </li>
+                        <li>
+                            <a href="/da/baredygtighed/baredygtigt-fiskeri/tredjeparts-certificering/">Tredjeparts certificering</a>
+                        </li>
+                        <li>
+                            <a href="/da/baredygtighed/baredygtigt-fiskeri/kommercialisering-af-nye-arter/">Kommercialisering af nye arter</a>
+                        </li>
+                </ul>
+        </li>
+        <li>
+            <a href="/da/baredygtighed/ansvarligt-aftryk/">Ansvarligt aftryk</a>
+                <ul class="main-nav__subsubmenu">
+                        <li>
+                            <a href="/da/baredygtighed/ansvarligt-aftryk/Energiforbrug/">Energiforbrug</a>
+                        </li>
+                        <li>
+                            <a href="/da/baredygtighed/ansvarligt-aftryk/co2-emission/">CO2 emission</a>
+                        </li>
+                        <li>
+                            <a href="/da/baredygtighed/ansvarligt-aftryk/maksimal-ressourceudnyttelse/">Maksimal ressourceudnyttelse</a>
+                        </li>
+                        <li>
+                            <a href="/da/baredygtighed/ansvarligt-aftryk/papir-pap-og-plast/">Papir, pap og plast</a>
+                        </li>
+                        <li>
+                            <a href="/da/baredygtighed/ansvarligt-aftryk/vandforbrug/">Vandforbrug</a>
+                        </li>
+                </ul>
+        </li>
+        <li>
+            <a href="/da/baredygtighed/det-sunde-arbejdsliv/">Det sunde arbejdsliv</a>
+                <ul class="main-nav__subsubmenu">
+                        <li>
+                            <a href="/da/baredygtighed/det-sunde-arbejdsliv/jobskabelse/">Jobskabelse</a>
+                        </li>
+                        <li>
+                            <a href="/da/baredygtighed/det-sunde-arbejdsliv/konssammensatning-i-de-overste-ledelseslag/">K&#248;nssammens&#230;tning i de &#248;verste ledelseslag</a>
+                        </li>
+                        <li>
+                            <a href="/da/baredygtighed/det-sunde-arbejdsliv/arbejdsmiljo/">Arbejdsmilj&#248;</a>
+                        </li>
+                        <li>
+                            <a href="/da/baredygtighed/det-sunde-arbejdsliv/etisk-leverandorstyring-menneskerettigheder-og-due-diligence/">Etisk leverand&#248;rstyring, menneskerettigheder og due diligence</a>
+                        </li>
+                        <li>
+                            <a href="/da/baredygtighed/det-sunde-arbejdsliv/antikorruption-og-svig/">Antikorruption og svig</a>
+                        </li>
+                </ul>
+        </li>
+</ul>
+
+                            <ul class="main-nav__submenu">
+        <li>
+            <a href="/da/baredygtighed/uddannelse-i-gronland/">Uddannelse i Gr&#248;nland</a>
+                <ul class="main-nav__subsubmenu">
+                        <li>
+                            <a href="/da/baredygtighed/uddannelse-i-gronland/kompetenceopbygning-i-det-gronlandske-samfund/">Kompetenceopbygning i det gr&#248;nlandske samfund</a>
+                        </li>
+                        <li>
+                            <a href="/da/baredygtighed/uddannelse-i-gronland/royal-greenland-academy/">Royal Greenland Academy</a>
+                        </li>
+                </ul>
+        </li>
+        <li>
+            <a href="/da/baredygtighed/governance/">Governance</a>
+                <ul class="main-nav__subsubmenu">
+                        <li>
+                            <a href="/da/baredygtighed/governance/styring-og-arbejdsform/">Styring og arbejdsform</a>
+                        </li>
+                        <li>
+                            <a href="/da/baredygtighed/governance/interessentdialog/">Interessentdialog</a>
+                        </li>
+                        <li>
+                            <a href="/da/baredygtighed/governance/vasentlighedsanalyse/">V&#230;sentlighedsanalyse</a>
+                        </li>
+                        <li>
+                            <a href="/da/baredygtighed/governance/dokumenter/">Politikker og publikationer</a>
+                        </li>
+                </ul>
+        </li>
+</ul>
+
+                        </div>
+                    </div>
+            </li>
+            <li class="js-primary-item">
+                <a href="/da/vores-fisk-og-skaldyr/">Fisk &amp; skaldyr</a>
+                    <div class="main-nav__subsubmenu-wrap js-submenu">
+                        <div class="main-nav__subsubmenu-inner">
+<ul class="main-nav__submenu">
+        <li>
+            <a href="/da/vores-fisk-og-skaldyr/fra-hav-til-bord/">Fra hav til bord</a>
+                <ul class="main-nav__subsubmenu">
+                        <li>
+                            <a href="/da/vores-fisk-og-skaldyr/fra-hav-til-bord/livet-i-nordatlanten-arktis/">Livet i Nordatlanten &amp; Arktis</a>
+                        </li>
+                        <li>
+                            <a href="/da/vores-fisk-og-skaldyr/fra-hav-til-bord/fiskeri/">Fiskeri</a>
+                        </li>
+                        <li>
+                            <a href="/da/vores-fisk-og-skaldyr/fra-hav-til-bord/forarbejdning/">Forarbejdning</a>
+                        </li>
+                        <li>
+                            <a href="/da/vores-fisk-og-skaldyr/fra-hav-til-bord/kvalitet/">Kvalitet</a>
+                        </li>
+                        <li>
+                            <a href="/da/vores-fisk-og-skaldyr/fra-hav-til-bord/i-kokkenet/">I k&#248;kkenet</a>
+                        </li>
+                </ul>
+        </li>
+        <li>
+            <a href="/da/vores-fisk-og-skaldyr/naturfisk/">Naturfisk</a>
+                <ul class="main-nav__subsubmenu">
+                        <li>
+                            <a href="/da/vores-fisk-og-skaldyr/naturfisk/atlanterhavstorsk/">Atlanterhavstorsk</a>
+                        </li>
+                        <li>
+                            <a href="/da/vores-fisk-og-skaldyr/naturfisk/rodspatte/">R&#248;dsp&#230;tte</a>
+                        </li>
+                        <li>
+                            <a href="/da/vores-fisk-og-skaldyr/naturfisk/hellefisk/">Hellefisk</a>
+                        </li>
+                </ul>
+        </li>
+</ul>
+
+                            <ul class="main-nav__submenu">
+        <li>
+            <a href="/da/vores-fisk-og-skaldyr/skaldyr-og-rogn/">Skaldyr og rogn</a>
+                <ul class="main-nav__subsubmenu">
+                        <li>
+                            <a href="/da/vores-fisk-og-skaldyr/skaldyr-og-rogn/koldtvandsrejer/">Koldtvandsrejer</a>
+                        </li>
+                        <li>
+                            <a href="/da/vores-fisk-og-skaldyr/skaldyr-og-rogn/snekrabbe/">Snekrabbe</a>
+                        </li>
+                        <li>
+                            <a href="/da/vores-fisk-og-skaldyr/skaldyr-og-rogn/stenbiderrogn/">Stenbiderrogn</a>
+                        </li>
+                        <li>
+                            <a href="/da/vores-fisk-og-skaldyr/skaldyr-og-rogn/hummer/">Hummer</a>
+                        </li>
+                </ul>
+        </li>
+        <li>
+            <a href="/da/vores-fisk-og-skaldyr/roget-fisk/">R&#248;get fisk</a>
+        </li>
+        <li>
+            <a href="/da/vores-fisk-og-skaldyr/convenience/">Convenience</a>
+        </li>
+</ul>
+
+                        </div>
+                    </div>
+            </li>
+            <li class="js-primary-item">
+                <a href="/da/industri/">Industri</a>
+                    <div class="main-nav__subsubmenu-wrap js-submenu">
+                        <div class="main-nav__subsubmenu-inner">
+<ul class="main-nav__submenu">
+        <li>
+            <a href="/da/industri/industrielle-produkter/">Industrielle produkter</a>
+        </li>
+</ul>
+
+                            <ul class="main-nav__submenu">
+        <li>
+            <a href="/da/industri/news--seafood-insight/">Nyheder &amp; Seafood Insight</a>
+        </li>
+</ul>
+
+                        </div>
+                    </div>
+            </li>
+            <li class="js-primary-item selected">
+                <a href="/da/foodservice/">Foodservice</a>
+                    <div class="main-nav__subsubmenu-wrap js-submenu">
+                        <div class="main-nav__subsubmenu-inner">
+<ul class="main-nav__submenu">
+        <li>
+            <a href="/da/foodservice/produkter/">Produktkatalog</a>
+        </li>
+        <li>
+            <a href="/da/foodservice/opskrifter/">Opskrifter</a>
+        </li>
+        <li>
+            <a href="/da/foodservice/film/">Film</a>
+        </li>
+        <li>
+            <a href="/da/foodservice/koncepter/">Koncepter</a>
+                <ul class="main-nav__subsubmenu">
+                        <li>
+                            <a href="/da/foodservice/koncepter/msc-certificeret-hellefisk-fra-vestgronland/">MSC-certificeret hellefisk fra Vestgr&#248;nland</a>
+                        </li>
+                        <li>
+                            <a href="/da/foodservice/koncepter/nutaaq-torsk/">Nutaaq&#174; Torsk</a>
+                        </li>
+                        <li>
+                            <a href="/da/foodservice/koncepter/Luksus-rejer-kogte-og-pillede/">Luksusrejer - kogte og pillede</a>
+                        </li>
+                        <li>
+                            <a href="/da/foodservice/koncepter/gourmetsliced/">GOURMET Sliced</a>
+                        </li>
+                        <li>
+                            <a href="/da/foodservice/koncepter/laks-never-frozen/">NEVER FROZEN</a>
+                        </li>
+                        <li>
+                            <a href="/da/foodservice/koncepter/canadisk-hummer/">Newfoundland hummer - Kogt &amp; Hel</a>
+                        </li>
+                        <li>
+                            <a href="/da/foodservice/koncepter/GOURMETTRIM_roeget_og_gravad_laks/">GOURMETTRIM&#174;</a>
+                        </li>
+                        <li>
+                            <a href="/da/foodservice/koncepter/glutenfri/">Glutenfri panering</a>
+                        </li>
+                        <li>
+                            <a href="/da/foodservice/koncepter/street-food/">Street Food</a>
+                        </li>
+                </ul>
+        </li>
+        <li>
+            <a href="/da/foodservice/produktnyheder/">Produktnyheder</a>
+                <ul class="main-nav__subsubmenu">
+                        <li>
+                            <a href="/da/foodservice/produktnyheder/stillehavskulmule/">Stillehavskulmule</a>
+                        </li>
+                        <li>
+                            <a href="/da/foodservice/produktnyheder/nordlige-stillehavsrodspatter/">Nordlig Stillehavsr&#248;dsp&#230;tte</a>
+                        </li>
+                        <li>
+                            <a href="/da/foodservice/produktnyheder/hoki-loins/">Hoki loins</a>
+                        </li>
+                        <li>
+                            <a href="/da/foodservice/produktnyheder/snackit/">SNACK’it</a>
+                        </li>
+                        <li>
+                            <a href="/da/foodservice/produktnyheder/delicrisp/">DeliCrisp</a>
+                        </li>
+                        <li>
+                            <a href="/da/foodservice/produktnyheder/saftig-torskefilet-i-sprod-beer-batter/">Fish4Chips: Saftig torskefilet i spr&#248;d Beer Batter</a>
+                        </li>
+                        <li>
+                            <a href="/da/foodservice/produktnyheder/fish-strips-i-sprod-beer-batter/">Fish4Chips: Fish Strips i spr&#248;d Beer Batter</a>
+                        </li>
+                        <li>
+                            <a href="/da/foodservice/produktnyheder/fiskefrikadeller-af-vildtfanget-gronlandsk-hellefisk/">Fiskefrikadeller af torsk og vildtfanget gr&#248;nlandsk hellefisk</a>
+                        </li>
+                        <li>
+                            <a href="/da/foodservice/produktnyheder/sprode-butterdejsportioner/">Spr&#248;de butterdejsportioner</a>
+                        </li>
+                        <li>
+                            <a href="/da/foodservice/produktnyheder/danske-rodspatter-med-fyld/">Danske r&#248;dsp&#230;tter med fyld</a>
+                        </li>
+                        <li>
+                            <a href="/da/foodservice/produktnyheder/osterso-fiskefileter/">&#216;STERS&#216; fiskefileter</a>
+                        </li>
+                        <li>
+                            <a href="/da/foodservice/produktnyheder/danske-vesterhavs-rodspatter/">Danske VESTERHAVS r&#248;dsp&#230;tter - panerede</a>
+                        </li>
+                </ul>
+        </li>
+</ul>
+
+                            <ul class="main-nav__submenu">
+        <li>
+            <a href="/da/foodservice/Certifikater/">Certifikater</a>
+                <ul class="main-nav__subsubmenu">
+                        <li>
+                            <a href="/da/foodservice/Certifikater/all-natural/">All Natural</a>
+                        </li>
+                        <li>
+                            <a href="/da/foodservice/Certifikater/clean-label/">Clean Label</a>
+                        </li>
+                </ul>
+        </li>
+        <li>
+            <a href="/da/foodservice/facts-om-fisk/">Facts om fisk og skaldyr</a>
+                <ul class="main-nav__subsubmenu">
+                        <li>
+                            <a href="/da/foodservice/facts-om-fisk/fisk-og-skaldyr-i-forhold-til-helbredet/">Fisk og skaldyr i forhold til helbredet</a>
+                        </li>
+                        <li>
+                            <a href="/da/foodservice/facts-om-fisk/hvorfor-valge-frossen-fisk/">Hvorfor v&#230;lge frossen fisk?</a>
+                        </li>
+                        <li>
+                            <a href="/da/foodservice/facts-om-fisk/glasering---hvad-hvorfor/">Glasering? - Hvad? Hvorfor?</a>
+                        </li>
+                        <li>
+                            <a href="/da/foodservice/facts-om-fisk/guide-begreber-og-betegnelser-for-rejer/">Guide: Begreber og betegnelser for rejer</a>
+                        </li>
+                </ul>
+        </li>
+        <li>
+            <a href="/da/foodservice/flere-services/">Flere services</a>
+                <ul class="main-nav__subsubmenu">
+                        <li>
+                            <a href="/da/foodservice/flere-services/bestil-skilte/">Bestil skilte</a>
+                        </li>
+                        <li>
+                            <a href="/da/foodservice/flere-services/fakta-og-inspirationsmateriale/">Fakta - &amp; Inspirationsmateriale</a>
+                        </li>
+                        <li>
+                            <a href="/da/foodservice/flere-services/nyhedsbrev/">Nyhedsbrev</a>
+                        </li>
+                </ul>
+        </li>
+        <li>
+            <a href="/da/foodservice/food-service-nyheder/">Foodservice Nyheder</a>
+        </li>
+</ul>
+
+                        </div>
+                    </div>
+            </li>
+            <li class="js-primary-item">
+                <a href="/da/detail/">Detail</a>
+                    <div class="main-nav__subsubmenu-wrap js-submenu">
+                        <div class="main-nav__subsubmenu-inner">
+<ul class="main-nav__submenu">
+        <li>
+            <a href="/da/detail/detailkatalog/">Detailkatalog</a>
+        </li>
+        <li>
+            <a href="/da/detail/emballage/">Emballage</a>
+                <ul class="main-nav__subsubmenu">
+                        <li>
+                            <a href="/da/detail/emballage/Pose/">Pose</a>
+                        </li>
+                        <li>
+                            <a href="/da/detail/emballage/aeske/">&#198;ske</a>
+                        </li>
+                        <li>
+                            <a href="/da/detail/emballage/Kaedepak/">K&#230;depak</a>
+                        </li>
+                        <li>
+                            <a href="/da/detail/emballage/Baeger/">B&#230;ger</a>
+                        </li>
+                        <li>
+                            <a href="/da/detail/emballage/Glas/">Glas</a>
+                        </li>
+                        <li>
+                            <a href="/da/detail/emballage/Vakuumpak/">Vakuumpak</a>
+                        </li>
+                </ul>
+        </li>
+</ul>
+
+                            <ul class="main-nav__submenu">
+        <li>
+            <a href="/da/detail/Brandsortiment/">Brandsortiment</a>
+                <ul class="main-nav__subsubmenu">
+                        <li>
+                            <a href="/da/detail/Brandsortiment/Premium/">Premium</a>
+                        </li>
+                        <li>
+                            <a href="/da/detail/Brandsortiment/Det-gode-maaltid/">Det gode m&#229;ltid</a>
+                        </li>
+                        <li>
+                            <a href="/da/detail/Brandsortiment/Forret-frokost/">Forret &amp; frokost</a>
+                        </li>
+                        <li>
+                            <a href="/da/detail/Brandsortiment/Subbrands/">Subbrands</a>
+                        </li>
+                </ul>
+        </li>
+        <li>
+            <a href="/da/detail/salgsmateriale/">Sortimentsbrochure</a>
+        </li>
+</ul>
+
+                        </div>
+                    </div>
+            </li>
+            <li class="js-primary-item">
+                <a href="/da/kontakt-os/">Kontakt os</a>
+            </li>
+    </ul>
+</div>
+
+
+
+                    </nav>
+                </div>
+            </header>
+            <div class="site-navigation-overlay js-navigation-overlay"></div>
+        <div class="site-content">
+            
+
+
+<div class="page-content">
+    <div class="page-content__inner">
+        <div class="page-content__frame">
+            <button class="recipe__print js-recipe-print">
+                Print
+                <span class="recipe__print__icon-wrap">
+                    <svg class="recipe__print__icon">
+                        <use xlink:href="#icon-print"></use>
+                    </svg>
+                </span>
+            </button>
+
+            <div class="article__read-more">
+                <a href="/da/foodservice/opskrifter/">
+                    <span class="article__read-more__icon"></span>
+                    <span class="article__read-more__prefix">Se</span>
+                    <span class="article__read-more__text">Alle opskrifter</span>
+                </a>
+            </div>
+
+            <div class="recipe">
+                <div class="recipe__inner">
+                    <div class="recipe__visual">
+                        <div class="recipe__visual__image-wrap">
+                            
+
+  <picture class="recipe__visual__image">
+          <source srcset="https://www.royalgreenland.com/globalassets/recipes/prawns/prawn-salad-with-wakame-seaweed-and-pickled-plums--christmas-2022-1-crop.jpeg?transform=downfill&amp;quality=80&amp;width=1642&amp;height=772&amp;h=adf3c1fefe6c071022aaeba98adfdcd5668f900f, https://www.royalgreenland.com/globalassets/recipes/prawns/prawn-salad-with-wakame-seaweed-and-pickled-plums--christmas-2022-1-crop.jpeg?transform=downfill&amp;quality=80&amp;width=3284&amp;height=1544&amp;h=c2a655100e1baf188e8f07cb6eee228faaa03d0c 2x" media="(min-width: 1924px)">
+                <source srcset="https://www.royalgreenland.com/globalassets/recipes/prawns/prawn-salad-with-wakame-seaweed-and-pickled-plums--christmas-2022-1-crop.jpeg?transform=downfill&amp;quality=80&amp;width=1642&amp;height=772&amp;h=adf3c1fefe6c071022aaeba98adfdcd5668f900f, https://www.royalgreenland.com/globalassets/recipes/prawns/prawn-salad-with-wakame-seaweed-and-pickled-plums--christmas-2022-1-crop.jpeg?transform=downfill&amp;quality=80&amp;width=3284&amp;height=1544&amp;h=c2a655100e1baf188e8f07cb6eee228faaa03d0c 2x" media="(min-width: 1440px)">
+                <source srcset="https://www.royalgreenland.com/globalassets/recipes/prawns/prawn-salad-with-wakame-seaweed-and-pickled-plums--christmas-2022-1-crop.jpeg?transform=downfill&amp;quality=80&amp;width=1440&amp;height=677&amp;h=bfd6919ed45cfe2da2fff880347c580ea27da4f0, https://www.royalgreenland.com/globalassets/recipes/prawns/prawn-salad-with-wakame-seaweed-and-pickled-plums--christmas-2022-1-crop.jpeg?transform=downfill&amp;quality=80&amp;width=2880&amp;height=1354&amp;h=22a7926cbbe9c2b1ea756ac285fc95a4276105f0 2x" media="(min-width: 1024px)">
+                <source srcset="https://www.royalgreenland.com/globalassets/recipes/prawns/prawn-salad-with-wakame-seaweed-and-pickled-plums--christmas-2022-1-crop.jpeg?transform=downfill&amp;quality=80&amp;width=828&amp;height=497&amp;h=6f721961a8e066a593d909bb811ae15f1d809a31, https://www.royalgreenland.com/globalassets/recipes/prawns/prawn-salad-with-wakame-seaweed-and-pickled-plums--christmas-2022-1-crop.jpeg?transform=downfill&amp;quality=80&amp;width=1656&amp;height=994&amp;h=6ac8b4190c5c244902f135d186897d61841c3092 2x" media="(min-width: 415px)">
+  
+      <img srcset="https://www.royalgreenland.com/globalassets/recipes/prawns/prawn-salad-with-wakame-seaweed-and-pickled-plums--christmas-2022-1-crop.jpeg?transform=downfill&amp;quality=80&amp;width=415&amp;height=303&amp;h=acfd8d2b1e8e631400ee1bd0087c99027bc337ac, https://www.royalgreenland.com/globalassets/recipes/prawns/prawn-salad-with-wakame-seaweed-and-pickled-plums--christmas-2022-1-crop.jpeg?transform=downfill&amp;quality=80&amp;width=830&amp;height=606&amp;h=04e728898d421e18e50a19a7f064612c1b855780 2x" alt="Rejesalat med wakame tang,  syltede blommer, kik&#230;rter og chipotle chili">
+  </picture>
+
+                            <button class="recipe__visual__scroll js-recipe-scroll-to"></button>
+                            <div class="recipe__splash__image-wrap">
+                                
+
+
+                            </div>
+                        </div>
+                        <div class="recipe__visual__overlay">
+                            <h1 class="recipe__title">Rejesalat med wakame tang,  syltede blommer, kik&#230;rter og chipotle chili</h1>
+                            <ul class="recipe__visual__overlay-tags">
+                                    <li>Kogt og pillet</li>
+                                    <li>Jul og Nyt&#229;r</li>
+                                    <li>Rejer</li>
+                                    <li>Vinter</li>
+                            </ul>
+                        </div>
+                    </div>
+                        <div class="recipe__info">
+                             
+<div class="recipe__info__item">
+    <svg class="recipe__info__icon">
+        <use xlink:href="#time"></use>
+    </svg>
+    Tid:<strong class="recipe__info__time">15 min.</strong>
+</div>
+                            
+<div class="recipe__info__item">
+    <svg class="recipe__info__icon">
+        <use xlink:href="#person"></use>
+    </svg>
+    Portioner:<strong class="recipe__info__servings">10</strong>
+</div>
+                        </div>
+                    <div class="recipe__ingredients js-recipe-ingredients">
+                        <div class="recipe__ingredients__inner">
+                            <div class="recipe__info ingredients">
+                                 
+<div class="recipe__info__item">
+    <svg class="recipe__info__icon">
+        <use xlink:href="#time"></use>
+    </svg>
+    Tid:<strong class="recipe__info__time">15 min.</strong>
+</div>
+                                
+<div class="recipe__info__item">
+    <svg class="recipe__info__icon">
+        <use xlink:href="#person"></use>
+    </svg>
+    Portioner:<strong class="recipe__info__servings">10</strong>
+</div>
+                            </div>
+                                <h3 class="recipe__ingredients__title">Ingredienser</h3>
+<p>500 g kogte og pillede rejer<br />10 blommer<br />100 g sukker<br />50 g ingef&aelig;r, i skiver<br />3 st&aelig;ngler rosmarin<br />1 dl. vand<br />1/2 dl. citronsaft<br />500 g wakame tang, opt&oslash;et<br />2 ds. kik&aelig;rter<br />2 st. chipotle chili, finthakket<br />1/2 dl. sesamolie<br />1/2 dl. svampesoya<br />1/2 dl. citronolie<br />5 fed hvidl&oslash;g<br />salt og hvid peber, frisk fra kv&aelig;rn</p>                        </div>
+                            <div class="recipe__additional">
+                                
+                                
+                            </div>
+
+                        <div class="recipes__related-products js-related-products">
+                            <div><div>
+<div class="mini-article with-picture">
+    <h3 class="mini-article__title--mobile js-open-close-toggler"></h3>
+    <div class="mini-article__inner">
+            <div class="mini-article__picture-wrap">
+                
+
+  <picture class="mini-article__picture">
+          <source srcset="https://www.royalgreenland.com/globalassets/linkbuilding/dybde-links-til-dansk-cater/kobsknap-til-produktnyheder.jpg?transform=downfit&amp;quality=80&amp;width=800&amp;height=600&amp;h=02bc4b45e1eb9c4f26b5ebf425ed1a83866eb68a, https://www.royalgreenland.com/globalassets/linkbuilding/dybde-links-til-dansk-cater/kobsknap-til-produktnyheder.jpg?transform=downfit&amp;quality=80&amp;width=1600&amp;height=1200&amp;h=4bffbea9db9af4f8e74a282cc554b318d8adcbf7 2x" media="(min-width: 1924px)">
+                <source srcset="https://www.royalgreenland.com/globalassets/linkbuilding/dybde-links-til-dansk-cater/kobsknap-til-produktnyheder.jpg?transform=downfit&amp;quality=80&amp;width=800&amp;height=600&amp;h=02bc4b45e1eb9c4f26b5ebf425ed1a83866eb68a, https://www.royalgreenland.com/globalassets/linkbuilding/dybde-links-til-dansk-cater/kobsknap-til-produktnyheder.jpg?transform=downfit&amp;quality=80&amp;width=1600&amp;height=1200&amp;h=4bffbea9db9af4f8e74a282cc554b318d8adcbf7 2x" media="(min-width: 1440px)">
+                <source srcset="https://www.royalgreenland.com/globalassets/linkbuilding/dybde-links-til-dansk-cater/kobsknap-til-produktnyheder.jpg?transform=downfit&amp;quality=80&amp;width=800&amp;height=600&amp;h=02bc4b45e1eb9c4f26b5ebf425ed1a83866eb68a, https://www.royalgreenland.com/globalassets/linkbuilding/dybde-links-til-dansk-cater/kobsknap-til-produktnyheder.jpg?transform=downfit&amp;quality=80&amp;width=1600&amp;height=1200&amp;h=4bffbea9db9af4f8e74a282cc554b318d8adcbf7 2x" media="(min-width: 1024px)">
+                <source srcset="https://www.royalgreenland.com/globalassets/linkbuilding/dybde-links-til-dansk-cater/kobsknap-til-produktnyheder.jpg?transform=downfit&amp;quality=80&amp;width=800&amp;height=600&amp;h=02bc4b45e1eb9c4f26b5ebf425ed1a83866eb68a, https://www.royalgreenland.com/globalassets/linkbuilding/dybde-links-til-dansk-cater/kobsknap-til-produktnyheder.jpg?transform=downfit&amp;quality=80&amp;width=1600&amp;height=1200&amp;h=4bffbea9db9af4f8e74a282cc554b318d8adcbf7 2x" media="(min-width: 415px)">
+  
+      <img srcset="https://www.royalgreenland.com/globalassets/linkbuilding/dybde-links-til-dansk-cater/kobsknap-til-produktnyheder.jpg?transform=downfit&amp;quality=80&amp;width=415&amp;height=311&amp;h=632a2a3d3eab809ae05edf2fe697de33532596b2, https://www.royalgreenland.com/globalassets/linkbuilding/dybde-links-til-dansk-cater/kobsknap-til-produktnyheder.jpg?transform=downfit&amp;quality=80&amp;width=830&amp;height=622&amp;h=a9636e91d0d24c181d5911de920f42afbe33dcad 2x" alt="">
+  </picture>
+
+            </div>
+        <div class="mini-article__content">
+            <h3 class="mini-article__title"></h3>
+            <div class="mini-article__text"><p><a href="https://abcatering.dk/webshop/da/start-bestilling-sortiment/produkt/1423">K&oslash;b produktet hos AB Catering her</a></p>
+<p><a href="https://bccatering.dk/webshop/da/start-bestilling-sortiment/produkt/1423">K&oslash;b produktet hos BC Catering her</a></p>
+<p><a href="https://www.hoka.dk/da-dk/login?ReturnUrl=%2Fda-dk%2Fsoeg%3Fq%3D34822852">K&oslash;b produktet hos H&oslash;rkram her</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></div>
+                
+
+
+        </div>
+    </div>
+</div>
+</div></div>
+                        </div>
+                    </div>
+                        <div class="recipe__content">
+                            <h3>Fremgangsmåde</h3>
+                            <p>Halver blommerne, fjern stenene, og sk&aelig;r dem i kvarte.</p>
+<p>Kog vandet op med sukker, citronsaft, ingef&aelig;r i skiver og rosmarin. Tils&aelig;t blommerne og lad det simre i 1 minut. Kom blommerne p&aring; glas, og lad dem tr&aelig;kke p&aring; k&oslash;l.</p>
+<p>Bland den opt&oslash;ede tang med kik&aelig;rter, (finthakket chipotle - v&aelig;r forsigtig med m&aelig;ngden - smag dig frem), sesamolie, svampesoya, citronolie og knust hvidl&oslash;g.</p>
+<p>Vend rejer og de dr&aelig;nede blommer i og smag til med salt og peber</p>
+                        </div>
+                    <div class="recipes__related-products--mobile"></div>
+                    <div class="recipe__additional ">
+                        
+                        
+                    </div>
+
+                        <div class="recipe__toolbar">
+                            
+
+
+    <div class="share">
+        <button class="share__button js-share-button">
+            <span class="share__button__close"></span>
+            <svg class="share__button__icon">
+                <use xlink:href="#icon-share"></use>
+            </svg>
+            Del
+        </button>
+        <ul class="share__list">
+                <li>
+                    <a target="_blank" class="share__list__button" href="https://www.linkedin.com/shareArticle?url=https://www.royalgreenland.com/da/foodservice/opskrifter/rejesalat-med-wakame-tang--syltede-blommer-kikarter-og-chipotle-chili/">
+                        <svg class="share__list__icon">
+                            <use xlink:href="#icon-linkedin"></use>
+                        </svg> LinkedIn
+                    </a>
+                </li>
+
+                <li>
+                    <a class="share__list__button" data-pin-custom="true" data-pin-do="buttonPin"
+                       href="//www.pinterest.com/pin/create/button?url=https://www.royalgreenland.com/da/foodservice/opskrifter/rejesalat-med-wakame-tang--syltede-blommer-kikarter-og-chipotle-chili/&media=https://www.royalgreenland.com/globalassets/recipes/prawns/prawn-salad-with-wakame-seaweed-and-pickled-plums--christmas-2022-1-crop.jpeg&description=Rejesalat med wakame tang,  syltede blommer, kik&#230;rter og chipotle chili">
+                        <svg class="share__list__icon">
+                            <use xlink:href="#icon-pinterest"></use>
+                        </svg> Pinterest
+                    </a>
+                </li>
+
+                <li>
+                    <a target="_blank" class="share__list__button" href="https://www.facebook.com/sharer/sharer.php?u=https://www.royalgreenland.com/da/foodservice/opskrifter/rejesalat-med-wakame-tang--syltede-blommer-kikarter-og-chipotle-chili/">
+                        <svg class="share__list__icon">
+                            <use xlink:href="#icon-facebook"></use>
+                        </svg> Facebook
+                    </a>
+                </li>
+
+                <li>
+                    <a class="share__list__button" href="mailto:?body=https://www.royalgreenland.com/da/foodservice/opskrifter/rejesalat-med-wakame-tang--syltede-blommer-kikarter-og-chipotle-chili/">
+                        <svg class="share__list__icon">
+                            <use xlink:href="#icon-email"></use>
+                        </svg> Send mail
+                    </a>
+                </li>
+        </ul>
+    </div>
+
+                        </div>
+
+                    <div class="recipe__related-content">
+  <div class="recipe__related-content__inner">
+    <h3 class="recipe__related-content__title"><span>Se også</span></h3>
+    <ul class="recipe__related-content__list">
+          <li class="recipe__related-content__item">
+            <a href="/da/foodservice/opskrifter/fiskesuppe-med-spidskal-arter-kokos-og-gul-karry/">
+              <div class="recipe__related-content__item__inner">
+                
+
+  <picture class="recipe__related-content__item__image">
+                    
+      <img srcset="/contentassets/95716879296b403698f44fe7cd95ffa5/spidskaalsuppe_kulmule_hake_tern-crop.jpeg?transform=downfill&amp;quality=80&amp;width=230&amp;height=103&amp;h=58b2b44a598da6dc63a6aee0b0d6420896e24976, /contentassets/95716879296b403698f44fe7cd95ffa5/spidskaalsuppe_kulmule_hake_tern-crop.jpeg?transform=downfill&amp;quality=80&amp;width=460&amp;height=206&amp;h=bd8cd7355670504f45e39fa7855dbb7ff9d4ffe7 2x" alt="">
+  </picture>
+
+                <h4 class="recipe__related-content__item__title">
+                  Fiskesuppe med, spidsk&#229;l, &#230;rter, kokos og gul karry
+                </h4>
+              </div>
+            </a>
+          </li>
+          <li class="recipe__related-content__item">
+            <a href="/da/foodservice/opskrifter/gravad-hellefisk-i-salat-af-bagte-graskar--med-rapsfro-og-syltede-svampe/">
+              <div class="recipe__related-content__item__inner">
+                
+
+  <picture class="recipe__related-content__item__image">
+                    
+      <img srcset="https://www.royalgreenland.com/globalassets/recipes/halibut/gradvad-halibut--in-a-salad-of-baked-pumpkins-3--christmas-2022-crop.jpeg?transform=downfill&amp;quality=80&amp;width=230&amp;height=103&amp;h=58b2b44a598da6dc63a6aee0b0d6420896e24976, https://www.royalgreenland.com/globalassets/recipes/halibut/gradvad-halibut--in-a-salad-of-baked-pumpkins-3--christmas-2022-crop.jpeg?transform=downfill&amp;quality=80&amp;width=460&amp;height=206&amp;h=bd8cd7355670504f45e39fa7855dbb7ff9d4ffe7 2x" alt="">
+  </picture>
+
+                <h4 class="recipe__related-content__item__title">
+                  Gravad hellefisk i salat af bagte gr&#230;skar  med rapsfr&#248; og syltede svampe
+                </h4>
+              </div>
+            </a>
+          </li>
+          <li class="recipe__related-content__item">
+            <a href="/da/foodservice/opskrifter/rejetatar-med-avocado-urter-kapers-og-vagtelag/">
+              <div class="recipe__related-content__item__inner">
+                
+
+  <picture class="recipe__related-content__item__image">
+                    
+      <img srcset="https://www.royalgreenland.com/globalassets/recipes/rejetatar_jul2016.jpg?transform=downfill&amp;quality=80&amp;width=230&amp;height=103&amp;h=58b2b44a598da6dc63a6aee0b0d6420896e24976, https://www.royalgreenland.com/globalassets/recipes/rejetatar_jul2016.jpg?transform=downfill&amp;quality=80&amp;width=460&amp;height=206&amp;h=bd8cd7355670504f45e39fa7855dbb7ff9d4ffe7 2x" alt="">
+  </picture>
+
+                <h4 class="recipe__related-content__item__title">
+                  Rejetatar med avocado, urter, kapers og vagtel&#230;g
+                </h4>
+              </div>
+            </a>
+          </li>
+    </ul>
+  </div>
+</div>
+
+                </div>
+                    <div class="recipe__icon-waves-bg">
+                        <div class="recipe__icon-waves-wrap">
+                            <svg class="recipe__icon-waves">
+                                <use xlink:href="#waves"></use>
+                            </svg>
+                        </div>
+                    </div>
+            </div>
+                <div class="article__read-more--reversed">
+                    <a href="/da/foodservice/opskrifter/italienske-hellefiskepakker-med-parmaskinke-og-pesto/">
+                        <span class="article__read-more__icon--reversed"></span>
+                        <span class="article__read-more__prefix">Næste opskrift</span><span class="article__read-more__recipe">: Italienske hellefiskepakker med parmaskinke og pesto</span>
+                    </a>
+                </div>
+        </div>
+    </div>
+</div>
+
+                <a class="site-content__to-top-button js-footer-scroll" href="#"></a>
+        </div>
+
+
+<footer class="site-footer js-footer-wrap">
+  <div class="site-footer__inner js-footer">
+    <div class="site-footer__svg__wrap js-footer-svg">
+      <svg class="site-footer__svg" viewBox="0 0 230 230">
+        <g>
+          <rect fill="none" id="canvas_background" height="232" width="232" y="-1" x="-1" />
+          <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+            <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%" />
+          </g>
+        </g>
+        <g>
+          <ellipse stroke="#637e9c" ry="395.847844" rx="395.847844" id="svg_2" cy="-122.230056" cx="-147.712516" fill="none" />
+          <ellipse ry="2.538336" rx="2.538336" id="svg_3" cy="173.286585" cx="115.803001" stroke-width="1.5" fill="#637e9c" />
+          <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'DaxRegular', sans-serif" font-size="8" id="svg_8" y="175.335331" x="133.875807" fill="#637e9c">N</text>
+          <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'DaxRegular', sans-serif" font-size="8" id="svg_9" y="185.402431" x="128.338902" fill="#637e9c">W</text>
+          <text font-weight="normal" xml:space="preserve" text-anchor="start" font-family="'DaxRegular', sans-serif" font-size="8" id="svg_10" y="175.335331" x="142.768413" fill="#637e9c">69° 48’34”</text>
+          <text font-weight="normal" xml:space="preserve" text-anchor="start" font-family="'DaxRegular', sans-serif" font-size="8" id="svg_11" y="185.402431" x="139.077142" fill="#637e9c">51° 49’00”</text>
+        </g>
+      </svg>
+    </div>
+
+    <div class="site-footer__frame">
+      <div class="site-footer__company-details">
+        <address class="site-footer__address">
+          <p>Royal Greenland A/S</p>
+<p>Qasapi 4</p>
+<p>Postboks 1073</p>
+<p>3900 Nuuk</p>
+<p>Tel. +299 361 300</p>
+<p>Fax +299 323 349</p>
+        </address>
+          <p class="site-footer__copy">
+            Copyright 2023
+          </p>
+      </div>
+        <ul class="site-footer__links">
+            <li>
+              <a data-cookie data-heading="Cookie-politik" class="js-inline-overlay" data-href="/api/footer/2032">Cookie-politik</a>
+            </li>
+            <li>
+              <a  data-heading="Privatlivspolitik" class="js-inline-overlay" data-href="/api/footer/9734">Privatlivspolitik</a>
+            </li>
+        </ul>
+    </div>
+  </div>
+</footer>
+        <div class="site-bg" style="background: #051734">
+    <div class="site-bg-picture-wrap">
+
+    <picture class="site-bg-picture">
+            <source srcset="/static/img/sea_background.jpg?transform=downfill&amp;quality=80&amp;width=2500&amp;height=1100&amp;h=efdc57d987f1ad5b4c6eafe9410e6a4981e485f1" media="(min-width: 2100px)">
+                    <source srcset="/static/img/sea_background.jpg?transform=downfill&amp;quality=80&amp;width=1680&amp;height=739&amp;h=f8616415ac1440874811c6d48cc21ae9833147a4, /static/img/sea_background.jpg?transform=downfill&amp;quality=80&amp;width=3360&amp;height=1478&amp;h=78c7f358514f8466a65bf099288ed742165f4b3f 2x" media="(min-width: 1681px)">
+                    <source srcset="/static/img/sea_background.jpg?transform=downfill&amp;quality=80&amp;width=1024&amp;height=451&amp;h=6bff7194c584d2763564a9ba44b7b6407fef5a35, /static/img/sea_background.jpg?transform=downfill&amp;quality=80&amp;width=2048&amp;height=902&amp;h=19936dc17628306bb71eb5e3f1d6c55513a341a8 2x" media="(min-width: 1024px)">
+                    <source srcset="/static/img/sea_background.jpg?transform=downfill&amp;quality=80&amp;width=768&amp;height=338&amp;h=88410ef041f1ad6409a8b19b841468874939d841, /static/img/sea_background.jpg?transform=downfill&amp;quality=80&amp;width=1536&amp;height=676&amp;h=9e5c6c97db95a4d6ef814c3e88025fc1a8319b3f 2x" media="(min-width: 768px)">
+
+        <img srcset="/static/img/sea_background.jpg?transform=downfill&amp;quality=80&amp;width=450&amp;height=198&amp;h=a9b9270163c37fe307f62d1f6b79f97b45c34e4a, /static/img/sea_background.jpg?transform=downfill&amp;quality=80&amp;width=900&amp;height=396&amp;h=dd6cd3e72824602ad22efb85ba6daaf35336d1f8 2x" alt="...">
+    </picture>
+        <style>
+            .site-bg-picture__overlay {
+                background: linear-gradient(to top, #051734, transparent);
+            }
+        </style>
+        <span class="site-bg-picture__overlay"></span>
+    </div>
+    <div class="site-bg__svg-wrap">
+        <svg class="site-bg__svg" style="fill:#21334F">
+            <use xlink:href="#waves"></use>
+        </svg>
+    </div>
+</div>                    </div>
+
+
+    <script src="/static/app-11229eaf41.js"></script>
+    
+    <script>
+    if (!window.translations) {
+        window.translations = {};
+    }
+    window.translations.close = 'Luk';
+    </script>
+</body>
+</html>
