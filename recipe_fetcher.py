@@ -129,17 +129,11 @@ class RecipeFetcher:
         return metadata
     
 if __name__ == "__main__":
-<<<<<<< Updated upstream
     rf = RecipeFetcher(language = "danish")
-=======
-    rf = RecipeFetcher(language = "czech")
->>>>>>> Stashed changes
     
     # get test ingredients
-    # for query in open("test_queries.txt", 'r').readlines():
-    #     ingredients = query.strip().split()
-
-    ingredients = ["egg", "chicken", "potato"]
-    rf.fetch_recipe_links(*ingredients)
+    for query in open("test_queries.txt", 'r').readlines():
+        ingredients = query.strip().split()
+        rf.fetch_recipe_links(*ingredients)
     
     # rf.fetch_recipe_links("chicken", "potato", "carrot")
