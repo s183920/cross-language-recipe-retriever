@@ -305,5 +305,291 @@
             },
 
         "egg+chicken+potato/czech":
-            {} 
+            {
+                "Bylinkov\u00e9 ku\u0159e s nov\u00fdmi bramborami | Apetit Online": {
+                    "downloaded": true,
+                    "link": "https://www.apetitonline.cz/recept/bylinkove-kure-s-novymi-bramborami",
+                    "rank_search_engine": 6,
+                    "title": "Bylinkov\u00e9 ku\u0159e s nov\u00fdmi bramborami | Apetit Online"
+                },
+                "Ku\u0159e a brambory v jedn\u00e9 p\u00e1nvi. Dokonal\u00fd a rychl\u00fd recept na ve\u010de\u0159i ...": {
+                    "downloaded": true,
+                    "link": "https://www.aazdravi.cz/kure-a-brambory-v-jedne-panvi-dokonaly-a-rychly-recept-na-veceri-za-par-korun/",
+                    "rank_search_engine": 9,
+                    "title": "Ku\u0159e a brambory v jedn\u00e9 p\u00e1nvi. Dokonal\u00fd a rychl\u00fd recept na ve\u010de\u0159i ..."
+                },
+                "Ku\u0159e pe\u010den\u00e9 na brambor\u00e1ku - Recepty.cz - On-line kucha\u0159ka": {
+                    "downloaded": true,
+                    "link": "https://www.recepty.cz/recept/kure-pecene-na-bramboraku-159572",
+                    "rank_search_engine": 8,
+                    "title": "Ku\u0159e pe\u010den\u00e9 na brambor\u00e1ku - Recepty.cz - On-line kucha\u0159ka"
+                },
+                "Ku\u0159ec\u00ed maso ve vaj\u00ed\u010dku a eidamu s bramborem ob\u011bd | Mimibazar.cz": {
+                    "downloaded": true,
+                    "link": "https://www.mimibazar.cz/recept/73398/kureci-maso-ve-vajicku-a-eidamu-s-bramborem-obed",
+                    "rank_search_engine": 5,
+                    "title": "Ku\u0159ec\u00ed maso ve vaj\u00ed\u010dku a eidamu s bramborem ob\u011bd | Mimibazar.cz"
+                },
+                "Pe\u010den\u00e9 ku\u0159e s bramborami: chutn\u00fd a levn\u00fd recept, kter\u00fd ocen\u00edte ...": {
+                    "downloaded": true,
+                    "link": "https://www.youtube.com/watch%3Fv%3D4tEEkIAAdzQ",
+                    "rank_search_engine": 7,
+                    "title": "Pe\u010den\u00e9 ku\u0159e s bramborami: chutn\u00fd a levn\u00fd recept, kter\u00fd ocen\u00edte ..."
+                },
+                "Pe\u010den\u00e9 smetanov\u00e9 ku\u0159e s brambory (bez lepku, ml\u00e9ka a vajec)": {
+                    "downloaded": true,
+                    "link": "https://www.toprecepty.cz/recept/35059-pecene-smetanove-kure-s-brambory-bez-lepku-mleka-a-vajec/",
+                    "rank_search_engine": 4,
+                    "title": "Pe\u010den\u00e9 smetanov\u00e9 ku\u0159e s brambory (bez lepku, ml\u00e9ka a vajec)"
+                },
+                "Recept na ku\u0159e s brambory a raj\u010daty z jedn\u00e9 p\u00e1nve - AkcniCeny.cz": {
+                    "downloaded": true,
+                    "link": "https://www.akcniceny.cz/magazin/recept-na-kure-s-brambory-a-rajcaty-z-jedne-panve/",
+                    "rank_search_engine": 1,
+                    "title": "Recept na ku\u0159e s brambory a raj\u010daty z jedn\u00e9 p\u00e1nve - AkcniCeny.cz"
+                },
+                "Rychl\u00e1 pochoutka z brambor a ku\u0159ec\u00edho masa - Prima Inspirace": {
+                    "downloaded": true,
+                    "link": "https://primainspirace.cz/2023/05/12/rychla-pochoutka-z-brambor/",
+                    "rank_search_engine": 3,
+                    "title": "Rychl\u00e1 pochoutka z brambor a ku\u0159ec\u00edho masa - Prima Inspirace"
+                },
+                "Zape\u010den\u00e9 brambory s ku\u0159ec\u00edm masem s vejcem recept - Jidlo.cz": {
+                    "downloaded": true,
+                    "link": "https://www.jidlo.cz/zape%25C4%258Den%25C3%25A9%2Bbrambory%2Bs%2Bku%25C5%2599ec%25C3%25ADm%2Bmasem%2Bs%2Bvejcem%2Brecept",
+                    "rank_search_engine": 2,
+                    "title": "Zape\u010den\u00e9 brambory s ku\u0159ec\u00edm masem s vejcem recept - Jidlo.cz"
+                }
+            },
+        
+        "eggplant+onion+soy-sauce":
+            {
+                "Lilek na \u010derno - recept podle Vegan food porn": {
+                    "downloaded": true,
+                    "link": "http://veganfoodporn.cz/2021/10/lilek-na-cerno.html",
+                    "rank_search_engine": 6,
+                    "title": "Lilek na \u010derno - recept podle Vegan food porn"
+                },
+                "Lilek na\u010derno - TopRecepty.cz": {
+                    "downloaded": true,
+                    "link": "https://www.toprecepty.cz/recept/27366-lilek-nacerno/",
+                    "rank_search_engine": 2,
+                    "title": "Lilek na\u010derno - TopRecepty.cz"
+                },
+                "Lilek na\u010derno - Vegmania.cz": {
+                    "downloaded": true,
+                    "link": "https://www.vegmania.cz/recepty/lilek-nacerno/",
+                    "rank_search_engine": 1,
+                    "title": "Lilek na\u010derno - Vegmania.cz"
+                },
+                "Lilek na\u010derno - Vom Fass Brno": {
+                    "downloaded": true,
+                    "link": "https://brnovomfass.cz/produkty/recepty/bezmase/lilek-nacerno-1/",
+                    "rank_search_engine": 8,
+                    "title": "Lilek na\u010derno - Vom Fass Brno"
+                },
+                "Lilek na\u010derno recept - Va\u0159en\u00ed.cz": {
+                    "downloaded": true,
+                    "link": "https://www.vareni.cz/recepty/lilek-nacerno/",
+                    "rank_search_engine": 4,
+                    "title": "Lilek na\u010derno recept - Va\u0159en\u00ed.cz"
+                },
+                "Lilek recept - Recepty Ko\u0159en\u00edsv\u011bta.cz": {
+                    "downloaded": true,
+                    "link": "https://recepty.korenisveta.cz/recipe/lilek-recept",
+                    "rank_search_engine": 9,
+                    "title": "Lilek recept - Recepty Ko\u0159en\u00edsv\u011bta.cz"
+                },
+                "Lilek s \u010desnekovou om\u00e1\u010dkou (Yu Xiang Qie Zi \u9c7c\u9999\u8304\u5b50) - NUDLI\u010cKA": {
+                    "downloaded": true,
+                    "link": "https://nudlicka.cz/lilek-s-cesnekovou-omackou/",
+                    "rank_search_engine": 5,
+                    "title": "Lilek s \u010desnekovou om\u00e1\u010dkou (Yu Xiang Qie Zi \u9c7c\u9999\u8304\u5b50) - NUDLI\u010cKA"
+                },
+                "\u010c\u00ednsk\u00fd lilek - 6 nejchutn\u011bj\u0161\u00edch recept\u016f - decorexpro": {
+                    "downloaded": true,
+                    "link": "https://elsastyle.decorexpro.com/cs/baklazhany-po-kitajski-6-samyh-vkusnyh-retseptov/",
+                    "rank_search_engine": 7,
+                    "title": "\u010c\u00ednsk\u00fd lilek - 6 nejchutn\u011bj\u0161\u00edch recept\u016f - decorexpro"
+                },
+                "\u010c\u00ednsk\u00fd restovan\u00fd lilek s \u010desnekovou om\u00e1\u010dkou - Prima Fresh - iPrima": {
+                    "downloaded": true,
+                    "link": "https://fresh.iprima.cz/recepty/cinsky-restovany-lilek-s-cesnekovou-omackou",
+                    "rank_search_engine": 3,
+                    "title": "\u010c\u00ednsk\u00fd restovan\u00fd lilek s \u010desnekovou om\u00e1\u010dkou - Prima Fresh - iPrima"
+                }
+            },
+
+        "milk+flour+vanilla":
+            {
+                "Hork\u00e9 ml\u00e9ko a 4 vejce - ten nejsnadn\u011bj\u0161\u00ed a nejchutn\u011bj\u0161\u00ed kol\u00e1\u010d na ...": {
+                    "downloaded": true,
+                    "link": "https://www.youtube.com/watch%3Fv%3DfxoNyESvN7Y",
+                    "rank_search_engine": 3,
+                    "title": "Hork\u00e9 ml\u00e9ko a 4 vejce - ten nejsnadn\u011bj\u0161\u00ed a nejchutn\u011bj\u0161\u00ed kol\u00e1\u010d na ..."
+                },
+                "L\u00edskoo\u0159\u00ed\u0161kov\u00e9 ml\u00e9ko s vanilkou - J\u00edme Jinak": {
+                    "downloaded": true,
+                    "link": "https://www.jimejinak.cz/liskooriskove-mleko-s-vanilkou/",
+                    "rank_search_engine": 8,
+                    "title": "L\u00edskoo\u0159\u00ed\u0161kov\u00e9 ml\u00e9ko s vanilkou - J\u00edme Jinak"
+                },
+                "Mouka ml\u00e9ko vejce pr\u00e1\u0161ek do pe\u010diva vanilkov\u00fd cukr recept - J\u00eddlo.cz": {
+                    "downloaded": true,
+                    "link": "https://www.jidlo.cz/mouka%2Bml%25C3%25A9ko%2Bvejce%2Bpr%25C3%25A1%25C5%25A1ek%2Bdo%2Bpe%25C4%258Diva%2Bvanilkov%25C3%25BD%2Bcukr%2Brecept",
+                    "rank_search_engine": 4,
+                    "title": "Mouka ml\u00e9ko vejce pr\u00e1\u0161ek do pe\u010diva vanilkov\u00fd cukr recept - J\u00eddlo.cz"
+                },
+                "RECEPT: Dokonal\u00e9 pala\u010dinky Sweet and Salty - BIG BOY\u00ae": {
+                    "downloaded": true,
+                    "link": "https://www.bigboy.cz/recept-dokonale-palacinky-sweet-and-salty-p2193/",
+                    "rank_search_engine": 9,
+                    "title": "RECEPT: Dokonal\u00e9 pala\u010dinky Sweet and Salty - BIG BOY\u00ae"
+                },
+                "Recepty S: Cukr Vanilka A Ml\u00e9ko A Mouka A Vanilka - SuperCook": {
+                    "downloaded": true,
+                    "link": "https://www.supercook.com/recipes/cs/recepty-s:-cukr-vanilka-a-ml%25C3%25A9ko-a-mouka-a-vanilka/",
+                    "rank_search_engine": 1,
+                    "title": "Recepty S: Cukr Vanilka A Ml\u00e9ko A Mouka A Vanilka - SuperCook"
+                },
+                "Recepty S: Ml\u00e9ko A Mouka A Vanilka A Vejce - SuperCook": {
+                    "downloaded": true,
+                    "link": "https://www.supercook.com/recipes/cs/recepty-s:-ml%25C3%25A9ko-a-mouka-a-vanilka-a-vejce/",
+                    "rank_search_engine": 2,
+                    "title": "Recepty S: Ml\u00e9ko A Mouka A Vanilka A Vejce - SuperCook"
+                },
+                "Sladk\u00e9 i slan\u00e9 vanilkov\u00e9 recepty - Vanilkovelusky.cz": {
+                    "downloaded": true,
+                    "link": "https://vanilkovelusky.cz/recepty/",
+                    "rank_search_engine": 7,
+                    "title": "Sladk\u00e9 i slan\u00e9 vanilkov\u00e9 recepty - Vanilkovelusky.cz"
+                },
+                "Vanilkov\u00e9 ml\u00e9ko recept - Jidlo.cz": {
+                    "downloaded": true,
+                    "link": "https://www.jidlo.cz/vanilkov%25C3%25A9%2Bml%25C3%25A9ko%2Brecept",
+                    "rank_search_engine": 5,
+                    "title": "Vanilkov\u00e9 ml\u00e9ko recept - Jidlo.cz"
+                },
+                "V\u00e1no\u010dka - Recepty.cz - On-line kucha\u0159ka": {
+                    "downloaded": true,
+                    "link": "https://www.recepty.cz/recept/vanocka-10544",
+                    "rank_search_engine": 6,
+                    "title": "V\u00e1no\u010dka - Recepty.cz - On-line kucha\u0159ka"
+                }
+            },
+        "pork+garlic+butter":
+            {
+                "Du\u0161en\u00e9 vep\u0159ov\u00e9 na \u010desneku - Recept - Kaufland.cz": {
+                    "downloaded": true,
+                    "link": "https://prodejny.kaufland.cz/recepty/vyhledat-recept/recept.dusene-veprove-cesneku.r_id%3DCZ_2207.html",
+                    "rank_search_engine": 2,
+                    "title": "Du\u0161en\u00e9 vep\u0159ov\u00e9 na \u010desneku - Recept - Kaufland.cz"
+                },
+                "Kotlety na \u010desneku - Apetit Online": {
+                    "downloaded": true,
+                    "link": "https://www.apetitonline.cz/recept/kotlety-na-cesneku",
+                    "rank_search_engine": 6,
+                    "title": "Kotlety na \u010desneku - Apetit Online"
+                },
+                "Vep\u0159ov\u00e1 pe\u010den\u011b v \u010desneku a petr\u017eelce, \u0161pen\u00e1tov\u00e9 pyr\u00e9, restovan\u00e9 ...": {
+                    "downloaded": true,
+                    "link": "https://www.ceskatelevize.cz/porady/10084897100-kluci-v-akci/1137-recepty/12293-veprova-pecene-v-cesneku-a-petrzelce-spenatove-pyre-restovane-zampiony-s-rimskym-kminem-a-paprikove-brambory/",
+                    "rank_search_engine": 7,
+                    "title": "Vep\u0159ov\u00e1 pe\u010den\u011b v \u010desneku a petr\u017eelce, \u0161pen\u00e1tov\u00e9 pyr\u00e9, restovan\u00e9 ..."
+                },
+                "Vep\u0159ov\u00e9 maso na \u010desneku - TopRecepty.cz": {
+                    "downloaded": true,
+                    "link": "https://www.toprecepty.cz/recept/2543-veprove-maso-na-cesneku/",
+                    "rank_search_engine": 1,
+                    "title": "Vep\u0159ov\u00e9 maso na \u010desneku - TopRecepty.cz"
+                },
+                "Vep\u0159ov\u00e9 na \u010desneku - Recepty.cz - On-line kucha\u0159ka": {
+                    "downloaded": true,
+                    "link": "https://www.recepty.cz/recept/veprove-na-cesneku-151019",
+                    "rank_search_engine": 5,
+                    "title": "Vep\u0159ov\u00e9 na \u010desneku - Recepty.cz - On-line kucha\u0159ka"
+                },
+                "Vep\u0159ov\u00e9 na \u010desneku - TopRecepty.cz": {
+                    "downloaded": true,
+                    "link": "https://www.toprecepty.cz/recept/55242-veprove-na-cesneku/",
+                    "rank_search_engine": 3,
+                    "title": "Vep\u0159ov\u00e9 na \u010desneku - TopRecepty.cz"
+                },
+                "Vep\u0159ov\u00e9 pl\u00e1tky na v\u00edn\u011b - Albert": {
+                    "downloaded": true,
+                    "link": "https://www.albert.cz/recepty/veprove-platky-na-vine/r/a134588",
+                    "rank_search_engine": 8,
+                    "title": "Vep\u0159ov\u00e9 pl\u00e1tky na v\u00edn\u011b - Albert"
+                },
+                "Vep\u0159ov\u00fd jazyk na \u010desneku-recept - YouTube": {
+                    "downloaded": true,
+                    "link": "https://www.youtube.com/watch%3Fv%3DfXtGJJpTXNU",
+                    "rank_search_engine": 4,
+                    "title": "Vep\u0159ov\u00fd jazyk na \u010desneku-recept - YouTube"
+                },
+                "\u010cesnekov\u00e9 m\u00e1slo - Prima Fresh - iPrima": {
+                    "downloaded": true,
+                    "link": "https://fresh.iprima.cz/cesnekove-maslo",
+                    "rank_search_engine": 9,
+                    "title": "\u010cesnekov\u00e9 m\u00e1slo - Prima Fresh - iPrima"
+                }
+            },
+        
+        "sugar+spinach+seaweed":
+            {
+                "3 zp\u016fsoby, jak tepeln\u011b upravit \u0161pen\u00e1t - Apetit Online": {
+                    "downloaded": true,
+                    "link": "https://www.apetitonline.cz/tipy-triky/3-zpusoby-jak-tepelne-upravit-spenat",
+                    "rank_search_engine": 5,
+                    "title": "3 zp\u016fsoby, jak tepeln\u011b upravit \u0161pen\u00e1t - Apetit Online"
+                },
+                "Du\u0161en\u00fd \u0161pen\u00e1t - Apetit Online": {
+                    "downloaded": true,
+                    "link": "https://www.apetitonline.cz/recept/duseny-spenat",
+                    "rank_search_engine": 7,
+                    "title": "Du\u0161en\u00fd \u0161pen\u00e1t - Apetit Online"
+                },
+                "Hijiki \u2013 vitam\u00ednov\u00e1 bomba pro kr\u00e1su - J\u00edme Jinak": {
+                    "downloaded": true,
+                    "link": "https://www.jimejinak.cz/hijiki-vitaminova-bomba-pro-krasu/",
+                    "rank_search_engine": 9,
+                    "title": "Hijiki \u2013 vitam\u00ednov\u00e1 bomba pro kr\u00e1su - J\u00edme Jinak"
+                },
+                "Jak na miso pol\u00e9vku krok za krokem | CountryLife": {
+                    "downloaded": true,
+                    "link": "https://www.countrylife.cz/jak-na-miso-polevku-krok-za-krokem",
+                    "rank_search_engine": 8,
+                    "title": "Jak na miso pol\u00e9vku krok za krokem | CountryLife"
+                },
+                "Mo\u0159sk\u00e9 \u0159asy: pokud s nimi za\u010d\u00edn\u00e1te, s\u00e1hn\u011bte po nori - Vegmania.cz": {
+                    "downloaded": true,
+                    "link": "https://www.vegmania.cz/clanky/morske-rasy/",
+                    "rank_search_engine": 4,
+                    "title": "Mo\u0159sk\u00e9 \u0159asy: pokud s nimi za\u010d\u00edn\u00e1te, s\u00e1hn\u011bte po nori - Vegmania.cz"
+                },
+                "O l\u00e9\u010div\u00fdch \u00fa\u010dinc\u00edch mo\u0159sk\u00fdch \u0159as a recept na Protiz\u00e1n\u011btliv\u00e9 celerovo ...": {
+                    "downloaded": true,
+                    "link": "https://aspoonofhistamine.com/2014/01/27/protizanetlive-celerovo-cizrnove-bochanky-se-salatem-s-wakame-rasou/",
+                    "rank_search_engine": 2,
+                    "title": "O l\u00e9\u010div\u00fdch \u00fa\u010dinc\u00edch mo\u0159sk\u00fdch \u0159as a recept na Protiz\u00e1n\u011btliv\u00e9 celerovo ..."
+                },
+                "Sal\u00e1t z mo\u0159sk\u00fdch \u0159as wakame | O\u0161atka.cz - Osatka.cz": {
+                    "downloaded": true,
+                    "link": "https://www.osatka.cz/cz/recept/salatzmorskychras",
+                    "rank_search_engine": 1,
+                    "title": "Sal\u00e1t z mo\u0159sk\u00fdch \u0159as wakame | O\u0161atka.cz - Osatka.cz"
+                },
+                "Wakame \u2013 sal\u00e1t z mo\u0159sk\u00fdch \u0159as \u2013 recept - vegan.cz": {
+                    "downloaded": true,
+                    "link": "https://www.vegan.cz/recepty/wakame/",
+                    "rank_search_engine": 6,
+                    "title": "Wakame \u2013 sal\u00e1t z mo\u0159sk\u00fdch \u0159as \u2013 recept - vegan.cz"
+                },
+                "\u0158asy Mo\u0159sk\u00e9 v receptech | iGurmet.cz": {
+                    "downloaded": true,
+                    "link": "https://www.igurmet.cz/suroviny/detail/rasy-morske/",
+                    "rank_search_engine": 3,
+                    "title": "\u0158asy Mo\u0159sk\u00e9 v receptech | iGurmet.cz"
+                }
+            }
 }
