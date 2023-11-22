@@ -72,55 +72,65 @@
                 "downloaded": true,
                 "link": "https://www.femina.cz/brokolice-zapecena-rajcetem-mozzarellou/",
                 "rank_search_engine": 6,
-                "title": "Brokolice zape\u010den\u00e1 s raj\u010detem a mozzarellou | Femina.cz"
+                "title": "Brokolice zape\u010den\u00e1 s raj\u010detem a mozzarellou | Femina.cz",
+                "ranking_manual": 3
             },
             "Brokolickov\u00fd kol\u00e1\u010d - neobsahuje \u017e\u00e1dnou mouku a p\u0159itom je tak ...": {
                 "downloaded": true,
                 "link": "https://www.youtube.com/watch%3Fv%3D3gIVYphJR90",
                 "rank_search_engine": 4,
-                "title": "Brokolickov\u00fd kol\u00e1\u010d - neobsahuje \u017e\u00e1dnou mouku a p\u0159itom je tak ..."
+                "title": "Brokolickov\u00fd kol\u00e1\u010d - neobsahuje \u017e\u00e1dnou mouku a p\u0159itom je tak ...",
+                "ranking_manual": 0
+
             },
             "Kr\u016ft\u00ed pl\u00e1tky s brokolic\u00ed, raj\u010daty a mozzarellou - TopRecepty.cz": {
                 "downloaded": true,
                 "link": "https://www.toprecepty.cz/recept/61181-kruti-platky-s-brokolici-rajcaty-a-mozzarellou/",
                 "rank_search_engine": 8,
-                "title": "Kr\u016ft\u00ed pl\u00e1tky s brokolic\u00ed, raj\u010daty a mozzarellou - TopRecepty.cz"
+                "title": "Kr\u016ft\u00ed pl\u00e1tky s brokolic\u00ed, raj\u010daty a mozzarellou - TopRecepty.cz",
+                "ranking_manual": 3
             },
             "Prost\u0159eno: Brokolicov\u00fd sal\u00e1t s mozzarellou - Prima Fresh": {
                 "downloaded": true,
                 "link": "https://fresh.iprima.cz/brokolicovy-salat-s-mozzarellou",
                 "rank_search_engine": 3,
-                "title": "Prost\u0159eno: Brokolicov\u00fd sal\u00e1t s mozzarellou - Prima Fresh"
+                "title": "Prost\u0159eno: Brokolicov\u00fd sal\u00e1t s mozzarellou - Prima Fresh",
+                "ranking_manual": 2
             },
             "RECEPT DNE: Penne s ku\u0159ec\u00edm masem, brokolic\u00ed a s\u00fdrem - iDNES.cz": {
                 "downloaded": true,
                 "link": "https://www.idnes.cz/jenprozeny/recepty/penne-kureci-syr-brokolice.A201106_114439_jpz-recepty_job",
                 "rank_search_engine": 9,
-                "title": "RECEPT DNE: Penne s ku\u0159ec\u00edm masem, brokolic\u00ed a s\u00fdrem - iDNES.cz"
+                "title": "RECEPT DNE: Penne s ku\u0159ec\u00edm masem, brokolic\u00ed a s\u00fdrem - iDNES.cz",
+                "ranking_manual": 0
             },
             "Recept: Brokolice zape\u010den\u00e1 s raj\u010daty a mozzarellou | iGurmet.cz": {
                 "downloaded": true,
                 "link": "https://www.igurmet.cz/recepty/slane/bezmase/brokolice-zapecena-s-rajcaty-mozzarellou-1845/",
                 "rank_search_engine": 2,
-                "title": "Recept: Brokolice zape\u010den\u00e1 s raj\u010daty a mozzarellou | iGurmet.cz"
+                "title": "Recept: Brokolice zape\u010den\u00e1 s raj\u010daty a mozzarellou | iGurmet.cz",
+                "ranking_manual": 3
             },
             "Recepty na nejlep\u0161\u00ed brokolice s raj\u010detem - Femina.cz": {
                 "downloaded": true,
                 "link": "https://www.femina.cz/recepty-kombinace/brokolice-s-rajcetem/",
                 "rank_search_engine": 7,
-                "title": "Recepty na nejlep\u0161\u00ed brokolice s raj\u010detem - Femina.cz"
+                "title": "Recepty na nejlep\u0161\u00ed brokolice s raj\u010detem - Femina.cz",
+                "ranking_manual": 0
             },
             "Recept\u00edky pro syna - Brokolicov\u00e9 pala\u010dinky s raj\u010d\u00e1tky a mozzarellou ...": {
                 "downloaded": true,
                 "link": "https://m.facebook.com/photo.php%3Ffbid%3D124019234113409%26set%3Da.124011570780842%26type%3D3%26eid%3DARDnSfjHhBs0Z9SthDS4VpHnhfEt-rBR1rcrCibP1OZjYrgsoIbBqROzgEEYbHc-fhJFJMFWWaBX_3q3",
                 "rank_search_engine": 5,
-                "title": "Recept\u00edky pro syna - Brokolicov\u00e9 pala\u010dinky s raj\u010d\u00e1tky a mozzarellou ..."
+                "title": "Recept\u00edky pro syna - Brokolicov\u00e9 pala\u010dinky s raj\u010d\u00e1tky a mozzarellou ...",
+                "ranking_manual": 0
             },
             "Zape\u010den\u00e1 brokolice s raj\u010daty a mozarellou recept - Va\u0159en\u00ed.cz": {
                 "downloaded": true,
                 "link": "https://www.vareni.cz/recepty/zapecena-brokolice-s-rajcaty-a-mozarellou/",
                 "rank_search_engine": 1,
-                "title": "Zape\u010den\u00e1 brokolice s raj\u010daty a mozarellou recept - Va\u0159en\u00ed.cz"
+                "title": "Zape\u010den\u00e1 brokolice s raj\u010daty a mozarellou recept - Va\u0159en\u00ed.cz",
+                "ranking_manual": 3
             }
         },
 
@@ -130,61 +140,72 @@
                 "downloaded": true,
                 "link": "https://www.ferpotravina.cz/jidla-z-ryze/ryze-s-kurecim-masem-a-mrkvi",
                 "rank_search_engine": 1,
-                "title": "Detail receptu - R\u00fd\u017ee s ku\u0159ec\u00edm masem a mrkv\u00ed - F\u00c9R potravina"
+                "title": "Detail receptu - R\u00fd\u017ee s ku\u0159ec\u00edm masem a mrkv\u00ed - F\u00c9R potravina",
+                "ranking_manual": 3
+
             },
             "Dietni kure s mrkvi a ryze recept - Jidlo.cz": {
                 "downloaded": true,
                 "link": "https://www.jidlo.cz/dietni%2Bkure%2Bs%2Bmrkvi%2Ba%2Bryze%2Brecept",
                 "rank_search_engine": 9,
-                "title": "Dietni kure s mrkvi a ryze recept - Jidlo.cz"
+                "title": "Dietni kure s mrkvi a ryze recept - Jidlo.cz",
+                "ranking_manual": 0
             },
             "Du\u0161en\u00e1 mrkev na m\u00e1sle s ku\u0159ec\u00edm pl\u00e1tkem a bramborem": {
                 "downloaded": true,
                 "link": "https://fresh.iprima.cz/recepty/dusena-mrkev-na-masle-s-kurecim-platkem-a-bramborem",
                 "rank_search_engine": 8,
-                "title": "Du\u0161en\u00e1 mrkev na m\u00e1sle s ku\u0159ec\u00edm pl\u00e1tkem a bramborem"
+                "title": "Du\u0161en\u00e1 mrkev na m\u00e1sle s ku\u0159ec\u00edm pl\u00e1tkem a bramborem",
+                "ranking_manual": 0
             },
             "Du\u0161en\u00e1 mrkev s ku\u0159ec\u00edm mas\u00ed\u010dkem - Ajiny recepty": {
                 "downloaded": true,
                 "link": "https://ajinyrecepty.cz/recipe/dusena-mrkev-s-kurecim-masickem/",
                 "rank_search_engine": 10,
-                "title": "Du\u0161en\u00e1 mrkev s ku\u0159ec\u00edm mas\u00ed\u010dkem - Ajiny recepty"
+                "title": "Du\u0161en\u00e1 mrkev s ku\u0159ec\u00edm mas\u00ed\u010dkem - Ajiny recepty",
+                "ranking_manual": 0
             },
             "Ku\u0159e s r\u00fd\u017ei, cuketou a mrkv\u00ed - Hlavn\u00ed j\u00eddla - maso - Sv\u011bt recept\u016f": {
                 "downloaded": true,
                 "link": "https://www.svetreceptu.cz/hlavni-jidla-maso-recepty/kure-s-ryzi-cuketou-a-mrkvi/nsheigyd-28051-796042-a8af9-vheuym76",
                 "rank_search_engine": 7,
-                "title": "Ku\u0159e s r\u00fd\u017ei, cuketou a mrkv\u00ed - Hlavn\u00ed j\u00eddla - maso - Sv\u011bt recept\u016f"
+                "title": "Ku\u0159e s r\u00fd\u017ei, cuketou a mrkv\u00ed - Hlavn\u00ed j\u00eddla - maso - Sv\u011bt recept\u016f",
+                "ranking_manual": 1
             },
             "Ku\u0159ec\u00ed kari s mrkv\u00ed recept - Va\u0159en\u00ed.cz": {
                 "downloaded": true,
                 "link": "https://www.vareni.cz/recepty/kureci-kari-s-mrkvi/",
                 "rank_search_engine": 5,
-                "title": "Ku\u0159ec\u00ed kari s mrkv\u00ed recept - Va\u0159en\u00ed.cz"
+                "title": "Ku\u0159ec\u00ed kari s mrkv\u00ed recept - Va\u0159en\u00ed.cz",
+                "ranking_manual": 3
             },
             "Ku\u0159ec\u00ed maso v mrkvi a r\u00fd\u017e\u00ed / od 6 m\u011bs\u00edce / - TopRecepty.cz": {
                 "downloaded": false,
                 "link": "https://www.toprecepty.cz/recept/30719-kureci-maso-v-mrkvi-a-ryzi-od-6-mesice/",
                 "rank_search_engine": 3,
-                "title": "Ku\u0159ec\u00ed maso v mrkvi a r\u00fd\u017e\u00ed / od 6 m\u011bs\u00edce / - TopRecepty.cz"
+                "title": "Ku\u0159ec\u00ed maso v mrkvi a r\u00fd\u017e\u00ed / od 6 m\u011bs\u00edce / - TopRecepty.cz",
+                "ranking_manual": 3
             },
             "Ku\u0159ec\u00ed nudli\u010dky s mrkv\u00ed - Recepty.cz - On-line kucha\u0159ka": {
                 "downloaded": true,
                 "link": "https://www.recepty.cz/recept/kureci-nudlicky-s-mrkvi-148465",
                 "rank_search_engine": 2,
-                "title": "Ku\u0159ec\u00ed nudli\u010dky s mrkv\u00ed - Recepty.cz - On-line kucha\u0159ka"
+                "title": "Ku\u0159ec\u00ed nudli\u010dky s mrkv\u00ed - Recepty.cz - On-line kucha\u0159ka",
+                "ranking_manual": 3
             },
             "Ku\u0159ec\u00ed stehna s du\u0161enou r\u00fd\u017e\u00ed a mrkv\u00ed - varimedobroty.cz": {
                 "downloaded": true,
                 "link": "https://varimedobroty.cz/recept/kureci-stehna-s-dusenou-ryzi-a-mrkvi/",
                 "rank_search_engine": 6,
-                "title": "Ku\u0159ec\u00ed stehna s du\u0161enou r\u00fd\u017e\u00ed a mrkv\u00ed - varimedobroty.cz"
+                "title": "Ku\u0159ec\u00ed stehna s du\u0161enou r\u00fd\u017e\u00ed a mrkv\u00ed - varimedobroty.cz",
+                "ranking_manual": 2
             },
             "Recept na ku\u0159ec\u00ed maso v mrkvov\u00e9 om\u00e1\u010dce s r\u00fd\u017e\u00ed - Prima Inspirace": {
                 "downloaded": true,
                 "link": "https://primainspirace.cz/2023/04/16/kureci-maso-mrkvove-omacce/",
                 "rank_search_engine": 4,
-                "title": "Recept na ku\u0159ec\u00ed maso v mrkvov\u00e9 om\u00e1\u010dce s r\u00fd\u017e\u00ed - Prima Inspirace"
+                "title": "Recept na ku\u0159ec\u00ed maso v mrkvov\u00e9 om\u00e1\u010dce s r\u00fd\u017e\u00ed - Prima Inspirace",
+                "ranking_manual": 3
             }
         },
 
