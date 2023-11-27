@@ -1,0 +1,638 @@
+{
+    "beef+mushrooms+pasta": {
+        "Cremet pasta med oksem\u00f8rbrad, svampe og timian | SPIS BEDRE": {
+            "downloaded": true,
+            "link": "https://spisbedre.dk/opskrifter/cremet-pasta-med-oksemorbrad-svampe-og-timian",
+            "rank_search_engine": 1,
+            "ranking_manual": 3,
+            "title": "Cremet pasta med oksem\u00f8rbrad, svampe og timian | SPIS BEDRE"
+        },
+        "Cremet pastaret med oksem\u00f8rbrad, spinat og svampe": {
+            "downloaded": true,
+            "link": "https://opskrifter.coop.dk/opskrifter/cremet-pastaret-med-oksemoerbrad-spinat-og-svampe-11676",
+            "rank_search_engine": 8,
+            "ranking_manual": 0,
+            "title": "Cremet pastaret med oksem\u00f8rbrad, spinat og svampe"
+        },
+        "Oksem\u00f8rbrad & Svampepasta - Jacob J\u00f8rgsholm": {
+            "downloaded": true,
+            "link": "https://www.jacobjorgsholm.dk/madlavning/opskrifter/hovedretter/oksemoerbrad-svampepasta/",
+            "rank_search_engine": 9,
+            "ranking_manual": 0,
+            "title": "Oksem\u00f8rbrad & Svampepasta - Jacob J\u00f8rgsholm"
+        },
+        "Pasta i fl\u00f8desauce med oksem\u00f8rbrad og svampe - Madmors": {
+            "downloaded": true,
+            "link": "https://madmors.dk/pasta-i-floedesauce-med-oksemoerbrad-og-svampe/",
+            "rank_search_engine": 5,
+            "ranking_manual": 0,
+            "title": "Pasta i fl\u00f8desauce med oksem\u00f8rbrad og svampe - Madmors"
+        },
+        "Pasta m. oksem\u00f8rbrad i svampe-fl\u00f8desovs": {
+            "downloaded": true,
+            "link": "https://www.bitspanden.dk/wordpress/pasta-m-oksemorbrad-i-svampe-flodesovs/",
+            "rank_search_engine": 4,
+            "ranking_manual": 3,
+            "title": "Pasta m. oksem\u00f8rbrad i svampe-fl\u00f8desovs"
+        },
+        "Pasta med oksek\u00f8d og svampe - Coop Opskrifter": {
+            "downloaded": true,
+            "link": "https://opskrifter.coop.dk/opskrifter/pasta-med-oksekoed-og-svampe-618",
+            "rank_search_engine": 10,
+            "ranking_manual": 0,
+            "title": "Pasta med oksek\u00f8d og svampe - Coop Opskrifter"
+        },
+        "Pasta med oksek\u00f8d, svampe og broccoli - Gourministeriet": {
+            "downloaded": true,
+            "link": "https://gourministeriet.dk/pasta-med-oksekoed-svampe-og-broccoli/",
+            "rank_search_engine": 2,
+            "ranking_manual": 3,
+            "title": "Pasta med oksek\u00f8d, svampe og broccoli - Gourministeriet"
+        },
+        "Pasta med oksek\u00f8d, svampe og n\u00f8dder - Irma.dk": {
+            "downloaded": true,
+            "link": "https://irma.dk/opskrifter/hovedret/efteraar/pasta-med-oksekoed-svampe-og-noedder",
+            "rank_search_engine": 6,
+            "ranking_manual": 3,
+            "title": "Pasta med oksek\u00f8d, svampe og n\u00f8dder - Irma.dk"
+        },
+        "Pasta med oksem\u00f8rbrad - Opskrift med svampe, cognac og fl\u00f8de": {
+            "downloaded": true,
+            "link": "https://gourministeriet.dk/pasta-med-oksemoerbrad-svampe-og-cognac/",
+            "rank_search_engine": 3,
+            "ranking_manual": 3,
+            "title": "Pasta med oksem\u00f8rbrad - Opskrift med svampe, cognac og fl\u00f8de"
+        },
+        "Spaghetti med svampe og sk\u00e6rt oksek\u00f8d - Julie Bruun": {
+            "downloaded": true,
+            "link": "https://juliebruun.com/spaghetti-med-svampe-og-skaert-oksekoed/",
+            "rank_search_engine": 7,
+            "ranking_manual": 3,
+            "title": "Spaghetti med svampe og sk\u00e6rt oksek\u00f8d - Julie Bruun"
+        }
+    },
+    "broccoli+tomato+mozzarella": {
+        "Broccoli Cheddar Cheese Pie - see recipe below - Facebook": {
+            "downloaded": true,
+            "link": "https://www.facebook.com/scandisensediet/videos/broccoli-cheddar-cheese-pie-see-recipe-belowget-support-and-help-join-the-group-/266305587561657/",
+            "rank_search_engine": 8,
+            "ranking_manual": 0,
+            "title": "Broccoli Cheddar Cheese Pie - see recipe below - Facebook"
+        },
+        "Broccoli Tomato and Cheese Recipe - YouTube": {
+            "downloaded": true,
+            "link": "https://www.youtube.com/watch%3Fv%3DqUibXt7hvZE",
+            "rank_search_engine": 3,
+            "ranking_manual": 0,
+            "title": "Broccoli Tomato and Cheese Recipe - YouTube"
+        },
+        "Broccoli with mozzarella - YouTube": {
+            "downloaded": true,
+            "link": "https://m.youtube.com/watch%3Fv%3D-Ge6YJE_np4%26vl%3Den",
+            "rank_search_engine": 4,
+            "ranking_manual": 0,
+            "title": "Broccoli with mozzarella - YouTube"
+        },
+        "Broccoli, Tomato Sauce and Smoked Mozzarella Recipe": {
+            "downloaded": true,
+            "link": "https://www.foodnetwork.com/recipes/broccoli-tomato-sauce-and-smoked-mozzarella-recipe-1963578",
+            "rank_search_engine": 2,
+            "ranking_manual": 1,
+            "title": "Broccoli, Tomato Sauce and Smoked Mozzarella Recipe"
+        },
+        "Easy Broccoli Recipe with Mozzarella | Br\u00f3coli - YouTube": {
+            "downloaded": true,
+            "link": "https://www.youtube.com/watch%3Fv%3DzwX-MCqfvJE",
+            "rank_search_engine": 5,
+            "ranking_manual": 0,
+            "title": "Easy Broccoli Recipe with Mozzarella | Br\u00f3coli - YouTube"
+        },
+        "I've never eaten broccoli with cauliflower so delicious ... - YouTube": {
+            "downloaded": true,
+            "link": "https://www.youtube.com/watch%3Fv%3Dzib6l8sDEic",
+            "rank_search_engine": 7,
+            "ranking_manual": 0,
+            "title": "I've never eaten broccoli with cauliflower so delicious ... - YouTube"
+        },
+        "Mozzarella gratineret lange med broccoli samt tortellini med tomat ...": {
+            "downloaded": true,
+            "link": "https://skagenfood.dk/da-dk/opskrifter/lyssej-8620",
+            "rank_search_engine": 6,
+            "ranking_manual": 1,
+            "title": "Mozzarella gratineret lange med broccoli samt tortellini med tomat ..."
+        },
+        "Pizza p\u00e5 butterdejsbund med frisk mozzarella, broccoli, tomat ...": {
+            "downloaded": true,
+            "link": "https://skagenfood.dk/da-dk/opskrifter/pizza-paa-butterdejsbund-med-frisk-mozzarella-broccoli-tomat-pinjekerner-og-pesto-6613",
+            "rank_search_engine": 9,
+            "ranking_manual": 1,
+            "title": "Pizza p\u00e5 butterdejsbund med frisk mozzarella, broccoli, tomat ..."
+        },
+        "Tomato, Broccoli, and Mozzarella Casserole Recipe - Food.com": {
+            "downloaded": true,
+            "link": "https://www.food.com/recipe/tomato-broccoli-and-mozzarella-casserole-490742",
+            "rank_search_engine": 1,
+            "ranking_manual": 3,
+            "title": "Tomato, Broccoli, and Mozzarella Casserole Recipe - Food.com"
+        }
+    },
+    "carrots+chicken+rice": {
+        "Gulerodsgryde med kylling og spinat - Madens Verden": {
+            "downloaded": true,
+            "link": "https://madensverden.dk/gulerodsgryde/",
+            "rank_search_engine": 7,
+            "ranking_manual": 3,
+            "title": "Gulerodsgryde med kylling og spinat - Madens Verden"
+        },
+        "Kylling i paprikasauce med ris - Opskrifter fra De Danske Familieg\u00e5rde": {
+            "downloaded": false,
+            "link": "https://www.dedanskefamiliegaarde.dk/opskrifter/filet/kylling-i-paprikasauce-med-ris/",
+            "rank_search_engine": 8,
+            "ranking_manual": 0,
+            "title": "Kylling i paprikasauce med ris - Opskrifter fra De Danske Familieg\u00e5rde"
+        },
+        "Kylling i paprikasauce med ris og guler\u00f8dder - Mummum.dk": {
+            "downloaded": true,
+            "link": "https://mummum.dk/kylling-i-paprikasauce-med-ris/",
+            "rank_search_engine": 2,
+            "ranking_manual": 3,
+            "title": "Kylling i paprikasauce med ris og guler\u00f8dder - Mummum.dk"
+        },
+        "Kylling med ris, dampede guler\u00f8dder & spr\u00f8d salat - Aarstiderne": {
+            "downloaded": true,
+            "link": "https://www.aarstiderne.com/opskrifter/opskrift/kylling-med-ris-dampede-guleroedder-sproed-salat",
+            "rank_search_engine": 4,
+            "ranking_manual": 2,
+            "title": "Kylling med ris, dampede guler\u00f8dder & spr\u00f8d salat - Aarstiderne"
+        },
+        "Kylling med stegte guler\u00f8dder, pecorino og ris - Skagenfood": {
+            "downloaded": true,
+            "link": "https://skagenfood.dk/da-dk/opskrifter/kylling-med-cesardressing-salat-og-perlebyg-10777",
+            "rank_search_engine": 6,
+            "ranking_manual": 3,
+            "title": "Kylling med stegte guler\u00f8dder, pecorino og ris - Skagenfood"
+        },
+        "Lynstegte ris med kylling og gr\u00f8nt - Mambeno": {
+            "downloaded": true,
+            "link": "https://mambeno.dk/opskrifter/lynstegte-ris-kylling-groent/",
+            "rank_search_engine": 3,
+            "ranking_manual": 3,
+            "title": "Lynstegte ris med kylling og gr\u00f8nt - Mambeno"
+        },
+        "Rissalat med kylling, avocado og lynstegte guler\u00f8dder - Irma.dk": {
+            "downloaded": true,
+            "link": "https://irma.dk/opskrifter/frokost/rissalat-med-kylling-avocado-og-lynstegte-guleroedder",
+            "rank_search_engine": 9,
+            "ranking_manual": 3,
+            "title": "Rissalat med kylling, avocado og lynstegte guler\u00f8dder - Irma.dk"
+        },
+        "Spicy kylling med ris, guler\u00f8dder og lynstegt spinat - SPIS BEDRE": {
+            "downloaded": true,
+            "link": "https://spisbedre.dk/opskrifter/spicy-kylling-med-ris-gulerodder-og-lynstegt-spinat",
+            "rank_search_engine": 1,
+            "ranking_manual": 3,
+            "title": "Spicy kylling med ris, guler\u00f8dder og lynstegt spinat - SPIS BEDRE"
+        },
+        "Stegte ris med kylling og gr\u00f8ntsager... - Maden i mit liv!": {
+            "downloaded": true,
+            "link": "https://madenimitliv.dk/2017/03/stegte-ris-kylling-groentsager/",
+            "rank_search_engine": 5,
+            "ranking_manual": 2,
+            "title": "Stegte ris med kylling og gr\u00f8ntsager... - Maden i mit liv!"
+        }
+    },
+    "cheese+cabbage+chili": {
+        "Chili con hvidk\u00e5l altid bedst p\u00e5 Kogebog.dk": {
+            "downloaded": true,
+            "link": "https://www.kogebog.dk/525/chili-con-hvidk%25C3%25A5l",
+            "rank_search_engine": 3,
+            "ranking_manual": 0,
+            "title": "Chili con hvidk\u00e5l altid bedst p\u00e5 Kogebog.dk"
+        },
+        "Fermenteret k\u00e5l med hvidl\u00f8g og chili - Meyers": {
+            "downloaded": true,
+            "link": "https://meyers.dk/opskrifter/fermenteret-kaal-med-hvidlog-og-chili/p/71616/",
+            "rank_search_engine": 1,
+            "ranking_manual": 2,
+            "title": "Fermenteret k\u00e5l med hvidl\u00f8g og chili - Meyers"
+        },
+        "Gratineret oksek\u00f8d i fad - nem hverdagsmad med k\u00e5l og k\u00f8d": {
+            "downloaded": true,
+            "link": "https://www.madbanditten.dk/gratineret-oksekoed/",
+            "rank_search_engine": 6,
+            "ranking_manual": 2,
+            "title": "Gratineret oksek\u00f8d i fad - nem hverdagsmad med k\u00e5l og k\u00f8d"
+        },
+        "Gris i k\u00e5l-\"wraps\" med gr\u00f8nt og s\u00f8d chili - Opskrift - Aarstiderne": {
+            "downloaded": true,
+            "link": "https://www.aarstiderne.com/opskrifter/opskrift/gris-i-kaal-wraps-med-groent-og-soed-chili",
+            "rank_search_engine": 4,
+            "ranking_manual": 1,
+            "title": "Gris i k\u00e5l-\"wraps\" med gr\u00f8nt og s\u00f8d chili - Opskrift - Aarstiderne"
+        },
+        "KETO madopskrifter | Oste/chili p\u00f8lser med gratineret spidsk\u00e5l": {
+            "downloaded": false,
+            "link": "https://www.facebook.com/groups/835388476854303/posts/1497506393975838/",
+            "rank_search_engine": 8,
+            "ranking_manual": 0,
+            "title": "KETO madopskrifter | Oste/chili p\u00f8lser med gratineret spidsk\u00e5l"
+        },
+        "Kylling og k\u00e5l i spicy pikantost-sauce - En l\u00e6kker hverdagsret": {
+            "downloaded": true,
+            "link": "https://juliebruun.com/kylling-kaal-spicy-pikantost-sauce/",
+            "rank_search_engine": 5,
+            "ranking_manual": 2,
+            "title": "Kylling og k\u00e5l i spicy pikantost-sauce - En l\u00e6kker hverdagsret"
+        },
+        "K\u00e5l - SPIS BEDRE": {
+            "downloaded": true,
+            "link": "https://spisbedre.dk/temaer/kal",
+            "rank_search_engine": 7,
+            "ranking_manual": 1,
+            "title": "K\u00e5l - SPIS BEDRE"
+        },
+        "Spicy oksek\u00f8d og hvidk\u00e5l i fad - nem og l\u00e6kker opskrift": {
+            "downloaded": true,
+            "link": "https://madenimitliv.dk/2017/02/spicy-oksekoed-hvidkaal-fad/",
+            "rank_search_engine": 2,
+            "ranking_manual": 1,
+            "title": "Spicy oksek\u00f8d og hvidk\u00e5l i fad - nem og l\u00e6kker opskrift"
+        }
+    },
+    "chocolate+butter+sugar": {
+        "Brownie opskrift - S\u00e5dan laver du verdens bedste ... - Madsvin.com": {
+            "downloaded": true,
+            "link": "https://madsvin.com/brownie-opskrift-verdens-bedste/",
+            "rank_search_engine": 6,
+            "ranking_manual": 3,
+            "title": "Brownie opskrift - S\u00e5dan laver du verdens bedste ... - Madsvin.com"
+        },
+        "Chokolade k\u00f8kkenet - Peter Beier": {
+            "downloaded": true,
+            "link": "https://pbchokolade.dk/det-soede-koekken/",
+            "rank_search_engine": 4,
+            "ranking_manual": 3,
+            "title": "Chokolade k\u00f8kkenet - Peter Beier"
+        },
+        "Chokoladecookies - Opskrift p\u00e5 sm\u00e5kager med chokolade": {
+            "downloaded": true,
+            "link": "https://mummum.dk/chokoladecookies/",
+            "rank_search_engine": 5,
+            "ranking_manual": 3,
+            "title": "Chokoladecookies - Opskrift p\u00e5 sm\u00e5kager med chokolade"
+        },
+        "Chokoladekage - Hurtig og nem opskrift p\u00e5 svampet chokolade kage": {
+            "downloaded": true,
+            "link": "https://vielskermad.dk/opskrift/chokoladekage/",
+            "rank_search_engine": 3,
+            "ranking_manual": 1,
+            "title": "Chokoladekage - Hurtig og nem opskrift p\u00e5 svampet chokolade kage"
+        },
+        "Chokoladekage - Opskrift p\u00e5 verdens bedste chokolade kage": {
+            "downloaded": true,
+            "link": "https://www.valdemarsro.dk/chokoladekage/",
+            "rank_search_engine": 2,
+            "ranking_manual": 3,
+            "title": "Chokoladekage - Opskrift p\u00e5 verdens bedste chokolade kage"
+        },
+        "Chokoladekage opskrift \u2014 Verdens bedste og nemmeste!": {
+            "downloaded": true,
+            "link": "https://spisbedre.dk/opskrifter/chokoladekage",
+            "rank_search_engine": 8,
+            "ranking_manual": 1,
+            "title": "Chokoladekage opskrift \u2014 Verdens bedste og nemmeste!"
+        },
+        "Chokoladekager - Nem opskrift p\u00e5 spr\u00f8de chokoladesm\u00e5kager - Arla": {
+            "downloaded": true,
+            "link": "https://www.arla.dk/opskrifter/chokoladekager/",
+            "rank_search_engine": 1,
+            "ranking_manual": 3,
+            "title": "Chokoladekager - Nem opskrift p\u00e5 spr\u00f8de chokoladesm\u00e5kager - Arla"
+        },
+        "Chokoladesk\u00e6rekage | Opskrift p\u00e5 sandkage med chokolade - Meyers": {
+            "downloaded": true,
+            "link": "https://meyers.dk/opskrifter/chokoladeskaerekage/p/73609/",
+            "rank_search_engine": 9,
+            "ranking_manual": 3,
+            "title": "Chokoladesk\u00e6rekage | Opskrift p\u00e5 sandkage med chokolade - Meyers"
+        },
+        "Cookiekage med chokoladeknapper - SPIS BEDRE": {
+            "downloaded": true,
+            "link": "https://spisbedre.dk/opskrifter/cookiekage-med-chokoladeknapper",
+            "rank_search_engine": 7,
+            "ranking_manual": 3,
+            "title": "Cookiekage med chokoladeknapper - SPIS BEDRE"
+        }
+    },
+    "egg+chicken+potato": {
+        "Frittata med kylling - nem aftensmad med \u00e6g, kartofler og kylling !": {
+            "downloaded": true,
+            "link": "https://madogkaerlighed.dk/frittata-med-kylling/",
+            "rank_search_engine": 2,
+            "ranking_manual": 0,
+            "title": "Frittata med kylling - nem aftensmad med \u00e6g, kartofler og kylling !"
+        },
+        "Kartoffelfad - nem opskrift med kylling og bacon - madenimitliv.dk": {
+            "downloaded": true,
+            "link": "https://madenimitliv.dk/2019/01/kartoffelfad-med-kylling-og-bacon/",
+            "rank_search_engine": 8,
+            "ranking_manual": 0,
+            "title": "Kartoffelfad - nem opskrift med kylling og bacon - madenimitliv.dk"
+        },
+        "Kartoffelsalat med fuldkornsknas og kylling - Valsem\u00f8llen": {
+            "downloaded": true,
+            "link": "https://www.valsemollen.dk/opskrifter/kartoffelsalat-med-fuldkornsknas-og-kylling/",
+            "rank_search_engine": 7,
+            "ranking_manual": 0,
+            "title": "Kartoffelsalat med fuldkornsknas og kylling - Valsem\u00f8llen"
+        },
+        "Salat med kylling, kartofler og fuldkornsknas - Fuldkornspartnerskabet": {
+            "downloaded": true,
+            "link": "https://fuldkorn.dk/recipes/salat-med-kartofler-fuldkornsknas-og-kylling/",
+            "rank_search_engine": 6,
+            "ranking_manual": 0,
+            "title": "Salat med kylling, kartofler og fuldkornsknas - Fuldkornspartnerskabet"
+        },
+        "Spr\u00f8d kyllingesalat med nye kartofler, kogte \u00e6g og gr\u00f8nne asparges": {
+            "downloaded": true,
+            "link": "https://www.aarstiderne.com/opskrifter/opskrift/sproed-kyllingesalat-med-nye-kartofler-kogte-aeg-og-groenne-asparges",
+            "rank_search_engine": 9,
+            "ranking_manual": 2,
+            "title": "Spr\u00f8d kyllingesalat med nye kartofler, kogte \u00e6g og gr\u00f8nne asparges"
+        },
+        "\u00c6ggekage med kartofler og kylling i tern - Madens Verden": {
+            "downloaded": true,
+            "link": "https://madensverden.dk/aeggekage-med-kartofler/",
+            "rank_search_engine": 1,
+            "ranking_manual": 3,
+            "title": "\u00c6ggekage med kartofler og kylling i tern - Madens Verden"
+        },
+        "\u00c6ggekage med kartofler, kylling og bacon - SPIS BEDRE": {
+            "downloaded": true,
+            "link": "https://dk-spisbedre-staging.aws.aller.com/opskrifter/aeggekage-med-kartofler-kylling-og-bacon",
+            "rank_search_engine": 5,
+            "ranking_manual": 0,
+            "title": "\u00c6ggekage med kartofler, kylling og bacon - SPIS BEDRE"
+        },
+        "\u00c6ggekage med kylling, kartoffel og tomat - Steg & Bras": {
+            "downloaded": true,
+            "link": "https://www.stegogbras.dk/blog/aeggekage-med-kylling",
+            "rank_search_engine": 4,
+            "ranking_manual": 3,
+            "title": "\u00c6ggekage med kylling, kartoffel og tomat - Steg & Bras"
+        }
+    },
+    "eggplant+onion+soy-sauce": {
+        "Aubergine steaks \u2013 Opskrift p\u00e5 stegte aubergine i vegansk fl\u00f8de sauce": {
+            "downloaded": true,
+            "link": "https://micadeli.dk/aubergine-steaks/",
+            "rank_search_engine": 3,
+            "ranking_manual": 0,
+            "title": "Aubergine steaks \u2013 Opskrift p\u00e5 stegte aubergine i vegansk fl\u00f8de sauce"
+        },
+        "Auberginer med misosauce - Japansk Mad": {
+            "downloaded": true,
+            "link": "https://japanskmad.nu/auberginer-med-misosauce/",
+            "rank_search_engine": 1,
+            "ranking_manual": 0,
+            "title": "Auberginer med misosauce - Japansk Mad"
+        },
+        "Bulgogi Aubergine \u2013 Vegetarisk Hverdag \u2013 Sm\u00e6k p\u00e5 krydderierne": {
+            "downloaded": true,
+            "link": "https://vegetariskhverdag.dk/2020/04/bulgogi-aubergine/",
+            "rank_search_engine": 6,
+            "ranking_manual": 0,
+            "title": "Bulgogi Aubergine \u2013 Vegetarisk Hverdag \u2013 Sm\u00e6k p\u00e5 krydderierne"
+        },
+        "Kyllingefrikadeller med auberginer og squash i soya | REMA 1000": {
+            "downloaded": true,
+            "link": "https://madogdrikke.rema1000.dk/opskrifter/kyllingefrikadeller-med-auberginer-og-squash-i-soya-2",
+            "rank_search_engine": 8,
+            "ranking_manual": 0,
+            "title": "Kyllingefrikadeller med auberginer og squash i soya | REMA 1000"
+        },
+        "Lentil curry and baked aubergine - HelloFresh": {
+            "downloaded": true,
+            "link": "https://www.hellofresh.dk/recipes/lentil-curry-and-baked-aubergine-641456ecfd78b79c42eb51f0",
+            "rank_search_engine": 9,
+            "ranking_manual": 2,
+            "title": "Lentil curry and baked aubergine - HelloFresh"
+        },
+        "Nudelwok med libanesisk aubergine og salatost - Retnemt Opskrift": {
+            "downloaded": true,
+            "link": "https://www.retnemt.dk/opskrift/51831/nudelwok-med-libanesisk-aubergine-og-salatost",
+            "rank_search_engine": 4,
+            "ranking_manual": 2,
+            "title": "Nudelwok med libanesisk aubergine og salatost - Retnemt Opskrift"
+        },
+        "Spicy oksek\u00f8d med kik\u00e6rter, aubergine og b\u00f8ftomater samt blomk\u00e5l ...": {
+            "downloaded": true,
+            "link": "https://www.aarstiderne.com/opskrifter/opskrift/spicy-oksekoed-med-kikaerter-aubergine-og-boeftomater-samt-blomkaal-i-soed-soja",
+            "rank_search_engine": 5,
+            "ranking_manual": 3,
+            "title": "Spicy oksek\u00f8d med kik\u00e6rter, aubergine og b\u00f8ftomater samt blomk\u00e5l ..."
+        },
+        "Tofu i auberginer og tomat - Livsstil - TV2": {
+            "downloaded": true,
+            "link": "https://livsstil.tv2.dk/mad/opskrift/tofu-i-auberginer-og-tomat",
+            "rank_search_engine": 2,
+            "ranking_manual": 3,
+            "title": "Tofu i auberginer og tomat - Livsstil - TV2"
+        },
+        "Vegetarisk linsekarry - HelloFresh": {
+            "downloaded": true,
+            "link": "https://www.hellofresh.dk/recipes/vegetarisk-linsekarry-63e6bbec838062841f0e7253",
+            "rank_search_engine": 7,
+            "ranking_manual": 2,
+            "title": "Vegetarisk linsekarry - HelloFresh"
+        }
+    },
+    "milk+flour+vanilla": {
+        "Amerikanske pandekager med vanilje | opskrifter - GastroFun.dk": {
+            "downloaded": true,
+            "link": "https://gastrofun.dk/opskrift/amerikanske-pandekager-med-vanilje/",
+            "rank_search_engine": 6,
+            "ranking_manual": 3,
+            "title": "Amerikanske pandekager med vanilje | opskrifter - GastroFun.dk"
+        },
+        "Chokoladekage med vaniljecreme - Copycat Ding Dongs - By Norlund": {
+            "downloaded": true,
+            "link": "https://bynorlund.dk/opskrifter/kager/ding-dong-cake/",
+            "rank_search_engine": 4,
+            "ranking_manual": 2,
+            "title": "Chokoladekage med vaniljecreme - Copycat Ding Dongs - By Norlund"
+        },
+        "Den bedste hjemmelavede kagecreme med vanilje - Arla": {
+            "downloaded": true,
+            "link": "https://www.arla.dk/opskrifter/kagecreme/",
+            "rank_search_engine": 3,
+            "ranking_manual": 2,
+            "title": "Den bedste hjemmelavede kagecreme med vanilje - Arla"
+        },
+        "Dr\u00f8mmekage - Dansukker": {
+            "downloaded": true,
+            "link": "https://www.dansukker.dk/dk/opskrifter/droemmekage",
+            "rank_search_engine": 8,
+            "ranking_manual": 2,
+            "title": "Dr\u00f8mmekage - Dansukker"
+        },
+        "Gammeldags pandekager - Find opskriften lige her": {
+            "downloaded": true,
+            "link": "https://www.dk-kogebogen.dk/opskrifter/31044/pandekager-gammeldags",
+            "rank_search_engine": 5,
+            "ranking_manual": 2,
+            "title": "Gammeldags pandekager - Find opskriften lige her"
+        },
+        "Opskrift p\u00e5 pandekagedej til nemme pandekager - Arla": {
+            "downloaded": true,
+            "link": "https://www.arla.dk/opskrifter/pandekager/",
+            "rank_search_engine": 1,
+            "ranking_manual": 2,
+            "title": "Opskrift p\u00e5 pandekagedej til nemme pandekager - Arla"
+        },
+        "Vaniljekager - Dansukker": {
+            "downloaded": true,
+            "link": "https://www.dansukker.dk/dk/opskrifter/vaniljekager",
+            "rank_search_engine": 7,
+            "ranking_manual": 3,
+            "title": "Vaniljekager - Dansukker"
+        },
+        "opskrift p\u00e5 s\u00f8de gammeldags pandekager - Stinna": {
+            "downloaded": true,
+            "link": "https://stinna.dk/bagvaerk/pandekager.html",
+            "rank_search_engine": 2,
+            "ranking_manual": 0,
+            "title": "opskrift p\u00e5 s\u00f8de gammeldags pandekager - Stinna"
+        }
+    },
+    "pork+garlic+butter": {
+        "\"Gris med hvidl\u00f8g\" (Aillade de porc) Nem, billig og super l\u00e6kker!": {
+            "downloaded": true,
+            "link": "https://www.youtube.com/watch%3Fv%3DmKe1hwG1DRM",
+            "rank_search_engine": 2,
+            "ranking_manual": 0,
+            "title": "\"Gris med hvidl\u00f8g\" (Aillade de porc) Nem, billig og super l\u00e6kker!"
+        },
+        "Buddha bowl med hvidl\u00f8gsris og s\u00f8d chilimarineret svinek\u00f8d": {
+            "downloaded": true,
+            "link": "https://emmaolsen.dk/bowl-med-hvidloegsris-og-soed-chilimarineret-koed/",
+            "rank_search_engine": 3,
+            "ranking_manual": 3,
+            "title": "Buddha bowl med hvidl\u00f8gsris og s\u00f8d chilimarineret svinek\u00f8d"
+        },
+        "Hasselback svinem\u00f8rbrad med hvidl\u00f8gssm\u00f8r - Madens Verden": {
+            "downloaded": true,
+            "link": "https://www.pinterest.dk/pin/423268064989865504/",
+            "rank_search_engine": 6,
+            "ranking_manual": 0,
+            "title": "Hasselback svinem\u00f8rbrad med hvidl\u00f8gssm\u00f8r - Madens Verden"
+        },
+        "Hasselback svinem\u00f8rbrad med hvidl\u00f8gssm\u00f8r | Opskrift - Pinterest": {
+            "downloaded": true,
+            "link": "https://www.pinterest.dk/pin/301741243793058556/",
+            "rank_search_engine": 5,
+            "ranking_manual": 0,
+            "title": "Hasselback svinem\u00f8rbrad med hvidl\u00f8gssm\u00f8r | Opskrift - Pinterest"
+        },
+        "Hvidl\u00f8gsm\u00f8rbrad - opskrift - Alletiders Kogebog": {
+            "downloaded": true,
+            "link": "https://www.dk-kogebogen.dk/opskrifter/6350/hvidloegsmoerbrad",
+            "rank_search_engine": 7,
+            "ranking_manual": 0,
+            "title": "Hvidl\u00f8gsm\u00f8rbrad - opskrift - Alletiders Kogebog"
+        },
+        "Hvidl\u00f8gssm\u00f8r - Hjemmelavet Kryddersm\u00f8r Med Hvidl\u00f8g Og Persille": {
+            "downloaded": true,
+            "link": "https://www.onekitchenblog.com/hvidloegssmoer/",
+            "rank_search_engine": 4,
+            "ranking_manual": 0,
+            "title": "Hvidl\u00f8gssm\u00f8r - Hjemmelavet Kryddersm\u00f8r Med Hvidl\u00f8g Og Persille"
+        },
+        "Opskrift p\u00e5 svinem\u00f8rbrad med hvidl\u00f8gssm\u00f8r og persille - Maduniverset": {
+            "downloaded": true,
+            "link": "https://www.maduniverset.dk/opskrift/svinemoerbrad-med-hvidloegssmoer-og-persille",
+            "rank_search_engine": 9,
+            "ranking_manual": 0,
+            "title": "Opskrift p\u00e5 svinem\u00f8rbrad med hvidl\u00f8gssm\u00f8r og persille - Maduniverset"
+        },
+        "Spr\u00f8dstegt svinek\u00f8d - HelloFresh": {
+            "downloaded": true,
+            "link": "https://www.hellofresh.dk/recipes/sprodstegt-svinekod-6481816e3232ce74882924f5",
+            "rank_search_engine": 1,
+            "ranking_manual": 3,
+            "title": "Spr\u00f8dstegt svinek\u00f8d - HelloFresh"
+        },
+        "svinek\u00f8d - foodplanner": {
+            "downloaded": true,
+            "link": "https://foodplanner.wordpress.com/tag/svinekod/",
+            "rank_search_engine": 8,
+            "ranking_manual": 3,
+            "title": "svinek\u00f8d - foodplanner"
+        }
+    },
+    "sugar+spinach+seaweed": {
+        "Opskrifter - Om\u00f8 Tang": {
+            "downloaded": true,
+            "link": "https://omoetang.dk/tangprodukter/opskrifter/",
+            "rank_search_engine": 2,
+            "ranking_manual": 0,
+            "title": "Opskrifter - Om\u00f8 Tang"
+        },
+        "Opskrifter med Spinat - Pasta, T\u00e6rte og andre retter - Arla": {
+            "downloaded": true,
+            "link": "https://www.arla.dk/opskrifter/inspiration/spinat/",
+            "rank_search_engine": 5,
+            "ranking_manual": 0,
+            "title": "Opskrifter med Spinat - Pasta, T\u00e6rte og andre retter - Arla"
+        },
+        "Opskrifter med tang | Mad - DR": {
+            "downloaded": true,
+            "link": "https://www.dr.dk/levnu/mad/opskrifter-med-tang",
+            "rank_search_engine": 4,
+            "ranking_manual": 0,
+            "title": "Opskrifter med tang | Mad - DR"
+        },
+        "Opskrifter | CONTEMPEHRARY I Nordic Tempeh + Condiments": {
+            "downloaded": true,
+            "link": "https://contempehrary.com/opskrifter/",
+            "rank_search_engine": 8,
+            "ranking_manual": 0,
+            "title": "Opskrifter | CONTEMPEHRARY I Nordic Tempeh + Condiments"
+        },
+        "Pocheret \u00e6g med ramsl\u00f8g, spinat og skinke - VILD MAD": {
+            "downloaded": true,
+            "link": "https://vildmad.dk/dk/opskrifter/pocheret-aeg-med-ramslog-spinat-og-skinke",
+            "rank_search_engine": 3,
+            "ranking_manual": 0,
+            "title": "Pocheret \u00e6g med ramsl\u00f8g, spinat og skinke - VILD MAD"
+        },
+        "Rejesalat med wakame tang, syltede blommer, kik\u00e6rter og chipotle ...": {
+            "downloaded": true,
+            "link": "https://www.royalgreenland.com/da/foodservice/opskrifter/rejesalat-med-wakame-tang--syltede-blommer-kikarter-og-chipotle-chili/",
+            "rank_search_engine": 7,
+            "ranking_manual": 0,
+            "title": "Rejesalat med wakame tang, syltede blommer, kik\u00e6rter og chipotle ..."
+        },
+        "Tangstegt m\u00f8rksej med bulgur, spinat, granat\u00e6ble & s\u00f8l - Skagenfood": {
+            "downloaded": true,
+            "link": "https://skagenfood.dk/da-dk/opskrifter/tangestegt-moerksej-med-bulgur-spinat-granataeble-soel-11123",
+            "rank_search_engine": 1,
+            "ranking_manual": 3,
+            "title": "Tangstegt m\u00f8rksej med bulgur, spinat, granat\u00e6ble & s\u00f8l - Skagenfood"
+        },
+        "og oksetatar med syltede radiser, sesam, tang og Dan Dan-sauce": {
+            "downloaded": true,
+            "link": "https://voresmad.dk/opskrifter/r/roedbede-og-oksetatar-med-syltede-radiser-sesam-tang-og-dan-dan-sauce",
+            "rank_search_engine": 9,
+            "ranking_manual": 0,
+            "title": "og oksetatar med syltede radiser, sesam, tang og Dan Dan-sauce"
+        },
+        "strandm\u00e6lde opskrift - Strandh\u00f8st": {
+            "downloaded": true,
+            "link": "http://strandhoest.dk/strandmaelde/",
+            "rank_search_engine": 6,
+            "ranking_manual": 0,
+            "title": "strandm\u00e6lde opskrift - Strandh\u00f8st"
+        }
+    }
+}
