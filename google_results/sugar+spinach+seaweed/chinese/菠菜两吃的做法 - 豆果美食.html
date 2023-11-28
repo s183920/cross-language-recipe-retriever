@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" name="viewport">
+    <title></title>
+    <style>
+        html,body{padding:0;margin:0;border:0;}
+        body{margin:0 auto;background: url("https://i1.douguo.com//upload/banner/1526381724.png") repeat;background-size: auto 100%;position:relative; }
+        img{display: block;position:absolute;} 
+		.down{top:8%;width:78%;left:11%;}
+		.pic{bottom:0;width:100%;left:0;}
+   </style>
+</head>
+<body>
+        <img class='down' src="https://i1.douguo.com//upload/banner/1526453471.png" alt="">
+        <img class='pic' src="https://i1.douguo.com//upload/banner/1526381715.png" alt="">
+</body>
+<script type='text/javascript' src='https://i1.douguo.com//static/wap/js/jquery-2.1.4.min.js'></script>
+
+<script>
+	var h=$(window).height();
+	$("body").css("height",h);
+	$(".down").on("click",function(){
+        var guide = "";
+        if (/ipad|iphone|mac/i.test(navigator.userAgent)){
+            //ios
+            guide = 1;
+        }else{
+            //android
+            guide = 2;
+        }
+         var ua = navigator.userAgent.toLowerCase();
+         if(ua.match(/MicroMessenger/i)=="micromessenger") {
+                location.href='http://a.app.qq.com/o/simple.jsp?pkgname=com.douguo.recipe&g_f=991658';
+        }else{
+            if(guide==1){
+                location.href='https://itunes.apple.com/cn/app/dou-guo-mei-shi-zui-tie-xin/id434212566?l=en&mt=8';
+            }else{
+                location.href='http://www.douguo.com/showad.php?title=MTopAndroidDown';
+            }
+        }
+	})
+</script>
+
+</html>

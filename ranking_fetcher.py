@@ -59,4 +59,4 @@ def create_ranking_file(language):
 if __name__ == "__main__":
 
     # fetch_rankings()
-    create_ranking_file("english")
+    create_ranking_file("chinese")
