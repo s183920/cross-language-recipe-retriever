@@ -6,8 +6,8 @@ from pyserini.search.lucene import LuceneSearcher
 """
 
 
-searcher = LuceneSearcher('../indexes/test_index/')
-hits = searcher.search('document')
+searcher = LuceneSearcher('../indexes/english_index')
+hits = searcher.search('chicken egg potato')
 
 for i in range(len(hits)):
     print(f'{i+1:2} {hits[i].docid:4} {hits[i].score:.5f}')
