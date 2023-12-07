@@ -13,16 +13,18 @@ class Translator():
 
         self.languages = languages
 
-        # load the translation dictionary
-        with open(f'../translations.json', 'r') as file:
-            self.translation_dict = json.load(file)
+        if dictionary_approach:
 
-        # check if all languages are supported
-        for language in self.languages:
-            if language not in self.translation_dict.keys():
-                raise Exception(f'The language {language} is not supported.')
-            else:
-                print(f'The language {language} is supported.')
+            # load the translation dictionary
+            with open(f'../translations.json', 'r') as file:
+                self.translation_dict = json.load(file)
+
+            # check if all languages are supported
+            for language in self.languages:
+                if language not in self.translation_dict.keys():
+                    raise Exception(f'The language {language} is not supported.')
+                else:
+                    print(f'The language {language} is supported.')
 
 
     def translate(self, query, language):
@@ -30,4 +32,8 @@ class Translator():
             Translate the query to the given language.            
         """
             
-            
+        # return a identity for the english language - query is in english
+        if language == "english":
+            return query
+        
+        # return the translation from the dictionary

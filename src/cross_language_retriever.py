@@ -16,7 +16,7 @@ class CrossLanguageRetriever:
         self.languages = languages
 
         # initialize the translation model
-        self.translation_model = Translator(self.languages)
+        self.translation_model = Translator(self.languages, dictionary_approach=True)
 
         # initialize the retrievers
         self.retrievers = {language: BM25(language) for language in self.languages}
