@@ -27,9 +27,9 @@ def save_json(recipe_text, recipe_name, lang):
     with open(f"../indexes/json_files/{lang}/{recipe_name[:-5]}.json", 'w') as file:
         json.dump(doc_data, file)
 
-def build_index():
+def build_index_json():
     """
-    Builds the index for the given recipes and given language.
+    Builds the json index for the given recipes and given language.
     """
 
     # define the language here
