@@ -4,6 +4,7 @@ This file contains the CrossLanguageRetriever class.
 
 from BM25 import BM25
 import numpy as np
+from translator import Translator
 
 class CrossLanguageRetriever:
 
@@ -14,8 +15,12 @@ class CrossLanguageRetriever:
         
         self.languages = languages
 
+        # initialize the translation model
+        self.translation_model = Translator(self.languages)
+
         # initialize the retrievers
         self.retrievers = {language: BM25(language) for language in self.languages}
+
 
 
     def search(self, query, k=10):
@@ -26,7 +31,14 @@ class CrossLanguageRetriever:
         # search in all languages
         results_by_language = []
         for language in self.languages:
+
+            # translate the query
+            query = self.translation_model.translate(query, language)
+
+            # search in the given language
             hits = self.retrievers[language].search(query, k=k)
+            
+            # save the results
             results_by_language.append(hits)
 
         # flatten the results by language
