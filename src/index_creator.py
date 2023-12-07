@@ -4,16 +4,50 @@ and indexes.
 """
 
 from bs4 import BeautifulSoup
+import os
+import json
 
 def html_to_text(html_content):
     soup = BeautifulSoup(html_content, 'html.parser')
     return soup.get_text()
 
-# Load HTML file
-with open('../google_results/beef+mushrooms+pasta/english/Creamy Beef and Mushroom Stroganoff - Cafe Delites.html', 'r') as file:
-    html_content = file.read()
+def build_index():
+    """
+    Builds the index for the given recipes and given language.
+    """
 
-# Convert to text
-text_content = html_to_text(html_content)
+    # define the language here
+    lang = "english"
 
-print(text_content)
+    # recipes folder
+    recipesDir = f"../google_results/"
+
+    # iterate over recipes
+    for recipe in os.listdir(recipesDir):
+
+        print("converting documents from: ", recipe)
+
+        langDir = recipesDir + recipe + "/" + lang + "/"
+
+        # iterate over html files for a specific recipe and language
+        for filename in os.listdir(langDir):
+
+            # skip the redundant files
+            if filename == "main.html": continue 
+            if not filename.endswith(".html"): continue
+
+            # open the html file
+            with open(langDir + filename, 'r') as file:
+                recipe_html = file.read()
+
+            # convert to text
+            recipe_text = html_to_text(recipe_html)
+
+            # create a dictionary with "docid" and "content" keys
+            doc_data = {"docid": filename, "content": recipe_text}
+
+            # print the dictionary
+            print(doc_data)
+
+if __name__ == "__main__":
+    build_index()
