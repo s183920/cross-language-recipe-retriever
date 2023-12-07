@@ -1,15 +1,35 @@
-from pyserini.search import SimpleSearcher
+
+from pyserini.search.lucene import LuceneSearcher
 
 """
     This module implements the BM25 algorithm for ranking documents.
 """
 
+# test english index
+searcher = LuceneSearcher('../indexes/english_index')
+hits = searcher.search('chicken egg potato')
+
+for i in range(len(hits)):
+    print(f'{i+1:2} {hits[i].docid:4} {hits[i].score:.5f}')
 
 
-searcher = SimpleSearcher.from_prebuilt_index('robust04')
+# test czech index
+# searcher = LuceneSearcher('../indexes/czech_index')
+# searcher.set_language('cs') # set the language
+# hits = searcher.search('kuřecí rýže')
 
-hits = searcher.search('black bear attacks', 1000)
+# for i in range(len(hits)):
+#     print(f'{i+1:2} {hits[i].docid:4} {hits[i].score:.5f}')
 
-# Prints the first 10 hits
-for i in range(0, 10):
-    print(f'{i+1:2} {hits[i].docid:15} {hits[i].score:.5f}')
+# test danish index
+# searcher = LuceneSearcher('../indexes/danish_index')
+# searcher.set_language('da') # set the language
+# hits = searcher.search('kylling ris')
+
+# test chinese index
+# searcher = LuceneSearcher('../indexes/chinese_index')
+# searcher.set_language('zh') # set the language
+# hits = searcher.search('鸡 蛋 土豆')
+
+for i in range(len(hits)):
+    print(f'{i+1:2} {hits[i].docid:4} {hits[i].score:.5f}')
