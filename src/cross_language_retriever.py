@@ -59,7 +59,11 @@ if __name__ == "__main__":
     retriever = CrossLanguageRetriever(["english", "czech", "chinese", "danish"])
 
     # search
-    results_merged, results_by_lan = retriever.search("chicken egg potato")
+    # test_query = "chicken egg potato"
+    test_query = "beef pasta mushrooms"
+
+
+    results_merged, results_by_lan = retriever.search(test_query)
 
     # print the results by language
     for i in range(len(results_by_lan)):
