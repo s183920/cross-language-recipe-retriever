@@ -80,7 +80,9 @@ def build_index(lang="english"):
 
     # specify the iso language code
     if lang == "english": ISO_lan_code = "en"
-    # ISO_lan_code = 
+    elif lang == "czech": ISO_lan_code = "cs"
+    elif lang == "chinese": ISO_lan_code = "zh"
+    elif lang == "danish": ISO_lan_code = "da"
 
     # the following command builds the index from the json files
     subprocess.run(f"python -m pyserini.index.lucene \
@@ -94,8 +96,8 @@ def build_index(lang="english"):
 
 if __name__ == "__main__":
     
-    lang = "english"
-    # lang = "czech"
+    # lang = "english"
+    lang = "czech"
 
     # build the json index
     # build_index_json(lang=lang)
