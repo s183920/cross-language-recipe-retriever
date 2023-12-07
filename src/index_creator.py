@@ -20,7 +20,7 @@ def save_json(recipe_text, recipe_name, lang):
     doc_data = {"docid": recipe_name[:-5], "content": recipe_text}
 
     # create the directory if it doesn't exist
-    if not os.path.exists(f"../index/{lang}"):
+    if not os.path.exists(f"../indexes/json_files/{lang}"): 
         os.makedirs(f"../indexes/json_files/{lang}")
 
     # save the json file
