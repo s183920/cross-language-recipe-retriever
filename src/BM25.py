@@ -1,15 +1,13 @@
-from pyserini.search import SimpleSearcher
+
+from pyserini.search.lucene import LuceneSearcher
 
 """
     This module implements the BM25 algorithm for ranking documents.
 """
 
 
+searcher = LuceneSearcher('../indexes/english/')
+hits = searcher.search('document')
 
-searcher = SimpleSearcher.from_prebuilt_index('robust04')
-
-hits = searcher.search('black bear attacks', 1000)
-
-# Prints the first 10 hits
-for i in range(0, 10):
-    print(f'{i+1:2} {hits[i].docid:15} {hits[i].score:.5f}')
+for i in range(len(hits)):
+    print(f'{i+1:2} {hits[i].docid:4} {hits[i].score:.5f}')
