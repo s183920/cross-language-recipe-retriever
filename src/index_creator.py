@@ -6,6 +6,7 @@ and indexes.
 from bs4 import BeautifulSoup
 import os
 import json
+import subprocess
 
 def html_to_text(html_content):
     soup = BeautifulSoup(html_content, 'html.parser')
@@ -61,7 +62,14 @@ def build_index_json(lang = "english"):
 
 def build_index(lang="english"):
 
-    pass
+    # the following command builds the index from the json files
+    subprocess.run(f"python -m pyserini.index.lucene \
+                --collection JsonCollection \
+                --input ../indexes/json_files/{lang} \
+                --index ../indexes/{lang} \
+                --generator DefaultLuceneDocumentGenerator \
+                --threads 1 \
+                --storeDocvectors", shell=True)
 
 if __name__ == "__main__":
     
