@@ -62,11 +62,13 @@ def build_index_json(lang = "english"):
 
 def build_index(lang="english"):
 
+    index_name = lang + "_index"
+
     # the following command builds the index from the json files
     subprocess.run(f"python -m pyserini.index.lucene \
                 --collection JsonCollection \
                 --input ../indexes/json_files/{lang} \
-                --index ../indexes/{lang} \
+                --index ../indexes/{index_name} \
                 --generator DefaultLuceneDocumentGenerator \
                 --threads 1 \
                 --storeDocvectors", shell=True)
@@ -76,7 +78,7 @@ if __name__ == "__main__":
     lang = "english"
 
     # build the json index
-    build_index_json(lang=lang)
+    # build_index_json(lang=lang)
 
     # build the index
     build_index(lang=lang)
