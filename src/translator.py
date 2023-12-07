@@ -26,8 +26,21 @@ class Translator():
                 else:
                     print(f'The language {language} is supported.')
 
+            # define the translation function
+            self.translate = self.translate_dict
 
-    def translate(self, query, language):
+        else: # using a translation model
+
+            # TODO: init here 
+            #
+            #
+
+            # define the translation function
+            self.translate = None
+
+
+
+    def translate_dict(self, query, language):
         """
             Translate the query to the given language.            
         """
@@ -37,3 +50,22 @@ class Translator():
             return query
         
         # return the translation from the dictionary
+        else:
+            
+            # split the query into words
+            query_words = query.split()
+
+            # translate the words
+            translated_words = []
+
+            # dictionary translate
+            for word in query_words:
+                if word in self.translation_dict[language].keys():
+                    translated_words.append(self.translation_dict[language][word])
+                else:
+                    translated_words.append(word) # keep the original word if no translation is found
+
+            # join the translated words into a string
+            translated_query = ' '.join(translated_words)
+
+            return translated_query

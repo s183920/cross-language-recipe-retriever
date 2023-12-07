@@ -33,10 +33,11 @@ class CrossLanguageRetriever:
         for language in self.languages:
 
             # translate the query
-            query = self.translation_model.translate(query, language)
+            translated_query = self.translation_model.translate(query, language)
 
+            print(translated_query)
             # search in the given language
-            hits = self.retrievers[language].search(query, k=k)
+            hits = self.retrievers[language].search(translated_query, k=k)
             
             # save the results
             results_by_language.append(hits)
