@@ -76,7 +76,7 @@ if __name__ == "__main__":
     lang = "english"
 
     # build the json index
-    # build_index_json(lang=lang)
+    build_index_json(lang=lang)
 
     # build the index
-    # build_index(lang=lang)
+    build_index(lang=lang)
