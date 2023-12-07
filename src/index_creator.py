@@ -18,7 +18,7 @@ def save_json(recipe_text, recipe_name, lang):
     """
 
     # create a dictionary with "docid" and "content" keys
-    doc_data = {"id": recipe_name[:-5], "content": recipe_text}
+    doc_data = {"id": recipe_name[:-5], "contents": recipe_text}
 
     # create the directory if it doesn't exist
     if not os.path.exists(f"../indexes/json_files/{lang}"): 
@@ -76,7 +76,7 @@ if __name__ == "__main__":
     lang = "english"
 
     # build the json index
-    build_index_json(lang=lang)
+    # build_index_json(lang=lang)
 
     # build the index
     # build_index(lang=lang)
