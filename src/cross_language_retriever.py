@@ -35,7 +35,7 @@ class CrossLanguageRetriever:
             # translate the query
             translated_query = self.translation_model.translate(query, language)
 
-            print(translated_query)
+            print(f"Translated query into {language}:", translated_query)
             # search in the given language
             hits = self.retrievers[language].search(translated_query, k=k)
             
@@ -60,7 +60,8 @@ if __name__ == "__main__":
 
     # search
     # test_query = "chicken egg potato"
-    test_query = "beef pasta mushrooms"
+    # test_query = "beef pasta mushrooms"
+    test_query = "chicken carrot rice"
 
 
     results_merged, results_by_lan = retriever.search(test_query)
