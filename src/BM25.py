@@ -20,8 +20,6 @@ class BM25:
         elif language == "chinese": ISO_lan_code = "zh"
         elif language == "danish": ISO_lan_code = "da"
 
-        print(language)
-
         self.searcher.set_language(ISO_lan_code)
 
 

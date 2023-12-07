@@ -3,6 +3,7 @@ This file contains the CrossLanguageRetriever class.
 """
 
 from BM25 import BM25
+import numpy as np
 
 class CrossLanguageRetriever:
 
@@ -23,12 +24,20 @@ class CrossLanguageRetriever:
         """
 
         # search in all languages
-        results = []
+        results_by_language = []
         for language in self.languages:
             hits = self.retrievers[language].search(query, k=k)
-            results.append(hits)
+            results_by_language.append(hits)
 
-        return results
+        # flatten the results by language
+        results = []
+        for i in range(len(results_by_language)):
+            results += results_by_language[i]
+
+        # sort the results by the score
+        results_merged = sorted(results, key=lambda x: x.score, reverse=True)
+
+        return results_merged, results_by_language
     
 
 if __name__ == "__main__":
@@ -37,10 +46,15 @@ if __name__ == "__main__":
     retriever = CrossLanguageRetriever(["english", "czech", "chinese", "danish"])
 
     # search
-    results = retriever.search("chicken egg potato")
+    results_merged, results_by_lan = retriever.search("chicken egg potato")
 
-    # print the results
-    for i in range(len(results)):
+    # print the results by language
+    for i in range(len(results_by_lan)):
         print(f'\n\nResults for {retriever.languages[i]}:')
-        for j in range(len(results[i])):
-            print(f'{j+1:2} {results[i][j].docid:4} {results[i][j].score:.5f}')
+        for j in range(len(results_by_lan[i])):
+            print(f'{j+1:2} {results_by_lan[i][j].docid:4} {results_by_lan[i][j].score:.5f}')
+
+    # print the merged results
+    print("\n\nMerged results:")
+    for i in range(len(results_merged)):
+        print(f'{i+1:2} {results_merged[i].docid:4} {results_merged[i].score:.5f}')
