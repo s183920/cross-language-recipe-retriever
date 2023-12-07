@@ -27,8 +27,6 @@ def save_json(recipe_text, recipe_name, lang):
     with open(f"../indexes/json_files/{lang}/{recipe_name[:-5]}.json", 'w') as file:
         json.dump(doc_data, file)
 
-    exit()
-
 def build_index():
     """
     Builds the index for the given recipes and given language.
@@ -61,11 +59,8 @@ def build_index():
             # convert to text
             recipe_text = html_to_text(recipe_html)
 
-            # create a dictionary with "docid" and "content" keys
-            doc_data = {"docid": filename, "content": recipe_text}
-
-            # print the dictionary
-            print(doc_data)
+            # save the json file
+            save_json(recipe_text, filename, lang)
 
 if __name__ == "__main__":
     build_index()
