@@ -75,11 +75,17 @@ def text_process(text):
 
 def build_index(lang="english"):
 
+    # specify the index name
     index_name = lang + "_index"
+
+    # specify the iso language code
+    if lang == "english": ISO_lan_code = "en"
+    # ISO_lan_code = 
 
     # the following command builds the index from the json files
     subprocess.run(f"python -m pyserini.index.lucene \
                 --collection JsonCollection \
+                --language {ISO_lan_code} \
                 --input ../indexes/json_files/{lang} \
                 --index ../indexes/{index_name} \
                 --generator DefaultLuceneDocumentGenerator \
@@ -88,11 +94,11 @@ def build_index(lang="english"):
 
 if __name__ == "__main__":
     
-    # lang = "english"
-    lang = "czech"
+    lang = "english"
+    # lang = "czech"
 
     # build the json index
-    build_index_json(lang=lang)
+    # build_index_json(lang=lang)
 
     # build the index
-    # build_index(lang=lang)
+    build_index(lang=lang)
