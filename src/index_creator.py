@@ -88,11 +88,11 @@ def build_index(lang="english"):
 
 if __name__ == "__main__":
     
-    lang = "english"
-    # lang = "czech"
+    # lang = "english"
+    lang = "czech"
 
     # build the json index
     build_index_json(lang=lang)
 
     # build the index
-    build_index(lang=lang)
+    # build_index(lang=lang)
