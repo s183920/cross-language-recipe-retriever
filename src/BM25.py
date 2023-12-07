@@ -13,7 +13,14 @@ class BM25:
         
         # initialize the BM25 searcher
         self.searcher = LuceneSearcher(f'../indexes/{language}_index')
-        self.searcher.set_language(language)
+
+        # specify the iso language code
+        if language == "english": ISO_lan_code = "en"
+        elif language == "czech": ISO_lan_code = "cs"
+        elif language == "chinese": ISO_lan_code = "zh"
+        elif language == "danish": ISO_lan_code = "da"
+
+        self.searcher.set_language(ISO_lan_code)
 
 
     def search(self, query, k=10):
