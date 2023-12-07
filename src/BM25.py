@@ -6,7 +6,7 @@ from pyserini.search.lucene import LuceneSearcher
 """
 
 
-searcher = LuceneSearcher('../indexes/english/')
+searcher = LuceneSearcher('../indexes/test_index/')
 hits = searcher.search('document')
 
 for i in range(len(hits)):
