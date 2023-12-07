@@ -57,8 +57,21 @@ def build_index_json(lang = "english"):
             # convert to text
             recipe_text = html_to_text(recipe_html)
 
+            # process the text
+            recipe_text = text_process(recipe_text)
+
             # save the json file
             save_json(recipe_text, filename, lang)
+
+def text_process(text):
+    """
+    Processes the given text.
+    """
+
+    # remove the \n characters
+    text = text.replace("\n", " ")
+
+    return text
 
 def build_index(lang="english"):
 
@@ -75,10 +88,11 @@ def build_index(lang="english"):
 
 if __name__ == "__main__":
     
-    lang = "english"
+    # lang = "english"
+    lang = "czech"
 
     # build the json index
-    # build_index_json(lang=lang)
+    build_index_json(lang=lang)
 
     # build the index
-    build_index(lang=lang)
+    # build_index(lang=lang)
