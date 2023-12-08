@@ -54,6 +54,7 @@ class Translator():
             # create translation models
             self.hf_translators = {}
             for language in self.languages:
+                print(f"Creating translation model for {language}...")
                 self.hf_translators[language] = pipeline('translation', self.hf_model, src_lang=lang_codes["english"], tgt_lang=lang_codes[language])
 
             # define the translation function
