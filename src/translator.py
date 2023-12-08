@@ -4,11 +4,14 @@ This module is responsible for translating the input text
 
 import json
 
+
 class Translator():
 
-    def __init__(self, languages, dictionary_approach=True):
+    def __init__(self, languages, dictionary_approach=True, hf_model = "m2m100"):
         """
             Initialize the translator for the given languages.
+            
+            OBS: Using a non-dictionary approach requires the transformers library to be installed and will download the model which can take some time and requiere a lot of space.
         """
 
         self.languages = languages
@@ -31,14 +34,34 @@ class Translator():
 
         else: # using a translation model
 
-            # TODO: init here 
-            #
-            #
+            from transformers import pipeline
+            
+            # define available models
+            self.models = {
+                "m2m100" : "facebook/m2m100_418M",
+                "nllb200" :"facebook/nllb-200-distilled-600M",
+            }
+            
+            # get model
+            if hf_model not in self.models.keys():
+                raise Exception(f'The model {hf_model} is not supported.')
+            else:
+                self.hf_model = self.models[hf_model]
+                
+            # get language codes
+            lang_codes = json.load(open(f"../hf_lang_codes/{hf_model}.json", "r"))
+            
+            # create translation models
+            self.hf_translators = {}
+            for language in self.languages:
+                self.hf_translators[language] = pipeline('translation', self.hf_model, src_lang=lang_codes["english"], tgt_lang=lang_codes[language])
 
             # define the translation function
-            self.translate = None
+            self.translate = self.translate_hf
 
-
+    def translate_hf(self, query, language):
+        translations = self.hf_translators[language](query)
+        return translations[0]["translation_text"].lower()
 
     def translate_dict(self, query, language):
         """
@@ -69,3 +92,8 @@ class Translator():
             translated_query = ' '.join(translated_words)
 
             return translated_query
+        
+if __name__ == "__main__":
+    translator = Translator(["danish"], dictionary_approach=False, hf_model="m2m100")
+    translation = translator.translate("chicken egg potato", "danish")
+    print(translation)
