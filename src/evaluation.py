@@ -1,4 +1,5 @@
 from cross_language_retriever import CrossLanguageRetriever
+from ranking_fetcher import fetch_rankings
 import json
 import pandas as pd
 import re
@@ -17,9 +18,7 @@ class CrossLanguageEvaluator():
     
     def create_labels(self):
         # load rankings
-        rankings = {}
-        for lang in LANGUAGES:
-            rankings[lang] = json.load(open(f"../rankings/{lang}.json"))
+        
 
 
         # create data frame

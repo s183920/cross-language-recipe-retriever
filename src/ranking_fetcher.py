@@ -3,25 +3,19 @@ import glob
 import re
 import os
 
-def fetch_rankings():
+def fetch_rankings(languages):
+    rankings = {}
+    
+    for lang in languages:
+        rankings[lang] = json.load(open(f"../rankings/{lang}.json"))
 
-    languages = ["czech", "danish", "chinese"]
-
-
-
-    with open(f'rankings/{languages[0]}.json', 'r') as file:
-        data = json.load(file)
-
-
-    # TODO: do for all languages and merge
-
-    return data
+    return rankings
     
     
 def create_ranking_file(language):
     # get files
-    rankings_file = f"rankings/{language}.json"
-    metadata_files = glob.glob(f"google_results/*/{language}/*metadata.json")
+    rankings_file = f"../rankings/{language}.json"
+    metadata_files = glob.glob(f"../google_results/*/{language}/*metadata.json")
     # print(metadata)
     
     # check if rankings file exists
@@ -35,7 +29,7 @@ def create_ranking_file(language):
     for metadata_file in metadata_files:
         # get query key
         metadata_file = metadata_file.replace("\\", "/")
-        query_key = re.search(fr"google_results/(.*)/{language}.*", metadata_file).group(1)
+        query_key = re.search(fr"../google_results/(.*)/{language}.*", metadata_file).group(1)
         
         # check if query key is already in rankings - if so, skip to avoid overwriting
         if query_key in rankings:
@@ -52,7 +46,7 @@ def create_ranking_file(language):
         rankings[query_key] = metadata
     
     # save rankings
-    with open(f'rankings/{language}.json', 'w') as file:
+    with open(f'../rankings/{language}.json', 'w') as file:
         json.dump(rankings, file, indent=4, sort_keys=True)
 
 
