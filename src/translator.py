@@ -7,7 +7,7 @@ import json
 
 class Translator():
 
-    def __init__(self, languages, dictionary_approach=True, hf_model = "m2m100"):
+    def __init__(self, languages, dictionary_approach=True, hf_model = "m2m100", verbose = True):
         """
             Initialize the translator for the given languages.
             
@@ -15,6 +15,7 @@ class Translator():
         """
 
         self.languages = languages
+        self.verbose = verbose
 
         if dictionary_approach:
 
@@ -27,7 +28,8 @@ class Translator():
                 if language not in self.translation_dict.keys():
                     raise Exception(f'The language {language} is not supported.')
                 else:
-                    print(f'The language {language} is supported.')
+                    if verbose:
+                        print(f'The language {language} is supported.')
 
             # define the translation function
             self.translate = self.translate_dict
@@ -54,7 +56,8 @@ class Translator():
             # create translation models
             self.hf_translators = {}
             for language in self.languages:
-                print(f"Creating translation model for {language}...")
+                if self.verbose:
+                    print(f"Creating translation model for {language}...")
                 self.hf_translators[language] = pipeline('translation', self.hf_model, src_lang=lang_codes["english"], tgt_lang=lang_codes[language])
 
             # define the translation function

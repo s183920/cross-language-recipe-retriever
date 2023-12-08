@@ -8,15 +8,16 @@ from translator import Translator
 
 class CrossLanguageRetriever:
 
-    def __init__(self, languages):
+    def __init__(self, languages, dictionary_approach = True, verbose=True):
         """
             Initialize the retriever with the given languages.
         """
         
         self.languages = languages
+        self.verbose = verbose
 
         # initialize the translation model
-        self.translation_model = Translator(self.languages, dictionary_approach=True)
+        self.translation_model = Translator(self.languages, dictionary_approach=dictionary_approach, verbose=verbose)
 
         # initialize the retrievers
         self.retrievers = {language: BM25(language) for language in self.languages}
@@ -35,7 +36,8 @@ class CrossLanguageRetriever:
             # translate the query
             translated_query = self.translation_model.translate(query, language)
 
-            print(f"Translated query into {language}:", translated_query)
+            if self.verbose:
+                print(f"Translated query into {language}:", translated_query)
             # search in the given language
             hits = self.retrievers[language].search(translated_query, k=k)
             
