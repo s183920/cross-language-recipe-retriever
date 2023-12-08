@@ -1,5 +1,9 @@
-
-from pyserini.search.lucene import LuceneSearcher
+import os
+try:
+    from pyserini.search.lucene import LuceneSearcher
+except Exception:
+    os.environ["JAVA_HOME"] = "C:/Program Files/Java/jdk-11/"
+    from pyserini.search.lucene import LuceneSearcher
 
 """
     This module implements the BM25 algorithm for ranking documents.
