@@ -1,7 +1,7 @@
 """
 This file contains the CrossLanguageRetriever class.
 """
-
+import argparse
 from BM25 import BM25
 import numpy as np
 from translator import Translator
@@ -53,28 +53,21 @@ class CrossLanguageRetriever:
         results_merged = sorted(results, key=lambda x: x.score, reverse=True)
 
         return results_merged, results_by_language
-    
+
 
 if __name__ == "__main__":
+    # Initialize the command-line argument parser
+    parser = argparse.ArgumentParser(description="Cross Language Information Retrieval System")
+    parser.add_argument("query", type=str, help="Enter the search query in English")
+    args = parser.parse_args()
 
-    # initialize the retriever
+    # Initialize the retriever
     retriever = CrossLanguageRetriever(["english", "czech", "chinese", "danish"])
 
-    # search
-    # test_query = "chicken egg potato"
-    # test_query = "beef pasta mushrooms"
-    test_query = "chicken carrot rice"
+    # Perform search with the provided query
+    results_merged, results_by_lan = retriever.search(args.query)
 
-
-    results_merged, results_by_lan = retriever.search(test_query)
-
-    # print the results by language
-    for i in range(len(results_by_lan)):
-        print(f'\n\nResults for {retriever.languages[i]}:')
-        for j in range(len(results_by_lan[i])):
-            print(f'{j+1:2} {results_by_lan[i][j].docid:4} {results_by_lan[i][j].score:.5f}')
-
-    # print the merged results
+    # Print the merged results
     print("\n\nMerged results:")
     for i in range(len(results_merged)):
         print(f'{i+1:2} {results_merged[i].docid:4} {results_merged[i].score:.5f}')
