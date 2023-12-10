@@ -19,7 +19,7 @@ class CrossLanguageEvaluator():
         self.create_labels()
         self.retriever = CrossLanguageRetriever(LANGUAGES, verbose=verbose, translation_approach = translation_approach)
     
-        self.get_relevance_scores = {}
+        self.relevance_scores = {}
     
     def create_labels(self):
         # load rankings
@@ -34,6 +34,7 @@ class CrossLanguageEvaluator():
             for query_name in lang_rankings.keys():
                 df_ = pd.DataFrame(lang_rankings[query_name]).T.reset_index(names = "docid")
                 df_["docid"] = df_["docid"].apply(lambda x: re.sub('[^\w\-_\. ]', '', x))
+                df_["docid"] = df_["docid"].apply(lambda x: x.encode("utf-8").decode("utf-8"))
                 df_["query_name"] = query_name
                 df_["query"] = query_name.replace("+", " ")
                 df_["language"] = lang
@@ -47,7 +48,10 @@ class CrossLanguageEvaluator():
         Returns the relevance score for a given query and docid
         """
         if docid not in self.labels_df["docid"].values:
-            raise ValueError(f"Docid '{docid}' not found in labels")
+            # print(self.labels_df["docid"].values)
+            # raise ValueError(f"Docid '{docid}' not found in labels")
+            print(f"WARNING: Docid '{docid}' not found in labels")
+            return 0
         
         # get the ranking entry for the query
         ranking = self.labels_df[self.labels_df["query"] == query]
@@ -70,8 +74,8 @@ class CrossLanguageEvaluator():
     def get_relevance_scores(self, query, k=10, language = None):
         key = query + "_" + str(k) + "_" + str(language)
         
-        if key in self.get_relevance_scores.keys():
-            return self.get_relevance_scores[key]
+        if key in self.relevance_scores.keys():
+            return self.relevance_scores[key]
         
         # get search results
         results_merged, results_by_lan = self.retriever.search(query, k = k)
@@ -81,7 +85,7 @@ class CrossLanguageEvaluator():
         relevance_scores = np.array([self.get_relevance(query, result.docid) for result in results])
         
         # save the relevance scores
-        self.get_relevance_scores[key] = relevance_scores
+        self.relevance_scores[key] = relevance_scores
         
         return relevance_scores
 
@@ -242,28 +246,94 @@ def plot_evaluation(results, save_path = None):
     else:
         plt.savefig(save_path, bbox_inches='tight')
         plt.close()
+        
+def plot_evaluation_multiple(results, metric, save_path = None):
+    """Plots average precision for multiple evaluations"""
+    fig, ax = plt.subplots(figsize = (10, 5))
+    
+    p = len(list(results.values())[0]["relevance_scores"].iloc[0])   
+    x = np.arange(1, p+1)
+    
+    # colors = ["blue", "orange", "green", "red"]
+    
+    # plot average precision
+    for key, result in results.items():
+        key_label = "hugging face" if key == "hf" else key
+        color = next(ax._get_lines.prop_cycler)['color']
+        ax.scatter(x, result[metric], label = f"{key}", color = color)
+        ax.axhline(results[key][metric].mean(), linestyle = "--", color = color, label = f"MAP@{p} ({key_label})" if metric == "ap" else f"Mean NDCG@{p} ({key_label})")
+
+    ax.set_xticks(x)
+    ax.set_xlabel("Query")
+    ax.set_ylabel("Score")
+    if metric == "ap":
+        ax.set_title(f"AP@{p} for Cross Language Retrieval")
+    elif metric == "ndcg":
+        ax.set_title(f"NDCG@{p} for Cross Language Retrieval")
+    else:
+        raise ValueError(f"Metric '{metric}' not supported")
+    ax.legend(bbox_to_anchor=(1.05, 1), loc='upper left', borderaxespad=0)
+
+    # plt.tight_layout()
+    fig.tight_layout()
+    
+    if save_path is None:
+        plt.show()
+    else:
+        plt.savefig(save_path, bbox_inches='tight')
+        plt.close()
+
 
 if __name__ == "__main__":
     # define eval params
     p = 10
-    translation_approach = "hf" # ["dictionary", "hf", "translatepy"]
-
-    # initialize the evaluator
-    evaluator = CrossLanguageEvaluator(translation_approach = translation_approach, verbose=True)
-    
-    # test on test queries
+    translation_approaches = ["dictionary", "hf", "translatepy"] # ["dictionary", "hf", "translatepy"]
     test_queries = [line.strip() for line in open("../test_queries.txt", "r").readlines()]
-    results = evaluator.evaluate(test_queries, p = p)
-    print(results)
-    print(f"Mean DCG@{p}:", results["dcg"].mean())
-    print(f"Mean NDCG@{p}:", results["ndcg"].mean())
-    print(f"MAP@{p}:", results["ap"].mean())
+    plot_type = "per_metric" # ["per_metric", "per_approach"]
     
-    # plot results
-    import os
-    os.makedirs("../plots", exist_ok = True)
-    plot_evaluation(results, save_path = f"../plots/evaluation_{translation_approach}_{p}.pdf")
     
+    if plot_type == "per_approach":
+        for translation_approach in translation_approaches:
+            # initialize the evaluator
+            evaluator = CrossLanguageEvaluator(translation_approach = translation_approach, verbose=True)
+            
+            # test on test queries
+            test_queries = [line.strip() for line in open("../test_queries.txt", "r").readlines()]
+            results = evaluator.evaluate(test_queries, p = p)
+            print(results)
+            print(f"Mean DCG@{p}:", results["dcg"].mean())
+            print(f"Mean NDCG@{p}:", results["ndcg"].mean())
+            print(f"MAP@{p}:", results["ap"].mean())
+            
+            # plot results
+            import os
+            os.makedirs("../plots", exist_ok = True)
+            plot_evaluation(results, save_path = f"../plots/evaluation_{translation_approach}_{p}.pdf")
+    
+    elif plot_type == "per_metric":
+        # multiple evaluations
+        results = {}
+        
+        for translation_approach in translation_approaches:
+            # initialize the evaluator
+            evaluator = CrossLanguageEvaluator(translation_approach = translation_approach, verbose=True)
+            
+            # test on test queries
+            results[translation_approach] = evaluator.evaluate(test_queries, p = p)
+            
+        # print results
+        for key, result in results.items():
+            print()
+            print(f"Mean DCG@{p} ({key}):", result["dcg"].mean())
+            print(f"Mean NDCG@{p} ({key}):", result["ndcg"].mean())
+            print(f"MAP@{p} ({key}):", result["ap"].mean())
+            
+        # plot results
+        import os
+        os.makedirs("../plots", exist_ok = True)
+        plot_evaluation_multiple(results, "ap", save_path = f"../plots/evaluation_ap_{p}.pdf")
+        plot_evaluation_multiple(results, "ndcg", save_path = f"../plots/evaluation_ndcg_{p}.pdf")
+        
     
     
     # test query
