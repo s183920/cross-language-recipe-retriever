@@ -8,7 +8,7 @@ import time
 
 class Translator():
 
-    def __init__(self, languages, approach="dictionary", hf_model = "nllb200", by_term = False, verbose = True):
+    def __init__(self, languages, approach="dictionary", hf_model = "nllb200", by_term = True, verbose = True):
         """
             Initialize the translator for the given languages.
             
@@ -86,7 +86,7 @@ class Translator():
                 
             return " ".join(translation)
         else:
-            return self.pytranslator.translate(query, destination_language=language, source_language="english")
+            return self.pytranslator.translate(query, destination_language=language, source_language="english").result
         
         
         
