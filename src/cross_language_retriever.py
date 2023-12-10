@@ -8,7 +8,7 @@ from translator import Translator
 
 class CrossLanguageRetriever:
 
-    def __init__(self, languages, dictionary_approach = True, verbose=True):
+    def __init__(self, languages, translation_approach = "dictionary", verbose=True):
         """
             Initialize the retriever with the given languages.
         """
@@ -17,7 +17,7 @@ class CrossLanguageRetriever:
         self.verbose = verbose
 
         # initialize the translation model
-        self.translation_model = Translator(self.languages, dictionary_approach=dictionary_approach, verbose=verbose)
+        self.translation_model = Translator(self.languages, approach=translation_approach, verbose=verbose)
 
         # initialize the retrievers
         self.retrievers = {language: BM25(language) for language in self.languages}
@@ -51,6 +51,9 @@ class CrossLanguageRetriever:
 
         # sort the results by the score
         results_merged = sorted(results, key=lambda x: x.score, reverse=True)
+        
+        # only return the top k results
+        results_merged = results_merged[:k]
 
         return results_merged, results_by_language
 
