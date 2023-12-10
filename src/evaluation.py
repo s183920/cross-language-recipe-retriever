@@ -15,10 +15,11 @@ get_lang_idx = lambda x: LANGUAGES.index(x)
 
 class CrossLanguageEvaluator():
 
-    def __init__(self, translation_approach = "dictionary") -> None:
+    def __init__(self, translation_approach = "dictionary", verbose = False) -> None:
         self.create_labels()
-        self.retriever = CrossLanguageRetriever(LANGUAGES, verbose=False, translation_approach = translation_approach)
+        self.retriever = CrossLanguageRetriever(LANGUAGES, verbose=verbose, translation_approach = translation_approach)
     
+        self.get_relevance_scores = {}
     
     def create_labels(self):
         # load rankings
@@ -67,12 +68,20 @@ class CrossLanguageEvaluator():
         return relevance_score
     
     def get_relevance_scores(self, query, k=10, language = None):
+        key = query + "_" + str(k) + "_" + str(language)
+        
+        if key in self.get_relevance_scores.keys():
+            return self.get_relevance_scores[key]
+        
         # get search results
         results_merged, results_by_lan = self.retriever.search(query, k = k)
         results = results_merged if language is None else results_by_lan[get_lang_idx(language)]
         
         # get the relevance scores
         relevance_scores = np.array([self.get_relevance(query, result.docid) for result in results])
+        
+        # save the relevance scores
+        self.get_relevance_scores[key] = relevance_scores
         
         return relevance_scores
 
@@ -235,15 +244,14 @@ def plot_evaluation(results, save_path = None):
         plt.close()
 
 if __name__ == "__main__":
-
-    # translation methods
-    translation_approaches = ["dictionary", "hf", "translatepy"]
+    # define eval params
+    p = 10
+    translation_approach = "hf" # ["dictionary", "hf", "translatepy"]
 
     # initialize the evaluator
-    evaluator = CrossLanguageEvaluator(translation_approach = "translatepy")
+    evaluator = CrossLanguageEvaluator(translation_approach = translation_approach, verbose=True)
     
     # test on test queries
-    p = 10
     test_queries = [line.strip() for line in open("../test_queries.txt", "r").readlines()]
     results = evaluator.evaluate(test_queries, p = p)
     print(results)
@@ -254,7 +262,7 @@ if __name__ == "__main__":
     # plot results
     import os
     os.makedirs("../plots", exist_ok = True)
-    plot_evaluation(results, save_path = f"../plots/evaluation_{p}.pdf")
+    plot_evaluation(results, save_path = f"../plots/evaluation_{translation_approach}_{p}.pdf")
     
     
     
