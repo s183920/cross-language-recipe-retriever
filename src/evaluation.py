@@ -14,9 +14,10 @@ get_lang_idx = lambda x: LANGUAGES.index(x)
 
 
 class CrossLanguageEvaluator():
-    def __init__(self) -> None:
+
+    def __init__(self, translation_approach = "dictionary") -> None:
         self.create_labels()
-        self.retriever = CrossLanguageRetriever(LANGUAGES, verbose=False)
+        self.retriever = CrossLanguageRetriever(LANGUAGES, verbose=False, translation_approach = translation_approach)
     
     
     def create_labels(self):
@@ -234,7 +235,12 @@ def plot_evaluation(results, save_path = None):
         plt.close()
 
 if __name__ == "__main__":
-    evaluator = CrossLanguageEvaluator()
+
+    # translation methods
+    translation_approaches = ["dictionary", "hf", "translatepy"]
+
+    # initialize the evaluator
+    evaluator = CrossLanguageEvaluator(translation_approach = "translatepy")
     
     # test on test queries
     p = 10
