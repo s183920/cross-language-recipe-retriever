@@ -14,16 +14,13 @@ def Cross_language_recipes():
     parser = argparse.ArgumentParser(description="Cross Language Information Retrieval System")
     parser.add_argument("query", type=str, help="Enter the search query in English\
                                                  surrounded by double quotes.")
+    parser.add_argument("--verbose", "-v", action="store_true", help="Print the results in detail.")
+    parser.add_argument("-translation_method", type=str, default="translatepy")
     args = parser.parse_args()
-
-    # choose translation method
-    # method = "dictionary"
-    # method = "hf"
-    method = "translatepy"
 
     # Initialize the retriever
     retriever = CrossLanguageRetriever(["english", "czech", "chinese", "danish"], 
-                                       translation_approach = method, verbose=True)
+                                       translation_approach = args.translation_method, verbose=True)
 
     # Perform search with the provided query
     results_merged, results_by_lan = retriever.search(args.query)
