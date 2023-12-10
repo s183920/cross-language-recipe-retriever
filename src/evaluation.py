@@ -254,13 +254,11 @@ def plot_evaluation_multiple(results, metric, save_path = None):
     p = len(list(results.values())[0]["relevance_scores"].iloc[0])   
     x = np.arange(1, p+1)
     
-    # colors = ["blue", "orange", "green", "red"]
-    
-    # plot average precision
+    # plot metric
     for key, result in results.items():
         key_label = "hugging face" if key == "hf" else key
         color = next(ax._get_lines.prop_cycler)['color']
-        ax.scatter(x, result[metric], label = f"{key}", color = color)
+        ax.scatter(x, result[metric], label = f"{key_label}", color = color)
         ax.axhline(results[key][metric].mean(), linestyle = "--", color = color, label = f"MAP@{p} ({key_label})" if metric == "ap" else f"Mean NDCG@{p} ({key_label})")
 
     ax.set_xticks(x)
@@ -274,7 +272,6 @@ def plot_evaluation_multiple(results, metric, save_path = None):
         raise ValueError(f"Metric '{metric}' not supported")
     ax.legend(bbox_to_anchor=(1.05, 1), loc='upper left', borderaxespad=0)
 
-    # plt.tight_layout()
     fig.tight_layout()
     
     if save_path is None:
